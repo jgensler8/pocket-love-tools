@@ -145,3 +145,24 @@ reading from de reg: 76d7
 
 all characters are tile offsets from position 257: so 0x12 = 15 + 2 = 17 so 257 + 17 = 274
 80 is newline
+
+c0d3 is the location of the text progress counter
+maybe c0cb and c0cc are also text counters
+c0ce is if the scene is paused (0 is printing, 1 is paused)\
+d32f might be the counter for the scene progress (seems to increment by 1), d332 goes down by one (maybe this is loaded )
+
+c144 EA -> F8
+EA -> F7
+EA -> F4
+EA -> FD
+EA -> F1
+c145 C0
+
+d4bb is the scene timing counter (counts down from 118 0x76)
+d4bf also seems to be when the screen is printing or not (1 printing, 0 not)
+d4bd and d4de are an absolute time counter (maybe to measure text progression speed?)
+
+args just before text printing:
+01 0d 12 04
+
+c0df: this offset is added to address counting to find the address that has the text

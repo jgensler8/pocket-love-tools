@@ -18,3 +18,7 @@ day 2 (a month after day 1):
 * re-learn all of the previous day
 * build the tile <> romanji map (compression / phrase dictionary missing), validate with picture
 * build a simple rom bank translator
+
+day 3:
+* build the phrase translation script
+* further inspection of text printing + locations of text indirection (start of rombank) / calculation
