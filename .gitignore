@@ -1,0 +1,14 @@
+__pycache__/
+*.rep
+*.bin
+*.gb
+*.sav
+*.gpr
+*.lock
+*.lock~
+*.png
+*.bs1
+*.bs2
+*.ips
+*.ngc
+*.out

@@ -1,0 +1,15 @@
+day 1:
+* install ghidra
+* watch like first half of (watched it a while ago for some other project): https://www.youtube.com/watch?v=qCEZC3cPc1s
+* look for emulators with gdb integration (with the hope that i don't need to copy paste values back and forth)
+* mgba internal debugger works fine. tiny learning curve to set breakpoint/watchpoint and delete
+* spend most of morning annotating functions and a few variables
+** try to isolate code initializing bkg data (as i'll need to replace it with my alphabet)
+** able to find when this happens but can't explain some of the data loading parameters (like start, stop, length)
+** follow guide for palette indexing high/low bits, replace one character with my own
+* move on to the first set of text, printing
+** can find the section of vram where the array of text is loaded into
+** try to find the first few bytes of the this string in rom: fail
+** use watchpoints to find when vram is changed: examine DE register to show where data is loading from
+** breakthrough: parts of text are loaded sequentially, able to confirm with other subsection
+** investigate surrounding bytes: find some sort of dictionary encoding using control sequence (somewhat fresh in mind based on lots of annotating if statements earlier)
