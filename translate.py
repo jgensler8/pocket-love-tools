@@ -1,5 +1,7 @@
 import os
 from dictionary import character_map
+from phrases import phrases
+
 
 def translate_rom_text(rom_path, bank, start_address, end_address):
     """
@@ -28,7 +30,7 @@ def translate_rom_text(rom_path, bank, start_address, end_address):
 
     translated_text = []
 
-    with open(rom_path, 'rb') as f:
+    with open(rom_path, "rb") as f:
         f.seek(file_start_offset)
         rom_data = f.read(file_end_offset - file_start_offset)
 
@@ -36,14 +38,22 @@ def translate_rom_text(rom_path, bank, start_address, end_address):
     while i < len(rom_data):
         byte = rom_data[i]
 
-        if byte == 0x80:  # Newline character based on notes
-            translated_text.append('\n')
-        elif byte == 0xff:  # Phrase dictionary compression
-            translated_text.append('()')
+        if byte == 0x00:
+            translated_text.append("<END>")
+        elif byte == 0x80:  # Newline character based on notes
+            translated_text.append("\n")
+        elif byte == 0xFF:  # Phrase dictionary compression
+            # translated_text.append('(')
+            phrase_i = rom_data[i + 1]
+            phrase = phrases[phrase_i]
+            for byte in phrase:
+                char = character_map.get(byte, f"[?{byte:02X}]")
+                translated_text.append(char)
+            # translated_text.append(')')
             i += 1  # Skip the next byte which is the dictionary index
         else:
             # Look up the character in the map, default to a placeholder
-            char = character_map.get(byte, f'[?{byte:02X}]')
+            char = character_map.get(byte, f"[?{byte:02X}]")
             if char is not None:
                 translated_text.append(char)
 
@@ -51,16 +61,19 @@ def translate_rom_text(rom_path, bank, start_address, end_address):
 
     return " ".join(translated_text)
 
+
 if __name__ == "__main__":
     ROM_FILE = "Pocket Love (J) [S].gb"
 
     # Example from your notes: text starting around rom8::76c6
     # Assuming bank 8, with a start address and a reasonable end address
     rom_bank = 8
-    start_addr = 0x76c2
-    end_addr = 0x76f9
+    start_addr, end_addr = (0x76C2, 0x76F9)
+    # start_addr, end_addr = (0x766a, 0x7689)
 
     result = translate_rom_text(ROM_FILE, rom_bank, start_addr, end_addr)
-    print(f"--- Translation from Bank {rom_bank}, Addr 0x{start_addr:X} - 0x{end_addr:X} ---")
+    print(
+        f"--- Translation from Bank {rom_bank}, Addr 0x{start_addr:X} - 0x{end_addr:X} ---"
+    )
     print(result)
     print("-----------------------------------------------------------------")

@@ -5,6 +5,12 @@ MGBA=../mGBA-0.10.5-win64/mGBA-0.10.5-win64/mGBA.exe
 replace:
 	python ./replace_2.py
 
+translate:
+	python ./translate.py
+
+scan_phrases:
+	python ./scan_phrases.py
+
 run_og:
 	$(MEDNAFEN) ./Pocket_Love_If_1999_KID_JP.ngc
 

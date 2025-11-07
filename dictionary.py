@@ -44,9 +44,9 @@ character_map = {
     0x33: 'ro',    # tile 307
     0x34: 'wa',    # tile 308
     0x35: 'wo',    # tile 309
-    0x36: 'n',     # tile 310 , comma
-    0x37: None,    # tile 311 , period
-    0x38: None,    # tile 312
+    0x36: 'n',     # tile 310
+    0x37: ',',    # tile 311 , comma
+    0x38: '.',    # tile 312 , period
     0x39: 'ya',    # tile 313
     0x3A: 'yu',    # tile 314
     0x3B: 'yo',    # tile 315
