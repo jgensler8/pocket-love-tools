@@ -13,3 +13,8 @@ day 1:
 ** use watchpoints to find when vram is changed: examine DE register to show where data is loading from
 ** breakthrough: parts of text are loaded sequentially, able to confirm with other subsection
 ** investigate surrounding bytes: find some sort of dictionary encoding using control sequence (somewhat fresh in mind based on lots of annotating if statements earlier)
+
+day 2 (a month after day 1):
+* re-learn all of the previous day
+* build the tile <> romanji map (compression / phrase dictionary missing), validate with picture
+* build a simple rom bank translator
