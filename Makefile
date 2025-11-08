@@ -15,8 +15,12 @@ scan_phrases:
 extract_scene_roms:
 	$(PYTHON) extract_scene_rom.py --bank=8
 
-translate_batch:
-	$(PYTHON) batch_translate.py bank_8_tr.json bank_8_tr_en.json
+translate_test:
+	$(PYTHON) translate_test.py
+
+translate_ex:
+# 	$(PYTHON) translate_ex.py bank_8_ex.json bank_8_tr_en.json
+	$(PYTHON) translate_ex.py --start_scene=0 --end_scene=16 bank_8_ex.json bank_8_tr_en.json
 
 run_og:
 	$(MEDNAFEN) ./Pocket_Love_If_1999_KID_JP.ngc

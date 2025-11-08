@@ -1,7 +1,6 @@
 import os
-# from dictionary_romaji import character_map
-from dictionary_katakana import character_map
-from phrases import phrases
+
+from gameboy_translator import decode_gameboy_text
 
 
 def translate_rom_text(rom_path, bank, start_address, end_address):
@@ -34,34 +33,11 @@ def translate_rom_text(rom_path, bank, start_address, end_address):
     with open(rom_path, "rb") as f:
         f.seek(file_start_offset)
         rom_data = f.read(file_end_offset - file_start_offset)
-
-    i = 0
-    while i < len(rom_data):
-        byte = rom_data[i]
-
-        if byte == 0x00:
-            translated_text.append("<END>")
-        elif byte == 0x80:  # Newline character based on notes
-            translated_text.append("\n")
-        elif byte == 0xFF:  # Phrase dictionary compression
-            # translated_text.append('(')
-            phrase_i = rom_data[i + 1]
-            phrase = phrases[phrase_i]
-            for byte in phrase:
-                char = character_map.get(byte, f"[?{byte:02X}]")
-                translated_text.append(char)
-            # translated_text.append(')')
-            i += 1  # Skip the next byte which is the dictionary index
-        else:
-            # Look up the character in the map, default to a placeholder
-            char = character_map.get(byte, f"[?{byte:02X}]")
-            if char is not None:
-                translated_text.append(char)
-
-        i += 1
-
-    return "".join(translated_text)
-    # return " ".join(translated_text)
+    
+    # The decode_gameboy_text function expects a list of hex strings,
+    # so we convert the raw bytes.
+    rom_data_hex = [hex(byte) for byte in rom_data]
+    return decode_gameboy_text(rom_data_hex)
 
 
 if __name__ == "__main__":
@@ -69,10 +45,11 @@ if __name__ == "__main__":
 
     # Example from your notes: text starting around rom8::76c6
     # Assuming bank 8, with a start address and a reasonable end address
-    rom_bank = 2
-    # start_addr, end_addr = (0x76C2, 0x76F9)
+    rom_bank = 8
+    start_addr, end_addr = (0x76C2, 0x76F9)
     # start_addr, end_addr = (0x766a, 0x7689)
-    start_addr, end_addr = (0x766a, 0x7689)
+    # rom_bank = 2
+    # start_addr, end_addr = (0x766a, 0x7689)
 
     result = translate_rom_text(ROM_FILE, rom_bank, start_addr, end_addr)
     print(

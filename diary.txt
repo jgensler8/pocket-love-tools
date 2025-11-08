@@ -14,11 +14,19 @@ day 1:
 ** breakthrough: parts of text are loaded sequentially, able to confirm with other subsection
 ** investigate surrounding bytes: find some sort of dictionary encoding using control sequence (somewhat fresh in mind based on lots of annotating if statements earlier)
 
-day 2 (a month after day 1):
+day 2 (a month after day 1, nov 6):
 * re-learn all of the previous day
 * build the tile <> romanji map (compression / phrase dictionary missing), validate with picture
 * build a simple rom bank translator
 
-day 3:
+day 3 (nov 7):
 * build the phrase translation script
 * further inspection of text printing + locations of text indirection (start of rombank) / calculation
+
+day 4 (nov 8):
+* parsing and extracting entire rom areas
+* machine / model translations of phrases
+** trying to get to "80%" working to at least test entire pipeline, japanese vs english verbosity
+** other problems (variable width printing, phrase dictionary) not yet addressed
+** not much luck with offline translations, wrong, verbose, usually slow => probably will need to use google api, hopefully game fits in free tier
+* looked at other banks, 0xFE found (which looks like a continuation symbol) => complicates machine translation
