@@ -1,5 +1,6 @@
 import os
-from dictionary import character_map
+# from dictionary_romaji import character_map
+from dictionary_katakana import character_map
 from phrases import phrases
 
 
@@ -59,7 +60,8 @@ def translate_rom_text(rom_path, bank, start_address, end_address):
 
         i += 1
 
-    return " ".join(translated_text)
+    return "".join(translated_text)
+    # return " ".join(translated_text)
 
 
 if __name__ == "__main__":
@@ -67,9 +69,10 @@ if __name__ == "__main__":
 
     # Example from your notes: text starting around rom8::76c6
     # Assuming bank 8, with a start address and a reasonable end address
-    rom_bank = 8
-    start_addr, end_addr = (0x76C2, 0x76F9)
+    rom_bank = 2
+    # start_addr, end_addr = (0x76C2, 0x76F9)
     # start_addr, end_addr = (0x766a, 0x7689)
+    start_addr, end_addr = (0x766a, 0x7689)
 
     result = translate_rom_text(ROM_FILE, rom_bank, start_addr, end_addr)
     print(

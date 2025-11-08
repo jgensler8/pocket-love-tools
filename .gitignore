@@ -12,3 +12,7 @@ __pycache__/
 *.ips
 *.ngc
 *.out
+bin/
+lib/
+lib64/
+bank_*.json

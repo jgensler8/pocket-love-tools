@@ -118,5 +118,5 @@ character_map = {
     0x7C: '.',          # tile 380
     0x7D: '/',          # tile 381
     0x7E: ' ',          # tile 382
-    0x7F: '<space>',    # tile 383
+    0x7F: ' ',          # tile 383 (designated space)
 }
