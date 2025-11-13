@@ -47,7 +47,7 @@ def get_scenes_from_pointers(rom_data: bytes, pointers: List[int]) -> List[bytes
         pointers (List[int]): A list of scene start addresses.
 
     Returns:
-        List[bytes]: A list of byte sequences, where each is a scene.
+        List[bytes]: A list of byte sequences, in the same order of the pointers
     """
     scenes = []
     for start_ptr in pointers:

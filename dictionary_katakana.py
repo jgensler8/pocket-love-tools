@@ -131,7 +131,7 @@ character_map = {
     0x7E: " ",  # tile 382
     0x7F: " ",  # tile 383 (designated space)
     0x80: " ",  # tile 384
-    0x81: " ",  # tile 385
-    0x82: " ",  # tile 386
+    0x81: " ",  # tile 385 might be scene control char
+    0x82: " ",  # tile 386 might be scene control char
     0xFE: " ",
 }
