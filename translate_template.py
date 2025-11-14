@@ -39,6 +39,7 @@ def main():
         template_text = f" B{args.bank}\n S{i}\n A{pointer_hex}\n"
         scene_text = scenes[i]
         # logging.info(scene_text)
+        # TODO: 0x82 0x80 is a continueation (same screen, one click to reveal second part, example rom10::71C0)
         if len(scene_text) >= 2 and scene_text[-2] == '0x82' and scene_text[-1] == '0x81':
             template_text += "@#"
         template_scenes.append({"japanese": "", "english": template_text})

@@ -166,3 +166,10 @@ args just before text printing:
 01 0d 12 04
 
 c0df: this offset is added to address counting to find the address that has the text
+
+d51f weekly task selection (6 slots then 0x0F), holidays also have 0x0F
+
+d35c character stat values, some seem two or multiple bytes, d35b might be a hidden stat for days completed
+
+TODO: cutscene (rom 4 ex/tr)
+TODO: travel / visiting locations => phone call someone => separate dialog system

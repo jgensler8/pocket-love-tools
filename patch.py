@@ -104,6 +104,7 @@ def rebuild_rom_headers(output_rom_path, extracted_json_path, translated_json_pa
         bank_num (int): The ROM bank number where the text and header reside.
                                       E.g., "0x7000". This must be a safe, unused area in the ROM.
     """
+    logging.info(f"patching bank {bank_num}, ex:{extracted_json_path} tr:{translated_json_path}")
     try:
         with open(translated_json_path, "r", encoding="utf-8") as f:
             translated_data = json.load(f)
@@ -141,7 +142,7 @@ def rebuild_rom_headers(output_rom_path, extracted_json_path, translated_json_pa
             encoded_scene_bytes = encode_english_text(english_text)
             encoded_scene_bytes += b'\x00' # Add null terminator
 
-            logging.info(f"{i}: {hex(current_new_text_cpu_address)}")
+            # logging.info(f"{i}: {hex(current_new_text_cpu_address)}")
             new_text_rom_bytes.extend(encoded_scene_bytes)
             new_scene_cpu_addresses.append(current_new_text_cpu_address)
             current_new_text_cpu_address += len(encoded_scene_bytes)
@@ -149,7 +150,7 @@ def rebuild_rom_headers(output_rom_path, extracted_json_path, translated_json_pa
         if current_new_text_cpu_address > 0x7999:
             logging.warning(f"ROM TRANSLATION EXTENDS PAST ROM BANK: {current_new_text_cpu_address} by {current_new_text_cpu_address - 0x7999}")
 
-        logging.info("calculated new header and scene data")
+        logging.info(f"calculated header scenes:{len(translated_scenes)} ending:{current_new_text_cpu_address}")
 
         # --- Rebuild Header ---
         new_header_bytes = bytearray()
@@ -161,7 +162,7 @@ def rebuild_rom_headers(output_rom_path, extracted_json_path, translated_json_pa
             new_header_bytes.append(low_byte)
             new_header_bytes.append(high_byte_stored)
 
-        logging.info("rebuilt header")
+        # logging.info("rebuilt header")
 
         # --- Write to ROM ---
         with open(output_rom_path, "r+b") as rom_file:
@@ -175,9 +176,7 @@ def rebuild_rom_headers(output_rom_path, extracted_json_path, translated_json_pa
             rom_file.write(new_text_rom_bytes)
             logging.info(f"scenes: {hex(scene_file_offset)} end: {hex(scene_file_offset + len(new_text_rom_bytes))}")
 
-        logging.info(
-            f"ROM headers rebuilt and translated text replaced in {output_rom_path} with character limit enforced."
-        )
+        # logging.info("done")
 
     except FileNotFoundError as e:
         logging.error(f"File not found: {e}.")

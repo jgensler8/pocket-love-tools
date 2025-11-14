@@ -1,5 +1,5 @@
 import os
-from dictionary import character_map
+from dictionary_katakana import character_map
 from typing import List
 
 ROM_FILE = "Pocket Love (J) [S].gb"
@@ -72,5 +72,5 @@ if __name__ == "__main__":
     with open("phrases.py", "w") as f:
         f.write("phrases = [\n")
         for i, phrase in enumerate(found_phrases_limit[:256]):
-            f.write(f"{str(phrase)},\n")
+            f.write(f"{str(phrase)}, # ff{i:02X} {"".join([f"{d:02X}" for d in phrase])}\n")
         f.write("]")

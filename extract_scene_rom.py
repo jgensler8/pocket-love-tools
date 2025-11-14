@@ -103,6 +103,12 @@ if __name__ == "__main__":
         default=8,
         help="The ROM bank number to process (default: 8)."
     )
+    parser.add_argument(
+        "--out_dir",
+        type=str,
+        default="out",
+        help="output directory prefix"
+    )
     args = parser.parse_args()
 
     pointers, scenes_data = extract_scenes_from_bank(ROM_FILE, bank_num=args.bank, header_start=0x4000)
@@ -113,5 +119,6 @@ if __name__ == "__main__":
         "scenes": [[hex(byte) for byte in scene] for scene in scenes_data],
     }
 
-    with open(f"bank_{args.bank}_ex.json", "w") as f:
+    outfile = os.path.join(args.out_dir, f"bank_{args.bank}_ex.json")
+    with open(outfile, "w") as f:
         json.dump(output_data, f, indent=2)
