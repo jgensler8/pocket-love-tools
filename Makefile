@@ -10,6 +10,7 @@ PATCHED_ROM="pocklove_patched.gb"
 SAFE_DIALOG_BANK_START=6
 SAFE_DIALOG_BANK_END=13
 # banks 14..31 might have image data
+# bank 16 definitely has image data
 # 6..13 still missed the early scenes after choosing audio
 
 replace:

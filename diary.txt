@@ -30,3 +30,7 @@ day 4 (nov 8):
 ** other problems (variable width printing, phrase dictionary) not yet addressed
 ** not much luck with offline translations, wrong, verbose, usually slow => probably will need to use google api, hopefully game fits in free tier
 * looked at other banks, 0xFE found (which looks like a continuation symbol) => complicates machine translation
+
+day 5 (nov 15)
+* locate / translate parts of character select + task select
+* classroom image data location (tile and data)

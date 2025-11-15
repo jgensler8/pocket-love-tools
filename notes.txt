@@ -171,5 +171,19 @@ d51f weekly task selection (6 slots then 0x0F), holidays also have 0x0F
 
 d35c character stat values, some seem two or multiple bytes, d35b might be a hidden stat for days completed
 
+rom 29: start game name selects etc
+rom 30: weekly task screens
+
 TODO: cutscene (rom 4 ex/tr)
 TODO: travel / visiting locations => phone call someone => separate dialog system
+
+window scene data:
+$00 $00
+$01 $00 (00000001 0000000)
+$03 $00 (00000011 0000000)
+
+student last lines
+$08 $ff (00001000 11111111)
+$04 $ff (00000100 11111111)
+$04 $ff (00000100 11111111)
+$08 $ff (00001000 11111111)

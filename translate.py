@@ -45,11 +45,25 @@ if __name__ == "__main__":
 
     # Example from your notes: text starting around rom8::76c6
     # Assuming bank 8, with a start address and a reasonable end address
-    rom_bank = 8
-    start_addr, end_addr = (0x76C2, 0x76F9)
+    # rom_bank = 8
+    # start_addr, end_addr = (0x76C2, 0x76F9)
     # start_addr, end_addr = (0x766a, 0x7689)
     # rom_bank = 2
     # start_addr, end_addr = (0x766a, 0x7689)
+    rom_bank = 30
+    # stats
+    # start_addr, end_addr = (0x5c10, 0x5c17)
+    # start_addr, end_addr = (0x5c18, 0x5c21)
+    # start_addr, end_addr = (0x5c22, 0x5c2b)
+    # start_addr, end_addr = (0x5c2c, 0x5c35)
+    # start_addr, end_addr = (0x5c36, 0x5c3f)
+    # start_addr, end_addr = (0x5c40, 0x5c48)
+    # task select
+    start_addr, end_addr = (0x4018, 0x401f)
+    # unknown tasks
+    # start_addr, end_addr = (0x4ddc, 0x4de1)
+    # start_addr, end_addr = (0x4de2, 0x4de7)
+
 
     result = translate_rom_text(ROM_FILE, rom_bank, start_addr, end_addr)
     print(
