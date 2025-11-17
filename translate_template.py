@@ -6,6 +6,24 @@ logging.basicConfig(
     level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
 )
 
+def replace_scene_text(bank: int, scene_num: int, scene_text: str, pointer_hex: str) -> str:
+    waits = 0
+    wait_text = ""
+    for i, c in enumerate(scene_text):
+        if c not in ["0x80", "0x82", "0x81"]:
+            pass
+        elif c == "0x80":
+            wait_text += "\n"
+            if i < len(scene_text):
+                wait_text += "..."
+        elif c == "0x82":
+            wait_text += "@"
+            waits += 1
+        elif c == "0x81":
+            wait_text += "#"
+    # return f" B{bank} S{scene_num}\nA{pointer_hex} w={waits}{wait_text}"
+    return f" B{bank} S{scene_num} w={waits}{wait_text}"
+    
 
 def main():
     parser = argparse.ArgumentParser(
@@ -36,12 +54,8 @@ def main():
     logging.info("Generating template scenes...")
     template_scenes = []
     for i, pointer_hex in enumerate(header_pointers):
-        template_text = f" B{args.bank}\n S{i}\n A{pointer_hex}\n"
         scene_text = scenes[i]
-        # logging.info(scene_text)
-        # TODO: 0x82 0x80 is a continueation (same screen, one click to reveal second part, example rom10::71C0)
-        if len(scene_text) >= 2 and scene_text[-2] == '0x82' and scene_text[-1] == '0x81':
-            template_text += "@#"
+        template_text = replace_scene_text(args.bank, i, scene_text, pointer_hex)
         template_scenes.append({"japanese": "", "english": template_text})
 
     output_data = {"translated_scenes": template_scenes}

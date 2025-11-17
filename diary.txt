@@ -34,3 +34,6 @@ day 4 (nov 8):
 day 5 (nov 15)
 * locate / translate parts of character select + task select
 * classroom image data location (tile and data)
+
+day 6 (nov 17)
+* first week school scene: name control code (fix extractor)

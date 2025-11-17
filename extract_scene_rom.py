@@ -4,6 +4,11 @@ import json
 
 import logging
 import argparse
+
+logging.basicConfig(
+    level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
+)
+
 ROM_FILE = "Pocket Love (J) [S].gb"
 BANK_SIZE = 0x4000  # 16KB for Game Boy ROMs
 
@@ -56,8 +61,14 @@ def get_scenes_from_pointers(rom_data: bytes, pointers: List[int]) -> List[bytes
 
         # Find the end of the scene by looking for the null terminator (0x00)
         end_offset = -1
+        search_start = start_offset
         try:
-            end_offset = rom_data.index(0x00, start_offset)
+            # do no split on phrase and name control codes
+            while end_offset == -1 or rom_data[end_offset - 1] in [0xff, 0xfe]:
+                # if end_offset > 0:
+                #     logging.info("name ctrl code")
+                end_offset = rom_data.index(0x00, search_start)
+                search_start = end_offset + 1
         except ValueError:
             # If no null terminator is found, we can't define the scene.
             logging.warning(f"No null terminator found for scene starting at 0x{start_ptr:04X}")

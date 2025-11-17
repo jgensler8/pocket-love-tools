@@ -187,3 +187,8 @@ $08 $ff (00001000 11111111)
 $04 $ff (00000100 11111111)
 $04 $ff (00000100 11111111)
 $08 $ff (00001000 11111111)
+
+ff00 is our name (one of them)
+fe00 is another name
+unclear if fd00 is another name or sprite tile data
+7f6a3c09 ff00ffd2 (school first dialog with name)

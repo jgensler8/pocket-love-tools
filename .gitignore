@@ -12,6 +12,7 @@ __pycache__/
 *.ips
 *.ngc
 *.out
+*.ss[1-9]
 bin/
 lib/
 lib64/
