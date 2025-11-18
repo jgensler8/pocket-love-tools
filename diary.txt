@@ -41,3 +41,4 @@ day 6 (nov 17)
 
 day 7 (nov 18)
 * weekend travel destinations
+* parts of the info window (though some info is hidden / gated by progress)
