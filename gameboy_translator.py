@@ -21,7 +21,8 @@ def decode_gameboy_text(rom_data: list[str]) -> str:
         byte = int(byte_hex, 16)
         if byte == 0x00:
             # The extractor script already splits scenes by the 0x00 terminator
-            pass
+            # some text, (like windows or menus) use 00 to mean empty / space
+            japanese_text.append(" ")
         elif byte == 0x80:  # Newline character
             japanese_text.append("\n")
         elif byte == 0xFE:  # wait / continuation

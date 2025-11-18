@@ -37,3 +37,7 @@ day 5 (nov 15)
 
 day 6 (nov 17)
 * first week school scene: name control code (fix extractor)
+* few club dialogs (joining, leaving, drink water dialog)
+
+day 7 (nov 18)
+* weekend travel destinations

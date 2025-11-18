@@ -59,10 +59,35 @@ if __name__ == "__main__":
     # start_addr, end_addr = (0x5c36, 0x5c3f)
     # start_addr, end_addr = (0x5c40, 0x5c48)
     # task select
-    start_addr, end_addr = (0x4018, 0x401f)
+    # start_addr, end_addr = (0x4018, 0x401f)
     # unknown tasks
     # start_addr, end_addr = (0x4ddc, 0x4de1)
     # start_addr, end_addr = (0x4de2, 0x4de7)
+    # travel window
+    # start_addr, end_addr = (0x442e, 0x4441)
+    # start_addr, end_addr = (0x4456, 0x4469)
+    # start_addr, end_addr = (0x446a, 0x447d)
+    # start_addr, end_addr = (0x447e, 0x4491)
+    # start_addr, end_addr = (0x4492, 0x44a5)
+    # club soccer start
+    # start_addr, end_addr = (0x4531, 0x4541)
+    # club task select submenu
+    # start_addr, end_addr = (0x4660, 0x4667)
+    # start_addr, end_addr = (0x450b, 0x4511)
+    # start_addr, end_addr = (0x4512, 0x4515)
+    # club weekend task select option
+    # start_addr, end_addr = (0x43f8, 0x43fd)
+    # start_addr, end_addr = (0x43fe, 0x4403)
+    # club task > ill try > lines (failed to schedule task, seems to be for all clubs)
+    # start_addr, end_addr = (0x4d82, 0x4d88)
+    # start_addr, end_addr = (0x4d89, 0x4d8f)
+    # club task > ill try > lines (scheduled)
+    # club task > this club > lines
+    # start_addr, end_addr = (0x4c1e, 0x4c21)
+    # start_addr, end_addr = (0x4c25, 0x4c2b)
+    # second week holiday
+    # start_addr, end_addr = (0x4004, 0x400b)
+    start_addr, end_addr = (0x400c, 0x4013)
 
 
     result = translate_rom_text(ROM_FILE, rom_bank, start_addr, end_addr)
