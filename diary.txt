@@ -42,3 +42,9 @@ day 6 (nov 17)
 day 7 (nov 18)
 * weekend travel destinations
 * parts of the info window (though some info is hidden / gated by progress)
+
+day 8 (nov 19)
+* save menu, options menu
+* weekend phone call menu (probably only partially done, based on gifts / empty screen space)
+
+day 9

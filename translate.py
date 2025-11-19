@@ -134,7 +134,47 @@ if __name__ == "__main__":
     # start_addr, end_addr = (0x45da, 0x45e1)
     # start_addr, end_addr = (0x45e2, 0x45e9)
     # start_addr, end_addr = (0x45ea, 0x45f1)
-    start_addr, end_addr = (0x45f2, 0x45f9)
+    # start_addr, end_addr = (0x45f2, 0x45f9)
+    # save screen success
+    # start_addr, end_addr = (0x4282, 0x4287)
+    # start_addr, end_addr = (0x4288, 0x428d)
+    # start_addr, end_addr = (0x428e, 0x4294)
+    # options screen
+    # start_addr, end_addr = (0x42ad, 0x42be)
+    # start_addr, end_addr = (0x42e9, 0x42fa)
+    # start_addr, end_addr = (0x42fd, 0x430e)
+    # options > link cd
+    # start_addr, end_addr = (0x4b3a, 0x4b4b)
+    # start_addr, end_addr = (0x4b50, 0x4b5a)
+    # start_addr, end_addr = (0x4b5f, 0x4b68)
+    # start_addr, end_addr = (0x4b6d, 0x4b73)
+    # start_addr, end_addr = (0x4b7b, 0x4b81)
+    # start_addr, end_addr = (0x4b82, 0x4b88)
+    # options > delete confirm (has a=... continue)
+    # start_addr, end_addr = (0x4b8d, 0x4b99)
+    # start_addr, end_addr = (0x4bc0, 0x4bc7)
+    # exit dialog
+    # start_addr, end_addr = (0x464a, 0x464f)
+    # start_addr, end_addr = (0x4650, 0x4655)
+    # start_addr, end_addr = (0x4656, 0x465b)
+    # phone call menu
+    # start_addr, end_addr = (0x47a9, 0x47b0)
+    # start_addr, end_addr = (0x47b1, 0x47b8)
+    # both call screens
+    # start_addr, end_addr = (0x47bd, 0x47cc)
+    # example call
+    # start_addr, end_addr = (0x47d1, 0x47d8)
+    # start_addr, end_addr = (0x4f75, 0x4f77)
+    # start_addr, end_addr = (0x47ff, 0x4807)
+    # start_addr, end_addr = (0x4a85, 0x4a93)
+    # start_addr, end_addr = (0x4a98, 0x4aa3)
+    # start_addr, end_addr = (0x4aa8, 0x4ab9)
+    # start_addr, end_addr = (0x4abe, 0x4ac8)
+    # start_addr, end_addr = (0x4ad1, 0x4ad7)
+    # start_addr, end_addr = (0x4add, 0x4ae6)
+    # start_addr, end_addr = (0x4aeb, 0x4aed)
+    start_addr, end_addr = (0x4af2, 0x4b03)
+
 
 
     result = translate_rom_text(ROM_FILE, rom_bank, start_addr, end_addr)

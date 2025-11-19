@@ -194,3 +194,5 @@ unclear if fd00 is another name or sprite tile data
 7f6a3c09 ff00ffd2 (school first dialog with name)
 
 TODO: club > this club > ffe235 not in rom
+
+park conversation: 65ff41 (rom 4 or rom 10)
