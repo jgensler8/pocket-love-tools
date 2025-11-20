@@ -31,7 +31,7 @@ translate_test:
 translate_ex:
 # 	$(PYTHON) translate_ex.py bank_8_ex.json bank_8_tr_en.json
 # 	$(PYTHON) translate_ex.py --start_scene=0 --end_scene=16 bank_8_ex.json bank_8_tr_en.json
-	$(PYTHON) translate_ex.py --start_scene=0 --end_scene=600 bank_8_ex.json bank_8_tr_en.json
+	$(PYTHON) translate_ex.py --start_scene=0 --end_scene=600 ${OUT_DIR}/bank_8_ex.json ${OUT_DIR}/bank_8_tr_en.json
 
 translate_template:
 # 	$(PYTHON) translate_template.py --bank=3 bank_3_ex.json bank_3_tr_temp.json
@@ -46,7 +46,9 @@ patch:
 # 	$(PYTHON) patch.py --bank=4 $(PATCHED_ROM) bank_4_ex.json bank_4_tr_temp.json
 # 	$(PYTHON) patch.py --bank=5 $(PATCHED_ROM) bank_5_ex.json bank_5_tr_temp.json
 	$(shell cp $(OG_ROM) $(PATCHED_ROM))
-	$(shell for i in {${SAFE_DIALOG_BANK_START}..${SAFE_DIALOG_BANK_END}} ; do $(PYTHON) patch.py --bank=$$i $(PATCHED_ROM) ${OUT_DIR}/bank_$${i}_ex.json ${OUT_DIR}/bank_$${i}_tr_temp.json ; done;)
+# 	$(shell for i in {${SAFE_DIALOG_BANK_START}..${SAFE_DIALOG_BANK_END}} ; do $(PYTHON) patch.py $(PATCHED_ROM) dialog --bank=$$i ${OUT_DIR}/bank_$${i}_ex.json ${OUT_DIR}/bank_$${i}_tr_temp.json ; done;)
+	$(shell $(PYTHON) patch.py $(PATCHED_ROM) dialog --bank=8 --character_limit=48 ${OUT_DIR}/bank_8_ex.json ${OUT_DIR}/bank_8_tr_en.json)
+	$(shell $(PYTHON) patch.py $(PATCHED_ROM) alphabet --alphabet_png font_alphabet.png)
 
 run_og:
 	$(MEDNAFEN) ./Pocket_Love_If_1999_KID_JP.ngc

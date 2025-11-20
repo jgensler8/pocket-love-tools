@@ -48,3 +48,6 @@ day 8 (nov 19)
 * weekend phone call menu (probably only partially done, based on gifts / empty screen space)
 
 day 9
+* monospace dictionary replacement
+* individual phrase length constant for start screen is elsewhere and not measured by 00 (absolute location undetermined)
+  * control constants before this length work and don't cause further printing

@@ -196,3 +196,5 @@ unclear if fd00 is another name or sprite tile data
 TODO: club > this club > ffe235 not in rom
 
 park conversation: 65ff41 (rom 4 or rom 10)
+
+png parsing: https://pypng.readthedocs.io/en/latest/
