@@ -51,3 +51,6 @@ day 9
 * monospace dictionary replacement
 * individual phrase length constant for start screen is elsewhere and not measured by 00 (absolute location undetermined)
   * control constants before this length work and don't cause further printing
+* many more functions annotated (game init, cutscene, name forms, game loop)
+  * may be useful if I want to insert my own hooks early in the program
+  * no luck with where text limiters are yet
