@@ -144,8 +144,9 @@ def rebuild_rom_headers(
             japanese_text = scene_data["japanese"]
             english_text = scene_data["english"]
 
-            if len(english_text) > len(japanese_text):
-                english_text = english_text[: len(japanese_text)]
+            # TODO either factor in the control codes // warn about the translation
+            # if len(english_text) > len(japanese_text):
+            #     english_text = english_text[: len(japanese_text)]
 
             if len(english_text) > character_limit:
                 logging.warning(
@@ -238,16 +239,29 @@ def patch_alphabet_tiles(output_rom: str, alphabet_png: str):
             logging.debug(f"{i}: {row}")
             byte_low = [p & 0x1 and 1 for p in row[0:8]]
             # logging.info(f"{byte_low}")
-            b0 = sum([ p and pow(2,place) for place, p in enumerate(reversed(byte_low[0:4]))])
-            b1 = sum([ p and pow(2,place) for place, p in enumerate(reversed(byte_low[4:8]))])
+            b0 = sum(
+                [p and pow(2, place) for place, p in enumerate(reversed(byte_low[0:4]))]
+            )
+            b1 = sum(
+                [p and pow(2, place) for place, p in enumerate(reversed(byte_low[4:8]))]
+            )
             byte_high = [p & 0x2 and 1 for p in row[0:8]]
             # logging.info(f"{byte_high}")
-            b2 = sum([ p and pow(2,place) for place, p in enumerate(reversed(byte_high[0:4]))])
-            b3 = sum([ p and pow(2,place) for place, p in enumerate(reversed(byte_high[4:8]))])
+            b2 = sum(
+                [
+                    p and pow(2, place)
+                    for place, p in enumerate(reversed(byte_high[0:4]))
+                ]
+            )
+            b3 = sum(
+                [
+                    p and pow(2, place)
+                    for place, p in enumerate(reversed(byte_high[4:8]))
+                ]
+            )
             # logging.info(f"{[b0, b1, b2, b3]}")
             all_bytes.append(b0 << 4 | b1)
             all_bytes.append(b2 << 4 | b3)
-
 
     with open(output_rom, "r+b") as f:
         f.seek(alphabet_addr)
@@ -257,6 +271,14 @@ def patch_alphabet_tiles(output_rom: str, alphabet_png: str):
         f.write(all_bytes)
 
     logging.info("replaced alphabet")
+
+
+def patch_inplace(output_rom: str, bank: int, hex_addr: str, hex_value: str):
+    with open(output_rom, "r+b") as f:
+        absolute_offset = bank * BANK_SIZE + (int(hex_addr, 16) - BANK_SIZE)
+        logging.info(f"patching absolute offset: {hex(absolute_offset)}")
+        f.seek(absolute_offset)
+        f.write(bytes.fromhex(hex_value))
 
 
 def main():
@@ -299,6 +321,27 @@ def main():
         "--alphabet_png", type=str, required=True, help="Path to alphabet data file."
     )
 
+    # Subcommand: inplace
+    inplace_parser = subparsers.add_parser("inplace", help="patch a single byte")
+    inplace_parser.add_argument(
+        "--bank",
+        type=int,
+        required=True,
+        help="The ROM bank number to address",
+    )
+    inplace_parser.add_argument(
+        "--hex_addr",
+        type=str,
+        required=True,
+        help="realtive memory address if bank was switched too. 0x4??? will be translated into absoluate rom addr.",
+    )
+    inplace_parser.add_argument(
+        "--hex_value",
+        type=str,
+        required=True,
+        help="hex",
+    )
+
     args = main_parser.parse_args()
 
     if args.command == "dialog":
@@ -311,6 +354,13 @@ def main():
         )
     elif args.command == "alphabet":
         patch_alphabet_tiles(args.output_rom, args.alphabet_png)
+    elif args.command == "inplace":
+        patch_inplace(
+            args.output_rom,
+            args.bank,
+            args.hex_addr,
+            args.hex_value,
+        )
 
 
 if __name__ == "__main__":

@@ -47,10 +47,18 @@ day 8 (nov 19)
 * save menu, options menu
 * weekend phone call menu (probably only partially done, based on gifts / empty screen space)
 
-day 9
+day 9 (nov 20)
 * monospace dictionary replacement
 * individual phrase length constant for start screen is elsewhere and not measured by 00 (absolute location undetermined)
   * control constants before this length work and don't cause further printing
 * many more functions annotated (game init, cutscene, name forms, game loop)
   * may be useful if I want to insert my own hooks early in the program
   * no luck with where text limiters are yet
+
+day 10 (nov 21)
+* phrase length is not constant and is a bug i introduced truncating the length of the line to be no more than the JP line (to avoid delete translations)
+  * we are likely to have a LOT of text, probably several banks more than the existing 32
+  * needed to delete around 150 scenes out of 500 with the char limit at 50, the real char limit is ~68 chars
+  * after deleting some of the scene data and setting limit back to 68 chars, still over by 1684 chars (another ~30 scenes).
+* annotating more functions, dat/vars, scene progression / related functions
+  * background scene data loading

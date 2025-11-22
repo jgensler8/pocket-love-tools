@@ -23,7 +23,7 @@ scan_phrases:
 	python ./scan_phrases.py
 
 extract_scene_roms:
-	$(shell for i in {${SAFE_DIALOG_BANK_START}..${SAFE_DIALOG_BANK_END}} ; do $(PYTHON) extract_scene_rom.py --bank=$${i} --out_dir=${OUT_DIR} ; done;)
+	$(shell for i in 4 {${SAFE_DIALOG_BANK_START}..${SAFE_DIALOG_BANK_END}} ; do $(PYTHON) extract_scene_rom.py --bank=$${i} --out_dir=${OUT_DIR} ; done;)
 
 translate_test:
 	$(PYTHON) translate_test.py
@@ -37,7 +37,7 @@ translate_template:
 # 	$(PYTHON) translate_template.py --bank=3 bank_3_ex.json bank_3_tr_temp.json
 # 	$(PYTHON) translate_template.py --bank=4 bank_4_ex.json bank_4_tr_temp.json
 # 	$(PYTHON) translate_template.py --bank=5 bank_5_ex.json bank_5_tr_temp.json
-	$(shell for i in {${SAFE_DIALOG_BANK_START}..${SAFE_DIALOG_BANK_END}} ; do $(PYTHON) translate_template.py --bank=$$i ${OUT_DIR}/bank_$${i}_ex.json ${OUT_DIR}/bank_$${i}_tr_temp.json ; done;)
+	$(shell for i in 4 {${SAFE_DIALOG_BANK_START}..${SAFE_DIALOG_BANK_END}} ; do $(PYTHON) translate_template.py --bank=$$i ${OUT_DIR}/bank_$${i}_ex.json ${OUT_DIR}/bank_$${i}_tr_temp.json ; done;)
 
 patch:
 # 	cp $(OG_ROM) $(PATCHED_ROM)
@@ -47,8 +47,11 @@ patch:
 # 	$(PYTHON) patch.py --bank=5 $(PATCHED_ROM) bank_5_ex.json bank_5_tr_temp.json
 	$(shell cp $(OG_ROM) $(PATCHED_ROM))
 # 	$(shell for i in {${SAFE_DIALOG_BANK_START}..${SAFE_DIALOG_BANK_END}} ; do $(PYTHON) patch.py $(PATCHED_ROM) dialog --bank=$$i ${OUT_DIR}/bank_$${i}_ex.json ${OUT_DIR}/bank_$${i}_tr_temp.json ; done;)
-	$(shell $(PYTHON) patch.py $(PATCHED_ROM) dialog --bank=8 --character_limit=48 ${OUT_DIR}/bank_8_ex.json ${OUT_DIR}/bank_8_tr_en.json)
-	$(shell $(PYTHON) patch.py $(PATCHED_ROM) alphabet --alphabet_png font_alphabet.png)
+# 	$(shell $(PYTHON) patch.py $(PATCHED_ROM) inplace --bank=2 --hex_addr=41e2 --hex_value=05)
+	$(shell $(PYTHON) patch.py $(PATCHED_ROM) inplace --bank=2 --hex_addr=41e3 --hex_value=02)
+# 	$(shell $(PYTHON) patch.py $(PATCHED_ROM) dialog --bank=4 --character_limit=68 ${OUT_DIR}/bank_4_ex.json ${OUT_DIR}/bank_4_tr_temp.json)
+# 	$(shell $(PYTHON) patch.py $(PATCHED_ROM) dialog --bank=8 --character_limit=68 ${OUT_DIR}/bank_8_ex.json ${OUT_DIR}/bank_8_tr_en.json)
+# 	$(shell $(PYTHON) patch.py $(PATCHED_ROM) alphabet --alphabet_png font_alphabet.png)
 
 run_og:
 	$(MEDNAFEN) ./Pocket_Love_If_1999_KID_JP.ngc
