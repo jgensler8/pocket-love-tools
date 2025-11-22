@@ -31,7 +31,8 @@ translate_test:
 translate_ex:
 # 	$(PYTHON) translate_ex.py bank_8_ex.json bank_8_tr_en.json
 # 	$(PYTHON) translate_ex.py --start_scene=0 --end_scene=16 bank_8_ex.json bank_8_tr_en.json
-	$(PYTHON) translate_ex.py --start_scene=0 --end_scene=600 ${OUT_DIR}/bank_8_ex.json ${OUT_DIR}/bank_8_tr_en.json
+# 	$(PYTHON) translate_ex.py --start_scene=0 --end_scene=600 ${OUT_DIR}/bank_8_ex.json ${OUT_DIR}/bank_8_tr_en.json
+	$(PYTHON) translate_ex.py --start_scene=0 --end_scene=600 ${OUT_DIR}/bank_4_ex.json ${OUT_DIR}/bank_4_tr_en.json
 
 translate_template:
 # 	$(PYTHON) translate_template.py --bank=3 bank_3_ex.json bank_3_tr_temp.json

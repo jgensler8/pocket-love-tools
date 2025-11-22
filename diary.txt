@@ -62,3 +62,12 @@ day 10 (nov 21)
   * after deleting some of the scene data and setting limit back to 68 chars, still over by 1684 chars (another ~30 scenes).
 * annotating more functions, dat/vars, scene progression / related functions
   * background scene data loading
+
+day 11 (nov 22)
+* name input loop function locations (rom 29)
+* maybe 4x pointers -> sprite reset (similar to shadow OAM GBDK)
+* scene sequencing: (start up scenes + classroom scene)
+* some ideas on where constants for each scene's rom index might be
+  * bank index values are known but bank index index not yet located
+* mostly focusing on the intro / intro cutscene which might behave differently that game related cutscenes (have their own specific sequencing functions)
+  * altready know two separate functions are used for loading CD text phrase offsets and cutscene text phrase offsets

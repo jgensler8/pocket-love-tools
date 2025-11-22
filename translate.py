@@ -50,7 +50,9 @@ if __name__ == "__main__":
     # start_addr, end_addr = (0x766a, 0x7689)
     # rom_bank = 2
     # start_addr, end_addr = (0x766a, 0x7689)
-    rom_bank = 30
+    rom_bank = 4
+    start_addr, end_addr = (0x4394, 0x43a0)
+    # rom_bank = 30
     # stats
     # start_addr, end_addr = (0x5c10, 0x5c17)
     # start_addr, end_addr = (0x5c18, 0x5c21)
@@ -173,7 +175,7 @@ if __name__ == "__main__":
     # start_addr, end_addr = (0x4ad1, 0x4ad7)
     # start_addr, end_addr = (0x4add, 0x4ae6)
     # start_addr, end_addr = (0x4aeb, 0x4aed)
-    start_addr, end_addr = (0x4af2, 0x4b03)
+    # start_addr, end_addr = (0x4af2, 0x4b03)
 
 
 
