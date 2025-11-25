@@ -71,3 +71,8 @@ day 11 (nov 22)
   * bank index values are known but bank index index not yet located
 * mostly focusing on the intro / intro cutscene which might behave differently that game related cutscenes (have their own specific sequencing functions)
   * altready know two separate functions are used for loading CD text phrase offsets and cutscene text phrase offsets
+
+day 12 (nov 24)
+* scene return path for first week cutscene: same as CD intro text and even weekend travel events
+* still not sure of the calling convetions that set up the E register (which gets added to base offset to find the scene index value)
+* bank 5 seemed to have some scene index data but it probably changes
