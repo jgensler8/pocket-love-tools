@@ -76,3 +76,10 @@ day 12 (nov 24)
 * scene return path for first week cutscene: same as CD intro text and even weekend travel events
 * still not sure of the calling convetions that set up the E register (which gets added to base offset to find the scene index value)
 * bank 5 seemed to have some scene index data but it probably changes
+
+day 13 (nov 26)
+* a few more details on function calls + using lookup + push + RET to call functions
+  * scene logic is connected to the known "upper" scene functions, hopefully makes finding scene metadata easier
+
+TODO
+* definitive way to locate scene strips (bank, start, stop, count)
