@@ -81,5 +81,9 @@ day 13 (nov 26)
 * a few more details on function calls + using lookup + push + RET to call functions
   * scene logic is connected to the known "upper" scene functions, hopefully makes finding scene metadata easier
 
+day 14 (nov 27)
+* still working on metadata search, bank 2 0x4000 seems to have some metadata at increments of 4
+  * seems to point to rombank strip data as well as scene data
+
 TODO
 * definitive way to locate scene strips (bank, start, stop, count)
