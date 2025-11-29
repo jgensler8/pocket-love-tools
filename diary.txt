@@ -100,5 +100,8 @@ day 15 (nov 28)
   * TODO: figure out how each ram func returns the offset / absolute addr of the next command
   * summary: this ~could mean building or replacing the sequence of texts
 
+day 16 (nov 29)
+* ramfun extract + label script
+
 TODO
 * definitive way to locate scene strips (bank, start, stop, count)
