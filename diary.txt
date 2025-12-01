@@ -103,5 +103,8 @@ day 15 (nov 28)
 day 16 (nov 29)
 * ramfun extract + label script
 
+day 17 (nov 30)
+* some details on ramfuncs 2 and 3 during the CD phase
+
 TODO
 * definitive way to locate scene strips (bank, start, stop, count)
