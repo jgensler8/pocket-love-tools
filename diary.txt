@@ -106,5 +106,15 @@ day 16 (nov 29)
 day 17 (nov 30)
 * some details on ramfuncs 2 and 3 during the CD phase
 
+day 18 (dec 1)
+* observation: seems that ramfuncs in bank 1c are not the only ones that are running, need to find the sources of those (maybe other init)
+* current question: ramfunc 12 purpose (d33d value)
+* ramfunc status / return values / state var
+
+day 19 (dec 2)
+* ghidra custom calling conventions -> won't do (pushing args before calling)
+* first 5 function calls annotations
+  * some ideas on the simplicity of some functions but no idea of of the effect
+
 TODO
 * definitive way to locate scene strips (bank, start, stop, count)
