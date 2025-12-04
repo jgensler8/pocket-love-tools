@@ -116,5 +116,8 @@ day 19 (dec 2)
 * first 5 function calls annotations
   * some ideas on the simplicity of some functions but no idea of of the effect
 
+day 20 (dec 3)
+* more ramfunc details, some JMP type instructions
+
 TODO
 * definitive way to locate scene strips (bank, start, stop, count)
