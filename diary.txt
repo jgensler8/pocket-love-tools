@@ -119,5 +119,13 @@ day 19 (dec 2)
 day 20 (dec 3)
 * more ramfunc details, some JMP type instructions
 
+day 21 (dec 4)
+* intro cutscene sequencing, some function parameters
+  * intro cutscene has a weird scene-meta loop while the sprite is moving AND printing text
+* moved on to the first classroom cutscene
+  * bg already preloaded (not loaded by dynamic func)
+  * sprite changing based on menu selection not clear
+  * ramfunc for menu branching was found
+
 TODO
 * definitive way to locate scene strips (bank, start, stop, count)
