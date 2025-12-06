@@ -127,5 +127,9 @@ day 21 (dec 4)
   * sprite changing based on menu selection not clear
   * ramfunc for menu branching was found
 
+day 22 (dec 5)
+* bank 5 scene index header (similar to text index header), about 150 scene meta
+* somewhere in rom 2 ?
+
 TODO
 * definitive way to locate scene strips (bank, start, stop, count)
