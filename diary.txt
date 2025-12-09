@@ -131,5 +131,15 @@ day 22 (dec 5)
 * bank 5 scene index header (similar to text index header), about 150 scene meta
 * somewhere in rom 2 ?
 
+day 23 (dec 8)
+* start translating classroom scene
+* phrase patching
+  * name header ( ff 02 ff 03 ) is hard coded to width 7, need to fix
+  * hexlate: translate english phrases into hex array
+* probably want tooling to show real time formatting of text on gb screen
+  * however, a bit useless if a move from fixed width to variable width happens
+* likely will need tooling to patch the metadata bank in 02
+  * however, text printer seems to wrap correctly -> might be able to use "long" phrases to extend into two windows vs adding an additional text ramfunc
+
 TODO
 * definitive way to locate scene strips (bank, start, stop, count)

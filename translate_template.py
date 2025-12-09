@@ -1,6 +1,7 @@
 import json
 import argparse
 import logging
+from gameboy_translator import decode_gameboy_text
 
 logging.basicConfig(
     level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
@@ -56,7 +57,7 @@ def main():
     for i, pointer_hex in enumerate(header_pointers):
         scene_text = scenes[i]
         template_text = replace_scene_text(args.bank, i, scene_text, pointer_hex)
-        template_scenes.append({"japanese": "", "english": template_text})
+        template_scenes.append({"japanese": decode_gameboy_text(scene_text), "english": template_text})
 
     output_data = {"translated_scenes": template_scenes}
 

@@ -3,60 +3,15 @@ import argparse
 import logging
 from typing import List, Tuple
 import png
+import importlib
+import sys
+from dictionary_en import character_map
 
 logging.basicConfig(
     level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
 )
 
 BANK_SIZE = 0x4000  # 16KB for Game Boy ROMs
-
-# --- English to Game Boy Byte Mapping ---
-# This map needs to be carefully constructed based on the game's actual font tiles.
-# For now, it's a best-effort attempt using existing known mappings and placeholders.
-# You will need to verify and expand this map based on your ROM's font data.
-# Placeholder values (e.g., 0x81, 0xA1) are arbitrary and will likely display
-# incorrect characters if not mapped to actual font tiles in your ROM.
-ENGLISH_TO_GAMEBOY_MAP = {
-    " ": 0x7F,  # Space (from dictionary_katakana.py 0x7E, 0x7F, 0x80 are spaces)
-    "0": 0x6F,
-    "1": 0x70,
-    "2": 0x71,
-    "3": 0x72,
-    "4": 0x73,
-    "5": 0x74,
-    "6": 0x75,
-    "7": 0x76,
-    "8": 0x77,
-    "9": 0x78,
-    "\n": 0x80,  # Newline control code (from gameboy_translator.py)
-    # TODO: these are placeholders for theoretical control chars
-    "@": 0x82,
-    "#": 0x81,
-    "!": 0x6A,
-    "?": 0x6B,
-    "<3": 0x69,  # Heart symbol
-    "day": 0x79,  # Special word
-    "~": 0x7A,
-    "-": 0x7B,
-    ".": 0x7C,
-    "/": 0x7D,
-    "=": 0x6E,
-    "(": 0x65,
-    ")": 0x66,
-    ",": 0x37,  # Using Japanese comma for now
-    ":": 0x01,  # Placeholder
-    ";": 0x02,  # Placeholder
-    "'": 0x03,  # Placeholder
-    '"': 0x04,  # Placeholder
-}
-
-# Programmatically add A-Z and a-z
-start_char_code = 0x09
-for i in range(26):
-    # Uppercase A-Z
-    ENGLISH_TO_GAMEBOY_MAP[chr(ord("A") + i)] = start_char_code + i
-    # Lowercase a-z
-    ENGLISH_TO_GAMEBOY_MAP[chr(ord("a") + i)] = start_char_code + 26 + i
 
 
 def encode_english_text(text: str) -> bytes:
@@ -70,9 +25,9 @@ def encode_english_text(text: str) -> bytes:
         found_multi = False
         # Check for multi-character symbols first (e.g., '<3', 'day')
         # Iterate over items to check for longest matches first
-        for symbol in sorted(ENGLISH_TO_GAMEBOY_MAP.keys(), key=len, reverse=True):
+        for symbol in sorted(character_map.keys(), key=len, reverse=True):
             if len(symbol) > 1 and text.startswith(symbol, i):
-                encoded_bytes.append(ENGLISH_TO_GAMEBOY_MAP[symbol])
+                encoded_bytes.append(character_map[symbol])
                 i += len(symbol)
                 found_multi = True
                 break
@@ -80,7 +35,7 @@ def encode_english_text(text: str) -> bytes:
             continue
 
         char = text[i]
-        byte_code = ENGLISH_TO_GAMEBOY_MAP.get(char)
+        byte_code = character_map.get(char)
         if byte_code is not None:
             encoded_bytes.append(byte_code)
         else:
@@ -88,7 +43,7 @@ def encode_english_text(text: str) -> bytes:
                 f"Unknown English character '{char}' (ord={ord(char)}) encountered. Replacing with space."
             )
             encoded_bytes.append(
-                ENGLISH_TO_GAMEBOY_MAP[" "]
+                character_map[" "]
             )  # Replace unknown with space
         i += 1
     return bytes(encoded_bytes)
@@ -273,6 +228,29 @@ def patch_alphabet_tiles(output_rom: str, alphabet_png: str):
     logging.info("replaced alphabet")
 
 
+def import_from_path(module_name, file_path):
+    spec = importlib.util.spec_from_file_location(module_name, file_path)
+    module = importlib.util.module_from_spec(spec)
+    sys.modules[module_name] = module
+    spec.loader.exec_module(module)
+    return module
+
+
+def patch_phrases(output_rom: str, phrases_file: str):
+    logging.info("patching phrases")
+    rom_bank = 2
+    start_addr = 0x08F9
+
+    module = import_from_path("phrases", phrases_file)
+
+    with open(output_rom, "r+b") as f:
+        f.seek(0x4000 * rom_bank + start_addr)
+        for phrase in module.phrases:
+            for char in phrase:
+                f.write(bytes([char]))
+            f.write(bytes([0x00]))
+
+
 def patch_inplace(output_rom: str, bank: int, hex_addr: str, hex_value: str):
     with open(output_rom, "r+b") as f:
         absolute_offset = bank * BANK_SIZE + (int(hex_addr, 16) - BANK_SIZE)
@@ -321,6 +299,14 @@ def main():
         "--alphabet_png", type=str, required=True, help="Path to alphabet data file."
     )
 
+    # Subcommand: phrases
+    phrases_parser = subparsers.add_parser(
+        "phrases", help="Patch alphabet tiles in ROM"
+    )
+    phrases_parser.add_argument(
+        "--phrases_file", type=str, required=True, help="Path to translated phrases.py file."
+    )
+
     # Subcommand: inplace
     inplace_parser = subparsers.add_parser("inplace", help="patch a single byte")
     inplace_parser.add_argument(
@@ -354,6 +340,8 @@ def main():
         )
     elif args.command == "alphabet":
         patch_alphabet_tiles(args.output_rom, args.alphabet_png)
+    elif args.command == "phrases":
+        patch_phrases(args.output_rom, args.phrases_file)
     elif args.command == "inplace":
         patch_inplace(
             args.output_rom,

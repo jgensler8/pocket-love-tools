@@ -52,7 +52,9 @@ patch:
 	$(shell $(PYTHON) patch.py $(PATCHED_ROM) inplace --bank=2 --hex_addr=41e3 --hex_value=02)
 # 	$(shell $(PYTHON) patch.py $(PATCHED_ROM) dialog --bank=4 --character_limit=68 ${OUT_DIR}/bank_4_ex.json ${OUT_DIR}/bank_4_tr_temp.json)
 # 	$(shell $(PYTHON) patch.py $(PATCHED_ROM) dialog --bank=8 --character_limit=68 ${OUT_DIR}/bank_8_ex.json ${OUT_DIR}/bank_8_tr_en.json)
-# 	$(shell $(PYTHON) patch.py $(PATCHED_ROM) alphabet --alphabet_png font_alphabet.png)
+	$(shell $(PYTHON) patch.py $(PATCHED_ROM) dialog --bank=10 --character_limit=68 ${OUT_DIR}/bank_10_ex.json ${OUT_DIR}/bank_10_tr_en.json)
+	$(shell $(PYTHON) patch.py $(PATCHED_ROM) alphabet --alphabet_png font_alphabet.png)
+	$(shell $(PYTHON) patch.py $(PATCHED_ROM) phrases --phrases_file phrases_en.py)
 
 run_og:
 	$(MEDNAFEN) ./Pocket_Love_If_1999_KID_JP.ngc
