@@ -5,6 +5,12 @@
 # Placeholder values (e.g., 0x81, 0xA1) are arbitrary and will likely display
 # incorrect characters if not mapped to actual font tiles in your ROM.
 character_map = {
+    "$": 0x3f,  # font_ex
+    ",": 0x40,
+    "'": 0x41,
+    '"': 0x42,
+    ":": 0x43,
+    ";": 0x44,
     " ": 0x7F,  # Space (from dictionary_katakana.py 0x7E, 0x7F, 0x80 are spaces)
     "0": 0x6F,
     "1": 0x70,
@@ -23,7 +29,7 @@ character_map = {
     "!": 0x6A,
     "?": 0x6B,
     "<3": 0x69,  # Heart symbol
-    "day": 0x79,  # Special word
+    # "day": 0x79,  # Special word
     "~": 0x7A,
     "-": 0x7B,
     ".": 0x7C,
@@ -31,11 +37,6 @@ character_map = {
     "=": 0x6E,
     "(": 0x65,
     ")": 0x66,
-    ",": 0x37,  # Using Japanese comma for now
-    ":": 0x01,  # Placeholder
-    ";": 0x02,  # Placeholder
-    "'": 0x03,  # Placeholder
-    '"': 0x04,  # Placeholder
 }
 
 # Programmatically add A-Z and a-z

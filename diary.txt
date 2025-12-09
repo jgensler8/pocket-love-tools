@@ -141,5 +141,11 @@ day 23 (dec 8)
 * likely will need tooling to patch the metadata bank in 02
   * however, text printer seems to wrap correctly -> might be able to use "long" phrases to extend into two windows vs adding an additional text ramfunc
 
+day 24 (dec 9)
+* fixed phrase index patching, length checking
+  * classroom scene: name header DOES correctly handle variable name width
+* added extended font patching (for month, day, $, command, apostrophe)
+* most of the first classroom scene working (it's exciting to meet our long-lost gradeschool companion, isn't it?)
+
 TODO
 * definitive way to locate scene strips (bank, start, stop, count)

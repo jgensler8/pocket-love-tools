@@ -42,9 +42,7 @@ def encode_english_text(text: str) -> bytes:
             logging.warning(
                 f"Unknown English character '{char}' (ord={ord(char)}) encountered. Replacing with space."
             )
-            encoded_bytes.append(
-                character_map[" "]
-            )  # Replace unknown with space
+            encoded_bytes.append(character_map[" "])  # Replace unknown with space
         i += 1
     return bytes(encoded_bytes)
 
@@ -168,20 +166,17 @@ def rebuild_rom_headers(
         logging.error(f"An unexpected error occurred: {e}")
 
 
-def patch_alphabet_tiles(output_rom: str, alphabet_png: str):
-    alphabet_addr = 0xA742
-    font_glyphs = 26
-
+def tile_png_to_bytes(file_png: str, file_tiles: int) -> bytearray:
     # png2asset
-    reader = png.Reader(filename=alphabet_png)
+    reader = png.Reader(filename=file_png)
     width, height, pixels, metadata = reader.read()
-    tiles = [[] for _ in range(font_glyphs)]
+    tiles = [[] for _ in range(file_tiles)]
 
     # create tiles
     for y, row in enumerate(pixels):
         for x, pixel in enumerate(row):
             # row_i = i % width
-            tile = int(x / 8) % font_glyphs
+            tile = int(x / 8) % file_tiles
             tiles[tile].append(pixel)
 
     # encode bytes
@@ -217,6 +212,14 @@ def patch_alphabet_tiles(output_rom: str, alphabet_png: str):
             # logging.info(f"{[b0, b1, b2, b3]}")
             all_bytes.append(b0 << 4 | b1)
             all_bytes.append(b2 << 4 | b3)
+    return all_bytes
+
+
+def patch_alphabet_tiles(output_rom: str, alphabet_png: str):
+    alphabet_addr = 0xA742
+    alphabet_tiles = 26
+
+    all_bytes = tile_png_to_bytes(alphabet_png, alphabet_tiles)
 
     with open(output_rom, "r+b") as f:
         f.seek(alphabet_addr)
@@ -228,6 +231,18 @@ def patch_alphabet_tiles(output_rom: str, alphabet_png: str):
     logging.info("replaced alphabet")
 
 
+def patch_font_ex_tiles(output_rom: str, font_ex_png: str):
+    font_ex_addr = 0xA742 + (26 * 2 * 8*2) # two alphabets * 16 bytes per tile
+    font_ex_tiles = 39
+    all_bytes = tile_png_to_bytes(font_ex_png, font_ex_tiles)
+
+    with open(output_rom, "r+b") as f:
+        f.seek(font_ex_addr)
+        f.write(all_bytes)
+
+    logging.info("replaced font_ex")
+
+
 def import_from_path(module_name, file_path):
     spec = importlib.util.spec_from_file_location(module_name, file_path)
     module = importlib.util.module_from_spec(spec)
@@ -237,18 +252,39 @@ def import_from_path(module_name, file_path):
 
 
 def patch_phrases(output_rom: str, phrases_file: str):
-    logging.info("patching phrases")
     rom_bank = 2
-    start_addr = 0x08F9
+    index_addr = 0x06f9
+    data_addr = 0x08F9
+    max_end = 0x0e72
 
     module = import_from_path("phrases", phrases_file)
 
+    absolute_phrase_indices = []
     with open(output_rom, "r+b") as f:
-        f.seek(0x4000 * rom_bank + start_addr)
+        absolute_data_addr = (0x4000 * rom_bank + data_addr)
+        f.seek(absolute_data_addr)
         for phrase in module.phrases:
+            absolute_phrase_indices.append(f.tell())
             for char in phrase:
                 f.write(bytes([char]))
             f.write(bytes([0x00]))
+
+        logging.info(f"phrase data: wrote {(f.tell() - absolute_data_addr)} of {(max_end - data_addr)}")
+        if (f.tell() - absolute_data_addr) > (max_end - data_addr):
+            logging.warning(f"wrote more phrase data than original rom")
+
+        absolute_index_addr = (0x4000 * rom_bank + index_addr)
+        f.seek(absolute_index_addr)
+        for absolute_phrase_ptr in absolute_phrase_indices:
+            # for some reason, the base phrase ptr is 0x0200
+            # next is 0x0205, 0x0209, etc
+            relative_phrase_ptr = absolute_phrase_ptr - absolute_data_addr + 0x0200
+            # logging.info([hex(absolute_phrase_ptr), hex(relative_phrase_ptr)])
+            high_byte = relative_phrase_ptr >> 8
+            low_byte = relative_phrase_ptr & 0xFF
+            f.write(bytes([low_byte, high_byte]))
+
+    logging.info("replaced phrases and phrase indices")
 
 
 def patch_inplace(output_rom: str, bank: int, hex_addr: str, hex_value: str):
@@ -291,12 +327,20 @@ def main():
         help="The ROM bank number where the text and header reside.",
     )
 
-    # Subcommand: alphabet (example - you'll need to implement this)
+    # Subcommand: alphabet
     alphabet_parser = subparsers.add_parser(
         "alphabet", help="Patch alphabet tiles in ROM"
     )
     alphabet_parser.add_argument(
-        "--alphabet_png", type=str, required=True, help="Path to alphabet data file."
+        "--png", type=str, required=True, help="Path to alphabet data file."
+    )
+
+    # Subcommand: font_ex
+    font_ex_parser = subparsers.add_parser(
+        "font_ex", help="Patch extended font tiles in ROM"
+    )
+    font_ex_parser.add_argument(
+        "--png", type=str, required=True, help="Path to extended font data file."
     )
 
     # Subcommand: phrases
@@ -304,7 +348,10 @@ def main():
         "phrases", help="Patch alphabet tiles in ROM"
     )
     phrases_parser.add_argument(
-        "--phrases_file", type=str, required=True, help="Path to translated phrases.py file."
+        "--phrases_file",
+        type=str,
+        required=True,
+        help="Path to translated phrases.py file.",
     )
 
     # Subcommand: inplace
@@ -339,7 +386,9 @@ def main():
             args.bank,
         )
     elif args.command == "alphabet":
-        patch_alphabet_tiles(args.output_rom, args.alphabet_png)
+        patch_alphabet_tiles(args.output_rom, args.png)
+    elif args.command == "font_ex":
+        patch_font_ex_tiles(args.output_rom, args.png)
     elif args.command == "phrases":
         patch_phrases(args.output_rom, args.phrases_file)
     elif args.command == "inplace":
