@@ -1,4 +1,4 @@
-day 1:
+day 1 (~early october):
 * install ghidra
 * watch like first half of (watched it a while ago for some other project): https://www.youtube.com/watch?v=qCEZC3cPc1s
 * look for emulators with gdb integration (with the hope that i don't need to copy paste values back and forth)
@@ -70,16 +70,33 @@ day 11 (nov 22)
 * some ideas on where constants for each scene's rom index might be
   * bank index values are known but bank index index not yet located
 * mostly focusing on the intro / intro cutscene which might behave differently that game related cutscenes (have their own specific sequencing functions)
-  * altready know two separate functions are used for loading CD text phrase offsets and cutscene text phrase offsets
+  * already know two separate functions are used for loading CD text phrase offsets and cutscene text phrase offsets
 
 day 12 (nov 24)
 * scene return path for first week cutscene: same as CD intro text and even weekend travel events
 * still not sure of the calling convetions that set up the E register (which gets added to base offset to find the scene index value)
 * bank 5 seemed to have some scene index data but it probably changes
 
+Commentary: figuring out which functions are shared, have some data about "top down" (scene aggregate functions) and "bottom up" (specific text data to RAM functions)
+I think I knew that RAM functions were called but was a bit scared at the amount of code + payoff of decompiling it correctly
+However, I don't think it was obvious that there were a sequence of function calls (versus using a variable/flag to move the program into "text printing" or "input wait" etc)
+Basically, the assumption was the RAM function was a "top down" function instead of a modular component
+
 day 13 (nov 26)
 * a few more details on function calls + using lookup + push + RET to call functions
   * scene logic is connected to the known "upper" scene functions, hopefully makes finding scene metadata easier
+
+Commentary: I likely followed the return path of the text printing and needed to understand the function call that happend BEFORE where we returned.
+It is obvious when, after a RET, you don't see a CALL that there is some "acyclic" return path.
+I think part of rom 2 did not initially decompile correctly. Later, I think I found this to be sections of const data (addresses of other functions / lookup tables) embedded alongside function code.
+I knew based on the analysis of the text functions that I returned to 0xCxxx (the ram function location). Finding the source of the code was easy, just a search away.
+  However, I thought I could just run the decompiler anywhere and it would "magically" decompile the region based on heuristics of arguments.
+  This ended up causing more trouble as I needed to decompile each function one at a time (it probably would have been easier to patch the original rom's RAM region with the code and optimistically try a decompile)
+Revisiting this "before" function and correctly clearing + analyzing the code, I could now see the dynamic PUSH + RET calling convention.
+However, there were TWO of these functions. The parent (scene_dynamic_progress) and the child (scene_dynamic_ramfunc).
+I have formed a link that XREF could not show me.
+Also, when you place a breakpoint in the parent dynamic RAM func (scene_dynamic_progress), I think the registers were mostly the same. This can mislead you into thinking that "this function seems to be doing the same thing over and over"
+This likely also gave me the idea that I may need to decompile/recompile MORE incorrectly decompiled code to find more XREFs
 
 day 14 (nov 27)
 * still working on metadata search, bank 2 0x4000 seems to have some metadata at increments of 4
@@ -99,6 +116,12 @@ day 15 (nov 28)
   * breakpoint in that function shows this function is called after every ram func (evidence of it being placed on the stack)
   * TODO: figure out how each ram func returns the offset / absolute addr of the next command
   * summary: this ~could mean building or replacing the sequence of texts
+
+Commentary:
+This was due to missing input function ("which code advanced scene logic based on a key press? It isn't the one input function I've found so far. Also, I don't see any in the XREFs...")
+As soon as I decided to correctly decompile most of the ramfuncs and find more XREFs, this illuminated that the parent dynamic function (scene_dynamic_progress) was actually doing different things.
+I think organizing the function table header (another thing that would halt ghidra auto-decompilation) also let me create a watchpoint and identify the second dynamic function.
+  Now I understood that the parent dynamic func is being called many times with the same args so that it can call the dynamic ram func!
 
 day 16 (nov 29)
 * ramfun extract + label script
@@ -127,6 +150,13 @@ day 21 (dec 4)
   * sprite changing based on menu selection not clear
   * ramfunc for menu branching was found
 
+Commentary:
+I am not sure when exactly I searched for the ram func index + various params in the game ROM. It was probably around this time.
+I knew that the various function would need various args that would likely not be located on the stack so the search would be something like: (ramfunc idx) (param 1) (param 2) etc
+  Still a bit too ambiguous, I think I tried something like this earlier knowing the text function has some similar read pattern (so subsequent text functions would have identical spacing)
+I think I set a breakpoint in the ramfunc code to see where it was reading the ramfunc idx. This sequence of addrs (using continue from the breakpoint and inspecting DE) would show me the distance between functions and reveal the arguments.
+  Text branching would also take a bit of parsing but probably somewhere neraby like before/after the other tree.
+
 day 22 (dec 5)
 * bank 5 scene index header (similar to text index header), about 150 scene meta
 * somewhere in rom 2 ?
@@ -147,5 +177,12 @@ day 24 (dec 9)
 * added extended font patching (for month, day, $, command, apostrophe)
 * most of the first classroom scene working (it's exciting to meet our long-lost gradeschool companion, isn't it?)
 
-TODO
-* definitive way to locate scene strips (bank, start, stop, count)
+day 25 (dec 10)
+* maybe fix the classroom header + scene meta patcher
+* rom 5 can only fit about 234 bytes left, @ 3 bytes per text segment = about 77 new text segments, plus segments would need to fit in text rom bank
+  * rom 6: 454
+  * rom 7: 549
+* current controller is MBC-1 (32 banks) could upgrade to MBC5 for 255 banks
+* 02 ?? ?? 02 ?? ?? 02 ?? ?? 02 ?? ?? -> metadata in banks 5, 6, and 7
+  * can also use variations / shorter searches
+  * also needed to update search tool > tool options > search > "search limit" from 500 to ~8000
