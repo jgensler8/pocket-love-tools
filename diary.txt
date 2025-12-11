@@ -178,7 +178,7 @@ day 24 (dec 9)
 * most of the first classroom scene working (it's exciting to meet our long-lost gradeschool companion, isn't it?)
 
 day 25 (dec 10)
-* maybe fix the classroom header + scene meta patcher
+* not much new, added extra commentary about scene metadata progress
 * rom 5 can only fit about 234 bytes left, @ 3 bytes per text segment = about 77 new text segments, plus segments would need to fit in text rom bank
   * rom 6: 454
   * rom 7: 549
@@ -186,3 +186,11 @@ day 25 (dec 10)
 * 02 ?? ?? 02 ?? ?? 02 ?? ?? 02 ?? ?? -> metadata in banks 5, 6, and 7
   * can also use variations / shorter searches
   * also needed to update search tool > tool options > search > "search limit" from 500 to ~8000
+
+day 26 (dec 11)
+* investigated metadata patching
+  * will take considerable amount of time: even the command + arg len isn't too bad, its the functions that have adresses AS args which need to be recomputed
+  * also, would need some specific language (like "insert this text command after this one" which hopefully could be applied iteratively)
+  * rebuild meta: (record all scene func old location, do scene insertions, record all scene new locations) recalc jmp: (for all JMP style instructions, find the destination with matching old addr, replace with destination new addr)
+* manually checked some the possible functions around the first classroom scene (rom 5) -> couldn't find instructions/index that pointed to them (example: 7ed6 -> d6 3e)
+  * should be pointed to by another command or by the rom 5 header

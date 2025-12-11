@@ -25,6 +25,9 @@ scan_phrases:
 extract_scene_roms:
 	$(shell for i in 4 {${SAFE_DIALOG_BANK_START}..${SAFE_DIALOG_BANK_END}} ; do $(PYTHON) extract_scene_rom.py --bank=$${i} --out_dir=${OUT_DIR} ; done;)
 
+extract_scene_meta:
+	$(PYTHON) extract_scene_meta.py --bank=5 --out_dir=${OUT_DIR}
+
 translate_test:
 	$(PYTHON) translate_test.py
 
@@ -53,6 +56,11 @@ patch:
 # 	$(shell $(PYTHON) patch.py $(PATCHED_ROM) dialog --bank=4 --character_limit=68 ${OUT_DIR}/bank_4_ex.json ${OUT_DIR}/bank_4_tr_temp.json)
 # 	$(shell $(PYTHON) patch.py $(PATCHED_ROM) dialog --bank=8 --character_limit=68 ${OUT_DIR}/bank_8_ex.json ${OUT_DIR}/bank_8_tr_en.json)
 	$(shell $(PYTHON) patch.py $(PATCHED_ROM) dialog --bank=10 --character_limit=150 ${OUT_DIR}/bank_10_ex.json ${OUT_DIR}/bank_10_tr_en.json)
+# a hack to try to point to a new scene metadata
+	$(shell $(PYTHON) patch.py $(PATCHED_ROM) inplace --bank=5 --hex_addr=4e9f --hex_value=22)
+	$(shell $(PYTHON) patch.py $(PATCHED_ROM) inplace --bank=5 --hex_addr=4ea0 --hex_value=12)
+# 	$(shell $(PYTHON) patch.py $(PATCHED_ROM) inplace --bank=5 --hex_addr=4e9f --hex_value=b9)
+# 	$(shell $(PYTHON) patch.py $(PATCHED_ROM) inplace --bank=5 --hex_addr=4ea0 --hex_value=11)
 	$(shell $(PYTHON) patch.py $(PATCHED_ROM) alphabet --png font_alphabet.png)
 	$(shell $(PYTHON) patch.py $(PATCHED_ROM) font_ex --png font_ex.png)
 	$(shell $(PYTHON) patch.py $(PATCHED_ROM) phrases --phrases_file phrases_en.py)

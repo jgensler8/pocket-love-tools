@@ -74,8 +74,8 @@ def rebuild_rom_headers(
         with open(translated_json_path, "r", encoding="utf-8") as f:
             translated_data = json.load(f)
 
-        with open(extracted_json_path, "r", encoding="utf-8") as f:
-            extracted_data = json.load(f)
+        # with open(extracted_json_path, "r", encoding="utf-8") as f:
+        #     extracted_data = json.load(f)
 
         translated_scenes = translated_data["translated_scenes"]
 
@@ -83,7 +83,9 @@ def rebuild_rom_headers(
         bank_start_addr = 0x4000
         # Calculate file offset for the header
         header_file_offset = bank_num * BANK_SIZE
-        header_bytes_len = len(extracted_data["header"]) * 2
+        # header_bytes_len = len(extracted_data["header"]) * 2
+        # use the length of translated scene so new translations can be appended
+        header_bytes_len = len(translated_scenes) * 2
         scene_file_offset = header_file_offset + header_bytes_len
 
         # --- Process translated scenes and generate new text block ---
@@ -94,7 +96,7 @@ def rebuild_rom_headers(
         current_new_text_cpu_address = relative_scene_start_address
 
         for i, scene_data in enumerate(translated_scenes):
-            japanese_text = scene_data["japanese"]
+            # japanese_text = scene_data["japanese"]
             english_text = scene_data["english"]
 
             # TODO either factor in the control codes // warn about the translation
@@ -148,8 +150,9 @@ def rebuild_rom_headers(
             # Write new translated text block
             rom_file.seek(scene_file_offset)
             rom_file.write(new_text_rom_bytes)
+            bytes_left = 0x7fff - 0x4000 - len(new_header_bytes) - len(new_text_rom_bytes)
             logging.info(
-                f"scenes: {hex(scene_file_offset)} end: {hex(scene_file_offset + len(new_text_rom_bytes))}"
+                f"scenes: {hex(scene_file_offset)} end: {hex(scene_file_offset + len(new_text_rom_bytes))} left: {bytes_left}"
             )
 
         # logging.info("done")
@@ -165,6 +168,10 @@ def rebuild_rom_headers(
     except Exception as e:
         logging.error(f"An unexpected error occurred: {e}")
 
+
+def patch_scene_meta(output_rom: str, extracted_json: str, new_scenes_json: str):
+    # TODO
+    pass
 
 def tile_png_to_bytes(file_png: str, file_tiles: int) -> bytearray:
     # png2asset
@@ -327,6 +334,17 @@ def main():
         help="The ROM bank number where the text and header reside.",
     )
 
+    # Subcommand: scene_meta
+    scene_meta_parser = subparsers.add_parser("scene_meta", help="Patch new text into a scene")
+    scene_meta_parser.add_argument(
+        "extracted_json",
+        help="Path to the extracted JSON file (from extract_scene_meta.py).",
+    )
+    scene_meta_parser.add_argument(
+        "new_scenes_json",
+        help="Path to the new scene insertions JSON file",
+    )
+
     # Subcommand: alphabet
     alphabet_parser = subparsers.add_parser(
         "alphabet", help="Patch alphabet tiles in ROM"
@@ -385,6 +403,8 @@ def main():
             args.character_limit,
             args.bank,
         )
+    elif args.command == "scene_meta":
+        patch_scene_meta(args.output_rom, args.extracted_json, args.new_scenes_json)
     elif args.command == "alphabet":
         patch_alphabet_tiles(args.output_rom, args.png)
     elif args.command == "font_ex":
