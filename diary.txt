@@ -197,8 +197,9 @@ day 26 (dec 11)
 
 day 27 (dec 12)
 * patching parts of UI, some "localization" for travel locations
-* translate one more scene
+* translate a few more scenes
 * add mGBA Lua script to extract and translate the text area -> much faster searching
+* commit translation json into source
 
 next:
 * could experiment with variable width font printing
