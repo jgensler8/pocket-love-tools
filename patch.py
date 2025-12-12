@@ -150,7 +150,9 @@ def rebuild_rom_headers(
             # Write new translated text block
             rom_file.seek(scene_file_offset)
             rom_file.write(new_text_rom_bytes)
-            bytes_left = 0x7fff - 0x4000 - len(new_header_bytes) - len(new_text_rom_bytes)
+            bytes_left = (
+                0x7FFF - 0x4000 - len(new_header_bytes) - len(new_text_rom_bytes)
+            )
             logging.info(
                 f"scenes: {hex(scene_file_offset)} end: {hex(scene_file_offset + len(new_text_rom_bytes))} left: {bytes_left}"
             )
@@ -172,6 +174,28 @@ def rebuild_rom_headers(
 def patch_scene_meta(output_rom: str, extracted_json: str, new_scenes_json: str):
     # TODO
     pass
+
+
+def patch_file(output_rom: str, bank: int, file: str):
+    patches = {}
+
+    with open(file, "r") as f:
+        for line in f.read().split("\n"):
+            if line.startswith("#"):
+                continue
+            addr, text = line.split(sep=" ", maxsplit=1)
+            patches[addr] = text.strip('"')
+
+    with open(output_rom, "r+b") as f:
+        for addr, text in patches.items():
+            text_bytes = encode_english_text(text)
+
+            # it will be easier to record the bank addrs as 0x4??? so subtract another BANK_SIZE
+            absolute_offset = bank * BANK_SIZE + (int(addr, 16) - BANK_SIZE)
+            # logging.info(f"{absolute_offset} {text_bytes}")
+            f.seek(absolute_offset)
+            f.write(text_bytes)
+
 
 def tile_png_to_bytes(file_png: str, file_tiles: int) -> bytearray:
     # png2asset
@@ -239,7 +263,7 @@ def patch_alphabet_tiles(output_rom: str, alphabet_png: str):
 
 
 def patch_font_ex_tiles(output_rom: str, font_ex_png: str):
-    font_ex_addr = 0xA742 + (26 * 2 * 8*2) # two alphabets * 16 bytes per tile
+    font_ex_addr = 0xA742 + (26 * 2 * 8 * 2)  # two alphabets * 16 bytes per tile
     font_ex_tiles = 39
     all_bytes = tile_png_to_bytes(font_ex_png, font_ex_tiles)
 
@@ -260,15 +284,15 @@ def import_from_path(module_name, file_path):
 
 def patch_phrases(output_rom: str, phrases_file: str):
     rom_bank = 2
-    index_addr = 0x06f9
+    index_addr = 0x06F9
     data_addr = 0x08F9
-    max_end = 0x0e72
+    max_end = 0x0E72
 
     module = import_from_path("phrases", phrases_file)
 
     absolute_phrase_indices = []
     with open(output_rom, "r+b") as f:
-        absolute_data_addr = (0x4000 * rom_bank + data_addr)
+        absolute_data_addr = 0x4000 * rom_bank + data_addr
         f.seek(absolute_data_addr)
         for phrase in module.phrases:
             absolute_phrase_indices.append(f.tell())
@@ -276,11 +300,13 @@ def patch_phrases(output_rom: str, phrases_file: str):
                 f.write(bytes([char]))
             f.write(bytes([0x00]))
 
-        logging.info(f"phrase data: wrote {(f.tell() - absolute_data_addr)} of {(max_end - data_addr)}")
+        logging.info(
+            f"phrase data: wrote {(f.tell() - absolute_data_addr)} of {(max_end - data_addr)}"
+        )
         if (f.tell() - absolute_data_addr) > (max_end - data_addr):
             logging.warning(f"wrote more phrase data than original rom")
 
-        absolute_index_addr = (0x4000 * rom_bank + index_addr)
+        absolute_index_addr = 0x4000 * rom_bank + index_addr
         f.seek(absolute_index_addr)
         for absolute_phrase_ptr in absolute_phrase_indices:
             # for some reason, the base phrase ptr is 0x0200
@@ -335,7 +361,9 @@ def main():
     )
 
     # Subcommand: scene_meta
-    scene_meta_parser = subparsers.add_parser("scene_meta", help="Patch new text into a scene")
+    scene_meta_parser = subparsers.add_parser(
+        "scene_meta", help="Patch new text into a scene"
+    )
     scene_meta_parser.add_argument(
         "extracted_json",
         help="Path to the extracted JSON file (from extract_scene_meta.py).",
@@ -343,6 +371,23 @@ def main():
     scene_meta_parser.add_argument(
         "new_scenes_json",
         help="Path to the new scene insertions JSON file",
+    )
+
+    # Subcommand: file
+    patch_file_parser = subparsers.add_parser(
+        "file", help="Patch translation into direct location"
+    )
+    patch_file_parser.add_argument(
+        "--bank",
+        type=int,
+        required=True,
+        help="bank to patch into",
+    )
+    patch_file_parser.add_argument(
+        "--file",
+        type=str,
+        required=True,
+        help="Path to the patch file",
     )
 
     # Subcommand: alphabet
@@ -405,6 +450,8 @@ def main():
         )
     elif args.command == "scene_meta":
         patch_scene_meta(args.output_rom, args.extracted_json, args.new_scenes_json)
+    elif args.command == "file":
+        patch_file(args.output_rom, args.bank, args.file)
     elif args.command == "alphabet":
         patch_alphabet_tiles(args.output_rom, args.png)
     elif args.command == "font_ex":

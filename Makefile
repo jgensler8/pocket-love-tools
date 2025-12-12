@@ -61,6 +61,7 @@ patch:
 	$(shell $(PYTHON) patch.py $(PATCHED_ROM) inplace --bank=5 --hex_addr=4ea0 --hex_value=12)
 # 	$(shell $(PYTHON) patch.py $(PATCHED_ROM) inplace --bank=5 --hex_addr=4e9f --hex_value=b9)
 # 	$(shell $(PYTHON) patch.py $(PATCHED_ROM) inplace --bank=5 --hex_addr=4ea0 --hex_value=11)
+	$(shell $(PYTHON) patch.py $(PATCHED_ROM) file --bank=30 --file=patch_menus_bank_30.txt)
 	$(shell $(PYTHON) patch.py $(PATCHED_ROM) alphabet --png font_alphabet.png)
 	$(shell $(PYTHON) patch.py $(PATCHED_ROM) font_ex --png font_ex.png)
 	$(shell $(PYTHON) patch.py $(PATCHED_ROM) phrases --phrases_file phrases_en.py)

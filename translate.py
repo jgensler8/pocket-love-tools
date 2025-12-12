@@ -50,9 +50,9 @@ if __name__ == "__main__":
     # start_addr, end_addr = (0x766a, 0x7689)
     # rom_bank = 2
     # start_addr, end_addr = (0x766a, 0x7689)
-    rom_bank = 4
-    start_addr, end_addr = (0x4394, 0x43a0)
-    # rom_bank = 30
+    # rom_bank = 4
+    # start_addr, end_addr = (0x4394, 0x43a0)
+    rom_bank = 30
     # stats
     # start_addr, end_addr = (0x5c10, 0x5c17)
     # start_addr, end_addr = (0x5c18, 0x5c21)
@@ -62,6 +62,7 @@ if __name__ == "__main__":
     # start_addr, end_addr = (0x5c40, 0x5c48)
     # task select
     # start_addr, end_addr = (0x4018, 0x401f)
+    # start_addr, end_addr = (0x4020, 0x4027)
     # unknown tasks
     # start_addr, end_addr = (0x4ddc, 0x4de1)
     # start_addr, end_addr = (0x4de2, 0x4de7)
@@ -143,7 +144,8 @@ if __name__ == "__main__":
     # start_addr, end_addr = (0x428e, 0x4294)
     # options screen
     # start_addr, end_addr = (0x42ad, 0x42be)
-    # start_addr, end_addr = (0x42e9, 0x42fa)
+    start_addr, end_addr = (0x42e9, 0x42fa)
+    # start_addr, end_addr = (0x42fe, 0x430e)
     # start_addr, end_addr = (0x42fd, 0x430e)
     # options > link cd
     # start_addr, end_addr = (0x4b3a, 0x4b4b)

@@ -194,3 +194,12 @@ day 26 (dec 11)
   * rebuild meta: (record all scene func old location, do scene insertions, record all scene new locations) recalc jmp: (for all JMP style instructions, find the destination with matching old addr, replace with destination new addr)
 * manually checked some the possible functions around the first classroom scene (rom 5) -> couldn't find instructions/index that pointed to them (example: 7ed6 -> d6 3e)
   * should be pointed to by another command or by the rom 5 header
+
+day 27 (dec 12)
+* patching parts of UI, some "localization" for travel locations
+
+next:
+* could experiment with variable width font printing
+* patch rest of UI (tasks, stats, menus, prompts)
+* continue with most cutscenes + game progression, maybe find more save states to test
+  * might want to figure out how cutscenes are triggered so i can manually invoke them
