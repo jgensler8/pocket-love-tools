@@ -48,11 +48,13 @@ if __name__ == "__main__":
     # rom_bank = 8
     # start_addr, end_addr = (0x76C2, 0x76F9)
     # start_addr, end_addr = (0x766a, 0x7689)
+    rom_bank = 9
+    start_addr, end_addr = (0x6a84, 0x6a8f)
     # rom_bank = 2
     # start_addr, end_addr = (0x766a, 0x7689)
     # rom_bank = 4
     # start_addr, end_addr = (0x4394, 0x43a0)
-    rom_bank = 30
+    # rom_bank = 30
     # stats
     # start_addr, end_addr = (0x5c10, 0x5c17)
     # start_addr, end_addr = (0x5c18, 0x5c21)
@@ -144,7 +146,7 @@ if __name__ == "__main__":
     # start_addr, end_addr = (0x428e, 0x4294)
     # options screen
     # start_addr, end_addr = (0x42ad, 0x42be)
-    start_addr, end_addr = (0x42e9, 0x42fa)
+    # start_addr, end_addr = (0x42e9, 0x42fa)
     # start_addr, end_addr = (0x42fe, 0x430e)
     # start_addr, end_addr = (0x42fd, 0x430e)
     # options > link cd
@@ -178,6 +180,11 @@ if __name__ == "__main__":
     # start_addr, end_addr = (0x4add, 0x4ae6)
     # start_addr, end_addr = (0x4aeb, 0x4aed)
     # start_addr, end_addr = (0x4af2, 0x4b03)
+    # park call (probably no answer)
+    # start_addr, end_addr = (0x4d00, 0x4d0a)
+    # start_addr, end_addr = (0x4d0f, 0x4d17)
+    # start_addr, end_addr = (0x4d2b, 0x4d2f)
+    # start_addr, end_addr = (0x4d34, 0x4d40)
 
 
 

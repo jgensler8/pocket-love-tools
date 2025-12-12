@@ -16,4 +16,6 @@ __pycache__/
 bin/
 lib/
 lib64/
-bank_*.json
+# bank_*.json
+bank_*_ex.json
+bank_*_temp.json

@@ -264,7 +264,7 @@ def patch_alphabet_tiles(output_rom: str, alphabet_png: str):
 
 def patch_font_ex_tiles(output_rom: str, font_ex_png: str):
     font_ex_addr = 0xA742 + (26 * 2 * 8 * 2)  # two alphabets * 16 bytes per tile
-    font_ex_tiles = 39
+    font_ex_tiles = 40
     all_bytes = tile_png_to_bytes(font_ex_png, font_ex_tiles)
 
     with open(output_rom, "r+b") as f:
