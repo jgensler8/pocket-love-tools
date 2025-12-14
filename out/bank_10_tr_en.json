@@ -1846,31 +1846,31 @@
     },
     {
       "japanese": "(ちゅうかん しけん)\n",
-      "english": " B10 S461 w=0\n..."
+      "english": "(Midterm Exam)\n"
     },
     {
       "japanese": "きょうは ちゅうかんしけん... \nひごろの べんきょうの せいかの\nみせどころだ! \n...よし がんばるぞ!  ",
-      "english": " B10 S462 w=3@\n...\n...@\n...@#"
+      "english": "It's the midterm\nexam today...@\nTime to show off\nmy hard work@#"
     },
     {
       "japanese": "...うわっ! なんだこれ?! \nぜんぜん とけない\nもんだい ばっかりだ... \n...こりゃ だめだぁ!!  ",
-      "english": " B10 S463 w=3@\n...\n...@\n...@#"
+      "english": "WHAT? These@\nproblems are@\nIMPOSSIBLE!!!@\nhow hopeless...@#"
     },
     {
       "japanese": "...... \nとりあえず しけんは おわった!  ",
-      "english": " B10 S464 w=2@\n...@#"
+      "english": "Anyway....@\nthe exam is\nfinally over!@#"
     },
     {
       "japanese": "あ、 くん... \nその ひょうじょうからすると... \nしけん...だめだったのね! \n...なさけないわ...  ",
-      "english": " B10 S465 w=4@\n...@\n...@\n...@#"
+      "english": "Oh ^-kun?@\nThe exam didn't\ngo well!?@\nHow disappointing\n...@#"
     },
     {
       "japanese": "...う~ん... \nおもったより むずかしい\nもんだいが おおいなあ... \nせいせきは いまいちかも...  ",
-      "english": " B10 S466 w=3@\n...\n...@\n...@#"
+      "english": "ugh, this is more\ndifficult than\nexpected@\n\nI've got to\nstudy more...@#"
     },
     {
       "japanese": "あ、 くん... \nその ひょうじょうからすると... \nしけん、うまくいかなかったのかな? \nま、きをおとさず がんばって!  ",
-      "english": " B10 S467 w=4@\n...@\n...@\n...@#"
+      "english": "Oh ^-kun?@ Still\ngot some wrong?@\ndon't worry and\nkeep trying!@#"
     },
     {
       "japanese": "どれどれ もんだいは、と... \nまあ そこそこ かんたんだな! \n...それなりの せいせきが\nとれそうだ!  ",
@@ -1914,11 +1914,11 @@
     },
     {
       "japanese": "えっ? そうだったのか... \nそういえば みかけたことが\nあるような きもするけど...  ",
-      "english": " B10 S478 w=2@\n...\n...@#"
+      "english": "Huh? is that so?@\nMaybe she really\nreally is familiar@#"
     },
     {
       "japanese": "わたしは 3ねんの\nまつだ ゆみ っていうの! \n...これからは がっこうでも\nよろしくね!  ",
-      "english": " B10 S479 w=2\n...@\n...\n...@#"
+      "english": "I'm Yumi Matsuda!\nI'm a third year\nstudent@\n\nI hope we can get\nalong well at\nschool!@#"
     },
     {
       "japanese": "そんなもの いらないよ!\nどうじょうなんか... \nよしてくれ!!  ",
@@ -1930,51 +1930,51 @@
     },
     {
       "japanese": "がっこうの かえりみち\nなにげなく はんば-が-やさんを\nのぞくと...  ",
-      "english": " B10 S482 w=1\n...\n...@#"
+      "english": "On the way home,\nI casually glanced\ninto the burger\nplace...@#"
     },
     {
       "japanese": "けっこう かわいい おんなのこが\nあるばいと している! \nみおぼえのある かおなんだけど... \n...あ、まずい! \nじっとみてたら きづかれちゃった!  ",
-      "english": " B10 S483 w=4\n...@\n...@\n...@\n...@#"
+      "english": "A really cute girl\nis working there!@\nHer face looks...@\nfamiliar...@\nOH NO!@#"
     },
     {
       "japanese": "わたしに なにか ようじ? \nさっきから こっちを\nみてたよね?!  ",
-      "english": " B10 S484 w=2@\n...\n...@#"
+      "english": "Do you need\nsomething from me?@\n\n\nYou've been\nlooking at me for\na while now,\nright!?@#"
     },
     {
       "japanese": "(どうしよう?)\n とりあえず あいさつする\n しらばっくれる",
-      "english": " B10 S485 w=0\n...\n..."
+      "english": "(What now?)\n Just say hello\n Act oblivious"
     },
     {
       "japanese": "あ...はじめまして! \nぼくは けっして\nその.... \nあやしいものじゃ ありません!  ",
-      "english": " B10 S486 w=3@\n...\n...@\n...@#"
+      "english": "Uh... nice to meet\nyou!@\n\n\n\nSorry if my... uh@\ndaydreaming caused\nconfusion...@#"
     },
     {
       "japanese": "うふっ! きみって おもしろいわね! \n...あっ... \nその せいふく... \nわたしと おなじこうこう だわ!  ",
-      "english": " B10 S487 w=4@\n...@\n...@\n...@#"
+      "english": "haha! what a silly\nway to respond!@\noh...@\nThat uniform is...@\nfrom my school!@#"
     },
     {
       "japanese": "へんな いいがかりを\nつけないでくれよ!  ",
-      "english": " B10 S488 w=1\n...@#"
+      "english": "Don't make such\nridiculous\naccusations!@#"
     },
     {
       "japanese": "まあ いいがかりだなんて\nしつれいしちゃうわね! \n...あっ...そのせいふく! \nわたしと おなじ こうこうだわ!  ",
-      "english": " B10 S489 w=3\n...@\n...@\n...@#"
+      "english": "Hmph, that makes\ntwo of us...@\nHow rude!@\n\n\nThat uniform is\nfrom my school!@#"
     },
     {
       "japanese": "やっぱり そうだったのか! \nみおぼえの あるような\nかおだと おもって\nさっきも そとから じっと...  ",
-      "english": " B10 S490 w=2@\n...\n...\n...@#"
+      "english": "I knew it!@\nI thought you\nlooked familiar!@\n\n\nThat's why I\nwas looking!@#"
     },
     {
       "japanese": "ほ~ら、やっぱり こっちを\nみてたんじゃないの!  ",
-      "english": " B10 S491 w=1\n...@#"
+      "english": "SEE!\nI knew you were\nlooking!!@#"
     },
     {
       "japanese": "...ばれたか!  ",
-      "english": " B10 S492 w=1@#"
+      "english": "...the secret's\nout...@#"
     },
     {
       "japanese": "へんな ひとねえ...\nきみって! \nまあ せっかくだから\nじこしょうかいでも しておくわ  ",
-      "english": " B10 S493 w=2\n...@\n...\n...@#"
+      "english": "You're a strange\none...@\n\n\nWell, I guess\nI should introduce\nmyself.@#"
     },
     {
       "japanese": "(えんそくの ときの できごと)\n",

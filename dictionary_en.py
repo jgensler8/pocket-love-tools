@@ -28,7 +28,7 @@ character_map = {
     "#": 0x81,
     "!": 0x6A,
     "?": 0x6B,
-    "<3": 0x69,  # Heart symbol
+    "\1": 0x69,  # Heart symbol
     # "day": 0x79,  # Special word
     "~": 0x7A,
     "-": 0x7B,

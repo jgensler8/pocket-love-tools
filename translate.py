@@ -45,11 +45,12 @@ if __name__ == "__main__":
 
     # Example from your notes: text starting around rom8::76c6
     # Assuming bank 8, with a start address and a reasonable end address
-    # rom_bank = 8
+    rom_bank = 8
+    start_addr, end_addr = (0x6c45, 0x6c4d)
     # start_addr, end_addr = (0x76C2, 0x76F9)
     # start_addr, end_addr = (0x766a, 0x7689)
-    rom_bank = 9
-    start_addr, end_addr = (0x6a84, 0x6a8f)
+    # rom_bank = 9
+    # start_addr, end_addr = (0x6a84, 0x6a8f)
     # rom_bank = 2
     # start_addr, end_addr = (0x766a, 0x7689)
     # rom_bank = 4

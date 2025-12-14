@@ -51,7 +51,7 @@ def rebuild_rom_headers(
     output_rom_path,
     extracted_json_path,
     translated_json_path,
-    character_limit,
+    bytes_limit,
     bank_num,
 ):
     """
@@ -63,7 +63,7 @@ def rebuild_rom_headers(
         output_rom_path (str): Path to the output ROM file.
         extracted_json_path (str): Path to the JSON file containing original ROM structure info.
         translated_json_path (str): Path to the JSON file containing translated scenes.
-        character_limit (int): Maximum number of characters allowed per scene.
+        bytes_limit (int): Maximum number of characters allowed per scene.
         bank_num (int): The ROM bank number where the text and header reside.
                                       E.g., "0x7000". This must be a safe, unused area in the ROM.
     """
@@ -103,16 +103,17 @@ def rebuild_rom_headers(
             # if len(english_text) > len(japanese_text):
             #     english_text = english_text[: len(japanese_text)]
 
-            if len(english_text) > character_limit:
-                logging.warning(
-                    f"Scene {i} exceeds character limit ({character_limit}). need {len(english_text)}. Truncating."
-                )
-                english_text = english_text[:character_limit]
-                # Update the scene data in memory, though it won't be saved back to JSON
-                translated_scenes[i]["english"] = english_text
-
+            # Update the scene data in memory, though it won't be saved back to JSON
+            translated_scenes[i]["english"] = english_text
             encoded_scene_bytes = encode_english_text(english_text)
             encoded_scene_bytes += b"\x00"  # Add null terminator
+
+            if len(encoded_scene_bytes) > bytes_limit:
+                logging.error(
+                    f"bank {bank_num} scene {i} exceeds byte limit ({bytes_limit}). have {len(encoded_scene_bytes)}. Truncating with scene terminator"
+                )
+                encoded_scene_bytes = encoded_scene_bytes[: bytes_limit - 3]
+                encoded_scene_bytes += b"\x82\x81\x00"  # Add scene end
 
             # logging.info(f"{i}: {hex(current_new_text_cpu_address)}")
             new_text_rom_bytes.extend(encoded_scene_bytes)
@@ -347,11 +348,10 @@ def main():
         help="Path to the translated input JSON file (from translate_ex.py).",
     )
     dialog_parser.add_argument(
-        "--character_limit",
+        "--bytes_limit",
         type=int,
-        # maybe as high as 18, maybe as many rows as 5
-        default=17 * 4,
-        help="Maximum characters per scene (default: 17*4=68).",
+        default=90,
+        help="Maximum bytes per scene (inclusive area between C0EA and C143)",
     )
     dialog_parser.add_argument(
         "--bank",
@@ -445,7 +445,7 @@ def main():
             args.output_rom,
             args.extracted_json,
             args.translated_json,
-            args.character_limit,
+            args.bytes_limit,
             args.bank,
         )
     elif args.command == "scene_meta":
