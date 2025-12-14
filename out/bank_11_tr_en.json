@@ -2,23 +2,23 @@
   "translated_scenes": [
     {
       "japanese": "... \n...... \n...そろそろ くるころかな?  ",
-      "english": " B11 S0 w=3@\n...@\n...@#"
+      "english": "...@\n...@\nany minute now...@#"
     },
     {
       "japanese": "あ、 くん... \nわたしに なにか\nようじでも あったの?  ",
-      "english": " B11 S1 w=2@\n...\n...@#"
+      "english": "oh, ^kun...@\nDid you need\nsomething from\nme?@#"
     },
     {
       "japanese": "いや べつに... \nようがあるって\nわけじゃないんだけど...  ",
-      "english": " B11 S2 w=2@\n...\n...@#"
+      "english": "no, not really...@\nIt's not a\nsepecific reason\nbut...@#"
     },
     {
       "japanese": "...ふ~ん...  ",
-      "english": " B11 S3 w=1@#"
+      "english": "...hmm...@#"
     },
     {
       "japanese": "......\nぼくらは しばらく がっこうを\nうろついた...  ",
-      "english": " B11 S4 w=2\n...@\n...@#"
+      "english": "...we wandered\naround...@\nfor a bit...@#"
     },
     {
       "japanese": "あ、 くん\nおまたせ!  ",
@@ -210,7 +210,7 @@
     },
     {
       "japanese": "きょうは ここの げ-むせんた-\nさわがしかったよね... \nちょっと つかれちゃった...  ",
-      "english": " B11 S52 w=2\n...@\n...@#"
+      "english": "It was really\nnoisy here today@\nI'm a bit tired...@#"
     },
     {
       "japanese": "すっごく たのしかったよ! \n...うちに かえるのが\nいやになるくらい...<3 \nありがと... くん!  ",
@@ -722,7 +722,7 @@
     },
     {
       "japanese": "ちょっと つかれちゃった...  ",
-      "english": " B11 S180 w=1@#"
+      "english": "I'm a little\n tired...@#"
     },
     {
       "japanese": " さんと いっしょだと\nなにもかも しんせんに みえるの! \nわたし...かんどうしちゃった<3  ",
@@ -1054,7 +1054,7 @@
     },
     {
       "japanese": "あ、 くん \nいったい なんのようじ?  ",
-      "english": " B11 S263 w=2@\n...@#"
+      "english": "oh ^-kun,@\nwhat do you want?@#"
     },
     {
       "japanese": " く~ん!! \n...はやく あいたかったから\nはしってきたの<3  ",
@@ -1526,7 +1526,7 @@
     },
     {
       "japanese": "なんか よくわかんないけど... \nしのざわ うきうき しちゃうの~!  ",
-      "english": " B11 S381 w=2@\n...@#"
+      "english": "I don't really\nunderstand, but...@\nShinazawa seems\npretty excited!@#"
     },
     {
       "japanese": " と いっしょに\nおかいものできて\nすっごく うれしいな~  ",
@@ -1570,7 +1570,7 @@
     },
     {
       "japanese": " さんと こんな ゆういぎな\nじかんを すごせて... \nわたし... \nかんげきしちゃいました<3  ",
-      "english": " B11 S392 w=3\n...@\n...@\n...@#"
+      "english": "Being able to\nspend time with\nyou...@ I...@\nreally enjoyed it!@#"
     },
     {
       "japanese": "ねえ、 さん... \nすてきな ひとときでしたね!  ",

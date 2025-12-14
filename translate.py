@@ -45,8 +45,8 @@ if __name__ == "__main__":
 
     # Example from your notes: text starting around rom8::76c6
     # Assuming bank 8, with a start address and a reasonable end address
-    rom_bank = 8
-    start_addr, end_addr = (0x6c45, 0x6c4d)
+    # rom_bank = 8
+    # start_addr, end_addr = (0x6c45, 0x6c4d)
     # start_addr, end_addr = (0x76C2, 0x76F9)
     # start_addr, end_addr = (0x766a, 0x7689)
     # rom_bank = 9
@@ -55,7 +55,7 @@ if __name__ == "__main__":
     # start_addr, end_addr = (0x766a, 0x7689)
     # rom_bank = 4
     # start_addr, end_addr = (0x4394, 0x43a0)
-    # rom_bank = 30
+    rom_bank = 30
     # stats
     # start_addr, end_addr = (0x5c10, 0x5c17)
     # start_addr, end_addr = (0x5c18, 0x5c21)
@@ -164,9 +164,33 @@ if __name__ == "__main__":
     # start_addr, end_addr = (0x464a, 0x464f)
     # start_addr, end_addr = (0x4650, 0x4655)
     # start_addr, end_addr = (0x4656, 0x465b)
+    # shoppes menu
+    # start_addr, end_addr = (0x46a1, 0x46a8)
+    # start_addr, end_addr = (0x46ad, 0x46b4)
+    # start_addr, end_addr = (0x46b5, 0x46bc)
+    # shoppes items
+    # start_addr, end_addr = (0x4791, 0x4799)
+    # start_addr, end_addr = (0x4735, 0x473e)
+    # start_addr, end_addr = (0x4743, 0x474c)
+    # start_addr, end_addr = (0x5964, 0x5974)
+    # item = 6
+    # start_addr, end_addr = (0x5964 + item*17, 0x5964 + (item+1)*17 - 1)
+    # town info
+    # start_addr, end_addr = (0x417d, 0x4184)
+    # start_addr, end_addr = (0x418e, 0x4190)
+    # start_addr, end_addr = (0x4195, 0x419c)
+    # start_addr, end_addr = (0x41a1, 0x41ab)
+    # monthly town info values
+    # start_addr, end_addr = (0x62b4, 0x62c1)
+    # start_addr, end_addr = (0x62ec, 0x62f9)
+    # start_addr, end_addr = (0x62fa, 0x6307)
+    # start_addr, end_addr = (0x630c, 0x6314)
+    start_addr, end_addr = (0x6322, 0x632d)
     # phone call menu
     # start_addr, end_addr = (0x47a9, 0x47b0)
     # start_addr, end_addr = (0x47b1, 0x47b8)
+    # start_addr, end_addr = (0x4cc0, 0x4ccc)
+    # start_addr, end_addr = (0x4ccf, 0x4cd1)
     # both call screens
     # start_addr, end_addr = (0x47bd, 0x47cc)
     # example call

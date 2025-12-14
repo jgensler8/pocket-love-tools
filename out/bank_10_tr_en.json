@@ -1526,11 +1526,11 @@
     },
     {
       "japanese": "(これから どうしよう?)\n ふたりで べつの ばしょに いく\n ここで わかれる",
-      "english": " B10 S381 w=0\n...\n..."
+      "english": "(What now?)\n New place?\n Let's part here"
     },
     {
       "japanese": "どこか ほかのところに いこう!  ",
-      "english": " B10 S382 w=1@#"
+      "english": "Let's go somewhere\nelse!@#"
     },
     {
       "japanese": "きょうは たのしかったね!\nありがとう!  ",
@@ -1566,11 +1566,11 @@
     },
     {
       "japanese": "るるな ちょっと\nつかれちゃったかな...  ",
-      "english": " B10 S391 w=1\n...@#"
+      "english": "Ruruna, you seem\na bit tired...@#"
     },
     {
       "japanese": "\n\n...まだ ぼくのことなんか\nどうでもいいって かんじだな...  ",
-      "english": " B10 S392 w=1\n...\n...\n...@#"
+      "english": "\nIt seems...\nyou don't care\nabout me at all...@#"
     },
     {
       "japanese": "ここって...まえに\nきたばっかりだったよね...  ",

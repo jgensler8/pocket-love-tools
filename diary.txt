@@ -204,6 +204,13 @@ day 27 (dec 12)
 day 28 (dec 14)
 * more translations
 * fixed scene max bytes (due to memory, though still larger than one screen)
+* translate: shoppe visit screen + buy screen
+* one of the town info screens
+* note: some of the dialogs seem to be RNG (loading save state doesn't always trigger)
+  * RNG seems quite low, like <25% early on
+  * current RNG scenes: Rurura school, Yumi burger place
+    * dialog for these was in at least 3 banks, this is from reusing common text like: "I really enjoyed this date!" etc
+* note: low test score text not yet QA'd
 
 next:
 * could experiment with variable width font printing
@@ -211,3 +218,5 @@ next:
 * continue with most cutscenes + game progression, maybe find more save states to test
   * might want to figure out how cutscenes are triggered so i can manually invoke them
 * TODO: will need to patch dialog that needs our name fe00 and fe01
+* TODO: rest of the town info screens
+* TODO: girls info screens

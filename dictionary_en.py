@@ -11,6 +11,7 @@ character_map = {
     '"': 0x42,
     ":": 0x43,
     ";": 0x44,
+    ">": 0x45,
     " ": 0x7F,  # Space (from dictionary_katakana.py 0x7E, 0x7F, 0x80 are spaces)
     "0": 0x6F,
     "1": 0x70,
