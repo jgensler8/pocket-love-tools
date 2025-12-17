@@ -1,18 +1,15 @@
 # --- English to Game Boy Byte Mapping ---
-# This map needs to be carefully constructed based on the game's actual font tiles.
-# For now, it's a best-effort attempt using existing known mappings and placeholders.
-# You will need to verify and expand this map based on your ROM's font data.
-# Placeholder values (e.g., 0x81, 0xA1) are arbitrary and will likely display
-# incorrect characters if not mapped to actual font tiles in your ROM.
 character_map = {
-    "$": 0x3f,  # font_ex
+    "__day": 0x3D,
+    "__month": 0x3E,
+    "$": 0x3F,  # font_ex
     ",": 0x40,
     "'": 0x41,
     '"': 0x42,
     ":": 0x43,
     ";": 0x44,
     ">": 0x45,
-    " ": 0x7F,  # Space (from dictionary_katakana.py 0x7E, 0x7F, 0x80 are spaces)
+    "<": 0x46,
     "0": 0x6F,
     "1": 0x70,
     "2": 0x71,
@@ -23,14 +20,14 @@ character_map = {
     "7": 0x76,
     "8": 0x77,
     "9": 0x78,
-    "\n": 0x80,  # Newline control code (from gameboy_translator.py)
+    " ": 0x7F,  # Space (from dictionary_katakana.py 0x7E, 0x7F, 0x80 are spaces)
+    "\n": 0x80,
     # TODO: these are placeholders for theoretical control chars
     "@": 0x82,
     "#": 0x81,
+    "__heart": 0x69,
     "!": 0x6A,
     "?": 0x6B,
-    "\1": 0x69,  # Heart symbol
-    # "day": 0x79,  # Special word
     "~": 0x7A,
     "-": 0x7B,
     ".": 0x7C,

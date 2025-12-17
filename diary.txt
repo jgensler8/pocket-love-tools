@@ -212,6 +212,9 @@ day 28 (dec 14)
     * dialog for these was in at least 3 banks, this is from reusing common text like: "I really enjoyed this date!" etc
 * note: low test score text not yet QA'd
 
+day 29 (dec 17)
+* saeki ruruna info screen
+
 next:
 * could experiment with variable width font printing
 * patch rest of UI (tasks, stats, menus, prompts)

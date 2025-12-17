@@ -141,6 +141,18 @@ if __name__ == "__main__":
     # start_addr, end_addr = (0x45e2, 0x45e9)
     # start_addr, end_addr = (0x45ea, 0x45f1)
     # start_addr, end_addr = (0x45f2, 0x45f9)
+    # info > ruruna
+    # start_addr, end_addr = (0x4f1f, 0x4f2c)
+    # start_addr, end_addr = (0x4f31, 0x4f33)
+    # start_addr, end_addr = (0x4f38, 0x4f3d)
+    # start_addr, end_addr = (0x4f42, 0x4f47)
+    # start_addr, end_addr = (0x4f4c, 0x4f50)
+    start_addr, end_addr = (0x4f66, 0x4f6c)
+    # start_addr, end_addr = (0x4f89, 0x4f8b)
+    # start_addr, end_addr = (0x4f90, 0x4f9b)
+    # start_addr, end_addr = (0x4fa0, 0x4fad)
+    # start_addr, end_addr = (0x4fb2, 0x4fbd)
+    # start_addr, end_addr = (0x4fc2, 0x4fcd)
     # save screen success
     # start_addr, end_addr = (0x4282, 0x4287)
     # start_addr, end_addr = (0x4288, 0x428d)
@@ -185,7 +197,7 @@ if __name__ == "__main__":
     # start_addr, end_addr = (0x62ec, 0x62f9)
     # start_addr, end_addr = (0x62fa, 0x6307)
     # start_addr, end_addr = (0x630c, 0x6314)
-    start_addr, end_addr = (0x6322, 0x632d)
+    # start_addr, end_addr = (0x6322, 0x632d)
     # phone call menu
     # start_addr, end_addr = (0x47a9, 0x47b0)
     # start_addr, end_addr = (0x47b1, 0x47b8)
