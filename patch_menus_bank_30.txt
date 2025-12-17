@@ -56,7 +56,7 @@
 4531 "        : Joined!"
 4546 "      : "
 454e "goodbye!"
-45c2 "Saeki   "
+45c2 "Ruruna  "
 45ca "Mizuki  "
 45d2 "Yumi    "
 45da "Miri    "
@@ -165,7 +165,7 @@
 4f5f "HBY"
 4f66 "Phone: "
 ## Saeki Ruruna Info Values
-4f75 "Ruruna "
+4f75 "Saeki  "
 4f84 "__day"
 4f89 "A  "
 4f90 "Parfai"

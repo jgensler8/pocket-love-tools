@@ -6,11 +6,11 @@
     },
     {
       "japanese": "(とうこうちゅうのできごと)\n",
-      "english": " B8 S1 w=0\n..."
+      "english": "(Before School)\n"
     },
     {
       "japanese": "だれか おんなのこが こっちをみてる\nだれだろう?  ",
-      "english": " B8 S2 w=1\n...@#"
+      "english": "There is a girl\nlooking this way\nwho could it be?@#"
     },
     {
       "japanese": "あ...\n",
@@ -18,15 +18,15 @@
     },
     {
       "japanese": "まつだ ゆみだ!  ",
-      "english": " B8 S4 w=1@#"
+      "english": "It's Yumida!@#"
     },
     {
       "japanese": "めせんが あってしまった! \n",
-      "english": " B8 S5 w=1@\n..."
+      "english": "Our eyes met!@\n"
     },
     {
       "japanese": "でも まつださんは\nなにも いわなかった...  ",
-      "english": " B8 S6 w=1\n...@#"
+      "english": "But Yumida didn't\nsay anything...@#"
     },
     {
       "japanese": "じっと こっちを みている! \n",
@@ -78,7 +78,7 @@
     },
     {
       "japanese": "さえき るるなだ!  ",
-      "english": " B8 S19 w=1@#"
+      "english": "It's Ruruna!@#"
     },
     {
       "japanese": "(   )\n",
@@ -90,7 +90,7 @@
     },
     {
       "japanese": "(さえき るるな)\n",
-      "english": "(Saeki Ruruna)\n"
+      "english": "(Ruruna Saeki)\n"
     },
     {
       "japanese": "あ、おはよう  ",
@@ -122,7 +122,7 @@
     },
     {
       "japanese": "(たかお みずき)\n",
-      "english": " B8 S30 w=0\n..."
+      "english": "(Mizuki Takao)\n"
     },
     {
       "japanese": "あ...どうも  ",
@@ -174,7 +174,7 @@
     },
     {
       "japanese": "もりぞの みりぃだ!  ",
-      "english": " B8 S43 w=1@#"
+      "english": "It's Miri!@#"
     },
     {
       "japanese": "おはよ...あれ? \nほんを よみながら あるいてるから\nぼくに きづかない... \n",
@@ -194,7 +194,7 @@
     },
     {
       "japanese": "(もりぞの みりぃ)\n",
-      "english": " B8 S48 w=0\n..."
+      "english": "(Miri Morizono)\n"
     },
     {
       "japanese": "あ、おはようございます\nきょうも べんがくにはげみましょう  ",
@@ -642,43 +642,43 @@
     },
     {
       "japanese": "(げこう まえの できごと)\n",
-      "english": " B8 S160 w=0\n..."
+      "english": "(Train Platform)\n"
     },
     {
       "japanese": "(どうしよう?)\n いっしょに かえらないかと さそう\n あいさつだけ する",
-      "english": " B8 S161 w=0\n...\n..."
+      "english": "(What now?)\n Walk together\n Just 'Hello'"
     },
     {
       "japanese": "ねえ いっしょに かえらない?  ",
-      "english": " B8 S162 w=1@#"
+      "english": "Hey, do you want\nto go home\ntogether?@#"
     },
     {
       "japanese": "ばいばい! またね!  ",
-      "english": " B8 S163 w=1@#"
+      "english": "Bye Bye!\nSee you later!@#"
     },
     {
       "japanese": "ええ、 くん \nいっしょに かえりましょう!  ",
-      "english": " B8 S164 w=2@\n...@#"
+      "english": "^-kun, let's...@\ngo home together!@#"
     },
     {
       "japanese": "ごめんなさい...\nきょうは ちょっと だめなの  ",
-      "english": " B8 S165 w=1\n...@#"
+      "english": "I'm sorry...\nI can't today@#"
     },
     {
       "japanese": "あ、 くん、ばいばい!  ",
-      "english": " B8 S166 w=1@#"
+      "english": "^-kun, Bye Bye~!@#"
     },
     {
       "japanese": "いいよ いっしょに かえろう\n くん!  ",
-      "english": " B8 S167 w=1\n...@#"
+      "english": "Okay, let's go\nhome together!@#"
     },
     {
       "japanese": "ごめんね、 くん \nきょうは ようじが あるから\nまた こんど!  ",
-      "english": " B8 S168 w=2@\n...\n...@#"
+      "english": "I'm sorry. I\nhave something\nto do today@\n\nlet's, do it\nanother time!@#"
     },
     {
       "japanese": "じゃあね、ばいばい!  ",
-      "english": " B8 S169 w=1@#"
+      "english": "see ya, bye bye!@#"
     },
     {
       "japanese": "あら、 くん! \nじゃあ いっしょに かえろうか!  ",
@@ -686,11 +686,11 @@
     },
     {
       "japanese": "きょうは ようじが あるから\nつきあえないの ごめんね!  ",
-      "english": " B8 S171 w=1\n...@#"
+      "english": "I have something\nto do today...\nI'm sorry!@#"
     },
     {
       "japanese": "じゃ、ばいばい!  ",
-      "english": " B8 S172 w=1@#"
+      "english": "ok, bye!@#"
     },
     {
       "japanese": "おや、 さん...! \nでは いっしょに\nげこう いたしましょう!  ",

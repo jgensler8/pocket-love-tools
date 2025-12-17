@@ -998,15 +998,15 @@
     },
     {
       "japanese": "... くんと\nここに くるのって すきよ!  ",
-      "english": " B11 S249 w=1\n...@#"
+      "english": "^-kun, I love\ncoming here with\nyou!@#"
     },
     {
       "japanese": "...べつに...\n くんとじゃなくて \nひとりで くるのも\nすきなんだけどね...  ",
-      "english": " B11 S250 w=2\n...@\n...\n...@#"
+      "english": "well, maybe not\nalways with you...@\nI like being\nhere alone, too...@#"
     },
     {
       "japanese": "\n\nまつだ ゆみと ぼくのかんけいは\nまだまだ みたいだ...  ",
-      "english": " B11 S251 w=1\n...\n...\n...@#"
+      "english": "My relationship\nwith Yumi Matsuda is\nstill in the\nearly stages...@#"
     },
     {
       "japanese": "わたし こういう そらのみえる\nあかるい ばしょが\nすきだから...  ",
@@ -1482,11 +1482,11 @@
     },
     {
       "japanese": "なんとなく  くんと\nいっしょだと... \nたのしいんだよね~!  ",
-      "english": " B11 S370 w=2\n...@\n...@#"
+      "english": "For some reason\nbeing with you...@\nmakes me happy!@#"
     },
     {
       "japanese": " くんと いっしょだと... \nなんか すごく たのしいの<3  ",
-      "english": " B11 S371 w=2@\n...@#"
+      "english": "^-kun, when we're\ntogether,@ its so\nmuch fun!@#"
     },
     {
       "japanese": "...こうして\nおもちゃを みてるのって\nたのしいわ!  ",

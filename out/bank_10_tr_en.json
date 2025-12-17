@@ -1754,7 +1754,7 @@
     },
     {
       "japanese": "いやぁ ぼくは えんりょしとくよ! \n...せっかく たかおさんが\nとってきてくれるって いうのに \nぼくが でるまくじゃ ないよ!  ",
-      "english": " B10 S438 w=3@\n...\n...@\n...@#"
+      "english": "No, I'll pass!@\nTakao-san can\nget it...@\nnot my problem...@#"
     },
     {
       "japanese": "...ごかいされると いやだから\nあんまり なれなれしく\nしないでほしいな!  ",
@@ -1978,59 +1978,59 @@
     },
     {
       "japanese": "(えんそくの ときの できごと)\n",
-      "english": " B10 S494 w=0\n..."
+      "english": "(Field Trip)\n"
     },
     {
       "japanese": "きょうは たのしい えんそくだ! \n...... \nやっと もくてきちの さるやまに\nとうちゃくしたぞ!  ",
-      "english": " B10 S495 w=3@\n...@\n...\n...@#"
+      "english": "Today is the\nfield trip!@\nWe've arrived\nat...@\nMonkey Mountain!@#"
     },
     {
       "japanese": "さあ、べんとうだ! \n...と おもった そのしゅんかん \nとつぜん さえき るるなの\nひめいが きこえてきた!!  ",
-      "english": " B10 S496 w=3@\n...@\n...\n...@#"
+      "english": "'Time for lunch!'@\nJust as I thought\n it, @\n Saeki let\nout a scream!@#"
     },
     {
       "japanese": "いやぁぁぁん! \nるるなの...るるなの おべんとう\nさるが もっていっちゃったぁ! \nほら あの...いわのうえ!  ",
-      "english": " B10 S497 w=3@\n...\n...@\n...@#"
+      "english": "Oh no! My lunch!@\nA monkey stole it!@\nLook! By the top\nof that rock!@#"
     },
     {
       "japanese": "あ、るるなちゃん! \nわたし とってきてあげるよ! \nじつは いわのぼりも\nとくいなんだ!  ",
-      "english": " B10 S498 w=3@\n...@\n...\n...@#"
+      "english": "Oh Ruruna-chan!@\nI'll go get it!@\nI'm pretty good\nat rock climbing!@#"
     },
     {
       "japanese": "...でも...あぶないわよ... \n...... \n...そうだ!  くん!\nかわりに とってきてくれない?  ",
-      "english": " B10 S499 w=3@\n...@\n...\n...@#"
+      "english": "but its dangerous!@\n...right?@\n^-kun, could you\nget it for me?@#"
     },
     {
       "japanese": "(どうしよう?)\n いわのうえまで とりにいく\n ことわる",
-      "english": " B10 S500 w=0\n...\n..."
+      "english": "(What now?)\n I'll get it!\n No way!"
     },
     {
       "japanese": "よし ぼくに まかせてよ! \n...じゃあ とってくるね!  ",
-      "english": " B10 S501 w=2@\n...@#"
+      "english": "Leave it to me!@\nI'll go get it!@#"
     },
     {
       "japanese": " くん ありがとう! \nあしもとに きをつけてね!  ",
-      "english": " B10 S502 w=2@\n...@#"
+      "english": "Thank you!@\nPlease watch your\nstep!@#"
     },
     {
       "japanese": "... くんて けっこう\nやるよね~... \nあっ...もう ちょっとだ!  ",
-      "english": " B10 S503 w=2\n...@\n...@#"
+      "english": "oh they're pretty\ngood... ah...@\njust a little\nmore!@#"
     },
     {
       "japanese": "...よ~し! \nべんとうを とりかえしたぞ!!  ",
-      "english": " B10 S504 w=2@\n...@#"
+      "english": "I did it!@\nI've got the\nlunch box back!@#"
     },
     {
       "japanese": "ああ よかった... \n...おべんとうが ぶじに\nかえってきて... \nさ、たべようっと!  ",
-      "english": " B10 S505 w=3@\n...\n...@\n...@#"
+      "english": "oh thank goodness!@\nMy lunch box is\nsafe!@ Time to\neat!@#"
     },
     {
       "japanese": "\n\nそんなこんなで いろいろあったけど \nけっこう たのしい えんそくだった  ",
-      "english": " B10 S506 w=2\n...\n...@\n...@#"
+      "english": "Despite everything\nthat happened...@\nIt was a pretty\nfun field trip@#"
     },
     {
       "japanese": "ああ よかった... \n...おべんとうが ぶじに\nかえってきて... \n くん ありがとう!  ",
-      "english": " B10 S507 w=3@\n...\n...@\n...@#"
+      "english": "oh thank goodness!@\nIt's safe!@\nThank you,\n^-kun!@#"
     },
     {
       "japanese": "ありがとう、 くん! \nわたしの ために... \nすごく うれしかったわ!  ",
@@ -2042,47 +2042,47 @@
     },
     {
       "japanese": "え~っ?! \nつめたいのね...  ",
-      "english": " B10 S510 w=2@\n...@#"
+      "english": "Huh?@\nThat's cold...@#"
     },
     {
       "japanese": "いいって、いいって!\nわたし、とってくるから... \n...じゃあ ちょっと\nいってくるね!  ",
-      "english": " B10 S511 w=2\n...@\n...\n...@#"
+      "english": "That's fine, I\ncan get it!@\nI'll be right\nback!@#"
     },
     {
       "japanese": "がんばれ たかお~!\nふれ- ふれ- たかお~!  ",
-      "english": " B10 S512 w=1\n...@#"
+      "english": "You can do it!\nGo! Go!\nTaka-O!@#"
     },
     {
       "japanese": " くん...  ",
-      "english": " B10 S513 w=1@#"
+      "english": "^-kun...@#"
     },
     {
       "japanese": "ふぁいとだ たかお~!\nがんばれ にっぽん!!  ",
-      "english": " B10 S514 w=1\n...@#"
+      "english": "Go for it, Takao!\nGanbare Japan!@#"
     },
     {
       "japanese": "あなたって ひとは... \n......  ",
-      "english": " B10 S515 w=2@\n...@#"
+      "english": "...\n@you're such a...\n@#"
     },
     {
       "japanese": "...はい!\nるるなちゃん、おまちどうさま \nおべんとう とってきたよ!  ",
-      "english": " B10 S516 w=2\n...@\n...@#"
+      "english": "Ruruna-chan, sorry\nto keep you\nwaiting.@ I've got\nthe lunch box!@#"
     },
     {
       "japanese": "あ... \n...それはそうと... \n くんの おべんとうも\nなくなってるみたいだけど?!  ",
-      "english": " B10 S517 w=3@\n...@\n...\n...@#"
+      "english": "Oh by the way...@\nIt looks like...@\nYour lunch is\ngone too...@#"
     },
     {
       "japanese": "...しまった~!! \nおうえんしてるすきに\nさるに とられたんだ~!!  ",
-      "english": " B10 S518 w=2@\n...\n...@#"
+      "english": "Oh no!@\nThey must have\nstole it while\nI was cheering!@#"
     },
     {
       "japanese": "...てんばつね...  ",
-      "english": " B10 S519 w=1@#"
+      "english": "Divine Punishment?@#"
     },
     {
       "japanese": "\n\n...けっきょく ぼくの べんとうは \nさるに とられてしまった...  ",
-      "english": " B10 S520 w=2\n...\n...@\n...@#"
+      "english": "In the end, my\nlunch was stolen\n...@\nby a monkey...@#"
     },
     {
       "japanese": "こ さ し す せ そ た ち つ て と な に ぬ ね の は ひ ふ へ ほ ま み む め も や ゆ よ ら り る れ ろ わ を ん 、 。 ゃ ゅ ょ っ ぁ ぃ ぅ ぇ ぉ が ぎ ぐ 月 day [?8C] [?9F] [?B1] [?BB] [?C9] [?D9] [?E6] [?F5] こ ぅ ぺ 6 [?96] [?AD] [?D4]   み べ 7 [?91] [?B5] [?DC] お り ぜ <3   [?A2] [?D4] [?F3] ぬ ぅ 8 [?A6] [?CC] [?F3] ぬあっあずあ金あ あ[?97]あ[?A7]あ[?BA]あ[?E1]ああいほいろいづい い[?AB]い[?DE]い[?EE]いいうゅうびう(う=う[?83]う[?9E]う[?AB]う[?C6]う[?DA]う[?EC]う[?FA]ううえぬえよえぞえ水え2え[?85]え[?9A]え[?B7]え[?C3]え[?DD]えももよちおがおぎおぐおげおごおざおじおずおぜおぞおお お[?93]お[?A8]お[?B4]お[?D4]お[?F7]おさかのかぃかぱかか[?8C]か[?A8]か[?C2]か[?E5]かかきみきろきぢきンき~き[?A5]き[?C3]き[?E1]き[?FA]き くそくへくれくぇくどく金く1く[?8D]く[?B7]く[?E4]くなけをけげけぱけ3け[?85]け[?9E]け[?CA]け[?E6]け こんこ、こ。こぎこぼこ8こ[?90]こ[?B1]こ[?C8]こ[?E1]こ[?EF]こあさへさるさずさ土さ/さ[?AD]さ[?DB]さ しるしだし1し[?A8]し[?CA]し[?F6]しねすぶす8す[?9D]す[?C2]す[?F7]すてせだせ[?83]せ[?C1]せ[?E0]せおそがそ3そ[?97]そ[?D1]そあたぢた9た[?AF]た[?EA]たみちびち[?8F]ち[?C2]ち[?F0]ち[?F1]ち[?F2]ち[?F3]ち[?F4]ち[?F5]ち[?F6]ち[?F7]ち[?F8]ち[?F9]ちみつ、つごつ3つ[?AB]つ[?C3]つ[?DB]つつてゃてべて[?83]て[?94]て[?C6]て[?EC]てじゃ、またくとのともとをとげとだと火と[?87]と[?B0]と[?E0]と[?F2]とになゆな、な日な[?90]な[?B4]な[?C5]ななかにへにぞに7に[?A6]に[?E4]に[?F1]に ぬこぬよぬどぬ[?87]ぬ[?B7]ぬ[?EE]ぬ[?FC]ぬるねぢね-ね[?9D]ね[?BB]ね[?F3]ねえのっのセの[?8F]の[?9D]の[?CE]の[?D9]の[?F4]のちはぞは[?84]は[?B4]は[?C5]は[?FC]はえひなひぃひAひ[?9D]ひ[?D1]ひ[?E1]ひこふざふ/ふ[?B8]ふ[?E9]ふ[?F9]ふゆへぉへぱへ)へ[?94]へ[?A3]へ[?D6]へ[?E9]へ[?F4]へかほょほほ4ほ[?9C]ほ[?DC]ほ[?EE]ほうま、ま4ま[?AE]ま[?AF]ま[?B0]ま[?B1]ま[?B2]ま[?B3]ま[?B4]ま[?B5]ま[?B6]ま[?B7]ま[?B8]ま[?C9]ま[?ED]ま みゃみスみ[?8D]み[?96]み[?B2]み[?D6]み むつむめむだむ2む[?96]む[?B2]む[?E9]む めとめぼめ[?97]め[?BA]め[?CC]め[?DA]め[?F4]め もこもんもぶも<3も[?95]も[?A4]も[?C6]も[?D9]も[?F9]もへや、やずや火や[?87]や[?9B]や[?AB]や[?C0]や[?EF]や ゆへゆずゆ[?83]ゆ[?AA]ゆ[?BE]ゆ[?ED]ゆとよでよ!よ[?91]よ[?B2]よ[?E5]よ らへらずら ら[?95]ら[?B6]ら[?E2]ら[?F2]ら[?FB]らこりだり[?86]り[?AC]り[?C3]り[?D0]りうるねるゆるよるらるりる3る[?99]る[?A8]る[?D6]るきれろれ月れ9れ[?87]れ[?9C]れ[?C7]れ[?FD]れめろぞろ.ろ[?93]ろ[?A2]ろ[?C1]ろ[?EC]ろ わなわふわざわべわ[?87]わ[?BE]わ[?D4]わうをぉを.を[?B3]を[?EA]をてんぼん)ん[?A0]ん[?DB]ん[?F2]ん[?FB]んろ、水、[?8B]、[?AC]、[?EF]、き。ぴ。~。[?94]。[?BF]。[?F7]。かゃざゃ9ゃ[?91]ゃ[?9B]ゃ[?C8]ゃ[?D8]ゃ ゅぅゅ7ゅ[?A4]ゅ[?D7]ゅ[?F2]ゅくょもょでょょ[?91]ょ[?B0]ょ[?DA]ょ[?FC]ょまっゃっ日っ/っ[?86]っ[?9F]っ[?B3]っ[?D5]っ",
