@@ -214,6 +214,7 @@ day 28 (dec 14)
 
 day 29 (dec 17)
 * saeki ruruna info screen
+* Ichio -> Ichiro Suzuki reference?
 
 next:
 * could experiment with variable width font printing

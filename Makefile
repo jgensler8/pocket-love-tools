@@ -19,8 +19,8 @@ replace:
 translate:
 	python ./translate.py
 
-scan_phrases:
-	python ./scan_phrases.py
+extract_phrases:
+	python ./extract_phrases.py
 
 extract_scene_roms:
 	$(shell for i in 4 {${SAFE_DIALOG_BANK_START}..${SAFE_DIALOG_BANK_END}} ; do $(PYTHON) extract_scene_rom.py --bank=$${i} --out_dir=${OUT_DIR} ; done;)
