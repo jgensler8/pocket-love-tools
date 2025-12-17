@@ -206,3 +206,13 @@ after : 081018203040506080A0C0FF25C102010D120411030000004008090A0B0C0D04002810F9
 likely scene index offsets: (probably two for some addr and maybe one for the type of scene?)
 c17A: 36 -> 39 -> 3C -> 3F
 c17b: 00
+
+phone ramfunc stack:
+travel to school 28 13 13 13 13 13 13 13 2a 22 2f (loaded bg and fade in) 20 02 43
+(menu select)
+20 02 02
+(ok lets call someone)
+45
+(person select screen)
+(phone select screen)
+(no other ramfunc)
