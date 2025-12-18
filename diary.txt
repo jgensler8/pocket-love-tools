@@ -222,7 +222,9 @@ day 29 (dec 17)
   * found text printing parts via breakpoints (still not sure where timer is though it is likely shared)
 
 day 30
-* TODO: find phone call RNG vs Progress (ideally set phone wait to zero for easier testing, or find way to jmp to specific call scenes)
+* phone call: there is a stat check per person but this stat check is used for ALL places
+  * this suggests that there are very few "date" cutscenes. they are probably only the characters favorite places (based on info screen)
+* phone call: found print wait value -> patched to be faster
 
 next:
 * could experiment with variable width font printing
