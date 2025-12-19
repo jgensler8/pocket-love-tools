@@ -229,8 +229,8 @@ day 30 (dec 18)
 day 31 (dec 19)
 * add mirika info screen
   * mirika intro at game center might change based on game skill level ? text seemed a bit "jumpy"
-* more dialog / marida
-* 613 / 2468 (tr / un tr) so ~20% or so
+* more dialog / mari parts / phone screen and gifts : bank 4
+* 246 / 2834 (tr / un tr) so 7.5% or so
 * bank 10 is overflowing: probably time to use new / empty bank as other banks are likely to follow.
   * maybe updating metadata isn't that hard: need to search for [text, index] that matches our phrase.
     my main concern is really adding a rombank to the strip would require moving variables before/after.

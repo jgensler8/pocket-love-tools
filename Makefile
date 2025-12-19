@@ -53,7 +53,7 @@ patch:
 # 	$(shell for i in {${SAFE_DIALOG_BANK_START}..${SAFE_DIALOG_BANK_END}} ; do $(PYTHON) patch.py $(PATCHED_ROM) dialog --bank=$$i ${OUT_DIR}/bank_$${i}_ex.json ${OUT_DIR}/bank_$${i}_tr_temp.json ; done;)
 # 	$(shell $(PYTHON) patch.py $(PATCHED_ROM) inplace --bank=2 --hex_addr=41e2 --hex_value=05)
 	$(shell $(PYTHON) patch.py $(PATCHED_ROM) inplace --bank=2 --hex_addr=41e3 --hex_value=02)
-# 	$(shell $(PYTHON) patch.py $(PATCHED_ROM) dialog --bank=4 ${OUT_DIR}/bank_4_ex.json ${OUT_DIR}/bank_4_tr_temp.json)
+	$(shell $(PYTHON) patch.py $(PATCHED_ROM) dialog --bank=4 ${OUT_DIR}/bank_4_ex.json ${OUT_DIR}/bank_4_tr_en.json)
 	$(shell $(PYTHON) patch.py $(PATCHED_ROM) dialog --bank=8 ${OUT_DIR}/bank_8_ex.json ${OUT_DIR}/bank_8_tr_en.json)
 	$(shell $(PYTHON) patch.py $(PATCHED_ROM) dialog --bank=9 ${OUT_DIR}/bank_9_ex.json ${OUT_DIR}/bank_9_tr_en.json)
 	$(shell $(PYTHON) patch.py $(PATCHED_ROM) dialog --bank=10 ${OUT_DIR}/bank_10_ex.json ${OUT_DIR}/bank_10_tr_en.json)

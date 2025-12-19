@@ -170,7 +170,7 @@ if __name__ == "__main__":
     # start_addr, end_addr = (0x50bc, 0x50c3)
     # start_addr, end_addr = (0x50c8, 0x50d1)
     # start_addr, end_addr = (0x50d6, 0x50db)
-    start_addr, end_addr = (0x50dc, 0x50e1)
+    # start_addr, end_addr = (0x50dc, 0x50e1)
     # save screen success
     # start_addr, end_addr = (0x4282, 0x4287)
     # start_addr, end_addr = (0x4288, 0x428d)
@@ -219,14 +219,21 @@ if __name__ == "__main__":
     # phone call menu
     # start_addr, end_addr = (0x47a9, 0x47b0)
     # start_addr, end_addr = (0x47b1, 0x47b8)
+    # start_addr, end_addr = (0x479e, 0x47a4)
     # start_addr, end_addr = (0x4cc0, 0x4ccc)
     # start_addr, end_addr = (0x4ccf, 0x4cd1)
     # both call screens
     # start_addr, end_addr = (0x47bd, 0x47cc)
     # example call
     # start_addr, end_addr = (0x47d1, 0x47d8)
+    # start_addr, end_addr = (0x47dd, 0x47e4)
+    # start_addr, end_addr = (0x47e9, 0x47ef)
+    # start_addr, end_addr = (0x47f4, 0x47fa)
     # start_addr, end_addr = (0x4f75, 0x4f77)
     # start_addr, end_addr = (0x47ff, 0x4807)
+    # start_addr, end_addr = (0x4a57, 0x4a67)
+    # start_addr, end_addr = (0x4a6c, 0x4a76)
+    start_addr, end_addr = (0x4a7b, 0x4a80)
     # start_addr, end_addr = (0x4a85, 0x4a93)
     # start_addr, end_addr = (0x4a98, 0x4aa3)
     # start_addr, end_addr = (0x4aa8, 0x4ab9)
