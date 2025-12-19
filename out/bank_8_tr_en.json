@@ -58,7 +58,7 @@
     },
     {
       "japanese": "しのざわ ももよだ!  ",
-      "english": " B8 S14 w=1@#"
+      "english": "It's Momoyo!@#"
     },
     {
       "japanese": "でも しのざわは とぼけたかおで\nとおりすぎていった  ",
@@ -66,7 +66,7 @@
     },
     {
       "japanese": "こっちに はしってきたぞ!  ",
-      "english": " B8 S16 w=1@#"
+      "english": "They're running\ntowards us!@#"
     },
     {
       "japanese": "(しのざわ ももよ)\n",
@@ -74,7 +74,7 @@
     },
     {
       "japanese": "いよぉ、 じゃん!\nげんきでやってる~? \nじつは しのざわも げんきなのよ~! \nんじゃ またね~!  ",
-      "english": " B8 S18 w=3\n...@\n...@\n...@#"
+      "english": "Surprise!\nHow's it going?@\nShinozawa's doing\nwell!@\nSee ya later!@#"
     },
     {
       "japanese": "さえき るるなだ!  ",
@@ -118,7 +118,7 @@
     },
     {
       "japanese": "たかお みずきだ!  ",
-      "english": "It's Takao Mizuki!@#"
+      "english": "It's Mizuki!@#"
     },
     {
       "japanese": "(たかお みずき)\n",
@@ -210,7 +210,7 @@
     },
     {
       "japanese": "(もりぞの まりぃ)\n",
-      "english": " B8 S52 w=0\n..."
+      "english": "(Mari Morizono)\n"
     },
     {
       "japanese": "ふわぁ...ねむい\nきのう あそびすぎたかな?  ",
@@ -698,7 +698,7 @@
     },
     {
       "japanese": "きょうは としょしつで\nべんきょうする よていなんです \nごめんなさい...  ",
-      "english": " B8 S174 w=2\n...@\n...@#"
+      "english": "I'm planning to\nstudy at the\nlibrary...@\nsorry...@#"
     },
     {
       "japanese": "では さようなら!  ",
@@ -742,7 +742,7 @@
     },
     {
       "japanese": "ちぇ... \nしのざわの くせに~!  ",
-      "english": " B8 S185 w=2@\n...@#"
+      "english": "Tch!@\nHow dare you,\nShinozawa!@#"
     },
     {
       "japanese": "ばいばい  ~! \nまた あうひまで~!\nきゃ~  ",
@@ -1250,11 +1250,11 @@
     },
     {
       "japanese": "(ひるやすみ まえの できごと)\n",
-      "english": " B8 S312 w=0\n..."
+      "english": "(Before Lunch)\n"
     },
     {
       "japanese": "(どうしよう?)\n いっしょに おひるに さそう\n やめておく",
-      "english": " B8 S313 w=0\n...\n..."
+      "english": "(What now?)\n Invite to Lunch?\n Maybe not..."
     },
     {
       "japanese": " おれさまといっしょに めし くえ!\n",
@@ -1266,15 +1266,15 @@
     },
     {
       "japanese": " おい! ひるめし つきあえよ!\n",
-      "english": " B8 S316 w=0\n..."
+      "english": " Yo! Let's eat!\n"
     },
     {
       "japanese": " いっしょに べんとう くおうぜ!\n",
-      "english": " B8 S317 w=0\n..."
+      "english": " Lunch together?\n"
     },
     {
       "japanese": " いっしょに べんとう たべよう!\n",
-      "english": " B8 S318 w=0\n..."
+      "english": " How about lunch?\n"
     },
     {
       "japanese": "うん いいわよ!  ",
@@ -1366,11 +1366,11 @@
     },
     {
       "japanese": "だめ~! \nきょうは しのざわ いそがしいの~! \nまたに して~  ",
-      "english": " B8 S341 w=3@\n...@\n...@#"
+      "english": " No way!@\nShinozawa's busy!@\nMaybe another\n time~@#"
     },
     {
       "japanese": "またの きかいに しておくか...  ",
-      "english": " B8 S342 w=1@#"
+      "english": "Maybe I'll do it\nanother time...@#"
     },
     {
       "japanese": "",

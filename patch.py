@@ -122,7 +122,7 @@ def rebuild_rom_headers(
 
         if current_new_text_cpu_address > 0x7999:
             logging.warning(
-                f"ROM TRANSLATION EXTENDS PAST ROM BANK: {current_new_text_cpu_address} by {current_new_text_cpu_address - 0x7999}"
+                f"ROM TRANSLATION EXTENDS PAST ROM BANK {bank_num}: {current_new_text_cpu_address} by {current_new_text_cpu_address - 0x7999}"
             )
 
         logging.info(

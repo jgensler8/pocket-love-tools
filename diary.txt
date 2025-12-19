@@ -227,10 +227,18 @@ day 30 (dec 18)
 * phone call: found print wait value -> patched to be faster
 
 day 31 (dec 19)
-* add miri info screen
-  * miri intro at game center might change based on game skill level ? text seemed a bit "jumpy"
-* more dialog (lost watch, still need other two dialog trees, still need No to birthday party tree)
+* add mirika info screen
+  * mirika intro at game center might change based on game skill level ? text seemed a bit "jumpy"
+* more dialog / marida
 * 613 / 2468 (tr / un tr) so ~20% or so
+* bank 10 is overflowing: probably time to use new / empty bank as other banks are likely to follow.
+  * maybe updating metadata isn't that hard: need to search for [text, index] that matches our phrase.
+    my main concern is really adding a rombank to the strip would require moving variables before/after.
+    maybe simplest impl is adding a new control code to read phrase from static bank.
+    we already know we can switch banks mid phrase, why not use another bank to hold the entire phrase (though we will need 2 bytes and not 1).
+    probably won't end up with 2x the text / need more than 13 more banks; control codes available are: [f0 - fd]
+  * however, we are still confined to the text max chars array
+    * if we can move this array, should unlock verbose translations (using phrases to rebuild headers)
 
 next:
 * could experiment with variable width font printing
