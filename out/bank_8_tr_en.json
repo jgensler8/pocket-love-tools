@@ -70,7 +70,7 @@
     },
     {
       "japanese": "(しのざわ ももよ)\n",
-      "english": " B8 S17 w=0\n..."
+      "english": "(Momoyo Shinozawa)\n"
     },
     {
       "japanese": "いよぉ、 じゃん!\nげんきでやってる~? \nじつは しのざわも げんきなのよ~! \nんじゃ またね~!  ",
@@ -1662,23 +1662,23 @@
     },
     {
       "japanese": "(やすみじかんの できごと)\n",
-      "english": " B8 S415 w=0\n..."
+      "english": "(During Break)\n"
     },
     {
       "japanese": "...あれ?!\nうでどけいが ない!! \nさがさなきゃ!  ",
-      "english": " B8 S416 w=2\n...@\n...@#"
+      "english": "Huh? My watch\nis gone!@\nI need to find\nit!@#"
     },
     {
       "japanese": "...... \nみつからない! \n...... \nもうすこし さがしてみよう!  ",
-      "english": " B8 S417 w=4@\n...@\n...@\n...@#"
+      "english": "...@\nI can't find it!@\n...@\nLets keep\nsearching!@#"
     },
     {
       "japanese": "......... \nだめだ! みつからない!! \n............ \nどこを さがしても でてこない!!  ",
-      "english": " B8 S418 w=4@\n...@\n...@\n...@#"
+      "english": "Its no use!@\n...@\nNo matter where I\nlook,@ I can't\nfind it!@#"
     },
     {
       "japanese": "\n\nうでどけいを なくしてしまった...  ",
-      "english": " B8 S419 w=1\n...\n...@#"
+      "english": "\n\nI've lost it...@#"
     },
     {
       "japanese": "(がっこうからの かえりみちでの\nできごと)\n",

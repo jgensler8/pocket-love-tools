@@ -210,7 +210,7 @@
     },
     {
       "japanese": "(あ! ぼくのだ...どういおう?)\n",
-      "english": " B10 S52 w=0\n..."
+      "english": "(It is! But...)\n"
     },
     {
       "japanese": " よくも ぬすんだな! かえせよ!\n",
@@ -222,15 +222,15 @@
     },
     {
       "japanese": " あ...どうも...\n",
-      "english": " B10 S55 w=0\n..."
+      "english": " Ahh, hello...\n"
     },
     {
       "japanese": " ぼくのだ...さんきゅ!\n",
-      "english": " B10 S56 w=0\n..."
+      "english": " It's mine! Thanks\n"
     },
     {
       "japanese": " ぼくのだよ どうも ありがとう!\n",
-      "english": " B10 S57 w=0\n..."
+      "english": " Thank you v much!\n"
     },
     {
       "japanese": "はい! かえしたからね  ",
@@ -278,15 +278,15 @@
     },
     {
       "japanese": "おや?...まつだ ゆみ だ! \nわざわざ ぼくの きょうしつまで\nやってくるなんて... \nいったい なんだろう?  ",
-      "english": " B10 S69 w=3@\n...\n...@\n...@#"
+      "english": "Oh? it's Yumi!@\nShe's come all\nthe way over...@\nI wonder why...@#"
     },
     {
       "japanese": "さがしたよ~  くん! \nねえ この うでどけい\n くんのでしょ?  ",
-      "english": " B10 S70 w=2@\n...\n...@#"
+      "english": "I've been looking\nfor you, ^-kun!@\nThis watch...\nisn't it yours?@#"
     },
     {
       "japanese": "きを つけなきゃ だめじゃない! \nろうかに おちてたのよ!  ",
-      "english": " B10 S71 w=2@\n...@#"
+      "english": "You have to be\nmore careful!@\nIt was on the\nhallway floor!@#"
     },
     {
       "japanese": "これ ろうかに おちてたのよ \nこれからは きをつけてね! \n...はい!かえしとくわ!  ",

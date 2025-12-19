@@ -221,14 +221,18 @@ day 29 (dec 17)
   * visually, similar "idea" to the name input logic having its own rom
   * found text printing parts via breakpoints (still not sure where timer is though it is likely shared)
 
-day 30
+day 30 (dec 18)
 * phone call: there is a stat check per person but this stat check is used for ALL places
   * this suggests that there are very few "date" cutscenes. they are probably only the characters favorite places (based on info screen)
 * phone call: found print wait value -> patched to be faster
 
+day 31 (dec 19)
+* add miri info screen
+  * miri intro at game center might change based on game skill level ? text seemed a bit "jumpy"
+* more dialog (lost watch, still need other two dialog trees, still need No to birthday party tree)
+
 next:
 * could experiment with variable width font printing
-* patch rest of UI (tasks, stats, menus, prompts)
 * continue with most cutscenes + game progression, maybe find more save states to test
   * might want to figure out how cutscenes are triggered so i can manually invoke them
 * TODO: will need to patch dialog that needs our name fe00 and fe01

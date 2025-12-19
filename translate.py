@@ -164,7 +164,13 @@ if __name__ == "__main__":
     # start_addr, end_addr = (0x5050, 0x505f)
     # start_addr, end_addr = (0x5064, 0x5075)
     # start_addr, end_addr = (0x507a, 0x507e)
-    start_addr, end_addr = (0x507f, 0x5083)
+    # start_addr, end_addr = (0x507f, 0x5083)
+    # info > miri
+    # start_addr, end_addr = (0x50b4, 0x50bb)
+    # start_addr, end_addr = (0x50bc, 0x50c3)
+    # start_addr, end_addr = (0x50c8, 0x50d1)
+    # start_addr, end_addr = (0x50d6, 0x50db)
+    start_addr, end_addr = (0x50dc, 0x50e1)
     # save screen success
     # start_addr, end_addr = (0x4282, 0x4287)
     # start_addr, end_addr = (0x4288, 0x428d)

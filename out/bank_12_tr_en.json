@@ -1538,31 +1538,31 @@
     },
     {
       "japanese": "がっこうの かえりみち\nぼくは ふらりと\nげ-むせんた-に たちよった  ",
-      "english": " B12 S384 w=1\n...\n...@#"
+      "english": "On my way back\nhome, I stopped\nby the game center@#"
     },
     {
       "japanese": "そうだなあ...きょうは\nたいせん げ-む でも\nやってみよう! \nぼくは こいんを とうにゅうした!  ",
-      "english": " B12 S385 w=2\n...\n...@\n...@#"
+      "english": "I'll try a\nfighting game!@\nAlright... the\ncoin goes here...@#"
     },
     {
       "japanese": "...あ! いきなり\nだれか らんにゅうしてきたぞ!  ",
-      "english": " B12 S386 w=1\n...@#"
+      "english": "Ah!! someone just\nbarged in\nunexpectedly!@#"
     },
     {
       "japanese": "よっしゃ~!! \nきょうも はりきって\nがんばりますぅ~!!  ",
-      "english": " B12 S387 w=2@\n...\n...@#"
+      "english": "~Alright!@\nI'll do my best\nand work hard\ntoday!@#"
     },
     {
       "japanese": "...なんか すごく... \nにぎやかな やつだなあ...  ",
-      "english": " B12 S388 w=2@\n...@#"
+      "english": "...They seem...@\nquite lively...@#"
     },
     {
       "japanese": "ぱ~んち!! き~っく!! \nえ~い!...こうなったら \nひっさつわざですぅ!!  ",
-      "english": " B12 S389 w=3@\n...@\n...@#"
+      "english": "Punch! Kick!@\nIf it's come to\nthis,@ I'll use my\nspecial move!@#"
     },
     {
       "japanese": "よし まけるもんか! \nえいっ! \nえいっ! \n......  ",
-      "english": " B12 S390 w=4@\n...@\n...@\n...@#"
+      "english": "I won't give up!@\nTake this!@\nand that!@\n...@#"
     },
     {
       "japanese": "\n\nぼくは げ-むに かった!  ",
@@ -1586,11 +1586,11 @@
     },
     {
       "japanese": "ぼくは    って\nいうんだけど... \n...きみは たしか\nとなりの くらすの...  ",
-      "english": " B12 S396 w=2\n...@\n...\n...@#"
+      "english": "I'm ^, but...@\nYou're in the\nclass next door\naren't you?@#"
     },
     {
       "japanese": "そう! となりの くらすの\nしのざわ ももよですぅ~! \nよろしくね~!!  ",
-      "english": " B12 S397 w=2\n...@\n...@#"
+      "english": "That's right! I'm\nMomoyo Shinozawa\nfrom next door!@\nNice to meet you!!@#"
     },
     {
       "japanese": " って げ-む うまいのね! \nこれからも ときどき\nいっしょに げ-む しようよ! \nじゃあまたねっ! ばいば~い!  ",
@@ -1602,7 +1602,7 @@
     },
     {
       "japanese": "...... \n...ふぅん... \nしのざわ ももよか...  ",
-      "english": " B12 S400 w=3@\n...@\n...@#"
+      "english": "...hmm...@\nMomoyo Shinozawa@\n...@#"
     },
     {
       "japanese": "な~んだ...\nやっぱり じしんが ないのか~! \n...あっ! そのかお... \nどこかで みたことありますぅ~!  ",
@@ -1614,15 +1614,15 @@
     },
     {
       "japanese": "\n\nぼくは げ-むに まけた!  ",
-      "english": " B12 S403 w=1\n...\n...@#"
+      "english": "\n\nAww! I've lost!@#"
     },
     {
       "japanese": "にゃはは! わたしに かとうなんて \n...10ねん はやいですぅ!! \n...あっ! そのかお... \nどこかで みたことある~!  ",
-      "english": " B12 S404 w=4@\n...@\n...@\n...@#"
+      "english": "Nya-ha-ha!@\nTrying to defeat\nme!?@\n\nYoure 10 years too\nearly for that!\n...wait...@#"
     },
     {
       "japanese": " ~、げ-む したくなったら\nきがるに こえかけて~! \nしのざわが きたえてあげますぅ! \nじゃあ またね~!  ",
-      "english": " B12 S405 w=3\n...@\n...@\n...@#"
+      "english": "If you ever feel\nlike playing,@\nlet me know!@\n\nShinozazwa will\ntrain you!!\nSee ya!@#"
     },
     {
       "japanese": "(からおけぼっくすでの できごと)\n",
