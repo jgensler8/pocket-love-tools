@@ -230,6 +230,7 @@ day 31 (dec 19)
 * add miri info screen
   * miri intro at game center might change based on game skill level ? text seemed a bit "jumpy"
 * more dialog (lost watch, still need other two dialog trees, still need No to birthday party tree)
+* 613 / 2468 (tr / un tr) so ~20% or so
 
 next:
 * could experiment with variable width font printing
@@ -238,3 +239,7 @@ next:
 * TODO: will need to patch dialog that needs our name fe00 and fe01
 * TODO: rest of the town info screens (~9 of them)
 * TODO: girls info screens (probably only one more)
+
+translation percent:
+untranslated: cat .\out\*tr_en.json | grep " B" | wc -l
+  translated: cat .\out\*tr_en.json | grep eng | grep -v " B" | wc -l
