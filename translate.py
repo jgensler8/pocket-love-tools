@@ -171,6 +171,19 @@ if __name__ == "__main__":
     # start_addr, end_addr = (0x50c8, 0x50d1)
     # start_addr, end_addr = (0x50d6, 0x50db)
     # start_addr, end_addr = (0x50dc, 0x50e1)
+    # info > mari
+    # start_addr, end_addr = (0x5112, 0x5123)
+    # start_addr, end_addr = (0x5128, 0x512f)
+    # start_addr, end_addr = (0x5134, 0x513f)
+    # info > suzune
+    # start_addr, end_addr = (0x5134, 0x513f)
+    # start_addr, end_addr = (0x5171, 0x5180)
+    # start_addr, end_addr = (0x5185, 0x519a)
+    # start_addr, end_addr = (0x519f, 0x51ae)
+    # info > momoyo
+    # start_addr, end_addr = (0x51e0, 0x51eb)
+    # start_addr, end_addr = (0x51f0, 0x51f7)
+    start_addr, end_addr = (0x51fc, 0x520d)
     # save screen success
     # start_addr, end_addr = (0x4282, 0x4287)
     # start_addr, end_addr = (0x4288, 0x428d)
@@ -202,6 +215,7 @@ if __name__ == "__main__":
     # start_addr, end_addr = (0x4791, 0x4799)
     # start_addr, end_addr = (0x4735, 0x473e)
     # start_addr, end_addr = (0x4743, 0x474c)
+    # start_addr, end_addr = (0x4751, 0x4758)
     # start_addr, end_addr = (0x5964, 0x5974)
     # item = 6
     # start_addr, end_addr = (0x5964 + item*17, 0x5964 + (item+1)*17 - 1)
@@ -235,7 +249,7 @@ if __name__ == "__main__":
     # start_addr, end_addr = (0x4834, 0x483c)
     # start_addr, end_addr = (0x4842, 0x484e)
     # start_addr, end_addr = (0x4853, 0x4862)
-    start_addr, end_addr = (0x4867, 0x4874)
+    # start_addr, end_addr = (0x4867, 0x4874)
     # start_addr, end_addr = (0x488d, 0x489a)
     # start_addr, end_addr = (0x489b, 0x48a8)
     # start_addr, end_addr = (0x4927, 0x4928)

@@ -1650,7 +1650,7 @@
     },
     {
       "japanese": "...そ、それは おきのどくに...\n...... \nじゃあ、せんぱい...\nお、おさきに しつれいしますぅ!  ",
-      "english": " B11 S412 w=2\n...@\n...\n...@#"
+      "english": "...oh, I'm sorry\nto hear that...@\nwell, senpai...\nI'll be leaving!@#"
     },
     {
       "japanese": "...なに?  ",
@@ -1914,15 +1914,15 @@
     },
     {
       "japanese": "(すぽ-つ たいかいでの できごと)\n",
-      "english": " B11 S478 w=0\n..."
+      "english": "(Sport Comptition)\n"
     },
     {
       "japanese": "きょうは すぽ-つ たいかいだ! \nぼくは ぱんくいきょうそうの\nせんしゅに えらばれている... \nさあ...はじまるぞ!  ",
-      "english": " B11 S479 w=3@\n...\n...@\n...@#"
+      "english": "Today is the\nsports fest!@ I'm\nin the Bread\nEating event...@\nhere we go!@#"
     },
     {
       "japanese": "... \nいちに ついて! \n...よ-い!... \nどん!!  ",
-      "english": " B11 S480 w=4@\n...@\n...@\n...@#"
+      "english": "on your marks!@\nget set...@\n...@\nGO!@#"
     },
     {
       "japanese": " く~ん、がんばって~っ!  ",
@@ -1946,23 +1946,23 @@
     },
     {
       "japanese": "(それから ほけんしつで...)\n",
-      "english": " B11 S486 w=0\n..."
+      "english": "(Infirmary)\n"
     },
     {
       "japanese": "ほけんしつで てあてを うけたあと\nぼくは いすに すわって\nぼんやりしていた  ",
-      "english": " B11 S487 w=1\n...\n...@#"
+      "english": "After some\ntreatment, I sat\ndown and stared\ninto space...@#"
     },
     {
       "japanese": "......  ",
-      "english": " B11 S488 w=1@#"
+      "english": "...@#"
     },
     {
       "japanese": "おや...きみは だれ? \nいままで なんどか\nみかけたことが あるような\nきがするけど...  ",
-      "english": " B11 S489 w=2@\n...\n...\n...@#"
+      "english": "oh! who are you?@\nI feel like\nI've seen you\nbefore...@#"
     },
     {
       "japanese": "あ、あの...1ねんの... \nあいかわ すずねといいます... \n...きょうは ちょっと\nひんけつで...  ",
-      "english": " B11 S490 w=3@\n...@\n...\n...@#"
+      "english": "uhm...@\nah...@\nIm a first year\nstudent...@\nMy name is Suzune\nAikawa.Im also\na bit dizzy@#"
     },
     {
       "japanese": "あ、ぼくは 2ねんの\n   ! \nきょうは はりきりすぎて \n...ころんじゃったんだ!  ",
@@ -1974,31 +1974,31 @@
     },
     {
       "japanese": "...... \n...ふぅん... \n1ねんの あいかわ すずねか...  ",
-      "english": " B11 S493 w=3@\n...@\n...@#"
+      "english": "...hmm...@\nSuzune Aikawa...@\na first year...@#"
     },
     {
       "japanese": "あっ!  ですぅ~! \nけっこう のんびりはしってますぅ~! \nあっというまに びりっけつですぅ~  ",
-      "english": " B11 S494 w=3@\n...@\n...@#"
+      "english": "Oh! my, my!@\nthey're a bit\nslow~ oh well!@\nlast place it is!@#"
     },
     {
       "japanese": "あら... くん\nうんどうぶそく なのかしら? \nちょうしが わるそうね...  ",
-      "english": " B11 S495 w=2\n...@\n...@#"
+      "english": "Oh dear...\nnot enough\nexercise?@ They\ndon't look good...@#"
     },
     {
       "japanese": " ったら びりのくせに... \nほかのひとが のこした ぱんまで\nぜんぶ たべてる~! \nちょ~ いじきたないってかんじ~!  ",
-      "english": " B11 S496 w=3@\n...\n...@\n...@#"
+      "english": "Even though you're\nthe slowest...@\nyou're eating only\nthe leftovers...@\nhow greedy!@#"
     },
     {
       "japanese": "んがっ! んぐっ!! \n...ぱんが... \nのどに...つまった...!!  ",
-      "english": " B11 S497 w=3@\n...@\n...@#"
+      "english": "*gulp* *gulp*@\nthe bread...@\nit's stuck\nin my throat!@#"
     },
     {
       "japanese": "...... \nぼくは そのまま めをまわして \nぶったおれてしまった...  ",
-      "english": " B11 S498 w=3@\n...@\n...@#"
+      "english": "I got dizzy...@\nand...@\ncollapsed...@#"
     },
     {
       "japanese": "あ、ぼくは 2ねんの\n   ! \nきょうは そのぉ... \nぱんが のどに つまったんだ...  ",
-      "english": " B11 S499 w=3\n...@\n...@\n...@#"
+      "english": "oh, I'm a second\nyear student...@\nas for me...@\n\nI choked on some\nbread...@#"
     },
     {
       "japanese": "まあ でも... \nもうすぐ しゅうがくりょこう だし \nそんなに おちこまないでね...\n くん!  ",
