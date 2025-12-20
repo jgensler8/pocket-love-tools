@@ -10,6 +10,7 @@ character_map = {
     ";": 0x44,
     ">": 0x45,
     "<": 0x46,
+    "*": 0x47,
     "0": 0x6F,
     "1": 0x70,
     "2": 0x71,
@@ -35,6 +36,8 @@ character_map = {
     "=": 0x6E,
     "(": 0x65,
     ")": 0x66,
+    "__ff": 0xff,
+    "__fd": 0xfd,
 }
 
 # Programmatically add A-Z and a-z

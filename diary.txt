@@ -240,6 +240,9 @@ day 31 (dec 19)
   * however, we are still confined to the text max chars array
     * if we can move this array, should unlock verbose translations (using phrases to rebuild headers)
 
+day 32 (dec 20)
+* date schedule screen
+
 next:
 * could experiment with variable width font printing
 * continue with most cutscenes + game progression, maybe find more save states to test
