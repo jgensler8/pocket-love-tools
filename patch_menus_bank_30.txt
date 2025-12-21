@@ -267,7 +267,7 @@
 51e6 "Milk  "
 51f0 "Game"
 51f4 "Park"
-# probably the least sure translation so far: せんとうにいくこと (going to battle, leading the way, bathhouse?)
+# probably the least sure translation so far: (going to battle, leading the way, bathhouse?)
 51fc "Bathhouse"
 5205 "Computer "
 5284 "RRN"
@@ -356,4 +356,11 @@
 62fa "Romance/Drama "
 630c "PHS Comp    "
 6322 "C.Roach-kun "
+633e "SomeKnight"
+6348 "ShogiDrama"
+6356 "CCakeKomiy"
+6364 "SlvrErng"
+6370 "$"
+6378 "Tamagotchi "
+6387 "$"
 63d5 "GV"

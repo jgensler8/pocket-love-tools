@@ -183,7 +183,7 @@ if __name__ == "__main__":
     # info > momoyo
     # start_addr, end_addr = (0x51e0, 0x51eb)
     # start_addr, end_addr = (0x51f0, 0x51f7)
-    start_addr, end_addr = (0x51fc, 0x520d)
+    # start_addr, end_addr = (0x51fc, 0x520d)
     # save screen success
     # start_addr, end_addr = (0x4282, 0x4287)
     # start_addr, end_addr = (0x4288, 0x428d)
@@ -230,6 +230,12 @@ if __name__ == "__main__":
     # start_addr, end_addr = (0x62fa, 0x6307)
     # start_addr, end_addr = (0x630c, 0x6314)
     # start_addr, end_addr = (0x6322, 0x632d)
+    # town info > 6
+    # start_addr, end_addr = (0x633e, 0x6347)
+    # start_addr, end_addr = (0x6348, 0x6351)
+    # start_addr, end_addr = (0x6356, 0x635f)
+    # start_addr, end_addr = (0x6364, 0x6373)
+    start_addr, end_addr = (0x6378, 0x6382)
     # phone call menu
     # start_addr, end_addr = (0x47a9, 0x47b0)
     # start_addr, end_addr = (0x47b1, 0x47b8)

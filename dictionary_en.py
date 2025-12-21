@@ -27,6 +27,7 @@ character_map = {
     "@": 0x82,
     "#": 0x81,
     "__heart": 0x69,
+    "^": 0x69, # TODO placeholder under lenght is double checked, also to suppress patch warnings
     "!": 0x6A,
     "?": 0x6B,
     "~": 0x7A,

@@ -1510,7 +1510,7 @@
     },
     {
       "japanese": "(どういって わたそう?)\n",
-      "english": " B9 S377 w=0\n..."
+      "english": "(What to say?)\n"
     },
     {
       "japanese": " かえしてやるから ありがたくおもえ\n",
@@ -1522,15 +1522,15 @@
     },
     {
       "japanese": " これ ひろったけど かえす!\n",
-      "english": " B9 S380 w=0\n..."
+      "english": " I found this, but...\n"
     },
     {
       "japanese": " これ きみの でしょ?\n",
-      "english": " B9 S381 w=0\n..."
+      "english": " This is yours,ys?\n"
     },
     {
       "japanese": " これ おちてたよ!...はい!\n",
-      "english": " B9 S382 w=0\n..."
+      "english": " Here ya go!!\n"
     },
     {
       "japanese": "あっそう...ありがと!  ",
@@ -1678,11 +1678,11 @@
     },
     {
       "japanese": "うらにわを あるいていると ぐうぜん\nあいかわ すずねに であった! \nそうだ!  けさ ひろった\nにっきの かぎを かえさなくちゃ!  ",
-      "english": " B9 S419 w=3\n...@\n...@\n...@#"
+      "english": "While walking\naround, I ran into\nSuzune...@ wait!\nthe diary key!@\nI need to return\nit!@#"
     },
     {
       "japanese": "ぼくは あいかわ すずねに\nちかづいた  ",
-      "english": " B9 S420 w=1\n...@#"
+      "english": "I approached\nSuzune...@#"
     },
     {
       "japanese": " この くさった かぎ おまえの?\n",
@@ -1698,7 +1698,7 @@
     },
     {
       "japanese": "あっ! わたしの にっきのかぎ! \n...ずっと さがしてたんですぅ! \nせんぱい ありがとう ございました  ",
-      "english": " B9 S424 w=3@\n...@\n...@#"
+      "english": "Ahh! My diary key!@\nI've been looking\nfor so long!@\nThank you, senpai!@#"
     },
     {
       "japanese": "あっ! わたしの にっきのかぎ! \n...ずっと さがしてたんですぅ! \nだって にっきには... \nせ...せんぱいのこと...  ",

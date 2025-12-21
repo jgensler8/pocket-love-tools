@@ -1658,7 +1658,7 @@
     },
     {
       "japanese": "(どうしよう?)\n ゆみの はなしを きく\n むしする",
-      "english": " B11 S414 w=0\n...\n..."
+      "english": "(What now?)\n Listen to Yumi\n Ignore her"
     },
     {
       "japanese": "すごく たのしい で-とだったわ<3 \nるるな...かんげきしちゃった! \n くん、ありがとう...<3  ",
@@ -1762,79 +1762,79 @@
     },
     {
       "japanese": "(うみべでの できごと)\n",
-      "english": " B11 S440 w=0\n..."
+      "english": "(Seaside)\n"
     },
     {
       "japanese": "ぼくは きょう... \nあくゆうの まえの しろうに\nいきなり よびだされて \nかいすいよくに やってきた  ",
-      "english": " B11 S441 w=3@\n...\n...@\n...@#"
+      "english": "My old friend\nShiro Maeno\ninvited me to the\nbeach for a swim@#"
     },
     {
       "japanese": "...だいがくせいの\nまえのの おにいさんも\nここに くるらしい...  ",
-      "english": " B11 S442 w=1\n...\n...@#"
+      "english": "Apparently, Shiros\nolder brother, a\ncollege student,\nwill be here...@#"
     },
     {
       "japanese": "おにいさんは かのじょを\nつれてくるって きいたけど... \n...いったい どんなひとだろう?\nやっぱり だいがくせいかな?!  ",
-      "english": " B11 S443 w=2\n...@\n...\n...@#"
+      "english": "...and he'll also\nbring his\ngirlfriend...@\nI wonder...\nwho could she be?@#"
     },
     {
       "japanese": "あ、はじめまして! \nわたし まえのさんの\nこうはいの まつだ ゆみ... \n...あ~っ!!  くん!!  ",
-      "english": " B11 S444 w=3@\n...\n...@\n...@#"
+      "english": "Nice to meet you!@\nIm a Maeno's kohai\nYumi Matsuda!@\nah!...@\n^-kun!@#"
     },
     {
       "japanese": "...そうか \n......そうだったのか \nまえのの にいさんの\nかのじょって...  ",
-      "english": " B11 S445 w=3@\n...@\n...\n...@#"
+      "english": "...I see...@\n...so that's it...@\nShiro's Brother's\ngirlfriend...@#"
     },
     {
       "japanese": "え~っ! ちょっと まってよ~! \nかのじょだなんて...  ",
-      "english": " B11 S446 w=2@\n...@#"
+      "english": "Ehh!?\nWait a minute!@\n...'Girlfriend'??@#"
     },
     {
       "japanese": "...... \nぼくたちは ぼ-とにのって\nふたりきりで\nはなしをした...  ",
-      "english": " B11 S447 w=2@\n...\n...\n...@#"
+      "english": "We got into a\nboat and talked...@\njust the two of\nus...@#"
     },
     {
       "japanese": "...だって きょうは... \nまえのの にいさんが\nかのじょを つれてくるって\nきいてたから...  ",
-      "english": " B11 S448 w=2@\n...\n...\n...@#"
+      "english": "...so earlier...@\nShiro said that\nhis Brother...@\n\nwas going to\nbring his\ngirlfriend...@#"
     },
     {
       "japanese": "なぁんだ...そうだったの \nまえのさんったら... \nおとうとの まえで\nいいかっこしようとしたのね!  ",
-      "english": " B11 S449 w=3@\n...@\n...\n...@#"
+      "english": "so that's how\nit is...@\n\n\nMaeno-san was...\ntrying to impress\nShiro, huh...@#"
     },
     {
       "japanese": "...ここだけの はなし... \nじつは...まえのさんに\nたのむから きてくれ~って\nなきつかれたのよ! あははっ!  ",
-      "english": " B11 S450 w=2@\n...\n...\n...@#"
+      "english": "just between us...@\nMaeno's brother\nbegged me to come!@\n\nHe was practically\nin tears!@#"
     },
     {
       "japanese": "じゃあ... \nかのじょってわけじゃ\nないんだね...  ",
-      "english": " B11 S451 w=2@\n...\n...@#"
+      "english": "So...@\nYou aren't his\ngirlfriend,\nthen...?@#"
     },
     {
       "japanese": "うん!\nまえのさんは わたしが はいってる\nくらぶの 0Bなの! \nいい せんぱいなんだけど...  ",
-      "english": " B11 S452 w=2\n...\n...@\n...@#"
+      "english": "Yes! Maeno's\nbrother is an\nalumni of the club\nI'm in.@\nThey're great and\nall...but...@#"
     },
     {
       "japanese": "...ちょっと みえっぱりなのが\nたまにきず...ってね! \nうふふっ!  ",
-      "english": " B11 S453 w=2\n...@\n...@#"
+      "english": "His only flaw is\nthat he's a bit of\na show off...@\nhehe!@#"
     },
     {
       "japanese": "...... \nそうだったのか... \nぼくは ちょっと あんしんした!  ",
-      "english": " B11 S454 w=3@\n...@\n...@#"
+      "english": "...@\nso that's it...@\nI feel a little\nrelieved!@#"
     },
     {
       "japanese": "...... \nそれから ぼくたちは 4にんで\nうみべで あそんだ... \nたのしい かいすいよく だった  ",
-      "english": " B11 S455 w=3@\n...\n...@\n...@#"
+      "english": "Then, the four of\nus played on the\nbeach...@ it was\na nice day!@#"
     },
     {
       "japanese": "...... \nぼくは べつに べんかいなんか\nききたくないね!  ",
-      "english": " B11 S456 w=2@\n...\n...@#"
+      "english": "I don't want to\nhear any excuses!@#"
     },
     {
       "japanese": "... くん...  ",
-      "english": " B11 S457 w=1@#"
+      "english": "...^-kun...@#"
     },
     {
       "japanese": "...... \nそれから ぼくたちは 4にんで\nうみべで あそんだ... \nでも すこし きまずかった...  ",
-      "english": " B11 S458 w=3@\n...\n...@\n...@#"
+      "english": "...The four of us\nplayed on the\nbeach...@\nbut it was a\nbit awkward...@#"
     },
     {
       "japanese": "(なみきみちでの できごと)\n",

@@ -302,7 +302,7 @@
     },
     {
       "japanese": "(とうこうちゅうの できごと)\n",
-      "english": " B8 S75 w=0\n..."
+      "english": "(Submissn Process)\n"
     },
     {
       "japanese": "",
@@ -402,7 +402,7 @@
     },
     {
       "japanese": "あ...なにか おちてるぞ! \nひろって みよう  ",
-      "english": " B8 S100 w=2@\n...@#"
+      "english": "ahh... something\nhas fallen...@\nlet's pick it up.@#"
     },
     {
       "japanese": "ぴんくの りぼんだ... \nるるなの ものかもしれないな..\nとりあえず もっておこう  ",
@@ -426,7 +426,7 @@
     },
     {
       "japanese": "にっきの かぎのようだ... \nすずねって かいてあるな... \nとりあえず もっておこう  ",
-      "english": " B8 S106 w=3@\n...@\n...@#"
+      "english": "It looks like a\ndiary key...@\nand says 'Suzune'\non it...@\n\nI'll hold on to it@#"
     },
     {
       "japanese": "げ-む そふとだ!!! \nおや! \nももよって かいてある!!\nとりあえず もっておこう  ",

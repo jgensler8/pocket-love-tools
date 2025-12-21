@@ -242,6 +242,10 @@ day 31 (dec 19)
 
 day 32 (dec 20)
 * date schedule screen
+* last 3 girl info screens
+
+day 33 (dec 21)
+* 
 
 next:
 * could experiment with variable width font printing
@@ -249,7 +253,6 @@ next:
   * might want to figure out how cutscenes are triggered so i can manually invoke them
 * TODO: will need to patch dialog that needs our name fe00 and fe01
 * TODO: rest of the town info screens (~9 of them)
-* TODO: girls info screens (probably only one more)
 
 translation percent:
 untranslated: cat .\out\*tr_en.json | grep " B" | wc -l
