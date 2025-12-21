@@ -245,7 +245,8 @@ day 32 (dec 20)
 * last 3 girl info screens
 
 day 33 (dec 21)
-* 
+* month 6 info screen
+* beach scene / lost item scene (suzune), seems to be quite random (<20%)
 
 next:
 * could experiment with variable width font printing
