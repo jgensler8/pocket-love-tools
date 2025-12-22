@@ -248,6 +248,12 @@ day 33 (dec 21)
 * month 6 info screen
 * beach scene / lost item scene (suzune), seems to be quite random (<20%)
 
+day 34 (dec 22)
+* ~12%
+* more translated scenes
+  * seem to keep running into people month 8
+* translated parts when running out of STR (though not yet energy, there was another set I translated but was not shown)
+
 next:
 * could experiment with variable width font printing
 * continue with most cutscenes + game progression, maybe find more save states to test

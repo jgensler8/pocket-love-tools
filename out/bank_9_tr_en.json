@@ -1286,7 +1286,7 @@
     },
     {
       "japanese": "ぼくが ろうかで ぼんやり\nそとを みていると \nうしろから だれかに\nかたを たたかれた!  ",
-      "english": " B9 S321 w=2\n...@\n...\n...@#"
+      "english": "As I was looking\nabsentmindedly...@\nsomeone tapped\nmy shoulder...@#"
     },
     {
       "japanese": "ねえ ねえ  ~! \nあした なんの ひか\nしってるよね~?  ",
@@ -1294,11 +1294,11 @@
     },
     {
       "japanese": "(どうしよう?)\n しらない\n しってる",
-      "english": " B9 S323 w=0\n...\n..."
+      "english": "(What now?)\n No, I don't know\n Yes, I know"
     },
     {
       "japanese": "ぼく しらないけど... \nなんのひ だっけ?  ",
-      "english": " B9 S324 w=2@\n...@#"
+      "english": "I don't know...@\nwhat day is it?@#"
     },
     {
       "japanese": "げ...しんじられな~い! \nあたしの たんじょうび じゃん!\nそんなの じょうしき だよ~!  ",
@@ -1306,7 +1306,7 @@
     },
     {
       "japanese": "うん しってるよ!\nたんじょうびでしょ?  ",
-      "english": " B9 S326 w=1\n...@#"
+      "english": "I know! It's\nyour birthday,\nright?@#"
     },
     {
       "japanese": "そのとおり!!\nあたしの たんじょうびよ! \n...ま じょうしき だけどね~!  ",
@@ -1318,7 +1318,7 @@
     },
     {
       "japanese": "(ぷれぜんとか...どうしよう?)\n あげる\n あげない",
-      "english": " B9 S329 w=0\n...\n..."
+      "english": "(A present...?)\n Give one\n Don't give one"
     },
     {
       "japanese": "わかってるって! \nたのしみに してなよ  ",
@@ -1330,27 +1330,27 @@
     },
     {
       "japanese": "ごめん!! \nこんげつ ぴんち なんだ!  ",
-      "english": " B9 S332 w=2@\n...@#"
+      "english": "I'm sorry!@\nMy finances are\na bit tight this\nmonth!@#"
     },
     {
       "japanese": "けち~~~ぃ!!  ",
-      "english": " B9 S333 w=1@#"
+      "english": "How stingy!@#"
     },
     {
       "japanese": "きゃ~  ~! \nしってる? しってる?\nあした なんのひか しってる?!  ",
-      "english": " B9 S334 w=2@\n...\n...@#"
+      "english": "Kya~!@\nDo you know?\nDo you know~?@\n\nDo you know what\nday it is\ntomorrow?@#"
     },
     {
       "japanese": "じゃあ おしえてあげる~! \nあしたは  なんと... \n...... \nしのざわの たんじょうび なの~!  ",
-      "english": " B9 S335 w=5@\n...@@\n...@\n...@#"
+      "english": "Okay, Ill share...@\nTomorrow is...@\n...@\n...@\nShinozawa's\nbirthday!@#"
     },
     {
       "japanese": "わ~い! おぼえてて くれたなんて\nうれしくって くるくるっ! \nそうなの あしたは\nしのざわの たんじょうび なの~!  ",
-      "english": " B9 S336 w=2\n...@\n...\n...@#"
+      "english": "Wa~! I'm so happy\nyou remembered!@\nIm spinning around\nwith joy!!@#"
     },
     {
       "japanese": "...しのざわも おんなのこ だから\nきたい しちゃうのよね~! \n からの あいの こもった\nぷれぜんと~!  ",
-      "english": " B9 S337 w=2\n...@\n...\n...@#"
+      "english": "Since Shinozawa\nis a girl...@\n\n\nI can't help but\nhave high\nexpectations!@#"
     },
     {
       "japanese": "きゃ~! わく わく! \nあした たのしみです~ぅ<3  ",
@@ -1358,7 +1358,7 @@
     },
     {
       "japanese": "...ぐっすん... \nしのざわ がっかり!  ",
-      "english": " B9 S339 w=2@\n...@#"
+      "english": "...*sniff*...@\nShionozawa's\ndisappointed!@#"
     },
     {
       "japanese": "(ほうかごの できごと)\n",

@@ -38,15 +38,15 @@
     },
     {
       "japanese": "もりぞの まりぃだ!  ",
-      "english": " B8 S9 w=1@#"
+      "english": "It's Mari!@#"
     },
     {
       "japanese": "でも まりぃは\nしらんかお してる...  ",
-      "english": " B8 S10 w=1\n...@#"
+      "english": "But Mari is acting\nlike she doesn't\nknow anything...@#"
     },
     {
       "japanese": "あいかわ すずねだ!  ",
-      "english": " B8 S11 w=1@#"
+      "english": "It's Suzune!@#"
     },
     {
       "japanese": "でも あいかわさんは\nなにも いわなかった  ",
@@ -86,7 +86,7 @@
     },
     {
       "japanese": "おはよう!  ",
-      "english": " B8 S21 w=1@#"
+      "english": "Good morning!@#"
     },
     {
       "japanese": "(さえき るるな)\n",
@@ -150,7 +150,7 @@
     },
     {
       "japanese": "あら、おはよう!  ",
-      "english": " B8 S37 w=1@#"
+      "english": "oh, good morning!@#"
     },
     {
       "japanese": "おはよう、 くん!  ",
@@ -438,7 +438,7 @@
     },
     {
       "japanese": "(どう はなそう?)\n",
-      "english": " B8 S109 w=0\n..."
+      "english": "(How to respond)\n"
     },
     {
       "japanese": " おれの さいふ ぬすんだな!\n",
@@ -710,7 +710,7 @@
     },
     {
       "japanese": "ごめんね~!\nきょうは せんやくが あるの \nじゃあ ばいば~い!  ",
-      "english": " B8 S177 w=2\n...@\n...@#"
+      "english": "I'm sorry, I have\na prior engagement@\nsee ya, bye bye!@#"
     },
     {
       "japanese": "じゃあ ばいば~い!  ",
@@ -718,7 +718,7 @@
     },
     {
       "japanese": "あ... \nはいっ、せんぱい!  ",
-      "english": " B8 S179 w=2@\n...@#"
+      "english": "Ah...@\nsure, senpai!@#"
     },
     {
       "japanese": "そ...そんな! \nわたしなんか だめですぅ~!  ",
@@ -930,7 +930,7 @@
     },
     {
       "japanese": "きょうは ありがとう\nたのしかったよ! \n...じゃあ、またね!  ",
-      "english": " B8 S232 w=2\n...@\n...@#"
+      "english": "Thank you for\ntoday! I had a\ngreat time!@\n...see you again!@#"
     },
     {
       "japanese": "るるなも たのしかったわ! \n くん、またね~!  ",
@@ -970,7 +970,7 @@
     },
     {
       "japanese": "いえ、あ、ありがとうだなんて... \nそんな...こちらこそ... \nじゃあ また...  ",
-      "english": " B8 S242 w=3@\n...@\n...@#"
+      "english": "Oh... thank you!@\nThats v kind...@\nThe pleasure was\nall mine...@\nwell...\nSee you again!@#"
     },
     {
       "japanese": "ありがとうだなんて\nしのざわ てれちゃいますぅ~! \nにゃはっ!\nきゃ~<3 らぶらぶ~<3  ",
@@ -1034,7 +1034,7 @@
     },
     {
       "japanese": "しかたないわね \n...はい、けしごむ!  ",
-      "english": " B8 S258 w=2@\n...@#"
+      "english": "Well, I guess\ntheres no choice\n...@Here, take this\neraser!@#"
     },
     {
       "japanese": "じゃ、かしてあげる \n...はい、けしごむ!  ",
@@ -1142,11 +1142,11 @@
     },
     {
       "japanese": "......  ",
-      "english": " B8 S285 w=1@#"
+      "english": "...@#"
     },
     {
       "japanese": "\n\n\n\nそ.の.ご...  ",
-      "english": " B8 S286 w=1\n...\n...\n...\n...@#"
+      "english": "\n\nafter that...@#"
     },
     {
       "japanese": "さっきは ありがとう \n くんって あたま いいのね!  ",
@@ -1190,19 +1190,19 @@
     },
     {
       "japanese": "(けいざいの じゅぎょうちゅうの\nできごと)\n",
-      "english": " B8 S297 w=0\n...\n..."
+      "english": "(Econ Class)\n"
     },
     {
       "japanese": "せんせいから しつもんされた ぼくは\nこたえが わからず\nあせっていた...  ",
-      "english": " B8 S298 w=1\n...\n...@#"
+      "english": "The teacher just\nasked a difficult\nquestion... ah!\nIm getting nervous@#"
     },
     {
       "japanese": "そのとき \nもりぞの みりぃが\nそっと こたえを おしえてくれた \nぼくは なんとか そのばを\nきりぬけることが できた...  ",
-      "english": " B8 S299 w=3@\n...\n...@\n...\n...@#"
+      "english": "In that moment,@\nMiri quickly gave\nme the answer...@\nand I managed to\nget through it...@#"
     },
     {
       "japanese": "(あ! もりぞのさんだ!\nなにか いっておかなくちゃ...)  ",
-      "english": " B8 S300 w=1\n...@#"
+      "english": "(Ah! It's\nMorozono-san! I\nshould say\nsomething...)@#"
     },
     {
       "japanese": " おい! でしゃばってんじゃねえよ!\n",
@@ -1214,15 +1214,15 @@
     },
     {
       "japanese": " もりぞのさんって おせっかいだね\n",
-      "english": " B8 S303 w=0\n..."
+      "english": " You're a busybody\n"
     },
     {
       "japanese": " もりぞのさんって あたま いいね\n",
-      "english": " B8 S304 w=0\n..."
+      "english": " You're smart\n"
     },
     {
       "japanese": " もりぞのさんって やさしいんだね\n",
-      "english": " B8 S305 w=0\n..."
+      "english": " You're kind\n"
     },
     {
       "japanese": "でしゃばった つもりは ありません \nつい...\nあわれみを かけてしまったのです  ",
@@ -1234,19 +1234,19 @@
     },
     {
       "japanese": "おせっかいかも しれませんね... \nむちな ひとを みると\nほうっておけないんです、わたし...  ",
-      "english": " B8 S308 w=2@\n...\n...@#"
+      "english": "I might be nosy...@\nbut when someone\nis treatd unfairly\nI can't ignore it!@#"
     },
     {
       "japanese": "あたまの よしあしでは ありません \nひごろの よしゅう ふくしゅう \n...それだけのことです  ",
-      "english": " B8 S309 w=3@\n...@\n...@#"
+      "english": "It isn't about\nhow smart I am...@\n\n\nOnly consistent\npreparation\nand review!@\nThat's it!@#"
     },
     {
       "japanese": "そ、そんな... \nやさしいだなんて...  ",
-      "english": " B8 S310 w=2@\n...@#"
+      "english": "n-, no way...@\nyou really mean\nthat?@#"
     },
     {
       "japanese": "あ... \nもりぞのさんは かおを あからめて\nはしりさってしまった...  ",
-      "english": " B8 S311 w=2@\n...\n...@#"
+      "english": "Ah...@\n\n\n\nMorizono-san\nblushed and ran\naway...@#"
     },
     {
       "japanese": "(ひるやすみ まえの できごと)\n",
@@ -1354,7 +1354,7 @@
     },
     {
       "japanese": "す、すみません せんぱい... \nわたし いつも ひとりで\nたべてるんです... \nごめんなさい....  ",
-      "english": " B8 S338 w=3@\n...\n...@\n...@#"
+      "english": "Um, I'm sorry\nsenpai...@ I always\neat alone...@\nI'm sorry...@#"
     },
     {
       "japanese": "きゃ~! \nたべよう! たべよう! \nふたりだけの らぶりぃ~\nおひるごはん<3<3 きゃ~<3<3\n  ",
@@ -1774,11 +1774,11 @@
     },
     {
       "japanese": "...ぼくも みつめかえした!  ",
-      "english": " B8 S443 w=1@#"
+      "english": "...She's staring\nback at me!@#"
     },
     {
       "japanese": "なに がん とばしてんのよ~?! \nなんか もんく あるの~?  ",
-      "english": " B8 S444 w=2@\n...@#"
+      "english": "What are you\nglaring at me\nfor?@ Some sort\nof problem?@#"
     },
     {
       "japanese": "...めと めが あうと \nもりぞの まりぃは\nいたずらっぽく うぃんくした! \nなんだか いい かんじ!!  ",
@@ -2074,15 +2074,15 @@
     },
     {
       "japanese": "\n\nまずい!\nうそが ばれたみたいだ...  ",
-      "english": " B8 S518 w=1\n...\n...\n...@#"
+      "english": "\nThis is bad!\nMy lie has been\nexposed...@#"
     },
     {
       "japanese": " ~! ほんとうなの~! \n って ほんとうは... \nみらくる きんけつって\nうわさ ききますぅ~!!  ",
-      "english": " B8 S519 w=3@\n...@\n...\n...@#"
+      "english": "Is that true?@\nI've heard rumors\nabout you being...@\n\n'miraculously\n broke'@#"
     },
     {
       "japanese": "しのざわに うそついたら\nこわいからねぇ~!! \nそれじゃ ばいばい~  ",
-      "english": " B8 S520 w=2\n...@\n...@#"
+      "english": "Don't lie to\nShinozawa!!@\n\n\nor something\nterrible will\nhappen!\nBye bye!@#"
     }
   ]
 }

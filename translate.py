@@ -91,6 +91,15 @@ if __name__ == "__main__":
     # club task > this club > lines
     # start_addr, end_addr = (0x4c1e, 0x4c21)
     # start_addr, end_addr = (0x4c25, 0x4c2b)
+    # menu > out of str
+    # start_addr, end_addr = (0x4c44, 0x4c5b)
+    # menu > rested
+    start_addr, end_addr = (0x4c60, 0x4c71)
+    # menu > out of energy?
+    # start_addr, end_addr = (0x4c76, 0x4c7c)
+    # start_addr, end_addr = (0x4c7d, 0x4c83)
+    # start_addr, end_addr = (0x4c84, 0x4c8a)
+    # start_addr, end_addr = (0x4c9d, 0x4cac)
     # second week holiday
     # start_addr, end_addr = (0x4004, 0x400b)
     # start_addr, end_addr = (0x400c, 0x4013)
@@ -235,7 +244,7 @@ if __name__ == "__main__":
     # start_addr, end_addr = (0x6348, 0x6351)
     # start_addr, end_addr = (0x6356, 0x635f)
     # start_addr, end_addr = (0x6364, 0x6373)
-    start_addr, end_addr = (0x6378, 0x6382)
+    # start_addr, end_addr = (0x6378, 0x6382)
     # phone call menu
     # start_addr, end_addr = (0x47a9, 0x47b0)
     # start_addr, end_addr = (0x47b1, 0x47b8)

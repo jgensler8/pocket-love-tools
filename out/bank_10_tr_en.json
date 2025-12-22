@@ -998,7 +998,7 @@
     },
     {
       "japanese": " こんにちは! きょうも げ-む?\n",
-      "english": " B10 S249 w=0\n..."
+      "english": " Playing games?\n"
     },
     {
       "japanese": "(はんば-が-しょっぷの まえで)\n",
@@ -1038,15 +1038,15 @@
     },
     {
       "japanese": "(しょっぴんぐがいでの できごと)\n",
-      "english": " B10 S259 w=0\n..."
+      "english": "(Shopping Area)\n"
     },
     {
       "japanese": "あ! もしかしたら あれは... \nさえき るるなだ! \nしゅげいようひんてんを\nのぞいてるけど...  ",
-      "english": " B10 S260 w=3@\n...@\n...\n...@#"
+      "english": "Ah!Could that be!@\nIt's Ruruna!@\nShe's looking at\nthe craft store...@#"
     },
     {
       "japanese": "あ! むこうも ぼくに\nきがついたみたいだ! \nこっちに ちかづいて きたぞ!  ",
-      "english": " B10 S261 w=2\n...@\n...@#"
+      "english": "Ah! She's noticed\nme!@\nAnd she's coming\ncloser!@#"
     },
     {
       "japanese": "(どういって こえを かけよう?)\n",
@@ -1058,31 +1058,31 @@
     },
     {
       "japanese": " こんなとこで なにしてんだよ?\n",
-      "english": " B10 S264 w=0\n..."
+      "english": " A place like ths?\n"
     },
     {
       "japanese": " やあ どうも...\n",
-      "english": " B10 S265 w=0\n..."
+      "english": " Yo, hows it goin?\n"
     },
     {
       "japanese": " どうも こんにちは...\n",
-      "english": " B10 S266 w=0\n..."
+      "english": " Hello! (formal)\n"
     },
     {
       "japanese": " こんにちは! なにか かいもの?\n",
-      "english": " B10 S267 w=0\n..."
+      "english": " Hello, U shoping?\n"
     },
     {
       "japanese": "......  ",
-      "english": " B10 S268 w=1@#"
+      "english": "...@#"
     },
     {
       "japanese": "ちぇっ...\nむし されちゃった!  ",
-      "english": " B10 S269 w=1\n...@#"
+      "english": "Tch...\nI got ignored!@#"
     },
     {
       "japanese": "あ... \nきょうは しゅげいの ざいりょうを\nかいに きたの... \nじゃあ、またね!  ",
-      "english": " B10 S270 w=3@\n...\n...@\n...@#"
+      "english": "Oh...@\nI came here today\nto buy craft\nsupplies....@\nwell, see you!@#"
     },
     {
       "japanese": "あ、 くん! こんにちは! \nきょうは しゅげいの ざいりょうを\nかいに きたんだけど...  ",
@@ -1094,19 +1094,19 @@
     },
     {
       "japanese": "(きっさてんの まえでの できごと)\n",
-      "english": " B10 S273 w=0\n..."
+      "english": "(Coffee Shop)\n"
     },
     {
       "japanese": "あ! もしかしたら あれは... \nさえき るるなだ! \nきっさてんから でてくるところだ  ",
-      "english": " B10 S274 w=3@\n...@\n...@#"
+      "english": "Ah! Could it be?@\nIt's Ruruna!@\nShe's leaving\nright now.@#"
     },
     {
       "japanese": " やあ こんにちは! ぐうぜんだね!\n",
-      "english": " B10 S275 w=0\n..."
+      "english": " Wht a coincidnce!\n"
     },
     {
       "japanese": "あ...どうも...  ",
-      "english": " B10 S276 w=1@#"
+      "english": "Ah...Hello...@#"
     },
     {
       "japanese": "あ、 くん! こんにちは! \nここで ちょこれ-とぱふぇを\nたべてたの... \nじゃあ、またね!  ",
@@ -1122,11 +1122,11 @@
     },
     {
       "japanese": "(かわらの ぐらうんどで...)\n",
-      "english": " B10 S280 w=0\n..."
+      "english": "(River bank)\n"
     },
     {
       "japanese": "ぼくは かわぞいの みちを\nのんびり さんぽ していた \nあ! もしかしたら あれは... \nたかお みずき ?!  ",
-      "english": " B10 S281 w=3\n...@\n...@\n...@#"
+      "english": "I was strolling\nalong the bank...@\nCould it be?@\nIs that Mizuki!?@#"
     },
     {
       "japanese": " なんか もんくでも あるのかよ?\n",
@@ -1142,7 +1142,7 @@
     },
     {
       "japanese": "あ、 くん! こんにちは! \nいま くさやきゅうを みてたんだ \nたのしい しあいだったよ!  ",
-      "english": " B10 S285 w=3@\n...@\n...@#"
+      "english": "Ah ^-kun! Hello!@\nI was just\nwatching a\nbaseball game!@\nIt was pretty fun!@#"
     },
     {
       "japanese": "でも それより ここで ぐうぜん\n くんに あえたことの ほうが\nたのしかった...<3\n...じゃあ、またね<3  ",
@@ -1150,23 +1150,23 @@
     },
     {
       "japanese": "ぼくは よかぜに ふかれて かわらを\nのんびり さんぽ していた \nあ! もしかしたら あれは... \nたかお みずき ?!  ",
-      "english": " B10 S287 w=3\n...@\n...@\n...@#"
+      "english": "I was strolling\nalong, enjoying\nthe breeze...@\ncould it be?@\nis that Mizuki?@#"
     },
     {
       "japanese": " どうも こんばんは...\n",
-      "english": " B10 S288 w=0\n..."
+      "english": " Helo,good evning!\n"
     },
     {
       "japanese": " やあ こんばんは! なにしてるの?\n",
-      "english": " B10 S289 w=0\n..."
+      "english": " Hi,what r u doin?\n"
     },
     {
       "japanese": "きゃ~! こないで~!  ",
-      "english": " B10 S290 w=1@#"
+      "english": "Kya~!\nDon't come closer!@#"
     },
     {
       "japanese": "そりゃ ないよ... \nちかんと まちがわれるなんて!  ",
-      "english": " B10 S291 w=2@\n...@#"
+      "english": "Thats unbelievable\n...@ To be mistaken\nfor a pervert...@#"
     },
     {
       "japanese": "なんだ... くんか... \nもう おそいから\nまた がっこうでね!  ",
@@ -1210,7 +1210,7 @@
     },
     {
       "japanese": "ぼくが かわぞいの みちを\nのんびり あるいていると\nむこうから だれか あるいてきた! \nあ、もしかして まつだ ゆみかな?  ",
-      "english": " B10 S302 w=2\n...\n...@\n...@#"
+      "english": "I was walking\nleisurely...@\nwhen someone came\ntowards me...@\nIs is... Yumi?@#"
     },
     {
       "japanese": "なんだぁ  くんか~ \n...じゃあね ばいばい!  ",
@@ -1230,19 +1230,19 @@
     },
     {
       "japanese": "(としょかんでの できごと)\n",
-      "english": " B10 S307 w=0\n..."
+      "english": "(Library)\n"
     },
     {
       "japanese": "ほんだなの かげに だれか いる! \nねっしんに ほんを さがしているぞ \nもしかして もりぞの みりぃ!?  ",
-      "english": " B10 S308 w=3@\n...@\n...@#"
+      "english": "Someone is hiding\nbehind the\nbookshelf@ Is is...@\nMiri...?@#"
     },
     {
       "japanese": " よう! おっす!\n",
-      "english": " B10 S309 w=0\n..."
+      "english": " Yo! Wassup?\n"
     },
     {
       "japanese": "はい、はい!\nとしょかんでは しずかに\nしますよ...  ",
-      "english": " B10 S310 w=1\n...\n...@#"
+      "english": "Yes, yes!\nWe'll be quiet\nin the library...@#"
     },
     {
       "japanese": "あら  さん... \nわたし べんきょうしに きてたんです\n...では また!  ",
@@ -1250,7 +1250,7 @@
     },
     {
       "japanese": "あら  さん...こんにちは \nわたし べんきょうしに きてたんです\n さんも がんばってください\n...じゃあ また!  ",
-      "english": " B10 S312 w=2@\n...\n...\n...@#"
+      "english": "Oh, ^-san!@\nI'm also here\nto study!@\ngood luck...@\nsee you later!@#"
     },
     {
       "japanese": "あら  さん...こんにちは \nわたし べんきょうしに きてたんです \n...でも いきなり こんなところで\n さんに あうなんて...  ",
@@ -1262,11 +1262,11 @@
     },
     {
       "japanese": "(からおけの みせの まえで...)\n",
-      "english": " B10 S315 w=0\n..."
+      "english": "(Karaoke Bar)\n"
     },
     {
       "japanese": "おや? はなうたを うたいながら\nあるいてくる やつが いるぞ \nあの こえは まさか \nもりぞの まりぃか!  ",
-      "english": " B10 S316 w=3\n...@\n...@\n...@#"
+      "english": "Oh? There is someone\nwalking and humming\na tune?@ Is it...@\nMari?@#"
     },
     {
       "japanese": " じゃまだよ! そこ どきな!\n",
@@ -1274,7 +1274,7 @@
     },
     {
       "japanese": "げっ!!\nしかと された...  ",
-      "english": " B10 S318 w=1\n...@#"
+      "english": "Ugh!\nI was completely\nignored...@#"
     },
     {
       "japanese": "なぁんだ  か~... \nはずれたな~\n...じゃ~ またね~!  ",
@@ -1294,11 +1294,11 @@
     },
     {
       "japanese": "(ほんやの なかでの できごと)\n",
-      "english": " B10 S323 w=0\n..."
+      "english": "(Bookstore)\n"
     },
     {
       "japanese": "あの うしろすがたは ひょっとして \nもりぞの まりぃかな? \nねっしんに ざっしを\nたちよみしてるけど...  ",
-      "english": " B10 S324 w=3@\n...@\n...\n...@#"
+      "english": "Could that...@\nbe Mari...?@\nShes engrossed in\nthat magazine...@#"
     },
     {
       "japanese": "なぁんだ  か~... \nいやらしい ほん とか\nかいにきたんじゃない? \nあはは! じゃ~ またね~!  ",
@@ -1318,11 +1318,11 @@
     },
     {
       "japanese": "(ぺっとしょっぷでの できごと)\n",
-      "english": " B10 S329 w=0\n..."
+      "english": "(Pet Shop)\n"
     },
     {
       "japanese": "あの うしろすがたは? \nあいかわ すずねじゃないか? \nねっしんに かめを\nかんさつしてるようだけど...  ",
-      "english": " B10 S330 w=3@\n...@\n...\n...@#"
+      "english": "Who's that person?@\nIs it Suzune?@\n\n\nShe is intently\nobserving a\nturtle...@#"
     },
     {
       "japanese": "あ  せんぱい... \nさ、さようなら  ",
@@ -1330,7 +1330,7 @@
     },
     {
       "japanese": "あ  せんぱい...\nどうも こ、こんにちは...  ",
-      "english": " B10 S332 w=1\n...@#"
+      "english": "Ah, senpai...\nHello...@#"
     },
     {
       "japanese": "あ  せんぱい...\nこ、こんにちは  ",
@@ -1342,23 +1342,23 @@
     },
     {
       "japanese": "(げ-むせんた-での できごと)\n",
-      "english": " B10 S335 w=0\n..."
+      "english": "(Game Center)\n"
     },
     {
       "japanese": "こっちに はしってくる やつがいる! \nあの さわがしさは... \nもしかしなくても\nしのざわ ももよ か?!  ",
-      "english": " B10 S336 w=3@\n...@\n...\n...@#"
+      "english": "Someone's running\ntoward us!@ That\ncommotion...@\n\nis it...\nMomoyo?@#"
     },
     {
       "japanese": " いつも うるさいんだよ おまえは!\n",
-      "english": " B10 S337 w=0\n..."
+      "english": " You're so noisy!\n"
     },
     {
       "japanese": "しのざわ いそがしいの~!  ",
-      "english": " B10 S338 w=1@#"
+      "english": " Shinozawa's busy!@#"
     },
     {
       "japanese": "あ  ~! \nしのざわ いそがしいから\nさよならですぅ~  ",
-      "english": " B10 S339 w=2@\n...\n...@#"
+      "english": "Ah! Shinozawa\nis busy!@\nGoodbye~!@#"
     },
     {
       "japanese": "あっ!  ~! \nげんきそうで なによりですぅ~! \nんじゃ またねっ! くるくるっ!  ",
@@ -1370,19 +1370,19 @@
     },
     {
       "japanese": "(こうえんでの できごと)\n",
-      "english": " B10 S342 w=0\n..."
+      "english": "(At the park)\n"
     },
     {
       "japanese": "ぼくは こうえんを あるいていた \n...おや? あんなところに\nひとかげが....?  ",
-      "english": " B10 S343 w=2@\n...\n...@#"
+      "english": "I was walking in\nthe park...@\nis that...\na shadow?@#"
     },
     {
       "japanese": "おふろあがり みたいな\nかっこうを してるようだけど... \nぎゅうにゅうを ごくごく のんでるぞ \nあれ? しのざわ ももよ かな?!  ",
-      "english": " B10 S344 w=3\n...@\n...@\n...@#"
+      "english": "She looks like\nshes just finished\na bath...@\nis it...@\nMomoyo, perhaps?@#"
     },
     {
       "japanese": " こんばんは! いい おゆだった?\n",
-      "english": " B10 S345 w=0\n..."
+      "english": " Hello, Nice bath?\n"
     },
     {
       "japanese": "ぎゅうにゅう のんでる ところだから\nはなしかけないで~  ",
@@ -1390,7 +1390,7 @@
     },
     {
       "japanese": "あ  ~! \nしのざわ おふろあがりだから\nゆざめ したくないのよ~ \nさよならですぅ~  ",
-      "english": " B10 S347 w=3@\n...\n...@\n...@#"
+      "english": "Ah!@ Shinozawa\njust finished\na bath and doesn't\nwant to get sick!@\nGoodbye~!@#"
     },
     {
       "japanese": "あっ!  ~! \nしのざわったら おふろあがりなの~\nせんとうは ごくらくですぅ~! \nんじゃ またねっ! くるくるっ!  ",
@@ -1442,11 +1442,11 @@
     },
     {
       "japanese": "(しょっぴんぐがいでの できごと)\n",
-      "english": " B10 S360 w=0\n..."
+      "english": "(Shopping Area)\n"
     },
     {
       "japanese": "とおくから だれか \nあるいてくる... \nもしかして もりぞの みりぃかな!?  ",
-      "english": " B10 S361 w=2\n...@\n...@#"
+      "english": "Someone is walking\nfrom a distance\n@\ncould it be...@\nMiri?@#"
     },
     {
       "japanese": "あら  さん... \nまた がっこうで おあいしましょう  ",
@@ -1454,7 +1454,7 @@
     },
     {
       "japanese": "あら  さん...こんにちは \nきょうは ちょっと げ-むを\nかいにきたんです... \n...じゃあ また がっこうで!  ",
-      "english": " B10 S363 w=3@\n...\n...@\n...@#"
+      "english": "Oh! ^-san, Hello!@\nI came to buy a\ngame today...@\nSee you at school!@#"
     },
     {
       "japanese": "あら  さん...こんにちは! \nきょうは ちょっと げ-むを\nかいにきたんです...  ",
