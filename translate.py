@@ -94,7 +94,7 @@ if __name__ == "__main__":
     # menu > out of str
     # start_addr, end_addr = (0x4c44, 0x4c5b)
     # menu > rested
-    start_addr, end_addr = (0x4c60, 0x4c71)
+    # start_addr, end_addr = (0x4c60, 0x4c71)
     # menu > out of energy?
     # start_addr, end_addr = (0x4c76, 0x4c7c)
     # start_addr, end_addr = (0x4c7d, 0x4c83)
@@ -251,6 +251,10 @@ if __name__ == "__main__":
     # start_addr, end_addr = (0x479e, 0x47a4)
     # start_addr, end_addr = (0x4cc0, 0x4ccc)
     # start_addr, end_addr = (0x4ccf, 0x4cd1)
+    # start_addr, end_addr = (0x4cd8, 0x4ce0)
+    # start_addr, end_addr = (0x4ce1, 0x4ce9)
+    # start_addr, end_addr = (0x4cea, 0x4cf2)
+    start_addr, end_addr = (0x4cf3, 0x4cfb)
     # both call screens
     # start_addr, end_addr = (0x47bd, 0x47cc)
     # example call

@@ -254,6 +254,10 @@ day 34 (dec 22)
   * seem to keep running into people month 8
 * translated parts when running out of STR (though not yet energy, there was another set I translated but was not shown)
 
+day 35 (jan 2)
+* most school phone invites + bus stop (beach scenes)
+  * note: there are several surrounding texts that weren't translated so maybe dialog is random or tiered based on stats
+
 next:
 * could experiment with variable width font printing
 * continue with most cutscenes + game progression, maybe find more save states to test

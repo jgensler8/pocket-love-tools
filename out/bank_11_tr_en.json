@@ -6,11 +6,11 @@
     },
     {
       "japanese": "あ、 くん... \nわたしに なにか\nようじでも あったの?  ",
-      "english": "oh, ^kun...@\nDid you need\nsomething from\nme?@#"
+      "english": "oh, ^-kun...@\nDid you need\nsomething from\nme?@#"
     },
     {
       "japanese": "いや べつに... \nようがあるって\nわけじゃないんだけど...  ",
-      "english": "no, not really...@\nIt's not a\nsepecific reason\nbut...@#"
+      "english": "oh...@\nno, not really...@#"
     },
     {
       "japanese": "...ふ~ん...  ",
@@ -18,7 +18,7 @@
     },
     {
       "japanese": "......\nぼくらは しばらく がっこうを\nうろついた...  ",
-      "english": "...we wandered\naround...@\nfor a bit...@#"
+      "english": "we wandered\naround...@\nfor a bit...@#"
     },
     {
       "japanese": "あ、 くん\nおまたせ!  ",
@@ -38,11 +38,11 @@
     },
     {
       "japanese": "あ、 くん... \nなにか よう?  ",
-      "english": " B11 S9 w=2@\n...@#"
+      "english": "^-kun,...@\ndid you need\nsomething?@#"
     },
     {
       "japanese": "あっ そう...  ",
-      "english": " B11 S10 w=1@#"
+      "english": "oh...@#"
     },
     {
       "japanese": "あ、 くん\nおまたせっ!  ",
@@ -58,11 +58,11 @@
     },
     {
       "japanese": " くん、どうしたの?\nわたしに なにか ようがあるの?  ",
-      "english": " B11 S14 w=1\n...@#"
+      "english": "^-kun,whats wrong?\nDid you need\nsomething from me?@#"
     },
     {
       "japanese": "ふ~ん...そうなの...  ",
-      "english": " B11 S15 w=1@#"
+      "english": "hmm... is that so?@#"
     },
     {
       "japanese": "こんにちは、 くん! \nわたしも ちょうど\nたいくつしてたんだ!  ",
@@ -78,15 +78,15 @@
     },
     {
       "japanese": " さん、なんの ようですか?\nいきなり よびだすなんて...  ",
-      "english": " B11 S19 w=1\n...@#"
+      "english": "^-san, did you\nreally need\nsomething? seems\nout of the blue...@#"
     },
     {
       "japanese": "じゃあ としょしつで\nべんきょうしましょう!  ",
-      "english": " B11 S20 w=1\n...@#"
+      "english": "Well then, let's\nstudy in the\nlibrary!@#"
     },
     {
       "japanese": "......\nもりぞの みりぃに としょしつに\nつれこまれた...  ",
-      "english": " B11 S21 w=1\n...\n...@#"
+      "english": "...\nI was dragged into\nthe library by\nMiri...@#"
     },
     {
       "japanese": " さん こんにちは!\nちょうど よかったです! \nいっしょに べんきょうしましょう!  ",
@@ -106,11 +106,11 @@
     },
     {
       "japanese": "あ、 ~... \nあたしに なんか\nようでもあるの~?  ",
-      "english": " B11 S26 w=2@\n...\n...@#"
+      "english": "ah...@\ndid you need\nsomething from\nme?@#"
     },
     {
       "japanese": "なぁんだ...  ",
-      "english": " B11 S27 w=1@#"
+      "english": "oh, really?@#"
     },
     {
       "japanese": "あっ  ~! \nあたしも ちょうど\nひましてたんだ~...  ",
@@ -126,11 +126,11 @@
     },
     {
       "japanese": "せ、せんぱい...\nわたしに なにか ようですか?  ",
-      "english": " B11 S31 w=1\n...@#"
+      "english": "s-senpai...\ndo you need\nsomething from\nme?@#"
     },
     {
       "japanese": "そうですか...  ",
-      "english": " B11 S32 w=1@#"
+      "english": "oh... alright...@#"
     },
     {
       "japanese": " せんぱい...\nおまたせして すみませんでした  ",
@@ -146,11 +146,11 @@
     },
     {
       "japanese": "あっ、 ~!\nわたしに なにか ようがあるの~?  ",
-      "english": " B11 S36 w=1\n...@#"
+      "english": "hello!! Do you\nneed something\nfrom me?@#"
     },
     {
       "japanese": "なぁんだ!  ",
-      "english": " B11 S37 w=1@#"
+      "english": "What!?@#"
     },
     {
       "japanese": " ~! おまたせ~! \nきょうは なにするの~?  ",
@@ -702,7 +702,7 @@
     },
     {
       "japanese": "わたし なんだか\nちょっと つかれちゃった...  ",
-      "english": " B11 S175 w=1\n...@#"
+      "english": "I'm feeling a\nlittle tired...@#"
     },
     {
       "japanese": " くんと こうして ふたり\nあるいてると... \nそらも かぜも すごくきれい!\nなんだか かんどうしちゃった...  ",
@@ -734,7 +734,7 @@
     },
     {
       "japanese": "すこし つかれました...  ",
-      "english": " B11 S183 w=1@#"
+      "english": "I feeling a bit\ntired...@#"
     },
     {
       "japanese": "なんか すごく たのしかった~! \n と\nここにきて よかった... \n...か .ん .げ .き<3  ",

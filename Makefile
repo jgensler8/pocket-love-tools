@@ -44,13 +44,7 @@ translate_template:
 	$(shell for i in 4 {${SAFE_DIALOG_BANK_START}..${SAFE_DIALOG_BANK_END}} ; do $(PYTHON) translate_template.py --bank=$$i ${OUT_DIR}/bank_$${i}_ex.json ${OUT_DIR}/bank_$${i}_tr_temp.json ; done;)
 
 patch:
-# 	cp $(OG_ROM) $(PATCHED_ROM)
-# 	$(PYTHON) patch.py --bank=8 $(PATCHED_ROM) bank_8_ex.json bank_8_tr_en.json
-# 	$(PYTHON) patch.py --bank=3 $(PATCHED_ROM) bank_3_ex.json bank_3_tr_temp.json
-# 	$(PYTHON) patch.py --bank=4 $(PATCHED_ROM) bank_4_ex.json bank_4_tr_temp.json
-# 	$(PYTHON) patch.py --bank=5 $(PATCHED_ROM) bank_5_ex.json bank_5_tr_temp.json
 	$(shell cp $(OG_ROM) $(PATCHED_ROM))
-# 	$(shell for i in {${SAFE_DIALOG_BANK_START}..${SAFE_DIALOG_BANK_END}} ; do $(PYTHON) patch.py $(PATCHED_ROM) dialog --bank=$$i ${OUT_DIR}/bank_$${i}_ex.json ${OUT_DIR}/bank_$${i}_tr_temp.json ; done;)
 # 	$(shell $(PYTHON) patch.py $(PATCHED_ROM) inplace --bank=2 --hex_addr=41e2 --hex_value=05)
 	$(shell $(PYTHON) patch.py $(PATCHED_ROM) inplace --bank=2 --hex_addr=41e3 --hex_value=02)
 	$(shell $(PYTHON) patch.py $(PATCHED_ROM) dialog --bank=4 ${OUT_DIR}/bank_4_ex.json ${OUT_DIR}/bank_4_tr_en.json)
@@ -65,12 +59,7 @@ patch:
 	$(shell $(PYTHON) patch.py $(PATCHED_ROM) inplace --bank=30 --hex_addr=5be1 --hex_value=3F)
 # patch both phone call wait and day<>day wait (original 0x32)
 	$(shell $(PYTHON) patch.py $(PATCHED_ROM) inplace --bank=30 --hex_addr=6707 --hex_value=01)
-# stat requirement ruruna DOWN
-	$(shell $(PYTHON) patch.py $(PATCHED_ROM) inplace --bank=30 --hex_addr=534f --hex_value=01)
-	$(shell $(PYTHON) patch.py $(PATCHED_ROM) inplace --bank=30 --hex_addr=5350 --hex_value=01)
-	$(shell $(PYTHON) patch.py $(PATCHED_ROM) inplace --bank=30 --hex_addr=5351 --hex_value=01)
-	$(shell $(PYTHON) patch.py $(PATCHED_ROM) inplace --bank=30 --hex_addr=5352 --hex_value=01)
-	$(shell $(PYTHON) patch.py $(PATCHED_ROM) inplace --bank=30 --hex_addr=5353 --hex_value=01)
+	$(shell $(PYTHON) patch.py $(PATCHED_ROM) file --bank=30 --file=patch_stat_requirements.txt)
 	$(shell $(PYTHON) patch.py $(PATCHED_ROM) file --bank=30 --file=patch_menus_bank_30.txt)
 	$(shell $(PYTHON) patch.py $(PATCHED_ROM) alphabet --png font_alphabet.png)
 	$(shell $(PYTHON) patch.py $(PATCHED_ROM) font_ex --png font_ex.png)
