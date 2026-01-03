@@ -80,4 +80,8 @@ run_patch:
 run_rep:
 	$(MGBA) ./pkl.gb
 
+pct:
+	cat ./out/*tr_en.json | grep " B" | wc -l
+	cat ./out/*tr_en.json | grep eng | grep -v " B" | wc -l
+
 # diff: fc.exe /b .\pkl.gb .\pkl.gb.bin

@@ -22,19 +22,19 @@
     },
     {
       "japanese": "あ、 くん\nおまたせ!  ",
-      "english": " B11 S5 w=1\n...@#"
+      "english": "^-kun, sorry to\nkeep you waiting!@#"
     },
     {
       "japanese": "あ、 くん\nまたせちゃって ごめんね!  ",
-      "english": " B11 S6 w=1\n...@#"
+      "english": "^-kun, sorry for\nmaking you wait!@#"
     },
     {
       "japanese": "......\nぼくらは しばらく がっこうで\nおしゃべりした...  ",
-      "english": " B11 S7 w=2\n...@\n...@#"
+      "english": "...@\nwe chatted at\nschool for a\nwhile...@#"
     },
     {
       "japanese": "あ、 くん<3 \n...わたしも じつは きょう\n くんと あいたいなって\nおもってたの!  ",
-      "english": " B11 S8 w=2@\n...\n...\n...@#"
+      "english": "oh ^-kun __heart ...@\nI was thinking\nthat I wanted to\nsee you, too!@#"
     },
     {
       "japanese": "あ、 くん... \nなにか よう?  ",
@@ -46,15 +46,15 @@
     },
     {
       "japanese": "あ、 くん\nおまたせっ!  ",
-      "english": " B11 S11 w=1\n...@#"
+      "english": "oh, ^-kun! Sorry\nto keep you\nwaiting!@#"
     },
     {
       "japanese": "あ、 くん...\nまたせちゃたかな? ごめんね!  ",
-      "english": " B11 S12 w=1\n...@#"
+      "english": "oh, ^-kun...\nDid I keep you\nwaiting?\nI'm sorry!@#"
     },
     {
       "japanese": "あっ  くん!\nさそってくれて ありがと! \n...うれしかったから\nいえから はしってきちゃった<3  ",
-      "english": " B11 S13 w=2\n...@\n...\n...@#"
+      "english": "^-kun! Thank you\nfor inviting me!@\nI was so happy\nthat...@\nI ran all the\nway here!@#"
     },
     {
       "japanese": " くん、どうしたの?\nわたしに なにか ようがあるの?  ",
@@ -66,15 +66,15 @@
     },
     {
       "japanese": "こんにちは、 くん! \nわたしも ちょうど\nたいくつしてたんだ!  ",
-      "english": " B11 S16 w=2@\n...\n...@#"
+      "english": "Hey, ^-kun!@\nI was just feeling\nbored, too!@#"
     },
     {
       "japanese": "ごめん ごめん、 くん! \nまたせちゃったみたいね!  ",
-      "english": " B11 S17 w=2@\n...@#"
+      "english": "I'm sorry~!@\nSorry to keep\nyou waiting,\n^-kun!@#"
     },
     {
       "japanese": " くん、またせてごめんね! \nおわびに かんこ-ひ-\nかってきたから あげる!\n...はい<3  ",
-      "english": " B11 S18 w=2@\n...\n...\n...@#"
+      "english": "Sorry for making\nyou wait,^-kun!@\nAs an apology,...@\n\nplease take these\nsnacks!\nhere! __heart@#"
     },
     {
       "japanese": " さん、なんの ようですか?\nいきなり よびだすなんて...  ",
@@ -90,19 +90,19 @@
     },
     {
       "japanese": " さん こんにちは!\nちょうど よかったです! \nいっしょに べんきょうしましょう!  ",
-      "english": " B11 S22 w=2\n...@\n...@#"
+      "english": "^-san, hello!\nThat's perfect!@\nLet's study\ntogether!@#"
     },
     {
       "japanese": "あ、 さん!おまたせ! \n...じゃあ きょうも はりきって\nべんきょうしましょう!  ",
-      "english": " B11 S23 w=2@\n...\n...@#"
+      "english": "oh, ^-san!@\nSorry to keep\nyou waiting...\nwell then...@\nlet's study hard!@#"
     },
     {
       "japanese": "あ、 さん! おまたせ! \n...じゃあ いっしょに\nべんきょうでも...  ",
-      "english": " B11 S24 w=2@\n...\n...@#"
+      "english": "oh, ^-san!@\nSorry to keep\nyou waiting...@\n\nso, shall we\nstudy together?@#"
     },
     {
       "japanese": "...なぁんて\nそんな きぶんじゃないわよね! \nきょうは のんびり...ね<3  ",
-      "english": " B11 S25 w=2\n...@\n...@#"
+      "english": "...but I'm really\nnot in that kind\nof mood today!@\n\nLet's just relax\nokay? __heart@#"
     },
     {
       "japanese": "あ、 ~... \nあたしに なんか\nようでもあるの~?  ",
@@ -114,15 +114,15 @@
     },
     {
       "japanese": "あっ  ~! \nあたしも ちょうど\nひましてたんだ~...  ",
-      "english": " B11 S28 w=2@\n...\n...@#"
+      "english": "Ah~!@\nI was just free\nnow, too!@#"
     },
     {
       "japanese": "ごめんね~、 !\nまたせちゃった~?  ",
-      "english": " B11 S29 w=1\n...@#"
+      "english": "I'm sorry! Did\nI keep you\nwaiting?@#"
     },
     {
       "japanese": "あっ、 ~!\nお .ま .た <3 \n...きょうは ありがと!\nさそってくれて<3  ",
-      "english": " B11 S30 w=5\n...@@@@\n...\n...@#"
+      "english": "Ah~!@\nI.@ Am.@ Back. __heart@\n Thank you for\n today!@\nand thanks for\ninviting me! __heart@#"
     },
     {
       "japanese": "せ、せんぱい...\nわたしに なにか ようですか?  ",
@@ -134,15 +134,15 @@
     },
     {
       "japanese": " せんぱい...\nおまたせして すみませんでした  ",
-      "english": " B11 S33 w=1\n...@#"
+      "english": "senpai...\nI'm sorry for\nkeeping you\nwaiting.@#"
     },
     {
       "japanese": "ごめんなさい、 せんぱい! \nまたせちゃったみたいですね  ",
-      "english": " B11 S34 w=2@\n...@#"
+      "english": "I'm sorry, senpai!@\nIt seems I've\nkept you waiting\nagain.@#"
     },
     {
       "japanese": "あっ!  せんぱい! \n...きょうは せんぱいに\nさそってもらって すごく... \nうれしいですぅ<3  ",
-      "english": " B11 S35 w=3@\n...\n...@\n...@#"
+      "english": "hello, senpai!!@\nI'm...@so happy\nthat you invited\nme today! __heart@#"
     },
     {
       "japanese": "あっ、 ~!\nわたしに なにか ようがあるの~?  ",
@@ -154,19 +154,19 @@
     },
     {
       "japanese": " ~! おまたせ~! \nきょうは なにするの~?  ",
-      "english": " B11 S38 w=2@\n...@#"
+      "english": "~! Sorry to keep\nyou waiting!@\nWhat are we\ndoing today?@#"
     },
     {
       "japanese": "にゃっほ~、 ! \nおまたせしました~!\nしのざわの とうじょうですぅ!  ",
-      "english": " B11 S39 w=2@\n...\n...@#"
+      "english": "Nya-ho~! Thanks\nfor waiting!@\nShinozawa has\narrived!@#"
     },
     {
       "japanese": "にゃっほ~、 ~<3 \n に さそってもらって\nしのざわ とっても\nはっぴ~ですぅ<3  ",
-      "english": " B11 S40 w=2@\n...\n...\n...@#"
+      "english": "Nya-ho~! __heart@\nI'm so happy that\nyou invited me!@\n\nShinozawa is\nvery happy! __heart@#"
     },
     {
       "japanese": "......\nぼくらは しばらく がっこうで\nおしゃべりした...  ",
-      "english": " B11 S41 w=2\n...@\n...@#"
+      "english": "...@\nWe chatted at\nschool for a\nwhile...@#"
     },
     {
       "japanese": "",
@@ -202,11 +202,11 @@
     },
     {
       "japanese": "ねえ  くん... \nきょうは ほんとに たのしかったわ<3\nるるな しあわせ<3  ",
-      "english": " B11 S50 w=2@\n...\n...@#"
+      "english": "hey, ^-kun...@\nToday was really\nfun! __heart\nI'm so happy! __heart@#"
     },
     {
       "japanese": " くん!\nきょうは たのしかったわ\nありがとう  ",
-      "english": " B11 S51 w=1\n...\n...@#"
+      "english": "^-kun!\nI had a great\ntime today.\nThank you!@#"
     },
     {
       "japanese": "きょうは ここの げ-むせんた-\nさわがしかったよね... \nちょっと つかれちゃった...  ",
@@ -214,211 +214,211 @@
     },
     {
       "japanese": "すっごく たのしかったよ! \n...うちに かえるのが\nいやになるくらい...<3 \nありがと... くん!  ",
-      "english": " B11 S53 w=3@\n...\n...@\n...@#"
+      "english": "I had so much fun!@\nSo much fun that\nI didn't want to\ngo home!@\n__heartthank you, ^-kun!@#"
     },
     {
       "japanese": "ああ、おもしろかった~!\n くん、ありがと  ",
-      "english": " B11 S54 w=1\n...@#"
+      "english": "ahhh~ that was fun!\nthank you, ^-kun!@#"
     },
     {
       "japanese": "ここ なんだか\nさわがしくて... \nつかれちゃった...  ",
-      "english": " B11 S55 w=2\n...@\n...@#"
+      "english": "It's so noisy\nhere...@\nI'm getting tired...@#"
     },
     {
       "japanese": " くんと ここにきて\nほんとに たのしかったわ... \nわたし かんげきしちゃった<3\n...ありがとう!  ",
-      "english": " B11 S56 w=2\n...@\n...\n...@#"
+      "english": "Being here with\nyou has been so\nmuch fun!@\n\nI'm so touched! __heart\nThank you!@#"
     },
     {
       "japanese": "とっても おもしろかったわ!\nありがとう、 くん  ",
-      "english": " B11 S57 w=1\n...@#"
+      "english": "It was so much\nfun! Thank you,\n^-kun!@#"
     },
     {
       "japanese": " さんと いっしょだと\nすごく たのしいわ... \nわたし...かんげきです<3  ",
-      "english": " B11 S58 w=2\n...@\n...@#"
+      "english": "It's so much fun\nbeing with you!@\nI'm so happy! __heart@#"
     },
     {
       "japanese": "きょうは とっても\nたのしかったです  ",
-      "english": " B11 S59 w=1\n...@#"
+      "english": "I had a really\nfun time today!@#"
     },
     {
       "japanese": "...きょうは あまり\nめあたらしい げ-むが\nありませんでしたね...  ",
-      "english": " B11 S60 w=1\n...\n...@#"
+      "english": "There weren't many\nnew games today,\nwere there?...@#"
     },
     {
       "japanese": "ちょ~ おもしろかった~<3\n と ここにきて よかった~! \nあ .り .が .と<3  ",
-      "english": " B11 S61 w=5\n...@\n...@@@@#"
+      "english": "Cho~ That was\nso much fun! __heart@\nI'm so glad\nI came here!@\nThank.@You.@\nVery.@\nMuch! __heart@#"
     },
     {
       "japanese": "げ-む たのしかったね~!\n   ",
-      "english": " B11 S62 w=1\n...@#"
+      "english": "That game was fun!@#"
     },
     {
       "japanese": "きょうは こんでたから\nなんか じみな げ-むしか\nできなかったね~.. \nつまんないな~  ",
-      "english": " B11 S63 w=2\n...\n...@\n...@#"
+      "english": "It was crowded\ntoday, so we could\nonly play the\nboring games...@#"
     },
     {
       "japanese": "そりゃ あたし げ-むは\nすきだけど~... \nこの げ-せん...\nこのまえ きたばっかりじゃん!  ",
-      "english": " B11 S64 w=2\n...@\n...\n...@#"
+      "english": "Well, I do like\nvideo games...@\nbut this arcade...@\nI was just here\nyesterday!@#"
     },
     {
       "japanese": "せんぱいと いっしょに こんな\nたのしい じかんが すごせて... \nとっても...かんげきです<3\nありがとうございました!  ",
-      "english": " B11 S65 w=2\n...@\n...\n...@#"
+      "english": "Im so happy that I\nget to spend time\nwith you,senpai...@\n\nI'm...@ really\nthankful! __heart@#"
     },
     {
       "japanese": "せんぱいと げ-むできて\nすごく たのしかったです  ",
-      "english": " B11 S66 w=1\n...@#"
+      "english": "It was so much\nfun playing games\nwith you, senpai!@#"
     },
     {
       "japanese": "せんぱい...わたし... \nたいせんげ-む してたら... \nゆびが つっちゃいました!  ",
-      "english": " B11 S67 w=3@\n...@\n...@#"
+      "english": "Senpai...@\nI...@ I was playing\na fighting game\nand...@\nmy finger\ncrampedup@#"
     },
     {
       "japanese": "せんぱいは げ-せんに\nいのちを かけてるんですね... \nこのまえも いっしょに\nきたばっかりなのに...  ",
-      "english": " B11 S68 w=2\n...@\n...\n...@#"
+      "english": "Senpai is really\ngiving it all\non the crane game!@\n\nWe just came here\nthe other day,too@#"
     },
     {
       "japanese": " と げ-せんで すごした\nはっぴ-な ひととき... \nしのざわ かんげきしちゃいました~<3\nもう うれしくって くるくるっ<3  ",
-      "english": " B11 S69 w=2\n...@\n...\n...@#"
+      "english": "Togesen was so\ngreat!@ Shinozawa\nwas so moved! __heart@\n\nI'm spinning\nwith excitment! __heart@#"
     },
     {
       "japanese": "いっしょに げ-むが できて\nすごく たのしかったですわ~!  ",
-      "english": " B11 S70 w=1\n...@#"
+      "english": "It was so much\nfun playing games\ntogether!@#"
     },
     {
       "japanese": "...げ-せん こんでたから\nしのざわの すきな げ-むが\nできなかったの~...  ",
-      "english": " B11 S71 w=1\n...\n...@#"
+      "english": "The arcade was so\ncrowded...\nand...@\n\nShinozawa's\nfavorite was\ntaken!@#"
     },
     {
       "japanese": "たしかに しのざわって\nげ-む すきだけど... \nここって このまえも いっしょに\nきたばっかりですぅ!  ",
-      "english": " B11 S72 w=2\n...@\n...\n...@#"
+      "english": "It's true that\nShinozwa likes\ngames... but...@\n\nWe were just here\nthe other week!@#"
     },
     {
       "japanese": "... と いっしょに\nげ-せんで あそぶと\nそれなりに もりあがるよね~!  ",
-      "english": " B11 S73 w=1\n...\n...@#"
+      "english": "...\nPlaying at the\narcade with them\nis always fun!@#"
     },
     {
       "japanese": "...それなりに?  ",
-      "english": " B11 S74 w=1@#"
+      "english": "...to some extent?@#"
     },
     {
       "japanese": "まあ...それなりに...  ",
-      "english": " B11 S75 w=1@#"
+      "english": "well... it okay\nI guess...@#"
     },
     {
       "japanese": "\n\nもりぞの まりぃと ぼくのかんけいは\nまだまだ みたいだ...  ",
-      "english": " B11 S76 w=1\n...\n...\n...@#"
+      "english": "It seems that my\nrelationship with\nMari has a way\nto go...@#"
     },
     {
       "japanese": " といっしょに げ-せんで\nあそぶと もりあがるよね~!  ",
-      "english": " B11 S77 w=1\n...@#"
+      "english": "Playing at the\narcade together\nis so much fun!@#"
     },
     {
       "japanese": "...どうして?  ",
-      "english": "why's that?@#"
+      "english": "Why's that?@#"
     },
     {
       "japanese": "... も げ-むが\nうまいからかな~?  ",
-      "english": " B11 S79 w=1\n...@#"
+      "english": "... maybe its\nbecause I'm good\nat games?@#"
     },
     {
       "japanese": "なんだ それだけの りゆうか...  ",
-      "english": " B11 S80 w=1@#"
+      "english": "Is that the only\nreason...@#"
     },
     {
       "japanese": "\n\nもりぞの まりぃと ぼくのかんけいは\nまだ ちょっと かな...  ",
-      "english": " B11 S81 w=1\n...\n...\n...@#"
+      "english": "My relationship with\nMari is still...\ncomplicated...\nI guess.@#"
     },
     {
       "japanese": "... と いっしょに\nげ-せんで あそぶのって\nちょ~ たのしい!  ",
-      "english": " B11 S82 w=1\n...\n...@#"
+      "english": "Playing at the\narcade with you\nis so much fun!@#"
     },
     {
       "japanese": "さあ なんでかな...? \nほかのひとと あそぶより\nたのしいんだよね~  ",
-      "english": " B11 S83 w=2@\n...\n...@#"
+      "english": "Hmm, I wonder why...@\nits more fun\nplaying with other\npeople... right?@#"
     },
     {
       "japanese": "\n\nもりぞの まりぃと ぼくは\nちょっと いい ふんいきだ!  ",
-      "english": " B11 S84 w=1\n...\n...\n...@#"
+      "english": "Things are really\ngoing well between\nMari and I!@#"
     },
     {
       "japanese": "...うふふ<3 \nそれは...ひ .み .つ<3  ",
-      "english": " B11 S85 w=4@\n...@@@#"
+      "english": "... hehe __heart@\nThat's.\n@A.\n@Secret!__heart@#"
     },
     {
       "japanese": "\n\nもりぞの まりぃと ぼくは\nすごく いい ふんいきだ!!  ",
-      "english": " B11 S86 w=1\n...\n...\n...@#"
+      "english": "There's a spark\nbetween\nMari and I!!@#"
     },
     {
       "japanese": " と げ-せんで あそぶのって\nおもしろいですぅ!  ",
-      "english": " B11 S87 w=1\n...@#"
+      "english": "Playing at the\narcade was so\nmuch fun!@#"
     },
     {
       "japanese": "だって しのざわ... \nげ-むが すきだから~!  ",
-      "english": " B11 S88 w=2@\n...@#"
+      "english": "Because Shinozawa,@\nlikes those kinds\nof games!@#"
     },
     {
       "japanese": "\n\nしのざわ ももよと ぼくのかんけいは\nまだまだ みたいだ...  ",
-      "english": " B11 S89 w=1\n...\n...\n...@#"
+      "english": "My relationship\nwith Momoyo still\nhas a long way to\ngo...@#"
     },
     {
       "japanese": "だって  って みどころのある\nげ-ま-だからですぅ!  ",
-      "english": " B11 S90 w=1\n...@#"
+      "english": "Because its a\ngame with a lot\nof interesting\naspects!@#"
     },
     {
       "japanese": "\n\nしのざわ ももよと ぼくのかんけいは\nまだ ちょっと かな...  ",
-      "english": " B11 S91 w=1\n...\n...\n...@#"
+      "english": "My relationship with\nMomoyo is still a\nbit complicated...@#"
     },
     {
       "japanese": "あのねえ しのざわねえ... \n と げ-むするの だいすき!  ",
-      "english": " B11 S92 w=2@\n...@#"
+      "english": "Uhm...Shinozawa...@\nloves playing\ngames with you!@#"
     },
     {
       "japanese": "ほかのひとと げ-むするのと\nなんか ちがうかんじなの~<3  ",
-      "english": " B11 S93 w=1\n...@#"
+      "english": "Playing games with\nthis person feels\ndifferent than\nwith others~__heart@#"
     },
     {
       "japanese": "\n\nしのざわ ももよと ぼくは\nちょっと いい ふんいきだ!  ",
-      "english": " B11 S94 w=1\n...\n...\n...@#"
+      "english": "Things are going\nwell between\nMomoyo and I!@#"
     },
     {
       "japanese": "...よくわかんないけど... \n と あそんでると しのざわ\nもえもえなんですぅ~!<3\nきゃ~<3  ",
-      "english": " B11 S95 w=2@\n...\n...\n...@#"
+      "english": "Its unusual but...@\nWhen Shinozawa\nplays with you,@\n\nShinozawa feels\nwarm and fuzzy!__heart@#"
     },
     {
       "japanese": "\n\nしのざわ ももよと ぼくは\nすごく いい ふんいきだ!!  ",
-      "english": " B11 S96 w=1\n...\n...\n...@#"
+      "english": "There is a spark\nbetween\nMomoyo and I!!@#"
     },
     {
       "japanese": "こんなところに よびだすなんて\nなんのようなの?  ",
-      "english": " B11 S97 w=1\n...@#"
+      "english": "Why did you call\nme to a place\nlike this? what's\ngoing on?@#"
     },
     {
       "japanese": "あ、こんにちは、 くん!  ",
-      "english": " B11 S98 w=1@#"
+      "english": "oh, hello, ^-kun!@#"
     },
     {
       "japanese": "おまたせ~!  くん!  ",
-      "english": " B11 S99 w=1@#"
+      "english": "Sorry to keep you\nwaiting, ^-kun!@#"
     },
     {
       "japanese": " くん おまたせ~! \n...きょうは さそってくれて\nありがとう<3  ",
-      "english": " B11 S100 w=2@\n...\n...@#"
+      "english": "^-kun, sorry to\nkeep you waiting!@\nThank you for\ninviting me! __heart@#"
     },
     {
       "japanese": "あ  くん、どうも... \nいつも ここって さわがしいよね  ",
-      "english": " B11 S101 w=2@\n...@#"
+      "english": "oh,^-kun, hello...@\nIt's always so\nnoisy here,\nisn't it?@#"
     },
     {
       "japanese": "あ、 くん、こんにちは!  ",
-      "english": " B11 S102 w=1@#"
+      "english": "oh, ^-kun, hello!@#"
     },
     {
       "japanese": "あっ  くん! まった~?\nおそくなってごめんね  ",
-      "english": " B11 S103 w=1\n...@#"
+      "english": "oh, ^-kun!\nHave you been\nwaiting long?\nI'm sorry I'm late@#"
     },
     {
       "japanese": "あっ  くん... \nよびだしてくれるなんて\n...うれしいなっ  ",
-      "english": " B11 S104 w=2@\n...\n...@#"
+      "english": "^-kun...\nThank you for\ncalling me...@\nI'm so happy!@#"
     },
     {
       "japanese": "こんなとこに よびだすなんて \n くん、なんのようじ?  ",
@@ -522,7 +522,7 @@
     },
     {
       "japanese": "...きょうの からおけ\nなんだか きぶんが\nのらなかったよね?  ",
-      "english": " B11 S130 w=1\n...\n...@#"
+      "english": "this place...\nI guess I didn't\nfeel like singing,\ndid I?@#"
     },
     {
       "japanese": " くんと うたってると\nほんとに たのしいの<3 \nわたし かんげきしちゃった<3\n...ありがとう!  ",
@@ -810,7 +810,7 @@
     },
     {
       "japanese": "あ、 くん...どうも... \nふぅ...ここにくるだけで\nもう つかれちゃったわ  ",
-      "english": " B11 S202 w=2@\n...\n...@#"
+      "english": "oh, ^-kun...@\n*sigh*\nI'm exhausted just\nfrom coming here..@#"
     },
     {
       "japanese": "よびだしてくれて ありがと<3 \n...いそいで... \nいそいで きたのよ<3  ",
