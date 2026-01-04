@@ -40,7 +40,7 @@ def encode_english_text(text: str) -> bytes:
             encoded_bytes.append(byte_code)
         else:
             logging.warning(
-                f"Unknown English character '{char}' (ord={ord(char)}) encountered. Replacing with space."
+                f"Unknown English character '{char}' (ord={ord(char)}) encountered. Replacing with space. (text={text})"
             )
             encoded_bytes.append(character_map[" "])  # Replace unknown with space
         i += 1

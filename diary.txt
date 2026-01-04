@@ -267,6 +267,7 @@ day 36 (jan 3)
 
 day 37 (jan 4)
 * add scene line length checker
+* more bank 11 karaoke dialog
 
 next:
 * could experiment with variable width font printing
@@ -274,6 +275,8 @@ next:
   * might want to figure out how cutscenes are triggered so i can manually invoke them
 * TODO: will need to patch dialog that needs our name fe00 and fe01
 * TODO: rest of the town info screens (~9 of them)
+* TODO: revisit A~tsu! greetings
+* TODO: "I'm so moved!"
 
 translation percent:
 untranslated: cat .\out\*tr_en.json | grep " B" | wc -l
