@@ -108,6 +108,22 @@ def rebuild_rom_headers(
             encoded_scene_bytes = encode_english_text(english_text)
             encoded_scene_bytes += b"\x00"  # Add null terminator
 
+            # warm for individual line length
+            line_limit = 18
+            lines = encoded_scene_bytes.split(encode_english_text("\n"))
+            for l_i, line in enumerate(lines):
+                line_printable = line
+                line_printable = line_printable.replace(encode_english_text("@"), b'')
+                line_printable = line_printable.replace(encode_english_text("#"), b'')
+                line_printable = line_printable.replace(b'\x00', b'')
+                if len(line_printable) > line_limit:
+                    logging.warning(f"bank {bank_num} scene {i} line {l_i} ({len(line_printable)}) greater than limit {line_limit}")
+                # warn on the 4th line 18 char (where the flashing cursor is)
+                # technically, we don't know which lines are character dialog
+                # vs narrator (unless we parse metadata) so we'll just do out best
+                # if l_i == 3 and len(line_printable) > line_limit - 1:
+                #     logging.warning(f"bank {bank_num} scene {i} line {l_i} ({len(line_printable)}) possible truncation")
+
             if len(encoded_scene_bytes) > bytes_limit:
                 logging.error(
                     f"bank {bank_num} scene {i} exceeds byte limit ({bytes_limit}). have {len(encoded_scene_bytes)}. Truncating with scene terminator"

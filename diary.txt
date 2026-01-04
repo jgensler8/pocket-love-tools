@@ -265,6 +265,9 @@ day 36 (jan 3)
   * some relationship progress text (like level 1 2 3)
   * will translate most of this bank, calculate size growth, then evaluate fixes (metadata vs control codes)
 
+day 37 (jan 4)
+* add scene line length checker
+
 next:
 * could experiment with variable width font printing
 * continue with most cutscenes + game progression, maybe find more save states to test
