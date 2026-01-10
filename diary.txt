@@ -273,7 +273,10 @@ day 38 (jan 7)
 * add ~40 texts, seems to be park outing dialogs
 
 day 39 (jan 10)
-* ~70-90 translations, some riverbed scenes / phone invites
+* ~23%
+* ~140 translations, some riverbed scenes / phone invites
+* some more parts of story, experimenting with Mizuki <> riverbed / planetarium to try and trigger the "went here last time" dialogs
+* might have one Mizuki school entrance "hello" scene without proper scene terminator...
 
 next:
 * could experiment with variable width font printing

@@ -78,7 +78,7 @@
     },
     {
       "japanese": "(で-とちゅうの できごと)\n",
-      "english": " B9 S19 w=0\n..."
+      "english": "(During the Date)\n"
     },
     {
       "japanese": "なんだか きゅうに... \nるるなが いとおしくなってきた  ",
@@ -94,15 +94,15 @@
     },
     {
       "japanese": "なんだか きゅうに... \nみずきが いとおしくなってきた  ",
-      "english": " B9 S23 w=2@\n...@#"
+      "english": "For some reason...@\nI started to feel\na deep affection\nfor Mizuki...@#"
     },
     {
       "japanese": "ぼくは むいしきに てをのばし \nふるえるてで そっと \nみずきのかたに てをかけた...  ",
-      "english": " B9 S24 w=3@\n...@\n...@#"
+      "english": "I reached out my\nhand...@\nwhile trembling...@\n\nI gently placed\nit on Mizuki's\nshoulder@#"
     },
     {
       "japanese": "みずきは かおを あからめて\nうつむいた...  ",
-      "english": " B9 S25 w=1\n...@#"
+      "english": "Mizuki blushed and\nlooked down...@#"
     },
     {
       "japanese": "なんだか きゅうに... \nゆみが いとおしくなってきた  ",
@@ -166,7 +166,7 @@
     },
     {
       "japanese": "ふたりで あるいているとき\nぐうぜん...  ",
-      "english": " B9 S41 w=1\n...@#"
+      "english": "While we were\nwalking together\nit happened by\nchance...@#"
     },
     {
       "japanese": "るるなの てと ぼくの てが\nふれあった...  ",
@@ -178,11 +178,11 @@
     },
     {
       "japanese": "みずきの てと ぼくの てが\nふれあった...  ",
-      "english": " B9 S44 w=1\n...@#"
+      "english": "Mizuki's hand and\nmy hand touched...@#"
     },
     {
       "japanese": "おどろいて はずかしそうに\nうつむいた みずき... \nぼくは そのまま みずきの てを\nにぎりしめた...  ",
-      "english": " B9 S45 w=2\n...@\n...\n...@#"
+      "english": "Mizuki looked\nsurprised and\nembarassed...@\n\nAs she looked down\nI took her hand\ntightly.@#"
     },
     {
       "japanese": "ゆみの てと ぼくの てが\nふれあった...  ",
@@ -722,7 +722,7 @@
     },
     {
       "japanese": "ぼくは ろうかを あるいていた \nおや...?!  ",
-      "english": " B9 S180 w=2@\n...@#"
+      "english": "I was walking down\nthe hallway...@\noh!?@#"
     },
     {
       "japanese": "さえき るるなの はなしごえが\nきこえる! \nわるいと おもうけど\nたちぎきしよう...  ",
@@ -798,7 +798,7 @@
     },
     {
       "japanese": ".......... \nそうか...そんなふうに\nおもわれて いたのか... \nぼくは そ~っと\nそのばから たちさった  ",
-      "english": " B9 S199 w=3@\n...\n...@\n...\n...@#"
+      "english": "...@\nso that's how\nthey see me...@\ntime to go...@#"
     },
     {
       "japanese": "たかお みずきの はなしごえが\nきこえる! \nわるいと おもうけど\nたちぎきしよう...  ",
@@ -966,7 +966,7 @@
     },
     {
       "japanese": "じゃあ ひょっとして\nほかに だれか すきな\nひとが いるとか...?  ",
-      "english": " B9 S241 w=1\n...\n...@#"
+      "english": "So maybe...\nthere is someone\nelse you like?@#"
     },
     {
       "japanese": " さんとは... \nどうきゅうせいとして ふつうに\nせっしている だけです!  ",
@@ -994,7 +994,7 @@
     },
     {
       "japanese": "ぼくは うらにわで やすんでいた\nおや...?!  ",
-      "english": " B9 S248 w=1\n...@#"
+      "english": "I was resting\noutside...\noh!?@#"
     },
     {
       "japanese": "もりぞの まりぃの はなしごえが\nきこえる! \nわるいと おもうけど\nたちぎきしよう..  ",
@@ -1078,15 +1078,15 @@
     },
     {
       "japanese": "あいかわ すずねの はなしごえが\nきこえる! \nわるいと おもうけど\nたちぎきしよう..  ",
-      "english": " B9 S269 w=2\n...@\n...\n...@#"
+      "english": "I can hear Suzunes\nvoice!@ I know\nits wrong but...@\n\nI think I'll\neavesdrop a bit...@#"
     },
     {
       "japanese": "ねえ ねえ! \nすずねちゃんって\n2ねんの  さんのこと\nどう おもってるの~?  ",
-      "english": " B9 S270 w=2@\n...\n...\n...@#"
+      "english": "Say, Suzune-chan..@\nWhat do you think\nabout ^-san?\nfrom second year..@#"
     },
     {
       "japanese": "え... \nべつに なんとも...  ",
-      "english": " B9 S271 w=2@\n...@#"
+      "english": "Uhm...@\nThere's really\nnothing...@#"
     },
     {
       "japanese": "... さん? \nいい せんぱいだと おもいますけど?  ",
@@ -1094,7 +1094,7 @@
     },
     {
       "japanese": "え~! \nその ていど なんだぁ... \nでも けっこう\nなかがいいって きいたけど~?  ",
-      "english": " B9 S273 w=3@\n...@\n...\n...@#"
+      "english": "Really!?@ I heard\nyou two were quite\nclose...@#"
     },
     {
       "japanese": "えっ! \n せんぱい ですか?! \n...わ、わたし そんなこと\nきかれても...こまりますぅ!  ",
@@ -1102,7 +1102,7 @@
     },
     {
       "japanese": "あやしいな!  やっぱ すずねちゃんは\n さんのこと すき みたいね! \n...で ふたりは\nどういう かんけい~?  ",
-      "english": " B9 S275 w=3@\n...@\n...\n...@#"
+      "english": "Thats suspicious!@\nSuzune-chan, you\nreally ~do like\n^-san!@\nso...whats it\nreally like?@#"
     },
     {
       "japanese": "えっ!   せんぱい ですか?! \n...わ、わたし そんなこと\nきかれても...こまりますぅ! \n...ひみつ  ひみつですぅ!!  ",
@@ -1110,7 +1110,7 @@
     },
     {
       "japanese": " さんは \nただの せんぱい です  ",
-      "english": " B9 S277 w=2@\n...@#"
+      "english": "^-san is only\nmy senpai, that's\nall.@#"
     },
     {
       "japanese": " さんは \nいい せんぱいですけど...  ",
@@ -1130,15 +1130,15 @@
     },
     {
       "japanese": "ええ... でも... \nそのひとは ての とどかない\nひとだから...  ",
-      "english": " B9 S282 w=3@@\n...\n...@#"
+      "english": "eh...@ but...@\nThey're really\nout of my reach!@#"
     },
     {
       "japanese": "そのひとって... \nひょっとして... \n.........\n.......かめ?  ",
-      "english": " B9 S283 w=3@\n...@\n...\n...@#"
+      "english": "and that person...@\nis it...@\n...\nthat turtle?@#"
     },
     {
       "japanese": "ちがいますって!  ",
-      "english": " B9 S284 w=1@#"
+      "english": "No, that's not\ntrue~!@#"
     },
     {
       "japanese": "ほかに すきなひと なんて\nいない です...  ",
@@ -1146,15 +1146,15 @@
     },
     {
       "japanese": "しのざわ ももよの はなしごえが\nきこえる! ...でかい こえだ! \nたちぎきする つもりは ないけれど\nきこえるんだから しょうがない..  ",
-      "english": " B9 S286 w=2\n...@\n...\n...@#"
+      "english": "I hear Momoyo! She\nis so loud...@\nI can't help but\neavsedrop...@#"
     },
     {
       "japanese": "ねえ ねえ! \nしのざわって\n   のこと\nどう おもってるの~?  ",
-      "english": " B9 S287 w=2@\n...\n...\n...@#"
+      "english": "Hey, hey...@\nShinozawa... what\ndo you think of\n^-san?@#"
     },
     {
       "japanese": "え...? \nべつに なんとも おもってないよ~!  ",
-      "english": " B9 S288 w=2@\n...@#"
+      "english": "Eh...!?@\nI don't really\nfeel anything at\nall!@#"
     },
     {
       "japanese": "... ~? \nいいやつだと おもうけどぉ~?  ",
@@ -1174,7 +1174,7 @@
     },
     {
       "japanese": " はね~ \nただの ともだち だよ~ん!  ",
-      "english": " B9 S293 w=2@\n...@#"
+      "english": "No way~@\nWere just friends!@#"
     },
     {
       "japanese": " はね~ \nいい ともだち なんですぅ~  ",
@@ -1190,11 +1190,11 @@
     },
     {
       "japanese": "はっ! そういえば...しのざわ\n と しゃべってるより \nげ-む やってるほうが\nしあわせ いっぱい かも~!  ",
-      "english": " B9 S297 w=2\n...@\n...\n...@#"
+      "english": "Now that you\nmention it...@\n\n\nShinozawa loves\nplaying games\nmore!@#"
     },
     {
       "japanese": "しのざわ! \n...あんたって ひとは...  ",
-      "english": " B9 S298 w=2@\n...@#"
+      "english": "Shinozawa...@\nYou really are\nsomething...@#"
     },
     {
       "japanese": "ほかに すきなひと なんて \nいないですぅ~! \nきゃ~ はずかしい~<3  ",
@@ -1290,7 +1290,7 @@
     },
     {
       "japanese": "ねえ ねえ  ~! \nあした なんの ひか\nしってるよね~?  ",
-      "english": " B9 S322 w=2@\n...\n...@#"
+      "english": "Hey, hey~!@\nDo you know\nwhat tomorrow is?@#"
     },
     {
       "japanese": "(どうしよう?)\n しらない\n しってる",
@@ -1302,7 +1302,7 @@
     },
     {
       "japanese": "げ...しんじられな~い! \nあたしの たんじょうび じゃん!\nそんなの じょうしき だよ~!  ",
-      "english": " B9 S325 w=2@\n...\n...@#"
+      "english": "Ugh,I cant believe\nit!@ Its my\nbirthday! That's\ncommon sense!@#"
     },
     {
       "japanese": "うん しってるよ!\nたんじょうびでしょ?  ",
@@ -1310,11 +1310,11 @@
     },
     {
       "japanese": "そのとおり!!\nあたしの たんじょうびよ! \n...ま じょうしき だけどね~!  ",
-      "english": " B9 S327 w=2\n...@\n...@#"
+      "english": "That's right!\nMy birthday!@\nIt's common sense\nisn't it?@#"
     },
     {
       "japanese": "で...だ! \nとうぜん くれるんでしょうね~?! \nたんじょうびの... \nぷ. れ. ぜ. ん. と!!  ",
-      "english": " B9 S328 w=8@\n...@\n...@\n...@@@@@#"
+      "english": "so...@you'll get\nme something?@\nA\nP.@R.@E.@S.@E.@N.@T!!@#"
     },
     {
       "japanese": "(ぷれぜんとか...どうしよう?)\n あげる\n あげない",
@@ -1322,11 +1322,11 @@
     },
     {
       "japanese": "わかってるって! \nたのしみに してなよ  ",
-      "english": " B9 S330 w=2@\n...@#"
+      "english": "I understand!@\nLook forward\nto it!@#"
     },
     {
       "japanese": "らっき~! \nちょ~ うれしいかんじ~! \nじゃ~ねぇ~<3  ",
-      "english": " B9 S331 w=3@\n...@\n...@#"
+      "english": "Ooo! Lucky!!@\nI'm so happy!@\nSee ya!__heart@#"
     },
     {
       "japanese": "ごめん!! \nこんげつ ぴんち なんだ!  ",
@@ -1614,11 +1614,11 @@
     },
     {
       "japanese": "ぐうぜん もりぞの みりぃと\nめが あった... \nそうだ!  けさ ひろった\nけいざいしんぶんを かえさなくちゃ  ",
-      "english": " B9 S403 w=3\n...@\n...@\n...@#"
+      "english": "I accidentally\nmade eye contact\nwith Miri...@\nthats right!@\nI need to return\nthe paper!@#"
     },
     {
       "japanese": "ぼくは もりぞの みりぃに\nちかづいた  ",
-      "english": " B9 S404 w=1\n...@#"
+      "english": "I approached\nMiri...@#"
     },
     {
       "japanese": " この ふるしんぶん おまえのかよ?\n",
@@ -1634,7 +1634,7 @@
     },
     {
       "japanese": "あ わたしの しんぶん... \nじつは ずっと さがしてたんです \nどうも ありがとう  さん!  ",
-      "english": " B9 S408 w=3@\n...@\n...@#"
+      "english": "oh! my newspaper!@\nI've been looking\nfor it...@\nThank you so much!@#"
     },
     {
       "japanese": "あ わたしの しんぶん... \nじつは ずっと さがしてたんです \nほぞんして おきたい きじが\nのっていたんですもの...  ",

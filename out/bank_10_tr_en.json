@@ -418,7 +418,7 @@
     },
     {
       "japanese": "(くらぶかつどうちゅうの できごと)\n",
-      "english": " B10 S104 w=0\n..."
+      "english": "(Club Event)\n"
     },
     {
       "japanese": "ぼくは やきゅうぶで ぴっちんぐの\nれんしゅうを していた...  ",
@@ -426,7 +426,7 @@
     },
     {
       "japanese": "おい! ! \nだれか れんしゅうを みにきてるぞ! \nなんだか おまえに\nちゅうもく してる みたいだぜ!  ",
-      "english": " B10 S106 w=3@\n...@\n...\n...@#"
+      "english": "Hey!@ Someone\nis here to watch\nyou practice!@\n\nYou see?\nOver there!@#"
     },
     {
       "japanese": "ふ~ん... \n くんって やきゅうぶ\nだったんだ~...  ",
@@ -658,7 +658,7 @@
     },
     {
       "japanese": "ぼくは さっか-ぶで ご-るきっくの\nれんしゅうを していた...  ",
-      "english": " B10 S164 w=1\n...@#"
+      "english": "I was practicing\nsome goal kicks...@#"
     },
     {
       "japanese": "ふ~ん... \n くんって\nさっか- やってるんだ...  ",
@@ -670,7 +670,7 @@
     },
     {
       "japanese": " くん... \nかっこいい...  ",
-      "english": " B10 S167 w=2@\n...@#"
+      "english": "^-kun...@\nso cool~...@#"
     },
     {
       "japanese": "あ...\n くんだ...  ",
@@ -814,11 +814,11 @@
     },
     {
       "japanese": "あ!\nさえき るるなが こっちにきた! \nいったい なんだろう?  ",
-      "english": " B10 S203 w=2\n...@\n...@#"
+      "english": "Ah! Ruruna is\ncoming this way!@\nWhat could it be?@#"
     },
     {
       "japanese": " くん、さいきん ちょっと\nかっこよくなったような\nきが するけど... \n...きのせいかしら?  ",
-      "english": " B10 S204 w=2\n...\n...@\n...@#"
+      "english": "^-kun, I feel like\nyouve gotten a\nbit more handsome\nlately...@\nor its my\nimagination...@#"
     },
     {
       "japanese": "さいきん  くんが\nかっこよくなったって... \nおんなのこの あいだで\nうわさになってるのよ!  ",
@@ -886,7 +886,7 @@
     },
     {
       "japanese": "さいきん  さん\nべんきょう できるようになりましたね \nこの ちょうしだと つぎの しけんは\nいい せいせきでしょうね  ",
-      "english": " B10 S221 w=2\n...@\n...\n...@#"
+      "english": "Youve been\nstudying lately,\nright?@\n\nAt this rate,youll\nsurely do well on\nthe next exam@#"
     },
     {
       "japanese": "さいきん  さんって すごく \nせいせきよくなって きましたね! \nつぎの しけんで わたしと\nがくねんとっぷ あらそいしましょう  ",
@@ -1562,7 +1562,7 @@
     },
     {
       "japanese": "\n\n...なんだか いいふんいきだ! \nでも、こいびとどうしって\nかんじじゃ ないなぁ...  ",
-      "english": " B10 S390 w=2\n...\n...@\n...\n...@#"
+      "english": "Its a nice\natmosphere, but...@\nwe really don't\nseem like a couple@#"
     },
     {
       "japanese": "るるな ちょっと\nつかれちゃったかな...  ",
@@ -1578,7 +1578,7 @@
     },
     {
       "japanese": "\n\n...まずい! うっかりしてた!\nいまいちだったかな...?  ",
-      "english": " B10 S394 w=1\n...\n...\n...@#"
+      "english": "Oh no! I wasn't\npaying attention!\nThat can't be\ngood...@#"
     },
     {
       "japanese": " くんと ここに こられて\nほんとに...よかった!\nわたし かんどうしちゃった<3 \nありがと... くん!  ",
