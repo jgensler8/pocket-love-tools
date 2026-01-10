@@ -272,6 +272,9 @@ day 37 (jan 4)
 day 38 (jan 7)
 * add ~40 texts, seems to be park outing dialogs
 
+day 39 (jan 10)
+* ~70-90 translations, some riverbed scenes / phone invites
+
 next:
 * could experiment with variable width font printing
 * continue with most cutscenes + game progression, maybe find more save states to test
