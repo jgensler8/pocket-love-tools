@@ -278,6 +278,10 @@ day 39 (jan 10)
 * some more parts of story, experimenting with Mizuki <> riverbed / planetarium to try and trigger the "went here last time" dialogs
 * might have one Mizuki school entrance "hello" scene without proper scene terminator...
 
+day 40 (jan 11)
+* ~25%
+* ~70 phrases so far
+
 next:
 * could experiment with variable width font printing
 * continue with most cutscenes + game progression, maybe find more save states to test
