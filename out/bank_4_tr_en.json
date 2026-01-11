@@ -790,43 +790,43 @@
     },
     {
       "japanese": "(どうしよう?)\n しゃしんを とる\n しゃしんは とらない",
-      "english": " B4 S197 w=0\n...\n..."
+      "english": "(What next?)\n Take a picture\n No picture"
     },
     {
       "japanese": " ほかの おんなのこにする",
-      "english": " B4 S198 w=0"
+      "english": " Other girls"
     },
     {
       "japanese": "かしゃ!!  ",
-      "english": " B4 S199 w=1@#"
+      "english": "*snap*@#"
     },
     {
       "japanese": "(りょかんでの できごと)\n",
-      "english": " B4 S200 w=0\n..."
+      "english": "(At the Inn)\n"
     },
     {
       "japanese": "しゅうがくりょこうの よるは ながい \nふざけて さわいでるやつ... \nしんみり はなしこんでるやつ... \nいろんなやつが いるなあ...  ",
-      "english": " B4 S201 w=4@\n...@\n...@\n...@#"
+      "english": "The night grew\nlong.@some fooled\naround,some had\nserious talks@\nall sorts\nof people...@#"
     },
     {
       "japanese": "おや...?! \nとなりの じょしの へやから \nるるなと だれかの ひそひそばなしが\nきこえてきたぞ...! \n...なんだろう?  ",
-      "english": " B4 S202 w=4@\n...@\n...\n...@\n...@#"
+      "english": "Oh...!?@\nI can hear Ruruna!@\nHmmm...\nI wonder...@#"
     },
     {
       "japanese": "ねえ るるな...\nこのさいだから はっきり きくけど \n くんと まえのくん... \nどっちが ほんめいなの?  ",
-      "english": " B4 S203 w=3\n...@\n...@\n...@#"
+      "english": "I'll be\ndirect...@\nbetween ^-kun and\nyour previous one@\nWhich one is\nyour true love?@#"
     },
     {
       "japanese": "ふぅん... くんのことは\nもう だいたい わかったけど... \nまえの しろうくんのことは?  ",
-      "english": " B4 S204 w=2\n...@\n...@#"
+      "english": "Hmm... I think I\nunderstand what\nthere is to know\nabout you...@\nwhat about\nShiro-kun?@#"
     },
     {
       "japanese": "う~ん...  ",
-      "english": " B4 S205 w=1@#"
+      "english": "Hmm...@#"
     },
     {
       "japanese": "ねえ...... \nまえの しろうくんって さあ... \nるるなのこと すきなんじゃないの?  ",
-      "english": " B4 S206 w=3@\n...@\n...@#"
+      "english": "Wait..@Shiro-kun...@\nDoesn't he like\nRuruna?@#"
     },
     {
       "japanese": "そうねえ... \nそうかもしれないけど... \nわたしは  くんのほうが... \nあ、ううん...なんでもないわ!  ",
@@ -834,47 +834,47 @@
     },
     {
       "japanese": "...ほんと?! \n...もし そうだったら \nちょっぴり うれしいかも... \nあ、ううん...なんでもないわ!  ",
-      "english": " B4 S208 w=4@\n...@\n...@\n...@#"
+      "english": "... Really~?!@\nIf that's true...@\nI might be a\nlittle happy...@\noh..uh..\nits nothing!@#"
     },
     {
       "japanese": "(しゅうがくりょこう さいごのひ)\n",
-      "english": " B4 S209 w=0\n..."
+      "english": "(Trip: Last Day)\n"
     },
     {
       "japanese": "しゅうがくりょこうも\nいよいよ さいしゅうびだ... \nなんだか ちょっと\nなごりおしいなあ...  ",
-      "english": " B4 S210 w=2\n...@\n...\n...@#"
+      "english": "The trip is about\nto end...@\nI feel a bit\nsad...@#"
     },
     {
       "japanese": "しゅうがくりょこうの おもいでに \nここで きねんしゃしんでも\nとっておこうかな...  ",
-      "english": " B4 S211 w=2@\n...\n...@#"
+      "english": "To commemorate the\ntrip...@\nI think I'll take\na photo here...@#"
     },
     {
       "japanese": "(だれの しゃしんを とろう?)\n",
-      "english": " B4 S212 w=0\n..."
+      "english": "(Whose Picture?)\n"
     },
     {
       "japanese": " さえき るるな\n",
-      "english": " B4 S213 w=0\n..."
+      "english": " Ruruna\n"
     },
     {
       "japanese": " たかお みずき\n",
-      "english": " B4 S214 w=0\n..."
+      "english": " Mizuki\n"
     },
     {
       "japanese": " もりぞの みりぃ\n",
-      "english": " B4 S215 w=0\n..."
+      "english": " Miri\n"
     },
     {
       "japanese": " もりぞの まりぃ\n",
-      "english": " B4 S216 w=0\n..."
+      "english": " Mari\n"
     },
     {
       "japanese": " しのざわ ももよ\n",
-      "english": " B4 S217 w=0\n..."
+      "english": " Momoyo\n"
     },
     {
       "japanese": " しゃしんは とらない\n",
-      "english": " B4 S218 w=0\n..."
+      "english": " I dont take pics\n"
     },
     {
       "japanese": "え? きねんしゃしん?! \n...うれしいなっ<3 \nここって えんむすびの じんじゃ\nでしょう?  ",
@@ -886,7 +886,7 @@
     },
     {
       "japanese": "\n\n...じゃあ、いくよ! \nはい! ち-ず!!  ",
-      "english": " B4 S221 w=2\n...\n...@\n...@#"
+      "english": "Here we go...@\nsay Cheese!!@#"
     },
     {
       "japanese": "\n\nしゅうがくりょこうの\nさいこうの おもいでが できた!!  ",
@@ -898,7 +898,7 @@
     },
     {
       "japanese": "\n\nしゅうがくりょこうの\nおもいでが できた!  ",
-      "english": " B4 S224 w=1\n...\n...\n...@#"
+      "english": "\nI made some great\nmemories on that\nschool trip!@#"
     },
     {
       "japanese": "えんむすびの じんじゃで\nきねんしゃしん なんて... \nなんか いいこと あるかもねっ<3 \n...うれしいなっ!  ",
@@ -922,7 +922,7 @@
     },
     {
       "japanese": "ちょっと まって! \nかみのけ なおすから... \n...... \nはい、きれいに とってよね~!  ",
-      "english": " B4 S230 w=4@\n...@\n...@\n...@#"
+      "english": "Wait a minute!@\nLet me fix my\nhair!@...Okay!@\nTake a good one!@#"
     },
     {
       "japanese": "...えんむすび じんじゃで\nきねんしゃしんを とると \n としのざわに... \nあいの きせきが おとずれるかも<3  ",
@@ -942,7 +942,7 @@
     },
     {
       "japanese": "...... \nいろいろ あったけど\nぼくたちの しゅうがくりょこうは\nこれで おしまい...  ",
-      "english": " B4 S235 w=2@\n...\n...\n...@#"
+      "english": "We went through\na lot...@\nbut our trip is\nfinally over...@#"
     },
     {
       "japanese": "(はろうぃん.ぱ-てぃ-)\n",
@@ -1054,7 +1054,7 @@
     },
     {
       "japanese": "......... \nそうか...まえの しろうは\nるるなのことが すきなのか... \nぼくは そ~っと\nそのばから たちさった  ",
-      "english": " B4 S263 w=3@\n...\n...@\n...\n...@#"
+      "english": "so...Shiro...@\nlikes Ruruna...@\n...\nI quietly left\nthe scene...@#"
     },
     {
       "japanese": "...よかったら\nとちゅうまで おくるよ!  ",
@@ -1062,63 +1062,63 @@
     },
     {
       "japanese": "(ほ-む.る-むの じかん)\n",
-      "english": " B4 S265 w=0\n..."
+      "english": "(Homeroom)\n"
     },
     {
       "japanese": "きょうの ぎだいは... \nがくえんさいの だしものについて! \nうちの くらすは えんげきを\nやることになった!  ",
-      "english": " B4 S266 w=3@\n...@\n...\n...@#"
+      "english": "Todays topic is\nthe school\nfestival@\n\nOur class will\nput on a play!@#"
     },
     {
       "japanese": "だしものは... \nろみおと じゅりえっと...だ! \nまず じゅりえっと やくの\nとうひょうが おこなわれて \nすんなり ひろいんが きまった!  ",
-      "english": " B4 S267 w=4@\n...@\n...\n...@\n...@#"
+      "english": "The play will be:@\nRomeo and Juliet!@\nA vote for Juliet\nstarted and\nquickly finished!@#"
     },
     {
       "japanese": "わたしが じゅりえっと なんて... \nじしんは ないけど がんばります! \n...あ、ろみおの やくに...\nだれか りっこうほ しませんか?  ",
-      "english": " B4 S268 w=3@\n...@\n...\n...@#"
+      "english": "Me? for Juliet?@\nI.. uh.. I'll do\nmy best!@\nand for Romeo...@\nmaybe a volunteer?@#"
     },
     {
       "japanese": "...... \nだれも りっこうほ しないのかな? \n...あっ!! まえの しろうが\nてを あげた!!  ",
-      "english": " B4 S269 w=3@\n...@\n...\n...@#"
+      "english": "... huh?@\n is no one going\ntake the lead?@\nAh! look!@\nOur pal Shiro\nraised his hand!@#"
     },
     {
       "japanese": "(どうしよう?)\n ぼくも りっこうほ するぞ!\n りっこうほなんか しない",
-      "english": " B4 S270 w=0\n...\n..."
+      "english": "(Play Romeo?)\n Pick Me!\n No way..."
     },
     {
       "japanese": "はい! \n...ぼくも ろみおの やくに\nりっこうほします!  ",
-      "english": " B4 S271 w=2@\n...\n...@#"
+      "english": "YES!@\nI also want to\nplay Romeo!@#"
     },
     {
       "japanese": "...... \nまえの しろうと ぼくとの \nけっせんとうひょうが\nおこなわれることになった!  ",
-      "english": " B4 S272 w=3@\n...@\n...\n...@#"
+      "english": "...@\nA decisive vote\nbetween me and\nthis amateur is\ngoing to be held@#"
     },
     {
       "japanese": "つぎつぎと ひょうが よみあげられる \nまえの しろう \n...4ひょう \n    \n...5ひょう  ",
-      "english": " B4 S273 w=5@\n...@\n...@\n...@\n...@#"
+      "english": "The votes are\nbeing read out:@\nShiro Maeno has@\n4 votes...@\n5 votes...@#"
     },
     {
       "japanese": "まえの しろう \n...8ひょう \n    \n...7ひょう  ",
-      "english": " B4 S274 w=4@\n...@\n...@\n...@#"
+      "english": "Shiro Maeno has@\n..8 votes...@\n..7 votes...@#"
     },
     {
       "japanese": "まえの しろう \n...11ぴょう \n    \n...10ぴょう  ",
-      "english": " B4 S275 w=4@\n...@\n...@\n...@#"
+      "english": "Shiro Maeno has@\n..11 votes...@\n..10 votes...@#"
     },
     {
       "japanese": "... \n...... \nけっきょく ぼくは くじびきで... \nうまのやくに なってしまった...  ",
-      "english": " B4 S276 w=4@\n...@\n...@\n...@#"
+      "english": "Done!@ In the end,\nI lost...@ and got\nto play the part\nof the horse@#"
     },
     {
       "japanese": "... くん\nざんねん だったわね...  ",
-      "english": " B4 S277 w=1\n...@#"
+      "english": "aww ^-kun...\nthat's a shame\nisn't it?...@#"
     },
     {
       "japanese": "まえの しろう \n...16ぴょう \n    \n...19ひょう  ",
-      "english": " B4 S278 w=4@\n...@\n...@\n...@#"
+      "english": "Shiro Maeno has@\n..16 votes...@\n..19 votes...@#"
     },
     {
       "japanese": "おめでとう! \n くんが ろみおの やくね! \n...よろしく!  ",
-      "english": " B4 S279 w=3@\n...@\n...@#"
+      "english": "Congrats!@\nYou'll be playing\nRomeo!@\n\nI look forward to\nworking with you!@#"
     },
     {
       "japanese": "まえの しろう \n...10ぴょう \n    \n...11ぴょう  ",
@@ -1266,7 +1266,7 @@
     },
     {
       "japanese": "...... \nぼくは なにもいえずに \nほのおに てらされた\nるるなの かおを \nただ じっと みつめていた...  ",
-      "english": " B4 S316 w=4@\n...@\n...\n...@\n...#@#"
+      "english": "I couldn't say\nanything...@\nOver the flames,@\nI stared intently\nat Rurunas face...@\n@#"
     },
     {
       "japanese": "\n\nがくえんさいでの\nできごとだった...  ",
@@ -1282,7 +1282,7 @@
     },
     {
       "japanese": "...... \nぼくは すこし うるんだような\nみずきの ひとみを\nただ じっと みつめてた...  ",
-      "english": " B4 S320 w=2@\n...\n...\n...#@#"
+      "english": "I simply gazed\ninto Mizuki's eyes\nwhich seemed a\nbit teary...@#"
     },
     {
       "japanese": "...がくえんさいも もうすぐ\nおわってしまうのね... \nわたしにとっては こうこうせいかつ\nさいごの がくえんさい...  ",
@@ -1318,7 +1318,7 @@
     },
     {
       "japanese": "...... \nちょっと はずかしそうに\nしせんを そらした まりぃの かおを \nぼくは ただ じっと みつめていた  ",
-      "english": " B4 S329 w=3@\n...\n...@\n...#@#"
+      "english": "I simply gazed at\nMari's face. She\nlooked away, a\nlittle embarassed@#"
     },
     {
       "japanese": "あの... せんぱい...\nきょうは おつかれさまでした \nせんぱいの すて-じ... \nすごく...かっこよかったですぅ!  ",

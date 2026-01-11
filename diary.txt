@@ -279,8 +279,13 @@ day 39 (jan 10)
 * might have one Mizuki school entrance "hello" scene without proper scene terminator...
 
 day 40 (jan 11)
-* ~25%
-* ~70 phrases so far
+* ~27%
+* ~140 phrases
+* Mizuki in class scene off (7F 0A77 7F 1B737276 -> B8 S437)
+  * default unpack has an unusual #@: ' B8 S437 w=2\n...#@\n...\n...\n...@#'
+  * #@# (or just out of order #) maybe a dramatic but static pause character, seems to only be scenes where we look at the other char (but don't control with button)
+* Osaka trip start (seems like a special scene per love interest, perhaps?)
+  * custom photo dialogs
 
 next:
 * could experiment with variable width font printing

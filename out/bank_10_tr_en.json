@@ -766,11 +766,11 @@
     },
     {
       "japanese": "きょうは たこうとの\nれんしゅうじあいだ!  ",
-      "english": " B10 S191 w=1\n...@#"
+      "english": "Today is our\npractice match\nagainst Takao!@#"
     },
     {
       "japanese": "しあいは じゅんちょうに\nすすんでいる \n...... \n......  ",
-      "english": " B10 S192 w=3\n...@\n...@\n...@#"
+      "english": "The match is\ngoing well...@\n...@\n...@#"
     },
     {
       "japanese": "きょうは ちくよせんだ! \nいよいよ はじまるぞ!  ",
@@ -802,7 +802,7 @@
     },
     {
       "japanese": "(さっか-ぶの しあい)\n",
-      "english": " B10 S200 w=0\n..."
+      "english": "(Soccer Match)"
     },
     {
       "japanese": "やったぁ!\nうちの さっか-ぶが\nかったぞ!!  ",
@@ -810,7 +810,7 @@
     },
     {
       "japanese": "ざんねん...\nうちの さっか-ぶは\nまけてしまった...  ",
-      "english": " B10 S202 w=1\n...\n...@#"
+      "english": "That's a shame...\nour soccer club\nlost...@#"
     },
     {
       "japanese": "あ!\nさえき るるなが こっちにきた! \nいったい なんだろう?  ",
@@ -1534,7 +1534,7 @@
     },
     {
       "japanese": "きょうは たのしかったね!\nありがとう!  ",
-      "english": " B10 S383 w=1\n...@#"
+      "english": "We had a great\ntime today!\nThank you!@#"
     },
     {
       "japanese": "(これから どうしよう?)\n うちに かえる\n だれか よびだす",
@@ -1874,7 +1874,7 @@
     },
     {
       "japanese": "どれどれ もんだいは、と... \nまあ そこそこ かんたんだな! \n...それなりの せいせきが\nとれそうだ!  ",
-      "english": " B10 S468 w=3@\n...@\n...\n...@#"
+      "english": "Hm,what this one?@\nIt seems pretty\neasy!@\n\nI should get a\ndecent score!@#"
     },
     {
       "japanese": "あ、 くん... \nその ひょうじょうからすると... \nしけんが うまくいったんでしょ? \n...よかったわね!  ",

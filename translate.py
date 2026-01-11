@@ -254,7 +254,7 @@ if __name__ == "__main__":
     # start_addr, end_addr = (0x4cd8, 0x4ce0)
     # start_addr, end_addr = (0x4ce1, 0x4ce9)
     # start_addr, end_addr = (0x4cea, 0x4cf2)
-    start_addr, end_addr = (0x4cf3, 0x4cfb)
+    # start_addr, end_addr = (0x4cf3, 0x4cfb)
     # both call screens
     # start_addr, end_addr = (0x47bd, 0x47cc)
     # example call
@@ -300,6 +300,9 @@ if __name__ == "__main__":
     # start_addr, end_addr = (0x4add, 0x4ae6)
     # start_addr, end_addr = (0x4aeb, 0x4aed)
     # start_addr, end_addr = (0x4af2, 0x4b03)
+    # call > future date accept
+    # start_addr, end_addr = (0x4b08, 0x4b0b)
+    start_addr, end_addr = (0x4b1d, 0x4b23)
     # park call (probably no answer)
     # start_addr, end_addr = (0x4d00, 0x4d0a)
     # start_addr, end_addr = (0x4d0f, 0x4d17)

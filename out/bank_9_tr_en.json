@@ -742,11 +742,11 @@
     },
     {
       "japanese": " くんねぇ... \nけっこう いいひと みたいね  ",
-      "english": " B9 S185 w=2@\n...@#"
+      "english": "^-kun seems like\na pretty nice\nchoice...@#"
     },
     {
       "japanese": "ふ~ん... \nで ふたりは\nどんな かんけい なの?  ",
-      "english": " B9 S186 w=2@\n...\n...@#"
+      "english": "oh?@\nSo what type of\nrelationship do\nyou two have?@#"
     },
     {
       "japanese": "えっ!  くんのこと...? \nい、いきなり そんな こと\nきかないでよ~!  ",
@@ -766,7 +766,7 @@
     },
     {
       "japanese": " くんとは\nただの おさななじみ なの... \nなんの かんけいも ないわよ  ",
-      "english": " B9 S191 w=2\n...@\n...@#"
+      "english": "^-kun and I...@\nWe're just\nchildhood friends.@\nnothing romantic.@#"
     },
     {
       "japanese": "じゃあ、 くんより\nまえのくんの ほうと\nなかが いいの?  ",
@@ -1778,27 +1778,27 @@
     },
     {
       "japanese": "(しゅうがくりょこう)\n",
-      "english": " B9 S444 w=0\n..."
+      "english": "(School Trip)\n"
     },
     {
       "japanese": "いよいよ しゅうがくりょこうだ! \nぼくたちは ながいあいだ\nばすにゆられ... \nおおさかに とうちゃくした!  ",
-      "english": " B9 S445 w=3@\n...\n...@\n...@#"
+      "english": "Finally,time for\nour trip!@\nAfter the near-\nsickening bus ride@\nwe arrive in...@\nOsaka!@#"
     },
     {
       "japanese": "わあ...これが つうてんかくね! \nてれびで みたのと\nおんなじだわ~!  ",
-      "english": " B9 S446 w=2@\n...\n...@#"
+      "english": "Wow!\nTsutenkaku Tower!@\nJust like on\nthe TV!@#"
     },
     {
       "japanese": "この まちなみ... \nいかにも おおさかって ふんいきで\nいいですね!  ",
-      "english": " B9 S447 w=2@\n...\n...@#"
+      "english": "This streetscape..@\nIt has such a\ntypical Osaka\natmosphere! cool!@#"
     },
     {
       "japanese": "あっ! これが ゆうめいな\nどうとんぼりの くいだおれ だね! \n...おもしろいなあ!  ",
-      "english": " B9 S448 w=2\n...@\n...@#"
+      "english": "Oh! Dotonbori!@\nThese smells...\nLet's eat!\nLet's eat!@#"
     },
     {
       "japanese": "...... \nぼくは はじめてみる けしきに\nおどろいて ぼ~っとしていた \n...そのとき...  ",
-      "english": " B9 S449 w=3@\n...\n...@\n...@#"
+      "english": "I was so struck\nby the scene that\nI was staring\nblankly...@#"
     },
     {
       "japanese": "ねえ、 くん... \n くんと いっしょに\nしゅうがくりょこうに これて \nわたし...うれしいわ!  ",
@@ -1806,11 +1806,11 @@
     },
     {
       "japanese": "\n\nいきなり こえを かけられたので \nぼくは ちょっと どきっとした..  ",
-      "english": " B9 S451 w=2\n...\n...@\n...@#"
+      "english": "I was a little\nstartled when\nsomeone suddenly\ncalled out to me..@#"
     },
     {
       "japanese": "ねえ... くん... \nわたし  くんと いっしょに\nしゅうがくりょこうに これて \nよかったわ...  ",
-      "english": " B9 S452 w=3@\n...\n...@\n...@#"
+      "english": "Hey...^-kun...@\nIm so glad I could\ncome on the school\ntrip with you!@#"
     },
     {
       "japanese": "...ふと... \nぼくは まつだ ゆみのことを\nおもいだした... \nゆみは いまごろ\nなにしているのかな...  ",

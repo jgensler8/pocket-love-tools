@@ -30,7 +30,7 @@
     },
     {
       "japanese": "じっと こっちを みている! \n",
-      "english": " B8 S7 w=1#@\n..."
+      "english": "They're staring\nat me!@"
     },
     {
       "japanese": "ぼくに きょうみが あるみたいだ!  ",
@@ -214,7 +214,7 @@
     },
     {
       "japanese": "ふわぁ...ねむい\nきのう あそびすぎたかな?  ",
-      "english": " B8 S53 w=1\n...@#"
+      "english": "*yawn*\nI'm a bit sleepy.\nDid I play too\nmuch yesterday?@#"
     },
     {
       "japanese": "なんだぁ  かぁ...\nおはよ~!  ",
@@ -374,15 +374,15 @@
     },
     {
       "japanese": "あ、 ~!\nがっこうまで いっしょに いく~?  ",
-      "english": " B8 S93 w=1\n...@#"
+      "english": "oh~!\nDo you want to\ngo to school\ntogether?@#"
     },
     {
       "japanese": "ふぅん...\nあたしの さそいを ことわるなんて \nいい どきょう してるって かんじ~  ",
-      "english": " B8 S94 w=2\n...@\n...@#"
+      "english": "Tch!...\nRefusing my\ninvitation...@\n\nThat takes some\nnerve!!@#"
     },
     {
       "japanese": "ひとりだと がっこうまで いくの\nちょ~ かったるい もんね!  ",
-      "english": " B8 S95 w=1\n...@#"
+      "english": "Sure, going alone\nis a bit tedious\nisn't it?@#"
     },
     {
       "japanese": "おっはよう!  ~!\nたまには ふたりで はっぴ-に\nしゅうだんとうこう しようよ~!  ",
@@ -702,7 +702,7 @@
     },
     {
       "japanese": "では さようなら!  ",
-      "english": " B8 S175 w=1@#"
+      "english": "Well then,\nGoodbye!@#"
     },
     {
       "japanese": "うん いっしょに かえろ~か! \nあたしも きょうは ひまだしぃ~  ",
@@ -1734,7 +1734,7 @@
     },
     {
       "japanese": "...ぼくの ほうを\nじっと みてた みたいだけど... \nきのせい だったのかな...?  ",
-      "english": " B8 S433 w=2\n...#@\n...@#"
+      "english": "was she just\nlooking intently?@\nmaybe my\nimagination...@#"
     },
     {
       "japanese": "...めと めが あうと \nさえき るるなは\nちょっと はずかしそうに ほほえんで\nうつむいた... \nなんだか いい かんじ!!  ",
@@ -1750,7 +1750,7 @@
     },
     {
       "japanese": "...ぼくも そのまま みずきを\nじっと みつめた \nだれにも きづかれずに ぼくらは\nただ みつめあっていた...  ",
-      "english": " B8 S437 w=2\n...#@\n...\n...\n...@#"
+      "english": "I also stared at\nMizuki intently...@\nWithout anyone\nnoticing,@\nwe continued our\ngaze...@#"
     },
     {
       "japanese": "(やすみじかんの できごと)\n",
