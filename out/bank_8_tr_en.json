@@ -34,7 +34,7 @@
     },
     {
       "japanese": "ぼくに きょうみが あるみたいだ!  ",
-      "english": " B8 S8 w=1@#"
+      "english": "It seems like\nthey're interested\nin me!@#"
     },
     {
       "japanese": "もりぞの まりぃだ!  ",
@@ -50,11 +50,11 @@
     },
     {
       "japanese": "でも あいかわさんは\nなにも いわなかった  ",
-      "english": " B8 S12 w=1\n...@#"
+      "english": "But Suzune didn't\nsay anything...@#"
     },
     {
       "japanese": "こえを かけようとすると\nはずかしそうに にげていった...  ",
-      "english": " B8 S13 w=1\n...@#"
+      "english": "When I tried to\ncall out to her,\nshe shyly ran\naway...@#"
     },
     {
       "japanese": "しのざわ ももよだ!  ",
@@ -62,7 +62,7 @@
     },
     {
       "japanese": "でも しのざわは とぼけたかおで\nとおりすぎていった  ",
-      "english": " B8 S15 w=1\n...@#"
+      "english": "But Momoyo walked\npast with a blank\nexpression on her\nface...@#"
     },
     {
       "japanese": "こっちに はしってきたぞ!  ",
@@ -98,23 +98,23 @@
     },
     {
       "japanese": "やあ、おはよう!  ",
-      "english": " B8 S24 w=1@#"
+      "english": "yo, good morning!@#"
     },
     {
       "japanese": "あ、 くん、おはよう!  ",
-      "english": " B8 S25 w=1@#"
+      "english": "oh, ^-kun,\ngood morning!@#"
     },
     {
       "japanese": "きゃ~、 くん、おはよう!  ",
-      "english": " B8 S26 w=1@#"
+      "english": "kya~, ^-kun,\ngood morning!@#"
     },
     {
       "japanese": "おはよう、るるな!  ",
-      "english": " B8 S27 w=1@#"
+      "english": "Good morning,\nRuruna!@#"
     },
     {
       "japanese": "きゃっ<3  くん、おはよう!  ",
-      "english": " B8 S28 w=1@#"
+      "english": "Kyaa-tsu~__heart\nGood morning,\n^-kun!@#"
     },
     {
       "japanese": "たかお みずきだ!  ",
@@ -126,7 +126,7 @@
     },
     {
       "japanese": "あ...どうも  ",
-      "english": " B8 S31 w=1@#"
+      "english": "oh... hello@#"
     },
     {
       "japanese": "たかおさん、おはよう!  ",
@@ -154,23 +154,23 @@
     },
     {
       "japanese": "おはよう、 くん!  ",
-      "english": " B8 S38 w=1@#"
+      "english": "Good morning,\n^-kun!@#"
     },
     {
       "japanese": "まつださん、おはよう!  ",
-      "english": " B8 S39 w=1@#"
+      "english": "Good morning,\nMatsuda-san!@#"
     },
     {
       "japanese": "あ、 くん、おはよっ!  ",
-      "english": " B8 S40 w=1@#"
+      "english": "yo, ^-kun!\nGood morning!@#"
     },
     {
       "japanese": "おはよう、ゆみ!  ",
-      "english": " B8 S41 w=1@#"
+      "english": "Good morning,\nYumi!@#"
     },
     {
       "japanese": " くん、おはよっ!  ",
-      "english": " B8 S42 w=1@#"
+      "english": "Yo ^-kun!\nGood morning!@#"
     },
     {
       "japanese": "もりぞの みりぃだ!  ",
@@ -178,19 +178,19 @@
     },
     {
       "japanese": "おはよ...あれ? \nほんを よみながら あるいてるから\nぼくに きづかない... \n",
-      "english": " B8 S44 w=2@\n...\n...@\n..."
+      "english": "Good morn..ing...@\noh. she's reading\nand walking...@\nso shes doesn't\nnotice me...@#"
     },
     {
       "japanese": "さすがは もりぞのさんだ~!!  ",
-      "english": " B8 S45 w=1@#"
+      "english": "Exactly what I'd\nexpect from Miri!!@#"
     },
     {
       "japanese": "しんぶんを みながら あるいてるから\nぼくに きづかない... \n",
-      "english": " B8 S46 w=1\n...@\n..."
+      "english": "They're walking\nand reading the\nnewspaper...@\n\nobviously they\ndidn't notice me..@#"
     },
     {
       "japanese": "もりぞのさん、おはよう!  ",
-      "english": " B8 S47 w=1@#"
+      "english": "Good morning,\nMorizono-san!@#"
     },
     {
       "japanese": "(もりぞの みりぃ)\n",
@@ -198,15 +198,15 @@
     },
     {
       "japanese": "あ、おはようございます\nきょうも べんがくにはげみましょう  ",
-      "english": " B8 S49 w=1\n...@#"
+      "english": "Ah, Good morning!\nLet's work hard\non our studies\ntoday.@#"
     },
     {
       "japanese": "きょうも べんがくに はげもうぜ!  ",
-      "english": " B8 S50 w=1@#"
+      "english": "Let's study hard\nagain today!@#"
     },
     {
       "japanese": "...その せりふ にあいませんね  ",
-      "english": " B8 S51 w=1@#"
+      "english": "...That doesn't\nmatch the\ndialog...@#"
     },
     {
       "japanese": "(もりぞの まりぃ)\n",
@@ -218,19 +218,19 @@
     },
     {
       "japanese": "なんだぁ  かぁ...\nおはよ~!  ",
-      "english": " B8 S54 w=1\n...@#"
+      "english": "What's up?\nGood morning~@#"
     },
     {
       "japanese": "おはよう! まりぃ  ",
-      "english": " B8 S55 w=1@#"
+      "english": "Good morning,\nMari!@#"
     },
     {
       "japanese": "あ、 じゃん!\nおはよ~っ!  ",
-      "english": " B8 S56 w=1\n...@#"
+      "english": "Oh, heyy!\nGood Morning~!@#"
     },
     {
       "japanese": "やあ、おはよう、まりぃ!  ",
-      "english": " B8 S57 w=1@#"
+      "english": "Yo, good morning,\nMari!@#"
     },
     {
       "japanese": "あっ、 ~!\nおはよ~っ<3!  ",
@@ -242,15 +242,15 @@
     },
     {
       "japanese": "おはよ... \nあれ? \nあいかわさんは うつむいたまま\nはしりさってしまった...  ",
-      "english": " B8 S60 w=3@\n...@\n...\n...@#"
+      "english": "Good morn...ing...@\nhmm...@ Suzune\njust ran away with\nher head down...@#"
     },
     {
       "japanese": "おはよ... \nあれ? \nあいかわさんは かおを あからめて\nかけだしてしまった...  ",
-      "english": " B8 S61 w=3@\n...@\n...\n...@#"
+      "english": "Good morning...@\noh~...@ Suzune\nwas blushing just\nnow...@#"
     },
     {
       "japanese": "おはよう、すずねちゃん!  ",
-      "english": " B8 S62 w=1@#"
+      "english": "Good morning,\nSuzune-chan!@#"
     },
     {
       "japanese": "(あいかわ すずね)\n",
@@ -258,31 +258,31 @@
     },
     {
       "japanese": "あ... せんぱい!\nお、おはようございますっ!  ",
-      "english": " B8 S64 w=1\n...@#"
+      "english": "ah... Senpai!\nGood morning\nto you!@#"
     },
     {
       "japanese": "ぎょえ~~~~っ!\nちこく ちこく!  ",
-      "english": " B8 S65 w=1\n...@#"
+      "english": "Gaaah~!\nI'm going to be\nlate!@#"
     },
     {
       "japanese": "ぐっど も-にんぐ えぶりばでぃ!\n...なんちゃって! ですぅ<3  ",
-      "english": " B8 S66 w=1\n...@#"
+      "english": "Goooood morning,\nevery buddy~~!\njust kidding!\nhaha__heart@#"
     },
     {
       "japanese": "やあ、しのざわ、おはよう!  ",
-      "english": " B8 S67 w=1@#"
+      "english": "Yo, Shinozawa,\ngood morning!@#"
     },
     {
       "japanese": "お、 !\nきょうも いっぱつ はりきっていこ~\nくるくるぅ~  ",
-      "english": " B8 S68 w=1\n...\n...@#"
+      "english": "Woo! Let's get\ntoday start with\nsome enthusiasm!~\nWheeeee~@#"
     },
     {
       "japanese": "お~い、しのざわ、おはよ~う!  ",
-      "english": " B8 S69 w=1@#"
+      "english": "Yo, Shinozawa,\ngood morning!@#"
     },
     {
       "japanese": "うは~っ!  じゃ~ん!\nおっはよ~~っ<3\nうれしいですぅ くるくるぅ<3  ",
-      "english": " B8 S70 w=1\n...\n...@#"
+      "english": "Taa Daa!!\nGood morning__heart!!\nI'm so happy!\n*spins around*@#"
     },
     {
       "japanese": "",
@@ -322,7 +322,7 @@
     },
     {
       "japanese": "あ、 くん おはよう!\nがっこうまで いっしょに いかない?  ",
-      "english": " B8 S80 w=1\n...@#"
+      "english": "^-kun, good\nmorning! want to\nwalk to school\ntogether?@#"
     },
     {
       "japanese": "(どうしよう?)\n きょうは ちょっと ごめん\n よし いっしょに いこう!",
@@ -330,7 +330,7 @@
     },
     {
       "japanese": "むり いって ごめんね...\nじゃ、また こんどね  ",
-      "english": " B8 S82 w=1\n...@#"
+      "english": "I'm sorry for\nmaking an\nunreasonable\nrequest... well,\nsee you around@#"
     },
     {
       "japanese": "",
@@ -338,7 +338,7 @@
     },
     {
       "japanese": "つきあって くれて ありがとう\nるるな ちょっぴり うれしい...  ",
-      "english": " B8 S84 w=1\n...@#"
+      "english": "Thank you for\nspending time with\nme. Ruruna is\na little happy...@#"
     },
     {
       "japanese": "あ、 くん おはよう!\nがっこうまで いっしょに いこうよ!  ",
@@ -358,19 +358,19 @@
     },
     {
       "japanese": "あ、 くん おはよう!\nがっこうまで いっしょに いこうか?  ",
-      "english": " B8 S89 w=1\n...@#"
+      "english": "Good morning,\n^-kun! Shall we\ngo to school\ntogether?@#"
     },
     {
       "japanese": "そうか...\n くんにも\nいろいろ つごうが あるもんね! \nじゃ、またっ!  ",
-      "english": " B8 S90 w=2\n...\n...@\n...@#"
+      "english": "I see... well\nyou have your own\ncircumstances...@\nsee you later!@#"
     },
     {
       "japanese": "はい せんぱい!  ",
-      "english": " B8 S91 w=1@#"
+      "english": "Yes, Senpai!@#"
     },
     {
       "japanese": "よし! まいごに ならないように\nしっかり ついてきなさい!\n...なぁんてね うふふっ!  ",
-      "english": " B8 S92 w=1\n...\n...@#"
+      "english": "Okay~! Make sure\nyou stay close so\nyou don't get\nlost! hehe!@#"
     },
     {
       "japanese": "あ、 ~!\nがっこうまで いっしょに いく~?  ",
@@ -386,15 +386,15 @@
     },
     {
       "japanese": "おっはよう!  ~!\nたまには ふたりで はっぴ-に\nしゅうだんとうこう しようよ~!  ",
-      "english": " B8 S96 w=1\n...\n...@#"
+      "english": "Good morning!\nSure, walking\ntogether on\noccasion is fine~!@#"
     },
     {
       "japanese": "ちぇ! しのざわ しょんぼりですぅ~\nでも ま、しかたないかぁ!  ",
-      "english": " B8 S97 w=1\n...@#"
+      "english": "Ugh...\nShinozawa is\nfeeling down...@\n\nBut its like that\nsometimes!@#"
     },
     {
       "japanese": "わ~い! みらくる らっき-!\nがっこうまで すきっぷ すきっぷ!  ",
-      "english": " B8 S98 w=1\n...@#"
+      "english": "Whee! Luck-ee~!\nSkip and hop!\nall the way to\nschool!@#"
     },
     {
       "japanese": "(げこうちゅうの できごと)\n",
@@ -406,15 +406,15 @@
     },
     {
       "japanese": "ぴんくの りぼんだ... \nるるなの ものかもしれないな..\nとりあえず もっておこう  ",
-      "english": " B8 S101 w=2@\n...\n...@#"
+      "english": "it's a pink ribbon@\nMaybe it belongs\nto Ruruna... I'll\nkeep it for now@#"
     },
     {
       "japanese": "はちまきだ... \nん? \nたかおって かいてある... \nとりあえず もっておこう  ",
-      "english": " B8 S102 w=4@\n...@\n...@\n...@#"
+      "english": "hmm, a headband?@\noh, it says Takao@\nGuess I'll hold\non to it for now@#"
     },
     {
       "japanese": "もめんの はんかちだ... \nおや? \nゆみって かいてある... \nとりあえず もっておこう  ",
-      "english": " B8 S103 w=4@\n...@\n...@\n...@#"
+      "english": "A handkerchief...@\nis that... 'Yumi'@\nI'll keep it\nsafe for now...@#"
     },
     {
       "japanese": "けいざいしんぶん じゃないか... \nもりぞのさんが おとしたのかな? \nとりあえず もっておこう  ",
@@ -422,7 +422,7 @@
     },
     {
       "japanese": "けいたいでんわだ!!! \nん!? \nまりぃって かいてある! \nとりあえず もっておこう  ",
-      "english": " B8 S105 w=4@\n...@\n...@\n...@#"
+      "english": "Woah,a cell phone!@\noh, it says Mari@\nI can keep it\nsafe for a bit@#"
     },
     {
       "japanese": "にっきの かぎのようだ... \nすずねって かいてあるな... \nとりあえず もっておこう  ",
@@ -430,11 +430,11 @@
     },
     {
       "japanese": "げ-む そふとだ!!! \nおや! \nももよって かいてある!!\nとりあえず もっておこう  ",
-      "english": " B8 S107 w=3@\n...@\n...\n...@#"
+      "english": "A video game!?@\noh! It's Momoyo's!@\nI can hold on\nto it for now@#"
     },
     {
       "japanese": "これ がっこうで\nひろったんだけど... \n くんの\nさいふじゃ ないかしら?  ",
-      "english": " B8 S108 w=2\n...@\n...\n...@#"
+      "english": "I found this at\nschoo...@\nCould this be\nyour wallet?@#"
     },
     {
       "japanese": "(どう はなそう?)\n",
@@ -870,11 +870,11 @@
     },
     {
       "japanese": "(どうしよう?)\n いっしょに かえる\n やめておく",
-      "english": " B8 S217 w=0\n...\n..."
+      "english": "(What now?)\n Go home together\n Let's not"
     },
     {
       "japanese": "うん いっしょに かえろう!  ",
-      "english": " B8 S218 w=1@#"
+      "english": "Ok, let's head\nhome!@#"
     },
     {
       "japanese": "ごめん! \nきょうは ちょっと\nつごうが わるいんだ  ",
@@ -886,7 +886,7 @@
     },
     {
       "japanese": "あ、 くん! \nいっしょに かえろうか?  ",
-      "english": " B8 S221 w=2@\n...@#"
+      "english": "oh, ^-kun!@\nshould we go\nhome together?@#"
     },
     {
       "japanese": "あっ そう... \nじゃあ また こんどね!  ",
@@ -894,7 +894,7 @@
     },
     {
       "japanese": "あ、 くん! \nいっしょに かえらない?  ",
-      "english": " B8 S223 w=2@\n...@#"
+      "english": "oh, ^-kun!@\nwant to go home\ntogether?@#"
     },
     {
       "japanese": "なぁんだ... \nじゃ、またね! ばいばい!  ",
@@ -938,11 +938,11 @@
     },
     {
       "japanese": "じゃ、ばいばい  くん! \nまた がっこうでねっ!  ",
-      "english": " B8 S234 w=2@\n...@#"
+      "english": "Ok, byebye~!@\nSee you at school,\n^-kun!@#"
     },
     {
       "japanese": " くん、またねっ!\nわたしも たのしかったわ!  ",
-      "english": " B8 S235 w=1\n...@#"
+      "english": "^-kun, see you!\nI had a great\ntime today!@#"
     },
     {
       "japanese": "いいくに つくろう!  ",
@@ -1454,11 +1454,11 @@
     },
     {
       "japanese": "うふふ \nすなおで よろしい! \n...なぁんてねっ  ",
-      "english": " B8 S363 w=3@\n...@\n...@#"
+      "english": "hehehe...@\nyou know...@\nbeing honest is\na good thing!@\njust kidding~@#"
     },
     {
       "japanese": "なぁんだ ざんねんだなぁ... \nじゃ また こんどね  ",
-      "english": " B8 S364 w=2@\n...@#"
+      "english": "Oh, really?\nThat's a shame...@\nSee you next time.@#"
     },
     {
       "japanese": "あ、 さん! \nもし よかったら おひるごはんを\nいっしょに たべませんか?  ",
@@ -1722,11 +1722,11 @@
     },
     {
       "japanese": "(きょうしつでの できごと)\n",
-      "english": "(Classroom Event)\n"
+      "english": "(Classroom)\n"
     },
     {
       "japanese": "!! \nなんか みられてる かんじがする!  ",
-      "english": " !!@\nI feel like\nsomeones watching\nme!@#"
+      "english": "!!@\nI feel like\nsomeone is\nwatching me!@#"
     },
     {
       "japanese": "...でも すぐに めせんを\nそらされて しまった...  ",

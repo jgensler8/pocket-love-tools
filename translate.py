@@ -62,7 +62,7 @@ if __name__ == "__main__":
     # start_addr, end_addr = (0x5c22, 0x5c2b)
     # start_addr, end_addr = (0x5c2c, 0x5c35)
     # start_addr, end_addr = (0x5c36, 0x5c3f)
-    # start_addr, end_addr = (0x5c40, 0x5c48)
+    start_addr, end_addr = (0x5c40, 0x5c48)
     # task select
     # start_addr, end_addr = (0x4018, 0x401f)
     # start_addr, end_addr = (0x4020, 0x4027)
@@ -302,7 +302,7 @@ if __name__ == "__main__":
     # start_addr, end_addr = (0x4af2, 0x4b03)
     # call > future date accept
     # start_addr, end_addr = (0x4b08, 0x4b0b)
-    start_addr, end_addr = (0x4b1d, 0x4b23)
+    # start_addr, end_addr = (0x4b1d, 0x4b23)
     # park call (probably no answer)
     # start_addr, end_addr = (0x4d00, 0x4d0a)
     # start_addr, end_addr = (0x4d0f, 0x4d17)

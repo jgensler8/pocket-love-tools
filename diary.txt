@@ -287,6 +287,14 @@ day 40 (jan 11)
 * Osaka trip start (seems like a special scene per love interest, perhaps?)
   * custom photo dialogs
 
+day 41 (jan 12)
+* ~31%
+* bank 8 scene 44 didn't have terminator (8 46 as well), i think these were multi-text / aggregate scenes, (might overwrite itself, check metadata args)
+  * I think there was one scene like this very early on in the game, either that or I'm confusing before I patched in the wait sequences @#...
+* translate most of the morning hellos, start some of the missing item events
+* most of the school festival, got mizuki even though mari had a star. I think the school fest might have increased the relationship rank, too
+* rename some of the main menu stats, still need to double check the gain/loss and if they make sense
+
 next:
 * could experiment with variable width font printing
 * continue with most cutscenes + game progression, maybe find more save states to test
