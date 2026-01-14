@@ -295,6 +295,9 @@ day 41 (jan 12)
 * most of the school festival, got mizuki even though mari had a star. I think the school fest might have increased the relationship rank, too
 * rename some of the main menu stats, still need to double check the gain/loss and if they make sense
 
+day 42 (jan 14)
+* only ~20 lines for now
+
 next:
 * could experiment with variable width font printing
 * continue with most cutscenes + game progression, maybe find more save states to test
