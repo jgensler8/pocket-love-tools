@@ -298,6 +298,10 @@ day 41 (jan 12)
 day 42 (jan 14)
 * only ~20 lines for now
 
+day 43 (jan 15)
+* ~34%
+* almost done with bank 11, mostly hamburger date lines
+
 next:
 * could experiment with variable width font printing
 * continue with most cutscenes + game progression, maybe find more save states to test
