@@ -299,8 +299,9 @@ day 42 (jan 14)
 * only ~20 lines for now
 
 day 43 (jan 15)
-* ~34%
+* ~35%
 * almost done with bank 11, mostly hamburger date lines
+* bank 7 is not patched in, might give a slightly off translation pct (150 lines, 34->36%)
 
 next:
 * could experiment with variable width font printing
