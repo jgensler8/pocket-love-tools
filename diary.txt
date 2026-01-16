@@ -303,6 +303,17 @@ day 43 (jan 15)
 * almost done with bank 11, mostly hamburger date lines
 * bank 7 is not patched in, might give a slightly off translation pct (150 lines, 34->36%)
 
+day 44 (jan 16)
+* bank 11 fully translated, ~25-30% growth
+  * 2026-01-16 10:27:58,999 - WARNING - ROM TRANSLATION EXTENDS PAST ROM BANK 11: 44354 by 13225
+  * analysis script shows around 170 scenes would need to move, probably 256 would be comfortable so one byte param for now is ok
+* only 67 bytes at the end of rom0 (hex:3fff – 3fbc = 43, or decimal:16383 – 16316 = 67)
+* text load loop is ~42 bytes
+  * probably would need some api like 0xfd 0xAA 0xBB (AA rom bank,BB scene index)
+  * push/save params, then call text load loop again
+  * push/save call/ret + param reading need to be split between the 42<->67, or replace the original space
+  * technically we could try to "reassemble" + move lots of functions + update addrs to get contiguous bytes
+
 next:
 * could experiment with variable width font printing
 * continue with most cutscenes + game progression, maybe find more save states to test
