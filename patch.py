@@ -113,11 +113,13 @@ def rebuild_rom_headers(
             lines = encoded_scene_bytes.split(encode_english_text("\n"))
             for l_i, line in enumerate(lines):
                 line_printable = line
-                line_printable = line_printable.replace(encode_english_text("@"), b'')
-                line_printable = line_printable.replace(encode_english_text("#"), b'')
-                line_printable = line_printable.replace(b'\x00', b'')
+                line_printable = line_printable.replace(encode_english_text("@"), b"")
+                line_printable = line_printable.replace(encode_english_text("#"), b"")
+                line_printable = line_printable.replace(b"\x00", b"")
                 if len(line_printable) > line_limit:
-                    logging.warning(f"bank {bank_num} scene {i} line {l_i} ({len(line_printable)}) greater than limit {line_limit}")
+                    logging.warning(
+                        f"bank {bank_num} scene {i} line {l_i} ({len(line_printable)}) greater than limit {line_limit}"
+                    )
                 # warn on the 4th line 18 char (where the flashing cursor is)
                 # technically, we don't know which lines are character dialog
                 # vs narrator (unless we parse metadata) so we'll just do out best
@@ -276,7 +278,7 @@ def patch_alphabet_tiles(output_rom: str, alphabet_png: str):
         # TODO lower case
         f.write(all_bytes)
 
-    logging.info("replaced alphabet")
+    logging.info("patched alphabet")
 
 
 def patch_font_ex_tiles(output_rom: str, font_ex_png: str):
@@ -288,7 +290,7 @@ def patch_font_ex_tiles(output_rom: str, font_ex_png: str):
         f.seek(font_ex_addr)
         f.write(all_bytes)
 
-    logging.info("replaced font_ex")
+    logging.info("patched font_ex")
 
 
 def import_from_path(module_name, file_path):
@@ -334,7 +336,7 @@ def patch_phrases(output_rom: str, phrases_file: str):
             low_byte = relative_phrase_ptr & 0xFF
             f.write(bytes([low_byte, high_byte]))
 
-    logging.info("replaced phrases and phrase indices")
+    logging.info("patched phrases and phrase indices")
 
 
 def patch_inplace(output_rom: str, bank: int, hex_addr: str, hex_value: str):
@@ -343,6 +345,29 @@ def patch_inplace(output_rom: str, bank: int, hex_addr: str, hex_value: str):
         logging.info(f"patching absolute offset: {hex(absolute_offset)}")
         f.seek(absolute_offset)
         f.write(bytes.fromhex(hex_value))
+
+
+def patch_code_raw(output_rom: str, file: str, hex_addr: str):
+    file_bytes = bytearray()
+    with open(file, "r") as f:
+        file_str = f.read()
+        for i, line in enumerate(file_str.split("\n")):
+            if line.startswith(";"):
+                continue
+            # extract plain text byte code
+            line_code = line.split(";", 1)[0]
+            line_code = line_code.replace(" ", "")
+            if len(line_code) % 2 != 0:
+                logging.error(
+                    f"file {file} line {i}: invalid number of plaintext characters"
+                )
+            file_bytes.extend(bytes.fromhex(line_code))
+
+    with open(output_rom, "r+b") as f:
+        f.seek(int(hex_addr, 16))
+        f.write(file_bytes)
+
+    logging.info(f"patched {file} at {hex_addr} ({len(file_bytes)} bytes)")
 
 
 def main():
@@ -454,6 +479,21 @@ def main():
         help="hex",
     )
 
+    # Subcommand: code
+    code_raw_parser = subparsers.add_parser("code_raw", help="patch a bytecode file")
+    code_raw_parser.add_argument(
+        "--file",
+        type=str,
+        required=True,
+        help="plaintext bytecode file",
+    )
+    code_raw_parser.add_argument(
+        "--hex_addr",
+        type=str,
+        required=True,
+        help="offset into entire rom",
+    )
+
     args = main_parser.parse_args()
 
     if args.command == "dialog":
@@ -481,6 +521,8 @@ def main():
             args.hex_addr,
             args.hex_value,
         )
+    elif args.command == "code_raw":
+        patch_code_raw(args.output_rom, args.file, args.hex_addr)
 
 
 if __name__ == "__main__":

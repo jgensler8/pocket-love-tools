@@ -64,6 +64,7 @@ patch:
 	$(shell $(PYTHON) patch.py $(PATCHED_ROM) alphabet --png font_alphabet.png)
 	$(shell $(PYTHON) patch.py $(PATCHED_ROM) font_ex --png font_ex.png)
 	$(shell $(PYTHON) patch.py $(PATCHED_ROM) phrases --phrases_file phrases_en.py)
+	$(shell $(PYTHON) patch.py $(PATCHED_ROM) code_raw --file asm/text_load_loop_rel.asm --hex_addr 0x3fbc)
 
 run_og:
 	$(MEDNAFEN) ./Pocket_Love_If_1999_KID_JP.ngc
