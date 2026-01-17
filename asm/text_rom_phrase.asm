@@ -16,6 +16,7 @@ f5 ; push AF (prerom)
 ;; load new phrase pointer into DE (4000 + idx => value goes into high_c145/low_c144)
 ;;; setup 0x4000 + scene_index
 1a       ; ld a,[DE] (scene_index)
+cb 20    ; sla (shift left arithmetic aka *2 ) , ignore carry flag
 5f       ; ld e,a
 16 40    ; ld d,0x40
 

@@ -6,6 +6,7 @@ import png
 import importlib
 import sys
 from dictionary_en import character_map
+import concurrent.futures
 
 logging.basicConfig(
     level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
@@ -47,12 +48,58 @@ def encode_english_text(text: str) -> bytes:
     return bytes(encoded_bytes)
 
 
+def write_header_file(
+    outfile: str,
+    bank: int,
+    scene_json: List[object],
+):
+    # calculate relative pointers (without the 0x4000, which is how they are stored natively)
+    header_size = 2*len(scene_json)
+    relative_offset = header_size
+    max_addr = 0x7FFF - 0x4000
+    for scene_data in scene_json:
+        scene_data["header_address"] = relative_offset
+        relative_offset += len(scene_data["encoded_bytes"])
+
+    if relative_offset > max_addr:
+        logging.warning(f"ROM TRANSLATION EXTENDS PAST ROM BANK {bank} by {relative_offset - max_addr}")
+
+    # build header data
+    # even if a scene would end up over the end of the bank, still keep its pointer to preserve structure
+    all_data = bytearray()
+    for scene_data in scene_json:
+        header_address = scene_data["header_address"]
+        low_byte = header_address & 0xFF
+        high_byte_stored = (header_address >> 8)
+        # print(f"{hex(new_cpu_address)} {hex(low_byte)} {hex(high_byte_stored)}")
+        all_data.append(low_byte)
+        all_data.append(high_byte_stored)
+
+    # build scene data
+    for scene_data in scene_json:
+        if scene_data["header_address"] + len(scene_data["encoded_bytes"]) > max_addr:
+            break
+        all_data.extend(scene_data["encoded_bytes"])
+
+    # --- Write to ROM ---
+    bank_absolute_start = bank * BANK_SIZE
+    with open(outfile, "r+b") as rom_file:
+        # Write new header
+        rom_file.seek(bank_absolute_start)
+        rom_file.write(all_data)
+        bytes_left = (0x7FFF - 0x4000) - (bank_absolute_start - rom_file.tell())
+        logging.info(
+            f"scenes: start={hex(bank_absolute_start)} end={hex(bytes_left)} left={bytes_left}"
+        )
+
+
 def rebuild_rom_headers(
     output_rom_path,
     extracted_json_path,
     translated_json_path,
     bytes_limit,
     bank_num,
+    overflow_bank,
 ):
     """
     Rebuilds ROM headers and replaces scene text based on translated JSON data.
@@ -66,11 +113,16 @@ def rebuild_rom_headers(
         bytes_limit (int): Maximum number of characters allowed per scene.
         bank_num (int): The ROM bank number where the text and header reside.
                                       E.g., "0x7000". This must be a safe, unused area in the ROM.
+        overflow_bank (int): if scene data overflows the original bank, write overflow data into this scene bank and reference from the original bank (via scene extension)
     """
     logging.info(
         f"patching bank {bank_num}, ex:{extracted_json_path} tr:{translated_json_path}"
     )
     try:
+        newline_byte = encode_english_text("\n")
+        at_byte = encode_english_text("@")
+        hash_byte = encode_english_text("#")
+
         with open(translated_json_path, "r", encoding="utf-8") as f:
             translated_data = json.load(f)
 
@@ -79,42 +131,25 @@ def rebuild_rom_headers(
 
         translated_scenes = translated_data["translated_scenes"]
 
-        # rom addressesing works the same across all banks
-        bank_start_addr = 0x4000
-        # Calculate file offset for the header
-        header_file_offset = bank_num * BANK_SIZE
-        # header_bytes_len = len(extracted_data["header"]) * 2
-        # use the length of translated scene so new translations can be appended
-        header_bytes_len = len(translated_scenes) * 2
-        scene_file_offset = header_file_offset + header_bytes_len
-
-        # --- Process translated scenes and generate new text block ---
-        new_text_rom_bytes = bytearray()
-        new_scene_cpu_addresses = []
-
-        relative_scene_start_address = bank_start_addr + header_bytes_len
-        current_new_text_cpu_address = relative_scene_start_address
-
-        for i, scene_data in enumerate(translated_scenes):
-            # japanese_text = scene_data["japanese"]
+        logging.info("line check start")
+        # encode all scenes, checking for printing/line issues
+        def process_scene(i, scene_data):
             english_text = scene_data["english"]
 
-            # TODO either factor in the control codes // warn about the translation
-            # if len(english_text) > len(japanese_text):
-            #     english_text = english_text[: len(japanese_text)]
-
-            # Update the scene data in memory, though it won't be saved back to JSON
-            translated_scenes[i]["english"] = english_text
+            logging.info(f"encode line start {i}")
             encoded_scene_bytes = encode_english_text(english_text)
+            logging.info(f"encode line end {i}")
+            # encoded_scene_bytes = ""
             encoded_scene_bytes += b"\x00"  # Add null terminator
+            scene_data["encoded_bytes"] = encoded_scene_bytes
 
-            # warm for individual line length
+            # warn for individual line length
             line_limit = 18
-            lines = encoded_scene_bytes.split(encode_english_text("\n"))
+            lines = encoded_scene_bytes.split(newline_byte)
             for l_i, line in enumerate(lines):
                 line_printable = line
-                line_printable = line_printable.replace(encode_english_text("@"), b"")
-                line_printable = line_printable.replace(encode_english_text("#"), b"")
+                line_printable = line_printable.replace(at_byte, b"")
+                line_printable = line_printable.replace(hash_byte, b"")
                 line_printable = line_printable.replace(b"\x00", b"")
                 if len(line_printable) > line_limit:
                     logging.warning(
@@ -132,50 +167,52 @@ def rebuild_rom_headers(
                 )
                 encoded_scene_bytes = encoded_scene_bytes[: bytes_limit - 3]
                 encoded_scene_bytes += b"\x82\x81\x00"  # Add scene end
+                scene_data["encoded_bytes"] = encoded_scene_bytes
 
-            # logging.info(f"{i}: {hex(current_new_text_cpu_address)}")
-            new_text_rom_bytes.extend(encoded_scene_bytes)
-            new_scene_cpu_addresses.append(current_new_text_cpu_address)
-            current_new_text_cpu_address += len(encoded_scene_bytes)
+        with concurrent.futures.ThreadPoolExecutor(max_workers=64) as executor:
+            futures = [executor.submit(process_scene, i, scene) for i, scene in enumerate(translated_scenes)]
+            concurrent.futures.wait(futures)
 
-        if current_new_text_cpu_address > 0x7999:
-            logging.warning(
-                f"ROM TRANSLATION EXTENDS PAST ROM BANK {bank_num}: {current_new_text_cpu_address} by {current_new_text_cpu_address - 0x7999}"
+        logging.info(f"line check end")
+
+        if overflow_bank:
+            overflow_scenes = []
+            translation_len = 2*len(translated_scenes) + sum([len(scene["encoded_bytes"]) for scene in translated_scenes])
+            # continually swap out scenes until the first bank fits
+            # note that the overflow bank can also overflow, shrug
+            overflow_scene_index = 0
+            for scene in translated_scenes:
+                if translation_len < 0x7FFF - 0x4000:
+                    break
+                # never move short or empty scenes
+                if len(scene["encoded_bytes"]) <= 3:
+                    continue
+                translation_len -= len(scene["encoded_bytes"])
+                # copy the scene to preserve the original text for the overflow bank
+                overflow_scene = scene.copy()
+                overflow_scenes.append(overflow_scene)
+                # reencode the scene swap
+                scene["encoded_bytes"] = encode_english_text(f"__fd__{overflow_bank:02x}__{overflow_scene_index:02x}")
+                translation_len += len(scene["encoded_bytes"])
+                overflow_scene_index += 1
+
+
+            write_header_file(
+                output_rom_path,
+                bank_num,
+                translated_scenes
             )
-
-        logging.info(
-            f"calculated header scenes:{len(translated_scenes)} ending:{current_new_text_cpu_address}"
-        )
-
-        # --- Rebuild Header ---
-        new_header_bytes = bytearray()
-        for new_cpu_address in new_scene_cpu_addresses:
-            low_byte = new_cpu_address & 0xFF
-            # Assuming the 0x40 offset for high byte as seen in extract_scene_rom.py
-            high_byte_stored = (new_cpu_address >> 8) - 0x40
-            # print(f"{hex(new_cpu_address)} {hex(low_byte)} {hex(high_byte_stored)}")
-            new_header_bytes.append(low_byte)
-            new_header_bytes.append(high_byte_stored)
-
-        # logging.info("rebuilt header")
-
-        # --- Write to ROM ---
-        with open(output_rom_path, "r+b") as rom_file:
-            # Write new header
-            rom_file.seek(header_file_offset)
-            rom_file.write(new_header_bytes)
-            logging.info(f"header: {hex(header_file_offset)}")
-
-            # Write new translated text block
-            rom_file.seek(scene_file_offset)
-            rom_file.write(new_text_rom_bytes)
-            bytes_left = (
-                0x7FFF - 0x4000 - len(new_header_bytes) - len(new_text_rom_bytes)
+            write_header_file(
+                output_rom_path,
+                overflow_bank,
+                overflow_scenes
             )
-            logging.info(
-                f"scenes: {hex(scene_file_offset)} end: {hex(scene_file_offset + len(new_text_rom_bytes))} left: {bytes_left}"
+        else:
+            write_header_file(
+                output_rom_path,
+                bank_num,
+                translated_scenes
             )
-
         # logging.info("done")
 
     except FileNotFoundError as e:
@@ -186,8 +223,6 @@ def rebuild_rom_headers(
         logging.error(
             f"Missing expected key in JSON data: {e}. Please ensure extracted_json contains 'bank_num', 'header_start_address', and 'header'."
         )
-    except Exception as e:
-        logging.error(f"An unexpected error occurred: {e}")
 
 
 def patch_scene_meta(output_rom: str, extracted_json: str, new_scenes_json: str):
@@ -400,6 +435,12 @@ def main():
         required=True,
         help="The ROM bank number where the text and header reside.",
     )
+    dialog_parser.add_argument(
+        "--overflow_bank",
+        type=int,
+        required=False,
+        help="If header + meta exceeds the original rom bank, use scene extension in the original bank and place scene data in this overflow bank",
+    )
 
     # Subcommand: scene_meta
     scene_meta_parser = subparsers.add_parser(
@@ -503,6 +544,7 @@ def main():
             args.translated_json,
             args.bytes_limit,
             args.bank,
+            args.overflow_bank,
         )
     elif args.command == "scene_meta":
         patch_scene_meta(args.output_rom, args.extracted_json, args.new_scenes_json)

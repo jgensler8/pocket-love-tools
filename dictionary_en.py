@@ -50,5 +50,5 @@ for i in range(26):
     character_map[chr(ord("a") + i)] = start_char_code + 26 + i
 
 # __01 (for large segments that are cumbersome for inplace)
-for i in range(0x00, 0x3e):
+for i in range(0x00, 0xff):
     character_map[f"__{i:02x}"] = i
