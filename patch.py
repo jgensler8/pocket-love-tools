@@ -6,13 +6,26 @@ import png
 import importlib
 import sys
 from dictionary_en import character_map
-import concurrent.futures
 
 logging.basicConfig(
     level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
 )
 
 BANK_SIZE = 0x4000  # 16KB for Game Boy ROMs
+
+
+# Pre-compute multi-character keys for performance
+MULTI_CHAR_KEYS = {}
+for k in character_map.keys():
+    if len(k) > 1:
+        first = k[0]
+        if first not in MULTI_CHAR_KEYS:
+            MULTI_CHAR_KEYS[first] = []
+        MULTI_CHAR_KEYS[first].append(k)
+
+# Sort each list by length descending to ensure longest match first
+for k in MULTI_CHAR_KEYS:
+    MULTI_CHAR_KEYS[k].sort(key=len, reverse=True)
 
 
 def encode_english_text(text: str) -> bytes:
@@ -22,20 +35,23 @@ def encode_english_text(text: str) -> bytes:
     """
     encoded_bytes = bytearray()
     i = 0
-    while i < len(text):
+    n = len(text)
+    while i < n:
         found_multi = False
+        char = text[i]
+
         # Check for multi-character symbols first (e.g., '<3', 'day')
-        # Iterate over items to check for longest matches first
-        for symbol in sorted(character_map.keys(), key=len, reverse=True):
-            if len(symbol) > 1 and text.startswith(symbol, i):
-                encoded_bytes.append(character_map[symbol])
-                i += len(symbol)
-                found_multi = True
-                break
+        if char in MULTI_CHAR_KEYS:
+            for symbol in MULTI_CHAR_KEYS[char]:
+                if text.startswith(symbol, i):
+                    encoded_bytes.append(character_map[symbol])
+                    i += len(symbol)
+                    found_multi = True
+                    break
+
         if found_multi:
             continue
 
-        char = text[i]
         byte_code = character_map.get(char)
         if byte_code is not None:
             encoded_bytes.append(byte_code)
@@ -54,7 +70,7 @@ def write_header_file(
     scene_json: List[object],
 ):
     # calculate relative pointers (without the 0x4000, which is how they are stored natively)
-    header_size = 2*len(scene_json)
+    header_size = 2 * len(scene_json)
     relative_offset = header_size
     max_addr = 0x7FFF - 0x4000
     for scene_data in scene_json:
@@ -62,7 +78,9 @@ def write_header_file(
         relative_offset += len(scene_data["encoded_bytes"])
 
     if relative_offset > max_addr:
-        logging.warning(f"ROM TRANSLATION EXTENDS PAST ROM BANK {bank} by {relative_offset - max_addr}")
+        logging.warning(
+            f"ROM TRANSLATION EXTENDS PAST ROM BANK {bank} by {relative_offset - max_addr}"
+        )
 
     # build header data
     # even if a scene would end up over the end of the bank, still keep its pointer to preserve structure
@@ -70,7 +88,7 @@ def write_header_file(
     for scene_data in scene_json:
         header_address = scene_data["header_address"]
         low_byte = header_address & 0xFF
-        high_byte_stored = (header_address >> 8)
+        high_byte_stored = header_address >> 8
         # print(f"{hex(new_cpu_address)} {hex(low_byte)} {hex(high_byte_stored)}")
         all_data.append(low_byte)
         all_data.append(high_byte_stored)
@@ -131,14 +149,10 @@ def rebuild_rom_headers(
 
         translated_scenes = translated_data["translated_scenes"]
 
-        logging.info("line check start")
         # encode all scenes, checking for printing/line issues
-        def process_scene(i, scene_data):
+        for i, scene_data in enumerate(translated_scenes):
             english_text = scene_data["english"]
-
-            logging.info(f"encode line start {i}")
             encoded_scene_bytes = encode_english_text(english_text)
-            logging.info(f"encode line end {i}")
             # encoded_scene_bytes = ""
             encoded_scene_bytes += b"\x00"  # Add null terminator
             scene_data["encoded_bytes"] = encoded_scene_bytes
@@ -169,15 +183,11 @@ def rebuild_rom_headers(
                 encoded_scene_bytes += b"\x82\x81\x00"  # Add scene end
                 scene_data["encoded_bytes"] = encoded_scene_bytes
 
-        with concurrent.futures.ThreadPoolExecutor(max_workers=64) as executor:
-            futures = [executor.submit(process_scene, i, scene) for i, scene in enumerate(translated_scenes)]
-            concurrent.futures.wait(futures)
-
-        logging.info(f"line check end")
-
         if overflow_bank:
             overflow_scenes = []
-            translation_len = 2*len(translated_scenes) + sum([len(scene["encoded_bytes"]) for scene in translated_scenes])
+            translation_len = 2 * len(translated_scenes) + sum(
+                [len(scene["encoded_bytes"]) for scene in translated_scenes]
+            )
             # continually swap out scenes until the first bank fits
             # note that the overflow bank can also overflow, shrug
             overflow_scene_index = 0
@@ -192,27 +202,16 @@ def rebuild_rom_headers(
                 overflow_scene = scene.copy()
                 overflow_scenes.append(overflow_scene)
                 # reencode the scene swap
-                scene["encoded_bytes"] = encode_english_text(f"__fd__{overflow_bank:02x}__{overflow_scene_index:02x}")
+                scene["encoded_bytes"] = encode_english_text(
+                    f"__fd__{overflow_bank:02x}__{overflow_scene_index:02x}"
+                )
                 translation_len += len(scene["encoded_bytes"])
                 overflow_scene_index += 1
 
-
-            write_header_file(
-                output_rom_path,
-                bank_num,
-                translated_scenes
-            )
-            write_header_file(
-                output_rom_path,
-                overflow_bank,
-                overflow_scenes
-            )
+            write_header_file(output_rom_path, bank_num, translated_scenes)
+            write_header_file(output_rom_path, overflow_bank, overflow_scenes)
         else:
-            write_header_file(
-                output_rom_path,
-                bank_num,
-                translated_scenes
-            )
+            write_header_file(output_rom_path, bank_num, translated_scenes)
         # logging.info("done")
 
     except FileNotFoundError as e:
