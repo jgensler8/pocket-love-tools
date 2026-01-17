@@ -314,6 +314,10 @@ day 44 (jan 16)
   * push/save call/ret + param reading need to be split between the 42<->67, or replace the original space
   * technically we could try to "reassemble" + move lots of functions + update addrs to get contiguous bytes
 
+day 45 (jan 17)
+* finally upgrade to mbc-5
+* get scene rom embedding function working (with test data in bank 33)
+
 next:
 * could experiment with variable width font printing
 * continue with most cutscenes + game progression, maybe find more save states to test

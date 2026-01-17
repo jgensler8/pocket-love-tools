@@ -45,6 +45,8 @@ translate_template:
 
 patch:
 	$(shell cp $(OG_ROM) $(PATCHED_ROM))
+# patch 03 MBC1+RAM+BATTERY -> 1b MBC5+RAM+BATTERY
+	$(shell $(PYTHON) patch.py $(PATCHED_ROM) inplace --bank=0 --hex_addr=4147 --hex_value=1B)
 # 	$(shell $(PYTHON) patch.py $(PATCHED_ROM) inplace --bank=2 --hex_addr=41e2 --hex_value=05)
 	$(shell $(PYTHON) patch.py $(PATCHED_ROM) inplace --bank=2 --hex_addr=41e3 --hex_value=02)
 	$(shell $(PYTHON) patch.py $(PATCHED_ROM) dialog --bank=4 ${OUT_DIR}/bank_4_ex.json ${OUT_DIR}/bank_4_tr_en.json)
@@ -53,6 +55,7 @@ patch:
 	$(shell $(PYTHON) patch.py $(PATCHED_ROM) dialog --bank=10 ${OUT_DIR}/bank_10_ex.json ${OUT_DIR}/bank_10_tr_en.json)
 	$(shell $(PYTHON) patch.py $(PATCHED_ROM) dialog --bank=11 ${OUT_DIR}/bank_11_ex.json ${OUT_DIR}/bank_11_tr_en.json)
 	$(shell $(PYTHON) patch.py $(PATCHED_ROM) dialog --bank=12 ${OUT_DIR}/bank_12_ex.json ${OUT_DIR}/bank_12_tr_en.json)
+	$(shell $(PYTHON) patch.py $(PATCHED_ROM) dialog --bank=33 ${OUT_DIR}/bank_33_ex.json ${OUT_DIR}/bank_33_test_tr.json)
 # patch week task screen header
 	$(shell $(PYTHON) patch.py $(PATCHED_ROM) inplace --bank=30 --hex_addr=5bd2 --hex_value=3E)
 	$(shell $(PYTHON) patch.py $(PATCHED_ROM) inplace --bank=30 --hex_addr=5bd5 --hex_value=3D)
@@ -64,6 +67,8 @@ patch:
 	$(shell $(PYTHON) patch.py $(PATCHED_ROM) alphabet --png font_alphabet.png)
 	$(shell $(PYTHON) patch.py $(PATCHED_ROM) font_ex --png font_ex.png)
 	$(shell $(PYTHON) patch.py $(PATCHED_ROM) phrases --phrases_file phrases_en.py)
+	$(shell $(PYTHON) patch.py $(PATCHED_ROM) code_raw --file asm/text_load_loop_old.asm --hex_addr 0x19b8)
+	$(shell $(PYTHON) patch.py $(PATCHED_ROM) code_raw --file asm/text_rom_phrase.asm --hex_addr 0x19bb)
 	$(shell $(PYTHON) patch.py $(PATCHED_ROM) code_raw --file asm/text_load_loop_rel.asm --hex_addr 0x3fbc)
 
 run_og:

@@ -25,41 +25,32 @@ fa 45 c1        ;LD         A,(text_load_loop_done_pointer_high_c145)        = ?
 1a              ;LD         scene_char_code,(scene_text_start_addr)
 13              ;INC        scene_text_start_addr
 fe f0           ;CP         0xf0
-38 0e           ;JR         C,LAB_19d4
-fe fe           ;CP         0xfe
-20 0c           ;JR         NZ,LAB_19cf
-cd 23 1a        ;CALL       text_probably_load_dictionary_1a23               undefined text_probably_load_dic
-
+38 15           ;JR         C,LAB_19d4 (decimal 21 -> )
 ;;;;;;;;;;;;;;;;;;;;; IF
 fe fd ; cp 0xfd
-20 05 ; jr LAB_19cf
+20 03 ; JR NZ,LAB_19cf
 ;;;;;;;;;;;;;;;;;;;; code
-1a              ;LD         scene_char_code,(scene_text_start_addr)
- ; ld d,a
- ; cp e,$0
- ; cp a,$1f
-13              ;INC        scene_text_start_addr
-; 
-; rom_phrase(scene_bank_A, scene_idx_HL)
-; push HL
-; maybe push text_load_loop_done_pointer_low_c144 // text_load_loop_done_pointer_high_c145
-cd bc 19 ; call text_rom_phrase_19bc
-; pop HL
-; maybe pop text_load_loop_done_pointer_low_c144 // text_load_loop_done_pointer_high_c145
-
-18 f1           ;JR         LAB_19c0
+; instead of nicely setting up args, lets just jmp
+; to our new func. chaining multi phrases is cool but
+; really not required. so, let text_rom_phrase handle the RET
+c3 bb 19 ; JP text_rom_phrase_19bb
+fe fe           ;CP         0xfe
+20 03           ;JR         NZ,LAB_19cf
+cd 23 1a        ;CALL       text_probably_load_dictionary_1a23               undefined text_probably_load_dic
+18 ea           ;JR         LAB_19c0 (-22 decimal)
 ;                    LAB_19cf                                        XREF[1]:     19c8(j)  
 cd e2 19        ;CALL       text_load_phrase_19e2                            undefined text_load_phrase_19e2(
-18 ec           ;JR         LAB_19c0
+18 e5           ;JR         LAB_19c0 (-27)
 ;                    register A holds our next char
 ;                    HL+ loads this char into the text mem block and increments HL
 ;                    LAB_19d4                                        XREF[1]:     19c4(j)  
 22              ;LD         (pbCharVal+),scene_char_code
 b7              ;OR         scene_char_code
-20 e8           ;JR         NZ,LAB_19c0
+20 e1           ;JR         NZ,LAB_19c0 (-31)
 2b              ;DEC        pbCharVal
 7d              ;LD         scene_char_code,pbCharVal
 ea 44 c1        ;LD         (text_load_loop_done_pointer_low_c144),scene_c   = ??
 7c              ;LD         scene_char_code,pbCharVal
 ea 45 c1        ;LD         (text_load_loop_done_pointer_high_c145),scene_   = ??
 c9              ;RET
+;c3 19 bb
