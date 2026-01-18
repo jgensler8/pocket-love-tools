@@ -334,7 +334,7 @@
     },
     {
       "japanese": "",
-      "english": " B8 S83 w=0"
+      "english": ""
     },
     {
       "japanese": "つきあって くれて ありがとう\nるるな ちょっぴり うれしい...  ",
@@ -682,7 +682,7 @@
     },
     {
       "japanese": "あら、 くん! \nじゃあ いっしょに かえろうか!  ",
-      "english": " B8 S170 w=2@\n...@#"
+      "english": "Oh, ^-kun!@\nLet's go home\ntogether!@#"
     },
     {
       "japanese": "きょうは ようじが あるから\nつきあえないの ごめんね!  ",
@@ -694,7 +694,7 @@
     },
     {
       "japanese": "おや、 さん...! \nでは いっしょに\nげこう いたしましょう!  ",
-      "english": " B8 S173 w=2@\n...\n...@#"
+      "english": "oh, ^-san...!@\nLet's walk home\ntogether!@#"
     },
     {
       "japanese": "きょうは としょしつで\nべんきょうする よていなんです \nごめんなさい...  ",
@@ -706,7 +706,7 @@
     },
     {
       "japanese": "うん いっしょに かえろ~か! \nあたしも きょうは ひまだしぃ~  ",
-      "english": " B8 S176 w=2@\n...@#"
+      "english": "let's go home\ntogether!@\nI'm free today\ntoo~@#"
     },
     {
       "japanese": "ごめんね~!\nきょうは せんやくが あるの \nじゃあ ばいば~い!  ",
@@ -714,7 +714,7 @@
     },
     {
       "japanese": "じゃあ ばいば~い!  ",
-      "english": " B8 S178 w=1@#"
+      "english": "Ok, byebye~@#"
     },
     {
       "japanese": "あ... \nはいっ、せんぱい!  ",
@@ -722,23 +722,23 @@
     },
     {
       "japanese": "そ...そんな! \nわたしなんか だめですぅ~!  ",
-      "english": " B8 S180 w=2@\n...@#"
+      "english": "no...no way!@\nI'm not good\nenough~!@#"
     },
     {
       "japanese": "あれ...?! \nにげて いっちゃった...  ",
-      "english": " B8 S181 w=2@\n...@#"
+      "english": "huh....?!@\nThey ran away...@#"
     },
     {
       "japanese": "あ...さようなら...  ",
-      "english": " B8 S182 w=1@#"
+      "english": "oh... goodbye...@#"
     },
     {
       "japanese": "しのざわも いっしょに\nかえるよ~ん!  ",
-      "english": " B8 S183 w=1\n...@#"
+      "english": "Shinozawa will\njoin along~!@#"
     },
     {
       "japanese": "だめ~! \nきょうは しのざわ いそがしいの~  ",
-      "english": " B8 S184 w=2@\n...@#"
+      "english": "No~!@\nShinozawa is\nbusy today~@#"
     },
     {
       "japanese": "ちぇ... \nしのざわの くせに~!  ",
@@ -746,87 +746,87 @@
     },
     {
       "japanese": "ばいばい  ~! \nまた あうひまで~!\nきゃ~  ",
-      "english": " B8 S186 w=2@\n...\n...@#"
+      "english": "ByeBye~!@\nSee you again\nsomeday~ Kya~@#"
     },
     {
       "japanese": "(ぼくらが こうえんに ついたとき)\n",
-      "english": " B8 S187 w=0\n..."
+      "english": "(The Park)\n"
     },
     {
       "japanese": "...ちょっと まずい かな?!  ",
-      "english": " B8 S188 w=1@#"
+      "english": "...this might be a\nbit of a problem,\nright?@#"
     },
     {
       "japanese": "あら、 くん!\nぐうぜんね...\nこんな ところで あうなんて!  ",
-      "english": " B8 S189 w=1\n...\n...@#"
+      "english": "oh, ^-kun!\nWhat a coincidence\nI can't believe\nwere meeting here!@#"
     },
     {
       "japanese": "いや...そのぉ...  ",
-      "english": " B8 S190 w=1@#"
+      "english": "well...\nuhm...@#"
     },
     {
       "japanese": "ずいぶん たのしそうねぇ\n くん!  ",
-      "english": " B8 S191 w=1\n...@#"
+      "english": "You seem to be\nhaving a lot of\nfun, ^-kun!@#"
     },
     {
       "japanese": "るるな おじゃま みたいだから\n............ \n...かえるね... \nばいばい...  ",
-      "english": " B8 S192 w=3\n...@\n...@\n...@#"
+      "english": "Ruruna, it seems\nlike I'm intruding\n...@\nI'll get going...@#"
     },
     {
       "japanese": ".......... \nこうえんに のこされた ぼくたちは\nすこし きまずい ふんいきに\nなってしまった...  ",
-      "english": " B8 S193 w=2@\n...\n...\n...@#"
+      "english": "Left behind in\nthe park, we found\nourselves in an\nawkward atmosphere@#"
     },
     {
       "japanese": "あっ、 くん...  ",
-      "english": " B8 S194 w=1@#"
+      "english": "oh, ^-kun...@#"
     },
     {
       "japanese": "あ、わたしは ちょっと\nじょぎんぐ してた\nだけだから...  ",
-      "english": " B8 S195 w=1\n...\n...@#"
+      "english": "I was just out\nfor a little\njog...@#"
     },
     {
       "japanese": "...きに しないで... \nじゃ...ばいばい!  ",
-      "english": " B8 S196 w=2@\n...@#"
+      "english": "Don't worry about\nit!@\nokay... byebye!@#"
     },
     {
       "japanese": "あら、 くん...  ",
-      "english": " B8 S197 w=1@#"
+      "english": "oh, ^-kun...@#"
     },
     {
       "japanese": " くんも\nすみに おけない わねぇ! \nうふふっ...  ",
-      "english": " B8 S198 w=2\n...@\n...@#"
+      "english": "^-kun you're quite\nsomething, aren't\nyou!@\n...hehehe...@#"
     },
     {
       "japanese": "じゃ わたし これから\nばいとが あるから...  ",
-      "english": " B8 S199 w=1\n...@#"
+      "english": "well, I have a\npart time job\nnow...@#"
     },
     {
       "japanese": "またね...ばいばい...  ",
-      "english": " B8 S200 w=1@#"
+      "english": "See you again...\nbyebye...@#"
     },
     {
       "japanese": "あら、 さん...  ",
-      "english": " B8 S201 w=1@#"
+      "english": "oh, ^-san...@#"
     },
     {
       "japanese": "いや...そのぉ... \nいい...てんき ですね!  ",
-      "english": " B8 S202 w=2@\n...@#"
+      "english": "wel...uhm...@\nits nice weather\nwe're having!@#"
     },
     {
       "japanese": "...わたしには くもりぞらに\nみえますが? \n...あ...  ",
-      "english": " B8 S203 w=2\n...@\n...@#"
+      "english": "hmm... but it\ndoes look a bit\ncloudy, right?@\n...ah....@#"
     },
     {
       "japanese": "................ \n...りかい しました.....  ",
-      "english": " B8 S204 w=2@\n...@#"
+      "english": "......@\n...I understand...@#"
     },
     {
       "japanese": "...では これにて\nしつれい いたします! \nまた がっこうで\nおあいしましょう...  ",
-      "english": " B8 S205 w=2\n...@\n...\n...@#"
+      "english": "Well then, I'll\ntake my leave now!@\nSee you at school\n...@#"
     },
     {
       "japanese": "あ~ら、 ~... \nぐうぜんね~!\nこんなとこで あうなんて!  ",
-      "english": " B8 S206 w=2@\n...\n...@#"
+      "english": "oh my~...@\nto meet you here\noh all places!@#"
     },
     {
       "japanese": "ふぅん...そういう ことか~ \n...ま、いいけど!  ",
