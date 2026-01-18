@@ -105,7 +105,7 @@ def write_header_file(
         # Write new header
         rom_file.seek(bank_absolute_start)
         rom_file.write(all_data)
-        bytes_left = (0x7FFF - 0x4000) - (bank_absolute_start - rom_file.tell())
+        bytes_left = (0x7FFF - 0x4000) - (rom_file.tell() - bank_absolute_start)
         logging.info(
             f"scenes: start={hex(bank_absolute_start)} end={hex(bytes_left)} left={bytes_left}"
         )
@@ -209,7 +209,10 @@ def rebuild_rom_headers(
                 overflow_scene_index += 1
 
             write_header_file(output_rom_path, bank_num, translated_scenes)
-            write_header_file(output_rom_path, overflow_bank, overflow_scenes)
+            if len(overflow_scenes) > 0:
+                write_header_file(output_rom_path, overflow_bank, overflow_scenes)
+            else:
+                logging.info(f"overflow flag provided ({overflow_bank}) for bank {bank_num} but not used")
         else:
             write_header_file(output_rom_path, bank_num, translated_scenes)
         # logging.info("done")

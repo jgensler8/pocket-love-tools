@@ -317,6 +317,15 @@ day 44 (jan 16)
 day 45 (jan 17)
 * finally upgrade to mbc-5
 * get scene rom embedding function working (with test data in bank 33)
+* fix the patcher with rom overflow arg, also fix bug in the encode_english_text due to sorting every char
+
+day 46 (jan 18)
+* ~38%
+* some bank 8 translations, some empty removals
+* bank 7: definitely looks like header + phrases
+  * tileset: basic tiles end at 0x82 with about 32 tiles left (0x20) for a max tile of 0xA2
+  * so these phrases might make use of this extended tile set, potentially
+  * only theory would be cool pictures in the text box, but its more likely that they are words
 
 next:
 * could experiment with variable width font printing
