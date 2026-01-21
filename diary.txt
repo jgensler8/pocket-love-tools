@@ -327,6 +327,10 @@ day 46 (jan 18)
   * so these phrases might make use of this extended tile set, potentially
   * only theory would be cool pictures in the text box, but its more likely that they are words
 
+day 47 (jan 20/21)
+* ~42%
+* bank 8 scenes: I forgot x, scenes per character; also some classroom event scenes w/ shared answers
+
 next:
 * could experiment with variable width font printing
 * continue with most cutscenes + game progression, maybe find more save states to test

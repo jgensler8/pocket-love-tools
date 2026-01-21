@@ -830,43 +830,43 @@
     },
     {
       "japanese": "ふぅん...そういう ことか~ \n...ま、いいけど!  ",
-      "english": " B8 S207 w=2@\n...@#"
+      "english": "hmm... so thats\nhow it is~@\nwell, whatever!@#"
     },
     {
       "japanese": "あたしも きょうは これから\nで-と とか いろいろ\nよてい はいってるしぃ!  ",
-      "english": " B8 S208 w=1\n...\n...@#"
+      "english": "I have a date and\nother things\nplanned for today\ntoo!@#"
     },
     {
       "japanese": "...じゃあ \nご. ゆ. っ. く. り!  ",
-      "english": " B8 S209 w=6@\n...@@@@@#"
+      "english": "Well then...@\nTake.@Your.@Time!@#"
     },
     {
       "japanese": "あ... せんぱい!  ",
-      "english": " B8 S210 w=1@#"
+      "english": "Ah.. Senpai!@#"
     },
     {
       "japanese": "あ、あの...ごめんなさい \nわたし...\nこ、これで しつれいします...  ",
-      "english": " B8 S211 w=2@\n...\n...@#"
+      "english": "Uhm...@ I'm sorry\nI'll... take\nmy leave now@#"
     },
     {
       "japanese": "きゃ~!  ~! \nこんな ところで\nで-と? で-と?  ",
-      "english": " B8 S212 w=2@\n...\n...@#"
+      "english": "Kya~! ~!@\nA date?\nA date in a place\nlike this?@#"
     },
     {
       "japanese": "きゃ~! それって かなり\nあつあつ?! \nうっきゃ~!! ひょっとして\n...らぶらぶ?!  ",
-      "english": " B8 S213 w=2\n...@\n...\n...@#"
+      "english": "Kya~! Thats really\nhot?!@\nKyaa!!\nCould it be...@\nthat you two\nare in love?!@#"
     },
     {
       "japanese": "むぎゅ~! いいな、いいな<3\nしのざわも たまには\nおで-と したいにゃ~! \n...なんちゃって、ばいばい!  ",
-      "english": " B8 S214 w=2\n...\n...@\n...@#"
+      "english": "Mugyuu~!\nThat's so nice__heart\nI wish I could go\non a date too...@\njust kidding!\nbye bye!@#"
     },
     {
       "japanese": ".......... \n.......... \nあっけに とられた ぼくたちは\nそのばに たちつくしてしまった...  ",
-      "english": " B8 S215 w=3@\n...@\n...\n...@#"
+      "english": "...@\ntaken aback, we\nstood frozen\nin place...@#"
     },
     {
       "japanese": "あ、 くん! \nいっしょに かえらない?  ",
-      "english": " B8 S216 w=2@\n...@#"
+      "english": "oh, ^-kun!@\nwant to go home\ntogether?@#"
     },
     {
       "japanese": "(どうしよう?)\n いっしょに かえる\n やめておく",
@@ -878,11 +878,11 @@
     },
     {
       "japanese": "ごめん! \nきょうは ちょっと\nつごうが わるいんだ  ",
-      "english": " B8 S219 w=2@\n...\n...@#"
+      "english": "Sorry!@\nI'm a little busy\ntoday@#"
     },
     {
       "japanese": "あ そうだったの! \nむり いって ごめんね... \nじゃ また こんど!  ",
-      "english": " B8 S220 w=3@\n...@\n...@#"
+      "english": "ah, I see!@\nsorry for asking\nfor something\nunreasonable...@\nwell, see you\nnext time!@#"
     },
     {
       "japanese": "あ、 くん! \nいっしょに かえろうか?  ",
@@ -890,7 +890,7 @@
     },
     {
       "japanese": "あっ そう... \nじゃあ また こんどね!  ",
-      "english": " B8 S222 w=2@\n...@#"
+      "english": "oh, I see...@\nwell, see you\nnext time!@#"
     },
     {
       "japanese": "あ、 くん! \nいっしょに かえらない?  ",
@@ -898,35 +898,35 @@
     },
     {
       "japanese": "なぁんだ... \nじゃ、またね! ばいばい!  ",
-      "english": " B8 S224 w=2@\n...@#"
+      "english": "oh, I see...@\nwell, see you\nlater! byebye!@#"
     },
     {
       "japanese": "あ、 さん! \nいっしょに げこう しませんか?  ",
-      "english": " B8 S225 w=2@\n...@#"
+      "english": "oh, ^-san!@\nwould you like\nto walk home\ntogether?@#"
     },
     {
       "japanese": "あ、そうですか... \nでは またの きかいに!  ",
-      "english": " B8 S226 w=2@\n...@#"
+      "english": "oh, I see...@\nwell, maybe\nanother time!@#"
     },
     {
       "japanese": "あ、 ~! \nひまそう じゃん! \nいっしょに かえらない~?  ",
-      "english": " B8 S227 w=3@\n...@\n...@#"
+      "english": "ah, ~!@\nyou look like\nyou're free!@\n\nwant to go home\ntogether?@#"
     },
     {
       "japanese": "あ、 せんぱい... \nあの... \nいっしょに かえりませんか...?  ",
-      "english": " B8 S228 w=3@\n...@\n...@#"
+      "english": "oh, senpai..@um..@\nwould you like\nto walk home\ntogether@#"
     },
     {
       "japanese": "そうですよね...やっぱり... \nめいわくな こと いって\n...すみませんでした...  ",
-      "english": " B8 S229 w=2@\n...\n...@#"
+      "english": "oh,ok..@I see...\nI'm sorry for\nsaying something\nso troublesome...@#"
     },
     {
       "japanese": "やっほ~  ~! \nしのざわと いっしょに\nかえろうよ~! きゃ~  ",
-      "english": " B8 S230 w=2@\n...\n...@#"
+      "english": "Yahho~~!@\nShinozawa wants\nto go home\ntogether! kyaa~@#"
     },
     {
       "japanese": "ぐすん... \nしのざわ うるうる ですぅ~... \nひとりで かえりますぅ~...  ",
-      "english": " B8 S231 w=3@\n...@\n...@#"
+      "english": "*sniff*...@\nShinozawa is\ngetting teary...@\n\nI'll just go alone\n*sniff*@#"
     },
     {
       "japanese": "きょうは ありがとう\nたのしかったよ! \n...じゃあ、またね!  ",
@@ -934,7 +934,7 @@
     },
     {
       "japanese": "るるなも たのしかったわ! \n くん、またね~!  ",
-      "english": " B8 S233 w=2@\n...@#"
+      "english": "Ruruna had a\ngreat time today!@\nSee you again,\n^-kun!@#"
     },
     {
       "japanese": "じゃ、ばいばい  くん! \nまた がっこうでねっ!  ",
@@ -946,27 +946,27 @@
     },
     {
       "japanese": "いいくに つくろう!  ",
-      "english": " B8 S236 w=1@#"
+      "english": "Let's build a\ngreat country!@#"
     },
     {
       "japanese": "かまくら ばくふ!!  ",
-      "english": " B8 S237 w=1@#"
+      "english": "Kamakura\nShogunate!!@#"
     },
     {
       "japanese": "なくよ うぐいす!  ",
-      "english": " B8 S238 w=1@#"
+      "english": "The nightingale\nsings!@#"
     },
     {
       "japanese": "へいあんきょう!! \n...あ\nねんごうを おぼえてるうちに\nいえに ついちゃった!  ",
-      "english": " B8 S239 w=2@\n...\n...\n...@#"
+      "english": "Heian-kyo!!@\nAh..I arrived home\nwhile I was still\nrecalling@\nthe era name@#"
     },
     {
       "japanese": " さん、では また! \nきょうは よい べんきょうに\nなりました!  ",
-      "english": " B8 S240 w=2@\n...\n...@#"
+      "english": "See you again,\n^-san@! Today was\na very productive\nstudy session@#"
     },
     {
       "japanese": "うん じゃあ またね~\n !  ",
-      "english": " B8 S241 w=1\n...@#"
+      "english": "Ok, see you later!@#"
     },
     {
       "japanese": "いえ、あ、ありがとうだなんて... \nそんな...こちらこそ... \nじゃあ また...  ",
@@ -974,159 +974,159 @@
     },
     {
       "japanese": "ありがとうだなんて\nしのざわ てれちゃいますぅ~! \nにゃはっ!\nきゃ~<3 らぶらぶ~<3  ",
-      "english": " B8 S243 w=2\n...@\n...\n...@#"
+      "english": "Thank you so much!\nShinozawa is\nfeeling a bit\nshy~!@\nNya-ha~ Kyaa~__heart\nlovey-dovey~__heart@#"
     },
     {
       "japanese": "じゃあ またねっ! くるくるっ!  ",
-      "english": " B8 S244 w=1@#"
+      "english": "Ok, see you later!\n*kurukuru*-tsu!\n(kuru=spin sound)@#"
     },
     {
       "japanese": "\n\nまずいことを いってしまった... \nどうしよう...  ",
-      "english": " B8 S245 w=2\n...\n...@\n...@#"
+      "english": "\nIve said something\nI shouldnt have...@\nwhat should I do?@#"
     },
     {
       "japanese": "",
-      "english": " B8 S246 w=0"
+      "english": ""
     },
     {
       "japanese": "",
-      "english": " B8 S247 w=0"
+      "english": ""
     },
     {
       "japanese": "",
-      "english": " B8 S248 w=0"
+      "english": ""
     },
     {
       "japanese": "",
-      "english": " B8 S249 w=0"
+      "english": ""
     },
     {
       "japanese": "(しまった けしごむ わすれた!\nさえき るるな から かりようかな)  ",
-      "english": " B8 S250 w=1\n...@#"
+      "english": "(Oh no, Ive forgot\nmy eraser! Maybe\nI can borrow\none from Ruruna)@#"
     },
     {
       "japanese": "(どういって たのもう?)\n",
-      "english": " B8 S251 w=0\n..."
+      "english": "(How should I ask)\n"
     },
     {
       "japanese": " こら! さえき けしごむ よこせ!\n",
-      "english": " B8 S252 w=0\n..."
+      "english": " Hey! Give me it!\n"
     },
     {
       "japanese": " さえき さっさと けしごむ かせ!\n",
-      "english": " B8 S253 w=0\n..."
+      "english": " Hurry, lend it!\n"
     },
     {
       "japanese": " さえき~ けしごむ かせよ~!\n",
-      "english": " B8 S254 w=0\n..."
+      "english": " Saeki, lend it~\n"
     },
     {
       "japanese": " さえきさん けしごむ かして!\n",
-      "english": " B8 S255 w=0\n..."
+      "english": " Can I borrow?\n"
     },
     {
       "japanese": " さえきさん けしごむかしてくれる?\n",
-      "english": " B8 S256 w=0\n..."
+      "english": " Could you lend?"
     },
     {
       "japanese": "かせば いいんでしょ! \n...はい、けしごむ!  ",
-      "english": " B8 S257 w=2@\n...@#"
+      "english": "Fine, I'll lend\nit...@\nHere, take it!@#"
     },
     {
       "japanese": "しかたないわね \n...はい、けしごむ!  ",
-      "english": "Well, I guess\ntheres no choice\n...@Here, take this\neraser!@#"
+      "english": "Well,I guess there\nis no choice...@\nHere, take this\neraser!@#"
     },
     {
       "japanese": "じゃ、かしてあげる \n...はい、けしごむ!  ",
-      "english": " B8 S259 w=2@\n...@#"
+      "english": "Ok, I'll lend it\nto you...@\nHere, take this\neraser!@#"
     },
     {
       "japanese": "じゃ、これ つかってね\n...はい! けしごむ  ",
-      "english": " B8 S260 w=1\n...@#"
+      "english": "Ok, please use\nthis one...@\nHere, take this\none.@#"
     },
     {
       "japanese": "(しまった!\nしゃ-ぷ ぺんしる わすれた!\nたかお みずき から かりようかな)  ",
-      "english": " B8 S261 w=1\n...\n...@#"
+      "english": "(Oh no!I forgot my\npencil sharpener\nmaybe Mizuki\nhas one)@#"
     },
     {
       "japanese": " おらおら! しゃ-ぺん よこせ!\n",
-      "english": " B8 S262 w=0\n..."
+      "english": " Hand it over!\n"
     },
     {
       "japanese": " おい! しゃ-ぺん かせよ!\n",
-      "english": " B8 S263 w=0\n..."
+      "english": " oi! Lend me one!\n"
     },
     {
       "japanese": " たかお~ しゃ-ぺん かせよ~!\n",
-      "english": " B8 S264 w=0\n..."
+      "english": " Takao, lend it~\n"
     },
     {
       "japanese": " しゃ-ぺん かしてよ!\n",
-      "english": " B8 S265 w=0\n..."
+      "english": " Can I borrow?\n"
     },
     {
       "japanese": " ねえ しゃ-ぺん かしてくれる?\n",
-      "english": " B8 S266 w=0\n..."
+      "english": " Can you lend one?\n"
     },
     {
       "japanese": "いいけど、ちゃんと かえしてよ! \n...はい、しゃ-ぺん!  ",
-      "english": " B8 S267 w=2@\n...@#"
+      "english": "fine,but make sure\nyou return it!@\n...take it!@#"
     },
     {
       "japanese": "しょうがないなあ... \nはい、しゃ-ぺん!  ",
-      "english": " B8 S268 w=2@\n...@#"
+      "english": "ok....@\nhere, use this\none!@#"
     },
     {
       "japanese": "うん いいよ! \n...はい、しゃ-ぺん!  ",
-      "english": " B8 S269 w=2@\n...@#"
+      "english": "okay, sure!@\n...here,\ntake this one!@#"
     },
     {
       "japanese": "うん いいよ! \nこれ つかってね\n...はい! しゃ-ぺん  ",
-      "english": " B8 S270 w=2@\n...\n...@#"
+      "english": "sure! Use this!@\n...here you go!@#"
     },
     {
       "japanese": "(しまった!\nけいこうぺん わすれた!\nもりぞの みりぃから かりようかな)  ",
-      "english": " B8 S271 w=1\n...\n...@#"
+      "english": "(Oh no! I forgot\nmy highlighter!\nMaybe Miri has\none)@#"
     },
     {
       "japanese": " こら! けいこうぺん よこせ!\n",
-      "english": " B8 S272 w=0\n..."
+      "english": " Hand it over!\n"
     },
     {
       "japanese": " おい! けいこうぺん かせよ!\n",
-      "english": " B8 S273 w=0\n..."
+      "english": " Oi! Lend me one!\n"
     },
     {
       "japanese": " もりぞの~、けいこうぺん かせよ!\n",
-      "english": " B8 S274 w=0\n..."
+      "english": " Miri, lend it~\n"
     },
     {
       "japanese": " けいこうぺん かしてよ!\n",
-      "english": " B8 S275 w=0\n..."
+      "english": " Can I borrow?\n"
     },
     {
       "japanese": " ねえ けいこうぺん かしてくれる?\n",
-      "english": " B8 S276 w=0\n..."
+      "english": " Could you lend?\n"
     },
     {
       "japanese": "...はい、けいこうぺんです \n さん、わすれものを するのは\nたるんでいる しょうこですよ!  ",
-      "english": " B8 S277 w=2@\n...\n...@#"
+      "english": "...fine, here.@\n^-san, forgetting\nthings is a sign\nof carelessness!@#"
     },
     {
       "japanese": "しかたないですね... \nはい、けいこうぺんです!  ",
-      "english": " B8 S278 w=2@\n...@#"
+      "english": "It can't be\nhelped...@\nhere, here's the\nhighlighter!@#"
     },
     {
       "japanese": "しょうち しました! \n...はい、けいこうぺんです!  ",
-      "english": " B8 S279 w=2@\n...@#"
+      "english": "Understood!@\n...Here,\nyou can take\nthis one!@#"
     },
     {
       "japanese": "いいですよ これ つかってください \n...はい、けいこうぺんです! \nおたがい がんばって じゅぎょうに\nとりくみましょうね!  ",
-      "english": " B8 S280 w=3@\n...@\n...\n...@#"
+      "english": "Ok, I have one\nyou can borrow@\n...here it is!@\n\nLet's both do our\nbest in class!@#"
     },
     {
       "japanese": "(すうがくの じゅぎょうちゅうの\nできごと)\n",
-      "english": " B8 S281 w=0\n...\n..."
+      "english": "(Math Class)\n"
     },
     {
       "japanese": "さえき るるなは せんせいの\nしつもんに こたえられず\nこまっていた...  ",
@@ -1150,43 +1150,43 @@
     },
     {
       "japanese": "さっきは ありがとう \n くんって あたま いいのね!  ",
-      "english": " B8 S287 w=2@\n...@#"
+      "english": "Thank you for\nearlier!@\n^-kun, you're\nreally smart!@#"
     },
     {
       "japanese": "さっきは ありがとう \nたすかったわ!!  ",
-      "english": " B8 S288 w=2@\n...@#"
+      "english": "Thank you for\nyour help earlier!@\nYou really\nhelped me out!@#"
     },
     {
       "japanese": "ふ~ん... \nこたえを しってたのに\nあのとき るるなに\nおしえて くれなかったんだぁ...  ",
-      "english": " B8 S289 w=2@\n...\n...\n...@#"
+      "english": "Fu~...@\nSo you knew the\nanswer all along\n...@\nbut didn't\ntell Ruruna...@#"
     },
     {
       "japanese": "ふ~ん... \n くん\nやっぱり こたえに\nじしんが なかったのね...  ",
-      "english": " B8 S290 w=2@\n...\n...\n...@#"
+      "english": "Fu~...@\nSo you weren't\nreally confident\nin your answer...@#"
     },
     {
       "japanese": "(えいごの じゅぎょうちゅうの\nできごと)\n",
-      "english": " B8 S291 w=0\n...\n..."
+      "english": "(English Class)\n"
     },
     {
       "japanese": "たかお みずきは せんせいの\nしつもんに こたえられず\nこまっていた...  ",
-      "english": " B8 S292 w=1\n...\n...@#"
+      "english": "Mizuki was having\nsome trouble\nanswering the\nteachers question@#"
     },
     {
       "japanese": "さっきは ありがとっ! \n くんって\nえいご とくい なんだね~!  ",
-      "english": " B8 S293 w=2@\n...\n...@#"
+      "english": "Thanks for\nearlier!@ Your're\nreally good at\nEnglish,arent you?@#"
     },
     {
       "japanese": "さっきは ありがとっ! \nおかげで たすかったよ!  ",
-      "english": " B8 S294 w=2@\n...@#"
+      "english": "Thanks for\nearlier!@ You\nreally helped\nme out!@#"
     },
     {
       "japanese": "ん、もう! \nこたえを しってたんなら\nあのとき\nおしえて くれればいいのに!  ",
-      "english": " B8 S295 w=2@\n...\n...\n...@#"
+      "english": "ugh, really?@\nIf you already\nknew the answer...@\n\nWhy didn't you\ntell me?@#"
     },
     {
       "japanese": "やっぱり  くん\nじぶんの こたえに\nじしんが なかったんだね...  ",
-      "english": " B8 S296 w=1\n...\n...@#"
+      "english": "^-kun, it seems\nyou weren't\nconfident in your\nown answer at all@#"
     },
     {
       "japanese": "(けいざいの じゅぎょうちゅうの\nできごと)\n",
