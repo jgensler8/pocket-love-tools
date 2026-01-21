@@ -1206,15 +1206,15 @@
     },
     {
       "japanese": " おい! でしゃばってんじゃねえよ!\n",
-      "english": " B8 S301 w=0\n..."
+      "english": " Oi! Dont butt in!\n"
     },
     {
       "japanese": " もりぞの、ぼくに きが あるのか?\n",
-      "english": " B8 S302 w=0\n..."
+      "english": " Feelings for me?\n"
     },
     {
       "japanese": " もりぞのさんって おせっかいだね\n",
-      "english": " You're a busybody\n"
+      "english": " You're nosy\n"
     },
     {
       "japanese": " もりぞのさんって あたま いいね\n",
@@ -1226,11 +1226,11 @@
     },
     {
       "japanese": "でしゃばった つもりは ありません \nつい...\nあわれみを かけてしまったのです  ",
-      "english": " B8 S306 w=2@\n...\n...@#"
+      "english": "I didn't mean to\nbe intrusive@\nI just... wanted\nto help out@#"
     },
     {
       "japanese": "ふっ... \nしあわせな ひと...  ",
-      "english": " B8 S307 w=2@\n...@#"
+      "english": "Hmph...@\npretty lucky...@#"
     },
     {
       "japanese": "おせっかいかも しれませんね... \nむちな ひとを みると\nほうっておけないんです、わたし...  ",
@@ -1258,15 +1258,15 @@
     },
     {
       "japanese": " おれさまといっしょに めし くえ!\n",
-      "english": " B8 S314 w=0\n..."
+      "english": " You, eat with me!\n"
     },
     {
       "japanese": " こら! いっしょに めし くえ!\n",
-      "english": " B8 S315 w=0\n..."
+      "english": " Hey! Eat with me!\n"
     },
     {
       "japanese": " おい! ひるめし つきあえよ!\n",
-      "english": " Yo! Let's eat!\n"
+      "english": " Oi! Lunch, now!\n"
     },
     {
       "japanese": " いっしょに べんとう くおうぜ!\n",
@@ -1278,7 +1278,7 @@
     },
     {
       "japanese": "うん いいわよ!  ",
-      "english": " B8 S319 w=1@#"
+      "english": "okay, sure!@#"
     },
     {
       "japanese": "じゃあ さっそく!\n...いただきま~す! \n...... \n......  ",
@@ -1290,67 +1290,67 @@
     },
     {
       "japanese": "ごめんね \nきょうは だめなの...  ",
-      "english": " B8 S322 w=2@\n...@#"
+      "english": "I'm sorry@\nI can't today...@#"
     },
     {
       "japanese": "うん! いっしょに たべよう!  ",
-      "english": " B8 S323 w=1@#"
+      "english": "Sure!\nLets eat together!@#"
     },
     {
       "japanese": "ああ おなか いっぱい... \nごちそうさまでした!  ",
-      "english": " B8 S324 w=2@\n...@#"
+      "english": "ahh, Im so full...@\nThank you for\nthe meal!@#"
     },
     {
       "japanese": "ごめん! \nきょうは だめなの  ",
-      "english": " B8 S325 w=2@\n...@#"
+      "english": "Sorry!@\nI can't today@#"
     },
     {
       "japanese": "そうね いっしょに たべようか!  ",
-      "english": " B8 S326 w=1@#"
+      "english": "yes, let's\neat together@#"
     },
     {
       "japanese": "じゃあ、 いい てんきだし\nここで たべよう!\nいただきま~す! \n......  ",
-      "english": " B8 S327 w=2\n...\n...@\n...@#"
+      "english": "well, the weather\nis nice, so let's\neat here!@\nLet's eat!@#"
     },
     {
       "japanese": "ああ おいしかった... \nごちそうさまでした!  ",
-      "english": " B8 S328 w=2@\n...@#"
+      "english": "Ah, that was\ndelicious!@\nThank you for\nthe meal!@#"
     },
     {
       "japanese": "ごめん! \nきょうは ようじが あるの!  ",
-      "english": " B8 S329 w=2@\n...@#"
+      "english": "Sorry!@\nI have something\nto do today!@#"
     },
     {
       "japanese": "はい ごいっしょします!  ",
-      "english": " B8 S330 w=1@#"
+      "english": "Yes,I'll join you!@#"
     },
     {
       "japanese": "...ごちそうさまでした \n さん... \nわたしの おべんとうを たべると \nきおくりょくが よくなりますよ!  ",
-      "english": " B8 S331 w=4@\n...@\n...@\n...@#"
+      "english": "Thank you for the\nmeal, ^-kun...@\num..@If you\neat my bento,@\nyour memory will\nimprove!@#"
     },
     {
       "japanese": "あいにくですが \nきょうは つきあえません...  ",
-      "english": " B8 S332 w=2@\n...@#"
+      "english": "Unfortunately,\nI can't join you\ntoday...@#"
     },
     {
       "japanese": "うん いいよ~!  ",
-      "english": " B8 S333 w=1@#"
+      "english": "Yea, that's fine!@#"
     },
     {
       "japanese": "ぱく ぱく はぐ はぐ! \nあ!  やば~!!! \nだいえっと ちゅう だったんだ!!!\nまじ たべすぎちゃったよ~  ",
-      "english": " B8 S334 w=4@\n...@@\n...\n...@#"
+      "english": "nom nom nom nom!@\noh..@this is bad!!@\nI was supposed to\nbe on a diet!@#"
     },
     {
       "japanese": "だいえっと ちゅう だしぃ~ \nきょうは ぱす ってかんじ!  ",
-      "english": " B8 S335 w=2@\n...@#"
+      "english": "I'm on a diet so..@\nI think\nI'll skip today!@#"
     },
     {
       "japanese": "あ... \nはいっ! せんぱい  ",
-      "english": " B8 S336 w=2@\n...@#"
+      "english": "Ah...@\nYes, Senpai!@#"
     },
     {
       "japanese": "ごちそうさまでした \nあの  せんぱい..... \nせんぱいと ごはんいっしょで \nたのしかった です!!  ",
-      "english": " B8 S337 w=5@\n...@@\n...@\n...@#"
+      "english": "thank you for the\nmeal, senpai!@\neating with you...@\nwas really fun!@#"
     },
     {
       "japanese": "す、すみません せんぱい... \nわたし いつも ひとりで\nたべてるんです... \nごめんなさい....  ",
@@ -1358,11 +1358,11 @@
     },
     {
       "japanese": "きゃ~! \nたべよう! たべよう! \nふたりだけの らぶりぃ~\nおひるごはん<3<3 きゃ~<3<3\n  ",
-      "english": " B8 S339 w=3@\n...@\n...\n...\n...@#"
+      "english": "Kya~! Let's eat!\nlet's eat!@\nA lovely lunch for\nthe two of us!__heart__heart@#"
     },
     {
       "japanese": "ぱくっ ぱくっ ぱくっ ぱくっ! \n...ふ~  おいしかったですか~? \nしのざわは  といっしょで \nおいしかったですわ~<3  ",
-      "english": " B8 S340 w=5@\n...@@\n...@\n...@#"
+      "english": "nom nom nom!@\nahh~@ was yours any\ngood?@\n\nMine was\nwonderful!@\nJust like\nShinozawa!@#"
     },
     {
       "japanese": "だめ~! \nきょうは しのざわ いそがしいの~! \nまたに して~  ",
@@ -1374,31 +1374,31 @@
     },
     {
       "japanese": "",
-      "english": " B8 S343 w=0"
+      "english": ""
     },
     {
       "japanese": "",
-      "english": " B8 S344 w=0"
+      "english": ""
     },
     {
       "japanese": "",
-      "english": " B8 S345 w=0"
+      "english": ""
     },
     {
       "japanese": "",
-      "english": " B8 S346 w=0"
+      "english": ""
     },
     {
       "japanese": "",
-      "english": " B8 S347 w=0"
+      "english": ""
     },
     {
       "japanese": "",
-      "english": " B8 S348 w=0"
+      "english": ""
     },
     {
       "japanese": "",
-      "english": " B8 S349 w=0"
+      "english": ""
     },
     {
       "japanese": "どうしたのかな?  ",

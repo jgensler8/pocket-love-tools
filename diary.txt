@@ -328,8 +328,8 @@ day 46 (jan 18)
   * only theory would be cool pictures in the text box, but its more likely that they are words
 
 day 47 (jan 20/21)
-* ~42%
-* bank 8 scenes: I forgot x, scenes per character; also some classroom event scenes w/ shared answers
+* ~44%
+* bank 8 scenes: I forgot x, scenes per character; also some classroom event scenes w/ shared answers; some lunch scenes together
 
 next:
 * could experiment with variable width font printing
