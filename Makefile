@@ -45,8 +45,7 @@ translate_template:
 
 patch:
 	$(shell cp $(OG_ROM) $(PATCHED_ROM))
-# patch 03 MBC1+RAM+BATTERY -> 1b MBC5+RAM+BATTERY
-	$(shell $(PYTHON) patch.py $(PATCHED_ROM) inplace --bank=0 --hex_addr=4147 --hex_value=1B)
+	$(shell $(PYTHON) patch.py $(PATCHED_ROM) mbc)
 # 	$(shell $(PYTHON) patch.py $(PATCHED_ROM) inplace --bank=2 --hex_addr=41e2 --hex_value=05)
 	$(shell $(PYTHON) patch.py $(PATCHED_ROM) inplace --bank=2 --hex_addr=41e3 --hex_value=02)
 	$(shell $(PYTHON) patch.py $(PATCHED_ROM) dialog --bank=4 --overflow_bank 34 ${OUT_DIR}/bank_4_ex.json ${OUT_DIR}/bank_4_tr_en.json)
@@ -56,6 +55,7 @@ patch:
 	$(shell $(PYTHON) patch.py $(PATCHED_ROM) dialog --bank=11 --overflow_bank 38 ${OUT_DIR}/bank_11_ex.json ${OUT_DIR}/bank_11_tr_en.json)
 	$(shell $(PYTHON) patch.py $(PATCHED_ROM) dialog --bank=12 --overflow_bank 39 ${OUT_DIR}/bank_12_ex.json ${OUT_DIR}/bank_12_tr_en.json)
 # 	$(shell $(PYTHON) patch.py $(PATCHED_ROM) dialog --bank=33 ${OUT_DIR}/bank_33_ex.json ${OUT_DIR}/bank_33_test_tr.json)
+	$(shell $(PYTHON) patch.py $(PATCHED_ROM) file --bank=29 --file=patch_start_screen_29.txt)
 # patch week task screen header
 	$(shell $(PYTHON) patch.py $(PATCHED_ROM) inplace --bank=30 --hex_addr=5bd2 --hex_value=3E)
 	$(shell $(PYTHON) patch.py $(PATCHED_ROM) inplace --bank=30 --hex_addr=5bd5 --hex_value=3D)

@@ -338,6 +338,15 @@ day 48 (jan 23)
 day 49 (jan 24)
 * ~47%
 * bank 8 completed: used up half of secondary bank
+* some of the intro text in bank 29
+  * seems i was also right about the single # being a wait as the intro cutscenes go by very fast + likely share wait with the other parts of the game
+* seems some bug with the scene embedding + mgba not guessing mbc correctly (for weird/oportunistic length rom)
+* second bug: train platform text is not printing dialog and skipping to the menu choice
+  * second before scene school event issue: momoyo hello
+  * fix: shift left for scene index was operating on B register not A register
+* third bug: some relationship / date text index is off (getting momoyo text progress on mizuki phone date)
+  * pop + switch scene rom is working
+  * shift lift was overflowing as 0x40ff would be the max index destination (rather 128 scenes max)
 
 next:
 * could experiment with variable width font printing
@@ -347,6 +356,7 @@ next:
 * TODO: rest of the town info screens (~9 of them)
 * TODO: revisit A~tsu! greetings
 * TODO: "I'm so moved!"
+* TODO: Yumi vs Yumida
 
 translation percent:
 untranslated: cat .\out\*tr_en.json | grep " B" | wc -l

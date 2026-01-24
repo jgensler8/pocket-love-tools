@@ -195,16 +195,21 @@ def rebuild_rom_headers(
             for scene in translated_scenes:
                 if translation_len < 0x7FFF - 0x4000:
                     break
-                # never move short or empty scenes
-                if len(scene["encoded_bytes"]) <= 3:
+                # never move short, empty scenes, or scene headers
+                is_short_or_empty = len(scene["encoded_bytes"]) <= 3
+                is_header_or_short_question = "(" in scene["english"]
+                if is_short_or_empty or is_header_or_short_question:
                     continue
+                # if overflow_scene_index >= 126:
+                #     logging.error("would not be able to shift left")
+                #     break
                 translation_len -= len(scene["encoded_bytes"])
                 # copy the scene to preserve the original text for the overflow bank
                 overflow_scene = scene.copy()
                 overflow_scenes.append(overflow_scene)
                 # reencode the scene swap
                 scene["encoded_bytes"] = encode_english_text(
-                    f"__fd__{overflow_bank:02x}__{overflow_scene_index:02x}"
+                    f"__fd__{overflow_bank:02x}__{overflow_scene_index:02x}__00"
                 )
                 translation_len += len(scene["encoded_bytes"])
                 overflow_scene_index += 1
@@ -408,6 +413,17 @@ def patch_code_raw(output_rom: str, file: str, hex_addr: str):
     logging.info(f"patched {file} at {hex_addr} ({len(file_bytes)} bytes)")
 
 
+def patch_mbc(output_rom: str):
+    # update the mbc
+    with open(output_rom, "r+b") as f:
+        f.seek(0x0147)
+        # patch 03 MBC1+RAM+BATTERY -> 1b MBC5+RAM+BATTERY
+        f.write(b'\x1b')
+        # also, lengthen the file to be mbc-5 bytes long
+        f.seek(256 * 0x4000 - 1)
+        f.write(b"\x00")
+
+
 def main():
     main_parser = argparse.ArgumentParser(
         description="Rebuild ROM headers from JSON, enforce character limits, and replace text."
@@ -538,6 +554,9 @@ def main():
         help="offset into entire rom",
     )
 
+    # Subcommand: mbc
+    mbc_parser = subparsers.add_parser("mbc", help="patch mbc")
+
     args = main_parser.parse_args()
 
     if args.command == "dialog":
@@ -568,6 +587,8 @@ def main():
         )
     elif args.command == "code_raw":
         patch_code_raw(args.output_rom, args.file, args.hex_addr)
+    elif args.command == "mbc":
+        patch_mbc(args.output_rom)
 
 
 if __name__ == "__main__":

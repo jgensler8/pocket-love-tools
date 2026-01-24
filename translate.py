@@ -55,14 +55,19 @@ if __name__ == "__main__":
     # start_addr, end_addr = (0x766a, 0x7689)
     # rom_bank = 4
     # start_addr, end_addr = (0x4394, 0x43a0)
-    rom_bank = 30
+    rom_bank = 29
+    # start_addr, end_addr = (0x69e0, 0x69e3)
+    # start_addr, end_addr = (0x69e4, 0x69e7)
+    # start_addr, end_addr = (0x69ec, 0x69f4)
+    start_addr, end_addr = (0x69f5, 0x69fd)
+    # rom_bank = 30
     # stats
     # start_addr, end_addr = (0x5c10, 0x5c17)
     # start_addr, end_addr = (0x5c18, 0x5c21)
     # start_addr, end_addr = (0x5c22, 0x5c2b)
     # start_addr, end_addr = (0x5c2c, 0x5c35)
     # start_addr, end_addr = (0x5c36, 0x5c3f)
-    start_addr, end_addr = (0x5c40, 0x5c48)
+    # start_addr, end_addr = (0x5c40, 0x5c48)
     # task select
     # start_addr, end_addr = (0x4018, 0x401f)
     # start_addr, end_addr = (0x4020, 0x4027)
