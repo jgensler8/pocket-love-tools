@@ -105,9 +105,10 @@ def write_header_file(
         # Write new header
         rom_file.seek(bank_absolute_start)
         rom_file.write(all_data)
-        bytes_left = (0x7FFF - 0x4000) - (rom_file.tell() - bank_absolute_start)
+        bytes_used = rom_file.tell() - bank_absolute_start
+        bytes_left = (0x7FFF - 0x4000) - bytes_used
         logging.info(
-            f"scenes: start={hex(bank_absolute_start)} end={hex(bytes_left)} left={bytes_left}"
+            f"scenes: start={hex(bank_absolute_start)} end={hex(rom_file.tell())} used={bytes_used} left={bytes_left}"
         )
 
 

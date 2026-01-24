@@ -332,8 +332,12 @@ day 47 (jan 20/21)
 * bank 8 scenes: I forgot x, scenes per character; also some classroom event scenes w/ shared answers; some lunch scenes together
 
 day 48 (jan 23)
-* 45%
+* ~45%
 * bank 8 scenes: most of the bento sharing scenes completed
+
+day 49 (jan 24)
+* ~47%
+* bank 8 completed: used up half of secondary bank
 
 next:
 * could experiment with variable width font printing

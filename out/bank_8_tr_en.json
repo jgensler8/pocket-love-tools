@@ -1682,23 +1682,23 @@
     },
     {
       "japanese": "(がっこうからの かえりみちでの\nできごと)\n",
-      "english": " B8 S420 w=0\n...\n..."
+      "english": "(On The Way Home)\n"
     },
     {
       "japanese": "...あれ?!\nさいふが ない!! \nさがさなきゃ!  ",
-      "english": " B8 S421 w=2\n...@\n...@#"
+      "english": "...Huh?!@\nThey don't have\nthat size!!\nI have to find it!@#"
     },
     {
       "japanese": "............... \nあしたから どうしよう....  ",
-      "english": " B8 S422 w=2@\n...@#"
+      "english": "...@\nWhat should\nI do...@#"
     },
     {
       "japanese": "\n\nさいふを なくしてしまった...  ",
-      "english": " B8 S423 w=1\n...\n...@#"
+      "english": "\n\nI've lost\nmy wallet...@#"
     },
     {
       "japanese": "",
-      "english": " B8 S424 w=0"
+      "english": ""
     },
     {
       "japanese": "できたら\nおんなのこ と いっしょに\nきたかったなぁ... \nいえに かえると するか...  ",
@@ -1710,15 +1710,15 @@
     },
     {
       "japanese": "",
-      "english": " B8 S427 w=0"
+      "english": ""
     },
     {
       "japanese": "",
-      "english": " B8 S428 w=0"
+      "english": ""
     },
     {
       "japanese": "",
-      "english": " B8 S429 w=0"
+      "english": ""
     },
     {
       "japanese": "(きょうしつでの できごと)\n",
@@ -1846,231 +1846,231 @@
     },
     {
       "japanese": "じゃあ、かりるよ~!\nど~も!  ",
-      "english": " B8 S461 w=1\n...@#"
+      "english": "Ok, I'll borrow\nit! Thanks!@#"
     },
     {
       "japanese": "さんきゅ~\nいいとこ あるじゃん  !\nじゃあ、かしてね~  ",
-      "english": " B8 S462 w=1\n...\n...@#"
+      "english": "Thank you! Seems\nlike you have\nsome redeeming\nqualities!@\nso, can I\nborrow it?@#"
     },
     {
       "japanese": "らっき~、ちょ~うれしい!\nたすかったよ~!\nありがと、 <3  ",
-      "english": " B8 S463 w=1\n...\n...@#"
+      "english": "Luckyy!\nI'm so happy!\nYou've saved me!\nThank you__heart@#"
     },
     {
       "japanese": "えいごの きょうかしょ わすれて\nしのざわ だい ぴんち なのよ~! \nねえ、 ! おねがい!\nかして、かして~!  ",
-      "english": " B8 S464 w=2\n...@\n...\n...@#"
+      "english": "oh no! I forgot\nmy textbook@\nShinozawa is in\nbig trouble!@\nhey, lend it to me\npleease~!@#"
     },
     {
       "japanese": " はいつくばって とりにこいよ!\n",
-      "english": " B8 S465 w=0\n..."
+      "english": " Crawl for it!\n"
     },
     {
       "japanese": " らくがき するなよ...はい!\n",
-      "english": " B8 S466 w=0\n..."
+      "english": " Yes,dont mark it\n"
     },
     {
       "japanese": "じゃあ かりるよ~ん! \nきが むいたら かえしますぅ~!  ",
-      "english": " B8 S467 w=2@\n...@#"
+      "english": "Ok, I'll borrow it@\nand I'll return it\nwhenever I feel\nlike it!@#"
     },
     {
       "japanese": "じゃあ、かりてくよ~ん! \nし~ ゆ~ あげいん!  ",
-      "english": " B8 S468 w=2@\n...@#"
+      "english": "Ok, I'll borrow it@\nSee~ you~ later!@#"
     },
     {
       "japanese": "ありがと~、 !\nかんしゃ かんげき ですぅ!  ",
-      "english": " B8 S469 w=1\n...@#"
+      "english": "Thank you so much!\nI'm so grateful!@#"
     },
     {
       "japanese": "きゃ~ ありがと~、 ! \nしのざわったら も~\nうれしくって くるくるっ<3  ",
-      "english": " B8 S470 w=2@\n...\n...@#"
+      "english": "Kyaa~ Thank you!@\nShinozawa is\nso happy!\nkurukuru-tsu__heart@#"
     },
     {
       "japanese": "ぼくは きょねんの しけんもんだいを\nあいかわ すずねに\nわたそうと おもっていた...  ",
-      "english": " B8 S471 w=1\n...\n...@#"
+      "english": "I was planning to\ngive last year's\nexam questions\nto Suzune...@#"
     },
     {
       "japanese": "(なんといって わたそう?)\n",
-      "english": " B8 S472 w=0\n..."
+      "english": "(when I lend it)\n"
     },
     {
       "japanese": " こら! これを とりにこい!\n",
-      "english": " B8 S473 w=0\n..."
+      "english": " Here, come get it\n"
     },
     {
       "japanese": " これ やるから かんしゃしろ!\n",
-      "english": " B8 S474 w=0\n..."
+      "english": " Here, be grateful\n"
     },
     {
       "japanese": " いいもの やるよ!\n",
-      "english": " B8 S475 w=0\n..."
+      "english": " yo, peep this!\n"
     },
     {
       "japanese": " これ さんこうに なるかもね!\n",
-      "english": " B8 S476 w=0\n..."
+      "english": " This should help.\n"
     },
     {
       "japanese": " これで しけん がんばってね!\n",
-      "english": " B8 S477 w=0\n..."
+      "english": " here, Good luck!\n"
     },
     {
       "japanese": "...あ...もらいます... \nすみません....  ",
-      "english": " B8 S478 w=2@\n...@#"
+      "english": "....oh...\nI'll take it...@\nI'm sorry...@#"
     },
     {
       "japanese": "あ、ありがとうございます!\nせんぱい!  ",
-      "english": " B8 S479 w=1\n...@#"
+      "english": "oh, thank you very\nmuch, senpai!@#"
     },
     {
       "japanese": "せ、せんぱい... \nなんていったら、いいのか... \n...ほんとに...\nありがとうございます!  ",
-      "english": " B8 S480 w=3@\n...@\n...\n...@#"
+      "english": "S-Senpai...@\nwhat should I say\n...@ Thank you\nso much!@#"
     },
     {
       "japanese": "せんぱい...わたしのために... \nなんていったら、いいのか... \n...ほんとに...どうも...\nありがとうございます!  ",
-      "english": " B8 S481 w=3@\n...@\n...\n...@#"
+      "english": "Senapi...for me..@\nwhat can I say?@\nThank you\nso much!@#"
     },
     {
       "japanese": "あら、 くん... \nさがしてたのよ! \n...これ わたして おくわね!  ",
-      "english": " B8 S482 w=3@\n...@\n...@#"
+      "english": "oh, ^-kun@, I was\njust looking for\nyou!@ I'll give\nthis to you now!@#"
     },
     {
       "japanese": "きょねんの しけん もんだい なの! \nさんこうに なるかも しれないと\nおもって...  ",
-      "english": " B8 S483 w=2@\n...\n...@#"
+      "english": "These are last\nyear's exam\nquestions!@\n\nI thought they\nmight be a helpful\nreference...@#"
     },
     {
       "japanese": " さっさと よこせよ!\n",
-      "english": " B8 S484 w=0\n..."
+      "english": " Hand it over!\n"
     },
     {
       "japanese": " しかたない うけとって やるよ!\n",
-      "english": " B8 S485 w=0\n..."
+      "english": " Fine,\nI'll take it!\n"
     },
     {
       "japanese": " あ...どうも!\n",
-      "english": " B8 S486 w=0\n..."
+      "english": " ah...thanks!\n"
     },
     {
       "japanese": " わざわざ ありがと!\n",
-      "english": " B8 S487 w=0\n..."
+      "english": " *phew*impressive!\n"
     },
     {
       "japanese": " ありがとう! しけん がんばるよ!\n",
-      "english": " B8 S488 w=0\n..."
+      "english": " I'll do my best!\n"
     },
     {
       "japanese": "ごかい しないでね! \n くんって、べんきょうが\nにがてな たいぷに みえるから\nほうって おけなかった だけなの!  ",
-      "english": " B8 S489 w=2@\n...\n...\n...@#"
+      "english": "Please dont\nmisunderstand!@\nyou...@seem like\nthe type of person@\nwho struggles\nstudying@#"
     },
     {
       "japanese": " くんって、べんきょうが\nにがてな たいぷに みえるから\nほうって おけなかったのよ!  ",
-      "english": " B8 S490 w=1\n...\n...@#"
+      "english": "^-kun,you seemed\nlike the type of\nperson who\nstruggles studying@\nI cant\nignore that!@#"
     },
     {
       "japanese": "うふふっ! もつべきものは\nしんせつな せんぱい でしょ? \nじゃ またね!  ",
-      "english": " B8 S491 w=2\n...@\n...@#"
+      "english": "hehe! Its quite\nhelpful to have a\nsenpai, right?@\nwell, see you!@#"
     },
     {
       "japanese": "なんだか  くんのこと\nきに なっちゃって... \n...じゃあ、またね!  ",
-      "english": " B8 S492 w=2\n...@\n...@#"
+      "english": "I've been feeling\na little worried\nabout you lately..@\nwell, see you!@#"
     },
     {
       "japanese": "ろうかで だれかが\nはなしているのが きこえる... \nぼくは そのまま\nたちぎきして しまった...  ",
-      "english": " B8 S493 w=2\n...@\n...\n...@#"
+      "english": "I could hear\nsomeone talking in\nthe hallway...@#"
     },
     {
       "japanese": "し-でぃ-ぷれ-や-に\nし-でぃ-を せっとして\nさいせいぼたんを おし すぐに\nぽ-ずぼたんを おしてください  ",
-      "english": " B8 S494 w=1\n...\n...\n...@#"
+      "english": "Insert the CD\ninto the CD Player\nPress play then\nimmediately pause@#"
     },
     {
       "japanese": "し-でぃ-ぷれ-や-の\nぽ-ずぼたんと\nげ-むぼ-いのAぼたんを\nどうじにおして ください  ",
-      "english": " B8 S495 w=1\n...\n...\n...@#"
+      "english": "Press the pause\nbutton on the CD\nplayer and the A\nbutton together@#"
     },
     {
       "japanese": "すきっぷぼたんを つかって\n9ばんとらっくを\nえらんでください  ",
-      "english": " B8 S496 w=1\n...\n...@#"
+      "english": "Skip to\nCD track 9@#"
     },
     {
       "japanese": "すきっぷぼたんを つかって\n10ばんとらっくを\nえらんでください  ",
-      "english": " B8 S497 w=1\n...\n...@#"
+      "english": "Skip to\nCD track 10@#"
     },
     {
       "japanese": "すきっぷぼたんを つかって\n11ばんとらっくを\nえらんでください  ",
-      "english": " B8 S498 w=1\n...\n...@#"
+      "english": "Skip to\nCD track 11@#"
     },
     {
       "japanese": "すきっぷぼたんを つかって\n12ばんとらっくを\nえらんでください  ",
-      "english": " B8 S499 w=1\n...\n...@#"
+      "english": "Skip to\nCD track 12@#"
     },
     {
       "japanese": "すきっぷぼたんを つかって\n13ばんとらっくを\nえらんでください  ",
-      "english": " B8 S500 w=1\n...\n...@#"
+      "english": "Skip to\nCD track 13@#"
     },
     {
       "japanese": "すきっぷぼたんを つかって\n14ばんとらっくを\nえらんでください  ",
-      "english": " B8 S501 w=1\n...\n...@#"
+      "english": "Skip to\nCD track 14@#"
     },
     {
       "japanese": "すきっぷぼたんを つかって\n15ばんとらっくを\nえらんでください  ",
-      "english": " B8 S502 w=1\n...\n...@#"
+      "english": "Skip to\nCD track 15@#"
     },
     {
       "japanese": "すきっぷぼたんを つかって\n16ばんとらっくを\nえらんでください  ",
-      "english": " B8 S503 w=1\n...\n...@#"
+      "english": "Skip to\nCD track 16@#"
     },
     {
       "japanese": "すきっぷぼたんを つかって\n17ばんとらっくを\nえらんでください  ",
-      "english": " B8 S504 w=1\n...\n...@#"
+      "english": "Skip to\nCD track 17@#"
     },
     {
       "japanese": "すきっぷぼたんを つかって\n18ばんとらっくを\nえらんでください  ",
-      "english": " B8 S505 w=1\n...\n...@#"
+      "english": "Skip to\nCD track 18@#"
     },
     {
       "japanese": "すきっぷぼたんを つかって\n19ばんとらっくを\nえらんでください  ",
-      "english": " B8 S506 w=1\n...\n...@#"
+      "english": "Skip to\nCD track 19@#"
     },
     {
       "japanese": "すきっぷぼたんを つかって\n20ばんとらっくを\nえらんでください  ",
-      "english": " B8 S507 w=1\n...\n...@#"
+      "english": "Skip to\nCD track 20@#"
     },
     {
       "japanese": "すきっぷぼたんを つかって\n21ばんとらっくを\nえらんでください  ",
-      "english": " B8 S508 w=1\n...\n...@#"
+      "english": "Skip to\nCD track 21@#"
     },
     {
       "japanese": "すきっぷぼたんを つかって\n22ばんとらっくを\nえらんでください  ",
-      "english": " B8 S509 w=1\n...\n...@#"
+      "english": "Skip to\nCD track 22@#"
     },
     {
       "japanese": "すきっぷぼたんを つかって\n23ばんとらっくを\nえらんでください  ",
-      "english": " B8 S510 w=1\n...\n...@#"
+      "english": "Skip to\nCD track 23@#"
     },
     {
       "japanese": "し-でぃ-ぷれ-や-を つかって\nし-でぃ-と りんくさせますか?  ",
-      "english": " B8 S511 w=1\n...@#"
+      "english": "Do you want to\nlink with the\nCD player?@#"
     },
     {
       "japanese": "(し-でぃ-との りんく)\n りんく しない\n りんく させる",
-      "english": " B8 S512 w=0\n...\n..."
+      "english": "(Link with CD)\n Do not link\n Link"
     },
     {
       "japanese": "し-でぃ-ぷれ-や-の\nていしぼたんを おして ください  ",
-      "english": " B8 S513 w=1\n...@#"
+      "english": "Please press\nCD Stop@#"
     },
     {
       "japanese": "し-でぃ-ぷれ-や-の\nていしぼたんを おして ください",
-      "english": " B8 S514 w=0\n..."
+      "english": "Please press\nCD Stop"
     },
     {
       "japanese": "このげ-むは\nし-でぃ-ぷれ-や-を しようし\nせいゆうの おんせいと げ-むを\nりんくさせて きくことが できます  ",
-      "english": " B8 S515 w=1\n...\n...\n...@#"
+      "english": "This game uses a\nCD player,allowing\nyou to listen to\nvoice acting!@#"
     },
     {
       "japanese": " ... \nおかね もってないのに\nぷれぜんと するなんて\nうそは つかないよねぇ~?  ",
-      "english": " B8 S516 w=2@\n...\n...\n...@#"
+      "english": "...you don't have\nany money!\nwait, you wouldn't\nlie about@\ngiving a present,\nwould you?@#"
     },
     {
       "japanese": " のせいかつ みてると\nだいたい そうぞうつくんだけどぉ~ \nほんとうに うそついていないよね! \nしんじてるからね!  ",
-      "english": " B8 S517 w=3\n...@\n...@\n...@#"
+      "english": "I mean... anyone\ncan tell based on\nlooking...@\n\nbut youre really\nnot lying, right?@#"
     },
     {
       "japanese": "\n\nまずい!\nうそが ばれたみたいだ...  ",
