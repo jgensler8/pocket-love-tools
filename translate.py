@@ -56,10 +56,16 @@ if __name__ == "__main__":
     # rom_bank = 4
     # start_addr, end_addr = (0x4394, 0x43a0)
     rom_bank = 29
+    # start_addr, end_addr = (0x60f8, 0x6108)
+    # start_addr, end_addr = (0x611e, 0x612d)
+    # start_addr, end_addr = (0x6142, 0x6153)
+    # start_addr, end_addr = (0x624c, 0x625d)
+    # start_addr, end_addr = (0x6274, 0x6283)
+    start_addr, end_addr = (0x6288, 0x6291)
     # start_addr, end_addr = (0x69e0, 0x69e3)
     # start_addr, end_addr = (0x69e4, 0x69e7)
     # start_addr, end_addr = (0x69ec, 0x69f4)
-    start_addr, end_addr = (0x69f5, 0x69fd)
+    # start_addr, end_addr = (0x69f5, 0x69fd)
     # rom_bank = 30
     # stats
     # start_addr, end_addr = (0x5c10, 0x5c17)
