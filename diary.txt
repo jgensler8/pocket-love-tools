@@ -352,6 +352,9 @@ day 50 (jan 25)
 * rest of game start screen (names / blood types) / save+load screens+slot prompt
 * bug: some weird cursor or display error when linking with cd in the weekly game option menu
 
+day 51 (jan 26)
+* bank 9 start: fireworks dialogs
+
 next:
 * could experiment with variable width font printing
 * continue with most cutscenes + game progression, maybe find more save states to test
