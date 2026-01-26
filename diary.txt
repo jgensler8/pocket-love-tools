@@ -354,6 +354,7 @@ day 50 (jan 25)
 
 day 51 (jan 26)
 * bank 9 start: fireworks dialogs
+* fix the cd menu bug: old string that was a guess and not translated via script
 
 next:
 * could experiment with variable width font printing

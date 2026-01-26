@@ -55,18 +55,18 @@ if __name__ == "__main__":
     # start_addr, end_addr = (0x766a, 0x7689)
     # rom_bank = 4
     # start_addr, end_addr = (0x4394, 0x43a0)
-    rom_bank = 29
+    # rom_bank = 29
     # start_addr, end_addr = (0x60f8, 0x6108)
     # start_addr, end_addr = (0x611e, 0x612d)
     # start_addr, end_addr = (0x6142, 0x6153)
     # start_addr, end_addr = (0x624c, 0x625d)
     # start_addr, end_addr = (0x6274, 0x6283)
-    start_addr, end_addr = (0x6288, 0x6291)
+    # start_addr, end_addr = (0x6288, 0x6291)
     # start_addr, end_addr = (0x69e0, 0x69e3)
     # start_addr, end_addr = (0x69e4, 0x69e7)
     # start_addr, end_addr = (0x69ec, 0x69f4)
     # start_addr, end_addr = (0x69f5, 0x69fd)
-    # rom_bank = 30
+    rom_bank = 30
     # stats
     # start_addr, end_addr = (0x5c10, 0x5c17)
     # start_addr, end_addr = (0x5c18, 0x5c21)
@@ -314,6 +314,7 @@ if __name__ == "__main__":
     # call > future date accept
     # start_addr, end_addr = (0x4b08, 0x4b0b)
     # start_addr, end_addr = (0x4b1d, 0x4b23)
+    start_addr, end_addr = (0x4b2d, 0x4b35)
     # park call (probably no answer)
     # start_addr, end_addr = (0x4d00, 0x4d0a)
     # start_addr, end_addr = (0x4d0f, 0x4d17)
