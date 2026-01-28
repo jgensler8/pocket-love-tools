@@ -356,6 +356,10 @@ day 51 (jan 26)
 * bank 9 start: fireworks dialogs
 * fix the cd menu bug: old string that was a guess and not translated via script
 
+day 52 (jan 28)
+* 49%
+* a few translations, hand touching events
+
 next:
 * could experiment with variable width font printing
 * continue with most cutscenes + game progression, maybe find more save states to test
