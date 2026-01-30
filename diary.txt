@@ -360,6 +360,10 @@ day 52 (jan 28,29)
 * 49%
 * a few translations, hand touching events, part of some rumor event
 
+day 53 (jan 30)
+* 51%
+* few more rumor events
+
 next:
 * could experiment with variable width font printing
 * continue with most cutscenes + game progression, maybe find more save states to test
