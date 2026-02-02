@@ -364,6 +364,10 @@ day 53 (jan 30)
 * 51%
 * few more rumor events
 
+day 54 (jan 31/feb 2)
+* ~52%
+* probably rest of rumor events
+
 next:
 * could experiment with variable width font printing
 * continue with most cutscenes + game progression, maybe find more save states to test
