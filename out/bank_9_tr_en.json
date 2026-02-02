@@ -498,7 +498,7 @@
     },
     {
       "japanese": "ねえ ねえ! \nあそびにんの もりぞの まりぃ って\n   のこと\nすきだって ほんとかな?  ",
-      "english": "Hey, hey!@\nIs it really true\nthat you like Mari\nMorizono?@#"
+      "english": "Hey, hey!@\nIs it really true\nthat ^ likes Mari\nMorizono?@#"
     },
     {
       "japanese": "え~?! \nもりぞの まりぃって\nとしうえしか あいてに しないって\nうわさも あったよね~?  ",
@@ -642,83 +642,83 @@
     },
     {
       "japanese": "あれじゃ おんなのこに\nきらわれても\nしかたないって かんじ だよね~!  ",
-      "english": " B9 S160 w=1\n...\n...@#"
+      "english": "With this kind of\nbehavior, its no\nwonder no girls\nlike them...@#"
     },
     {
       "japanese": "そうそう!\nせいかく いまいち だよね~!  ",
-      "english": " B9 S161 w=1\n...@#"
+      "english": "Yea, their\npersonality isn't\nvery good, is it?@#"
     },
     {
       "japanese": "まだ おんなのこの きもちとか\nわかってないよね~  ",
-      "english": " B9 S162 w=1\n...@#"
+      "english": "You still don't\nunderstand a\ngirl's feelings\ndo you?@#"
     },
     {
       "japanese": "...っていうかぁ~ \nぶなんな せん なんだけど...  ",
-      "english": " B9 S163 w=2@\n...@#"
+      "english": "I mean, its a\npretty safe choice\n...@\nbut...@#"
     },
     {
       "japanese": "せいかくが よくも わるくもなくて \nへいきんてん ってかんじ\nなんだよね...  ",
-      "english": " B9 S164 w=2@\n...\n...@#"
+      "english": "Their personality\nisn't good\nor bad...@\njust avearage...@#"
     },
     {
       "japanese": "そうそう! \nちょっと いいかんじ だよね!  ",
-      "english": " B9 S165 w=2@\n...@#"
+      "english": "That's right!@\nPretty good,\nright?@#"
     },
     {
       "japanese": "けっこう いい ひとってかんじ\nするよね...  ",
-      "english": " B9 S166 w=1\n...@#"
+      "english": "They seem like a\nnice person...@#"
     },
     {
       "japanese": "そうそう! \nすっごく いいかんじ だよね!  ",
-      "english": " B9 S167 w=2@\n...@#"
+      "english": "That's right!@\nIt looks really\ngreat!@#"
     },
     {
       "japanese": "せいかく いいからさ~ \nおんなのこにも\nもてそうな かんじするよね...  ",
-      "english": " B9 S168 w=2@\n...\n...@#"
+      "english": "They have a nice\npersonality@\nso they should be\npopular with girls@#"
     },
     {
       "japanese": "",
-      "english": " B9 S169 w=0"
+      "english": ""
     },
     {
       "japanese": "",
-      "english": " B9 S170 w=0"
+      "english": ""
     },
     {
       "japanese": "",
-      "english": " B9 S171 w=0"
+      "english": ""
     },
     {
       "japanese": "",
-      "english": " B9 S172 w=0"
+      "english": ""
     },
     {
       "japanese": "",
-      "english": " B9 S173 w=0"
+      "english": ""
     },
     {
       "japanese": "",
-      "english": " B9 S174 w=0"
+      "english": ""
     },
     {
       "japanese": "",
-      "english": " B9 S175 w=0"
+      "english": ""
     },
     {
       "japanese": "",
-      "english": " B9 S176 w=0"
+      "english": ""
     },
     {
       "japanese": "",
-      "english": " B9 S177 w=0"
+      "english": ""
     },
     {
       "japanese": "",
-      "english": " B9 S178 w=0"
+      "english": ""
     },
     {
       "japanese": "",
-      "english": " B9 S179 w=0"
+      "english": ""
     },
     {
       "japanese": "ぼくは ろうかを あるいていた \nおや...?!  ",
@@ -1274,15 +1274,15 @@
     },
     {
       "japanese": "あの.. \n せんぱい! \nじ、じつは あさって\nわたしの たんじょうび なんです  ",
-      "english": " B9 S318 w=3@\n...@\n...\n...@#"
+      "english": "uh...senpai...@\nactually, my\nbirthday is the\nday after tomorrow@#"
     },
     {
       "japanese": "あの...それで あした うちで\nぱ-てぃ- するんです... \nもし よかったら せんぱいも\nきてくれませんか...?  ",
-      "english": " B9 S319 w=2\n...@\n...\n...@#"
+      "english": "Uhm... so we\nare having a party\nat my place@\n\nif you're free\nwould you like\nto attend?@#"
     },
     {
       "japanese": "あ、ありがとうございます...! \nせんぱいに きてもらえるなんて.. \nわたし...かんげきですぅ!  ",
-      "english": " B9 S320 w=3@\n...@\n...@#"
+      "english": "Oh, thank you\nvery much!@\nThe fact that you\ncan attend...@\nI'm so touched!@#"
     },
     {
       "japanese": "ぼくが ろうかで ぼんやり\nそとを みていると \nうしろから だれかに\nかたを たたかれた!  ",

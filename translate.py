@@ -136,7 +136,7 @@ if __name__ == "__main__":
     # start_addr, end_addr = (0x56e8, 0x56f8)
     # start_addr, end_addr = (0x56f9, 0x5709)
     # start_addr, end_addr = (0x570a, 0x571a)
-    # start_addr, end_addr = (0x571b, 0x572b)
+    start_addr, end_addr = (0x571b, 0x572b)
     # start_addr, end_addr = (0x572c, 0x573b)
     # start_addr, end_addr = (0x573d, 0x574d)
     # start_addr, end_addr = (0x574e, 0x575e)
@@ -231,6 +231,16 @@ if __name__ == "__main__":
     # start_addr, end_addr = (0x46a1, 0x46a8)
     # start_addr, end_addr = (0x46ad, 0x46b4)
     # start_addr, end_addr = (0x46b5, 0x46bc)
+    # shoppes place select
+    # start_addr, end_addr = (0x46c1, 0x46ca)
+    # start_addr, end_addr = (0x46cf, 0x46dc)
+    # start_addr, end_addr = (0x46dd, 0x46ea)
+    # start_addr, end_addr = (0x46eb, 0x46f8)
+    # start_addr, end_addr = (0x46f9, 0x4706)
+    # start_addr, end_addr = (0x4707, 0x4714)
+    # start_addr, end_addr = (0x4715, 0x4722)
+    # start_addr, end_addr = (0x4723, 0x4730)
+    # start_addr, end_addr = (0x46c1, 0x46ca)
     # shoppes items
     # start_addr, end_addr = (0x4791, 0x4799)
     # start_addr, end_addr = (0x4735, 0x473e)
@@ -314,13 +324,14 @@ if __name__ == "__main__":
     # call > future date accept
     # start_addr, end_addr = (0x4b08, 0x4b0b)
     # start_addr, end_addr = (0x4b1d, 0x4b23)
-    start_addr, end_addr = (0x4b2d, 0x4b35)
+    # start_addr, end_addr = (0x4b2d, 0x4b35)
     # park call (probably no answer)
     # start_addr, end_addr = (0x4d00, 0x4d0a)
     # start_addr, end_addr = (0x4d0f, 0x4d17)
     # start_addr, end_addr = (0x4d2b, 0x4d2f)
     # start_addr, end_addr = (0x4d34, 0x4d40)
-
+    # call invite
+    # start_addr, end_addr = (0x4d66, 0x4d79)
 
 
     result = translate_rom_text(ROM_FILE, rom_bank, start_addr, end_addr)

@@ -365,8 +365,9 @@ day 53 (jan 30)
 * few more rumor events
 
 day 54 (jan 31/feb 2)
-* ~52%
-* probably rest of rumor events
+* 53%
+* probably rest of rumor events, Suzune birthday
+* understanding that some dialog happens when you head home together and meet the other girls (mostly translated correctly)
 
 next:
 * could experiment with variable width font printing
