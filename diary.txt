@@ -369,6 +369,9 @@ day 54 (jan 31/feb 2)
 * probably rest of rumor events, Suzune birthday
 * understanding that some dialog happens when you head home together and meet the other girls (mostly translated correctly)
 
+day 55 (feb 6)
+* 54%
+
 next:
 * could experiment with variable width font printing
 * continue with most cutscenes + game progression, maybe find more save states to test

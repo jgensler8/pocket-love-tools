@@ -518,7 +518,7 @@
     },
     {
       "japanese": "...それって いいかげんな\nうわさだと おもうけど...? \nやっぱ  くんのこと\nすきなんじゃ ないかなあ...  ",
-      "english": "no way..that\njust some baseless\nrumor@\n\nI wonder if she\nactually likes him\nafter all...@#"
+      "english": "no way..that\njust some baseless\nrumor@\n\nI wonder if she\nactually likes\nthem after all..@#"
     },
     {
       "japanese": "...そういえば そうねえ... \nそういえば あいかわ すずねって\nかめと はむすた- に すごく\nいれこんでる らしいよ....  ",
@@ -726,19 +726,19 @@
     },
     {
       "japanese": "さえき るるなの はなしごえが\nきこえる! \nわるいと おもうけど\nたちぎきしよう...  ",
-      "english": " B9 S181 w=2\n...@\n...\n...@#"
+      "english": "I can hear Rurunas\nvoice...@\nI know its wrong\nbut...@\nI'll eavesdrop\nfor just a bit...@#"
     },
     {
       "japanese": "ねえ るるな \n   くんのこと\nどう おもってるの~? \nこっそり おしえてよ...  ",
-      "english": " B9 S182 w=3@\n...\n...@\n...@#"
+      "english": "Hey Ruruna,@\nwhat do you think\nabout ^-kun?@#"
     },
     {
       "japanese": " くんねぇ... \nべつに なんとも\nおもって ないけど?  ",
-      "english": " B9 S183 w=2@\n...\n...@#"
+      "english": "^-kun, oh...@\nthey don't ever\ncross my mind...@#"
     },
     {
       "japanese": "え~ ほんとにぃ? \nでも かなり\nしたしいんでしょう?  ",
-      "english": " B9 S184 w=2@\n...\n...@#"
+      "english": "eh~, really~?@\nbut aren't you\ntwo quite close?@#"
     },
     {
       "japanese": " くんねぇ... \nけっこう いいひと みたいね  ",
@@ -750,19 +750,19 @@
     },
     {
       "japanese": "えっ!  くんのこと...? \nい、いきなり そんな こと\nきかないでよ~!  ",
-      "english": " B9 S187 w=2@\n...\n...@#"
+      "english": "huh? ^-kun...?@\nDon't ask me\nsomething like\nthat so suddenly!@#"
     },
     {
       "japanese": "あやしいな...やっぱり るるなは\n くんのこと すき なのかもね \n...で ふたりは\nどんな かんけい なの?  ",
-      "english": " B9 S188 w=2\n...@\n...\n...@#"
+      "english": "Something seems\nodd@\nMaybe Ruruna\nreally likes ^-kun@\nwhat relationship\ndo they have?@#"
     },
     {
       "japanese": "えっ!  くんのこと...? \nわたし わたし...  ",
-      "english": " B9 S189 w=2@\n...@#"
+      "english": "Huh~?@\nAre you talking\nabout ^-kun?@\nI, uh, I...@#"
     },
     {
       "japanese": "あ、かおが まっかになってる~!! \nそうとう らぶらぶ みたいね! \n...で ふたりは\nどんな かんけい なの?  ",
-      "english": " B9 S190 w=3@\n...@\n...\n...@#"
+      "english": "ah! Your face is\nbright red!@\nhehe~@\n\nso, what kind\nof relationship do\nyou really have?@#"
     },
     {
       "japanese": " くんとは\nただの おさななじみ なの... \nなんの かんけいも ないわよ  ",
@@ -770,31 +770,31 @@
     },
     {
       "japanese": "じゃあ、 くんより\nまえのくんの ほうと\nなかが いいの?  ",
-      "english": " B9 S192 w=1\n...\n...@#"
+      "english": "So, you are closer\nto ^-kun or the\nprevious person?@#"
     },
     {
       "japanese": " くんとは\nおさななじみ だけど...  ",
-      "english": " B9 S193 w=1\n...@#"
+      "english": "^-kun and I\nare childhood\nfriends but...@#"
     },
     {
       "japanese": " くんとは\nけっこう いい ふんいき\n...かな?  ",
-      "english": " B9 S194 w=1\n...\n...@#"
+      "english": "My relationship to\n^-kun is pretty\ngood...\nI think?@#"
     },
     {
       "japanese": "ふ~ん...でもさ~ \nまえのくんとは どうなってるの?  ",
-      "english": " B9 S195 w=2@\n...@#"
+      "english": "Hmm...@ but what\nabout Maeno-kun?@#"
     },
     {
       "japanese": " くんとは\nすっごく いい ふんいき! \n...かもねっ<3 うふっ<3  ",
-      "english": " B9 S196 w=2\n...@\n...@#"
+      "english": "We have a nice\nvibe between us!@\n...maybe__heart hehe__heart@#"
     },
     {
       "japanese": "うん...ほんとは るるな... \nまえのくんと いるほうが\nたのしいの...  ",
-      "english": " B9 S197 w=2@\n...\n...@#"
+      "english": "Hm...@ Ruruna...\nI think you should\nbe with Maeno...@#"
     },
     {
       "japanese": "...るるなは まえのくんより... \n くんと いるほうが\nたのしいな<3  ",
-      "english": " B9 S198 w=2@\n...\n...@#"
+      "english": "...@ Ruruna thinks\nbeing with ^-kun\nis more fun than\nMaeno-kun__heart@#"
     },
     {
       "japanese": ".......... \nそうか...そんなふうに\nおもわれて いたのか... \nぼくは そ~っと\nそのばから たちさった  ",
@@ -802,55 +802,55 @@
     },
     {
       "japanese": "たかお みずきの はなしごえが\nきこえる! \nわるいと おもうけど\nたちぎきしよう...  ",
-      "english": " B9 S200 w=2\n...@\n...\n...@#"
+      "english": "I can hear Mizuki\ntalking...@\nIts wrong but...\nI'll listen in...@#"
     },
     {
       "japanese": "ねえ みずき~! \n   くんのこと\nどう おもってるの~? \nこっそり おしえてよ...  ",
-      "english": " B9 S201 w=3@\n...\n...@\n...@#"
+      "english": "Hey, Mizuki~!@\nso, ^-kun...@\nwhat do you think\nabout them?@#"
     },
     {
       "japanese": " くんかぁ... \nべつに なんとも...?  ",
-      "english": " B9 S202 w=2@\n...@#"
+      "english": "^-kun... oh...@\nnothing special..?@#"
     },
     {
       "japanese": " くんねぇ... \nけっこう かんじが いいよね  ",
-      "english": " B9 S203 w=2@\n...@#"
+      "english": "^-kun...@\nthey're a pretty\ngood person,\nright?@#"
     },
     {
       "japanese": "えっ!  くんのこと?! \n...ど、どうして\nそんなこと きくのよ?!  ",
-      "english": " B9 S204 w=2@\n...\n...@#"
+      "english": "Huh? Youre talking\nabout ^-kun...@\nwhy are you asking\nme about them!@#"
     },
     {
       "japanese": "あやしいな...やっぱり みずきは\n くんに きが あるのかな? \n...で ふたりは\nどんな かんけい なの?  ",
-      "english": " B9 S205 w=2\n...@\n...\n...@#"
+      "english": "Something seems\nodd@\nWhat relationship\ndoes Mizuki really\nhave with ^-kun?@#"
     },
     {
       "japanese": "えっ!  くんのこと...? \nいきなり そんなこと きかれても \nわ、わたし...  ",
-      "english": " B9 S206 w=3@\n...@\n...@#"
+      "english": "huh? about ^-kun..@\nWell when you ask\nso suddenly...@\n\nI-I don't know\nwhat to say...@#"
     },
     {
       "japanese": " くんとは\nただの くらす.め-と だよ! \nそ れ だ け!  ",
-      "english": " B9 S207 w=5\n...@\n...@@@@#"
+      "english": "^-kun and I are\njust classmates!@\nThat@ is@ it!@#"
     },
     {
       "japanese": "じゃあ、やっぱり\nみずきは  くんより\nはら たくやくんの ほうが\nきに なってるの?  ",
-      "english": " B9 S208 w=1\n...\n...\n...@#"
+      "english": "Does that mean\nMizuki is more\ninterested in\nTakuya Hara...@\nthan ^-kun?@#"
     },
     {
       "japanese": " くんとは... \nただの くらす.め-と って\nかんじかな...  ",
-      "english": " B9 S209 w=2@\n...\n...@#"
+      "english": "^-kun is...@\njust a classmate..@\nsomething like\nthat...@#"
     },
     {
       "japanese": " くんとは\nけっこう いい ふんいき \n...かもねっ!  ",
-      "english": " B9 S210 w=2\n...@\n...@#"
+      "english": "^-kun and I have\na pretty good vibe\n...@ probably!@#"
     },
     {
       "japanese": "ふ~ん...でもさ~... \nみずきって  くんより\nはら たくやくんのほうが\nこのみの たいぷ じゃなかったの?  ",
-      "english": " B9 S211 w=2@\n...\n...\n...@#"
+      "english": "hmm...but...@\nisnt Mizuki's type\nmore like Takuya\nHara than ^-kun?@#"
     },
     {
       "japanese": " くんとは... \nすごく うまく いってる かんじ<3 \n...えへっ<3  ",
-      "english": " B9 S212 w=3@\n...@\n...@#"
+      "english": "Things with ^-kun@\nare going really\nwell__heart@\n...hehe__heart@#"
     },
     {
       "japanese": "うん...でも... \nはらくんは あくまでも\nあこがれの ひと だから...  ",
