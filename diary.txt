@@ -372,6 +372,9 @@ day 54 (jan 31/feb 2)
 day 55 (feb 6)
 * 54%
 
+day 56 (jab 11)
+* 55%
+
 next:
 * could experiment with variable width font printing
 * continue with most cutscenes + game progression, maybe find more save states to test
