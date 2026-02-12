@@ -372,8 +372,8 @@ day 54 (jan 31/feb 2)
 day 55 (feb 6)
 * 54%
 
-day 56 (jab 11)
-* 55%
+day 56 (jan 11 / 12)
+* 55.5%
 
 next:
 * could experiment with variable width font printing
@@ -384,6 +384,7 @@ next:
 * TODO: revisit A~tsu! greetings
 * TODO: "I'm so moved!"
 * TODO: Yumi vs Yumida
+* TODO: Mari bank 9 relationship progress eavesdropping check
 
 translation percent:
 untranslated: cat .\out\*tr_en.json | grep " B" | wc -l
