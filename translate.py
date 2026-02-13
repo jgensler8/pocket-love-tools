@@ -66,7 +66,10 @@ if __name__ == "__main__":
     # start_addr, end_addr = (0x69e4, 0x69e7)
     # start_addr, end_addr = (0x69ec, 0x69f4)
     # start_addr, end_addr = (0x69f5, 0x69fd)
-    rom_bank = 30
+    rom_bank = 13
+    # start_addr, end_addr = (0x5f46, 0x5f61)
+    start_addr, end_addr = (0x5f9b, 0x5fc8)
+    # rom_bank = 30
     # stats
     # start_addr, end_addr = (0x5c10, 0x5c17)
     # start_addr, end_addr = (0x5c18, 0x5c21)
@@ -136,7 +139,7 @@ if __name__ == "__main__":
     # start_addr, end_addr = (0x56e8, 0x56f8)
     # start_addr, end_addr = (0x56f9, 0x5709)
     # start_addr, end_addr = (0x570a, 0x571a)
-    start_addr, end_addr = (0x571b, 0x572b)
+    # start_addr, end_addr = (0x571b, 0x572b)
     # start_addr, end_addr = (0x572c, 0x573b)
     # start_addr, end_addr = (0x573d, 0x574d)
     # start_addr, end_addr = (0x574e, 0x575e)

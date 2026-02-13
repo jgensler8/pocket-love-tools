@@ -375,6 +375,17 @@ day 55 (feb 6)
 day 56 (jan 11 / 12)
 * 55.5%
 
+day 57 (jan 13)
+* 57%
+* bank 4: gift dialog, christmas time girlfriend selection dialog
+* bank 13: chrismas cutscenes (play just like the timed dialog when game is started)
+  * rom 13 has a scene header / structure just like other scenes but needs each text to prefix 81
+  * formatting is a bit different as continuous text isn't in a continuous string (only about 4 chars long)
+  * control sequences are still used
+  * currently, both Mari and Suzune dialog seem to break/pause at some point
+    * maybe ff b0, also memory doesn't seem to have the "next" phrase after Mari's response
+    * metadata could point to scenes out of order though seems a bit confusing
+
 next:
 * could experiment with variable width font printing
 * continue with most cutscenes + game progression, maybe find more save states to test
