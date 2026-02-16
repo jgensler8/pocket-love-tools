@@ -27,15 +27,15 @@ fa 45 c1        ;LD         A,(text_load_loop_done_pointer_high_c145)        = ?
 fe f0           ;CP         0xf0
 38 15           ;JR         C,LAB_19d4 (decimal 21 -> )
 ;;;;;;;;;;;;;;;;;;;;; IF
-fe fd ; cp 0xfd
-20 03 ; JR NZ,LAB_19cf
+fe fd           ;           cp 0xfd
+20 03           ;           JR NZ, 0xfe cp
 ;;;;;;;;;;;;;;;;;;;; code
 ; instead of nicely setting up args, lets just jmp
 ; to our new func. chaining multi phrases is cool but
 ; really not required. so, let text_rom_phrase handle the RET
-c3 bb 19 ; JP text_rom_phrase_19bb
+c3 bb 19        ;JP         text_rom_phrase_19bb
 fe fe           ;CP         0xfe
-20 03           ;JR         NZ,LAB_19cf
+20 05           ;JR         NZ,LAB_19cf
 cd 23 1a        ;CALL       text_probably_load_dictionary_1a23               undefined text_probably_load_dic
 18 ea           ;JR         LAB_19c0 (-22 decimal)
 ;                    LAB_19cf                                        XREF[1]:     19c8(j)  

@@ -386,6 +386,14 @@ day 57 (jan 13)
     * maybe ff b0, also memory doesn't seem to have the "next" phrase after Mari's response
     * metadata could point to scenes out of order though seems a bit confusing
 
+day 58 (jan 16)
+* 52.8%
+* added bank 13, lowering overall translation pct (3473 total lines)
+  * bank 13 does have some interesting control chars (#) after the names. not really sure if this was to add some pause between lines.
+* christmas cuscene bug: fixed a jump relative (from 3 to 5)
+* Mari's two end routes (with one shared phrase missing)
+* Game credits are at the end of bank 13
+
 next:
 * could experiment with variable width font printing
 * continue with most cutscenes + game progression, maybe find more save states to test

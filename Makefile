@@ -54,6 +54,7 @@ patch:
 	$(shell $(PYTHON) patch.py $(PATCHED_ROM) dialog --bank=10 --overflow_bank 37 ${OUT_DIR}/bank_10_ex.json ${OUT_DIR}/bank_10_tr_en.json)
 	$(shell $(PYTHON) patch.py $(PATCHED_ROM) dialog --bank=11 --overflow_bank 38 ${OUT_DIR}/bank_11_ex.json ${OUT_DIR}/bank_11_tr_en.json)
 	$(shell $(PYTHON) patch.py $(PATCHED_ROM) dialog --bank=12 --overflow_bank 39 ${OUT_DIR}/bank_12_ex.json ${OUT_DIR}/bank_12_tr_en.json)
+	$(shell $(PYTHON) patch.py $(PATCHED_ROM) dialog --bank=13 --overflow_bank 40 --prefix "__81" ${OUT_DIR}/bank_13_ex.json ${OUT_DIR}/bank_13_tr_en.json)
 # 	$(shell $(PYTHON) patch.py $(PATCHED_ROM) dialog --bank=33 ${OUT_DIR}/bank_33_ex.json ${OUT_DIR}/bank_33_test_tr.json)
 	$(shell $(PYTHON) patch.py $(PATCHED_ROM) file --bank=29 --file=patch_start_screen_29.txt)
 # patch week task screen header
@@ -61,7 +62,7 @@ patch:
 	$(shell $(PYTHON) patch.py $(PATCHED_ROM) inplace --bank=30 --hex_addr=5bd5 --hex_value=3D)
 	$(shell $(PYTHON) patch.py $(PATCHED_ROM) inplace --bank=30 --hex_addr=5be1 --hex_value=3F)
 # patch both phone call wait and day<>day wait (original 0x32)
-	$(shell $(PYTHON) patch.py $(PATCHED_ROM) inplace --bank=30 --hex_addr=6707 --hex_value=01)
+# 	$(shell $(PYTHON) patch.py $(PATCHED_ROM) inplace --bank=30 --hex_addr=6707 --hex_value=01)
 	$(shell $(PYTHON) patch.py $(PATCHED_ROM) file --bank=30 --file=patch_stat_requirements.txt)
 	$(shell $(PYTHON) patch.py $(PATCHED_ROM) file --bank=30 --file=patch_menus_bank_30.txt)
 	$(shell $(PYTHON) patch.py $(PATCHED_ROM) alphabet --png font_alphabet.png)

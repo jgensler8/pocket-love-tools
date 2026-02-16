@@ -119,6 +119,7 @@ def rebuild_rom_headers(
     bytes_limit,
     bank_num,
     overflow_bank,
+    prefix,
 ):
     """
     Rebuilds ROM headers and replaces scene text based on translated JSON data.
@@ -133,6 +134,7 @@ def rebuild_rom_headers(
         bank_num (int): The ROM bank number where the text and header reside.
                                       E.g., "0x7000". This must be a safe, unused area in the ROM.
         overflow_bank (int): if scene data overflows the original bank, write overflow data into this scene bank and reference from the original bank (via scene extension)
+        prefix: scene text prefix for all phrases in the bank
     """
     logging.info(
         f"patching bank {bank_num}, ex:{extracted_json_path} tr:{translated_json_path}"
@@ -153,6 +155,8 @@ def rebuild_rom_headers(
         # encode all scenes, checking for printing/line issues
         for i, scene_data in enumerate(translated_scenes):
             english_text = scene_data["english"]
+            if prefix:
+                english_text = prefix + english_text
             encoded_scene_bytes = encode_english_text(english_text)
             # encoded_scene_bytes = ""
             encoded_scene_bytes += b"\x00"  # Add null terminator
@@ -460,6 +464,12 @@ def main():
         required=False,
         help="If header + meta exceeds the original rom bank, use scene extension in the original bank and place scene data in this overflow bank",
     )
+    dialog_parser.add_argument(
+        "--prefix",
+        type=str,
+        default=None,
+        help="phrase prefix for all phrases"
+    )
 
     # Subcommand: scene_meta
     scene_meta_parser = subparsers.add_parser(
@@ -567,6 +577,7 @@ def main():
             args.bytes_limit,
             args.bank,
             args.overflow_bank,
+            args.prefix,
         )
     elif args.command == "scene_meta":
         patch_scene_meta(args.output_rom, args.extracted_json, args.new_scenes_json)
