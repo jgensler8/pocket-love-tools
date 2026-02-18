@@ -396,8 +396,8 @@ day 58 (jan 16)
 * translate credits + part of Momoyo's confession
 
 day 59 (jan 18)
- * 54.9%
- * finished Momoyo second confession
+ * 55.9%
+ * finished Momoyo second confession, first Mizuki confession
 
 next:
 * could experiment with variable width font printing
