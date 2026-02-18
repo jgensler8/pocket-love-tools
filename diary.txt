@@ -395,6 +395,10 @@ day 58 (jan 16)
 * Game credits are at the end of bank 13
 * translate credits + part of Momoyo's confession
 
+day 59 (jan 18)
+ * 54.9%
+ * finished Momoyo second confession
+
 next:
 * could experiment with variable width font printing
 * continue with most cutscenes + game progression, maybe find more save states to test
