@@ -399,6 +399,10 @@ day 59 (jan 18)
  * 55.9%
  * finished Momoyo second confession, first Mizuki confession
 
+day 60 (jan 19)
+* 57%
+* second Mizuki confession, first Yumi confession
+
 next:
 * could experiment with variable width font printing
 * continue with most cutscenes + game progression, maybe find more save states to test
