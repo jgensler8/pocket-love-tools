@@ -372,10 +372,10 @@ day 54 (jan 31/feb 2)
 day 55 (feb 6)
 * 54%
 
-day 56 (jan 11 / 12)
+day 56 (feb 11 / 12)
 * 55.5%
 
-day 57 (jan 13)
+day 57 (feb 13)
 * 57%
 * bank 4: gift dialog, christmas time girlfriend selection dialog
 * bank 13: chrismas cutscenes (play just like the timed dialog when game is started)
@@ -386,7 +386,7 @@ day 57 (jan 13)
     * maybe ff b0, also memory doesn't seem to have the "next" phrase after Mari's response
     * metadata could point to scenes out of order though seems a bit confusing
 
-day 58 (jan 16)
+day 58 (feb 16)
 * 54%
 * added bank 13, lowering overall translation pct (3473 total lines)
   * bank 13 does have some interesting control chars (#) after the names. not really sure if this was to add some pause between lines.
@@ -395,13 +395,17 @@ day 58 (jan 16)
 * Game credits are at the end of bank 13
 * translate credits + part of Momoyo's confession
 
-day 59 (jan 18)
+day 59 (feb 18)
  * 55.9%
  * finished Momoyo second confession, first Mizuki confession
 
-day 60 (jan 19)
+day 60 (feb 19)
 * 57%
 * second Mizuki confession, first Yumi confession
+
+day 61 (feb 21)
+* 58%
+* second Yumi confession
 
 next:
 * could experiment with variable width font printing
