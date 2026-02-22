@@ -407,6 +407,10 @@ day 61 (feb 21)
 * 58%
 * second Yumi confession
 
+day 62 (feb 22)
+* 560%
+* first and second Miri confession, first suzune confession
+
 next:
 * could experiment with variable width font printing
 * continue with most cutscenes + game progression, maybe find more save states to test
