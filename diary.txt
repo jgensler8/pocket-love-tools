@@ -408,8 +408,12 @@ day 61 (feb 21)
 * second Yumi confession
 
 day 62 (feb 22)
-* 560%
+* 60%
 * first and second Miri confession, first suzune confession
+
+day 63 (feb 23)
+* 60.8%
+* second suzune confession
 
 next:
 * could experiment with variable width font printing

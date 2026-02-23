@@ -202,11 +202,11 @@
     },
     {
       "japanese": " ぼくは はじまりかけている こいを\nあせらず たいせつに\nそだてていこうと おもった...",
-      "english": " B13 S50 w=0#\n...\n..."
+      "english": " B13 S50 w=0\n...\n..."
     },
     {
       "japanese": " ぼくは かわぞいの みちを\nいそいだ\nかぜは つめたく\nこなゆきが まじっていた...",
-      "english": " B13 S51 w=0#\n...\n...\n..."
+      "english": "I hurried along\nthe river path.The\nwind was cold and\nthere was a flurry\nof snow..."
     },
     {
       "japanese": " (   )\nみずき...",
@@ -762,7 +762,7 @@
     },
     {
       "japanese": " (みりぞの みりぃ)\nちがうの!\n...きらいなんかじゃない...\nぎゃくに...わたし...\nあなたのことが きになって...",
-      "english": "__ff__14\nThat's not true!\nI don't hate you...\nI am really quite\nworried about you"
+      "english": "__ff__14\nThat's not true!\nI dont hate you...\nI am really quite\nworried about you"
     },
     {
       "japanese": " (みりぞの みりぃ)\nじゅぎょうちゅうも\nぼ~っとしてたり\nするくらいなの...",
@@ -814,7 +814,7 @@
     },
     {
       "japanese": " めがねの おくの めが\nいたずらっぽく わらってる...",
-      "english": "Those eyes smiled\nmischievously behind\nthe glasses..."
+      "english": "Those eyes smiled\nmischievously\nbehind their\nglasses..."
     },
     {
       "japanese": " もうすこしで れんずの むこうの\nみりぃの は-とが\nつかめそう なんだけどな...\n...あと もうすこしで...",
@@ -1086,7 +1086,7 @@
     },
     {
       "japanese": " すずねは ひとりで\nまどのそばに たたずんでいた...",
-      "english": "Suzune was standing\nalone by the\nwindow..."
+      "english": "Suzune was\nstanding alone by\nthe window..."
     },
     {
       "japanese": " (あいかわ すずね)\nあっ!  せんぱい...\nきてくれたんですね....",
@@ -1194,7 +1194,7 @@
     },
     {
       "japanese": " すずね...これからも ずっと\nきみを まもってあげるよ...\nこれからも ずっと....",
-      "english": "Suzune...\nI'll always protect\nyou...\nFrom now on..."
+      "english": "Suzune...\nIll always protect\nyou...\nFrom now on..."
     },
     {
       "japanese": " (   )\n......\nきょうは すずねに\nはなしたいことが あるんだ...",
@@ -1202,75 +1202,75 @@
     },
     {
       "japanese": " (あいかわ すずね)\n......\n...",
-      "english": " B13 S300 w=0#\n...\n..."
+      "english": "__ff__15\n.......\n..."
     },
     {
       "japanese": " (   )\nこいびととして...ぼくと...\nせいしきに つきあって\nくれないかな?...",
-      "english": " B13 S301 w=0#\n...\n...\n..."
+      "english": "(__fe__00 __fe__01)\nWould you go out\nwith me? ...\nAs a lover...\nin a normal way"
     },
     {
       "japanese": " (あいかわ すずね)\nせ、せんぱい!\nそういう おはなしは...\nちょっと まってください...",
-      "english": " B13 S302 w=0#\n...\n...\n..."
+      "english": "__ff__15\nS-Senpai! That's\nnot what Im\ntalking about...\nPlease, wait..."
     },
     {
       "japanese": " (   )\n...どうして?",
-      "english": " B13 S303 w=0#\n..."
+      "english": "(__fe__00 __fe__01)\n... but why?"
     },
     {
       "japanese": " (あいかわ すずね)\nだって...\n...あの...",
-      "english": " B13 S304 w=0#\n...\n..."
+      "english": "__ff__15\nbecause...\nuhm...."
     },
     {
       "japanese": " (   )\n...ぼくのこと\nきらいなんだったら...\n...あきらめるよ...",
-      "english": " B13 S305 w=0#\n...\n...\n..."
+      "english": "(__fe__00 __fe__01)\nIf you don't\nlike me...\nthen I'll give up\n..."
     },
     {
       "japanese": " (あいかわ すずね)\nちがうんですぅ...わたし\nせ、せんぱいのこと...\nいつも とおくから あこがれて\nみてました...",
-      "english": " B13 S306 w=0#\n...\n...\n...\n..."
+      "english": "__ff__15\nThat's not true...\nIve always admired\nyou from afar..."
     },
     {
       "japanese": " (   )\nじゃあ これからは\nこいびととして...",
-      "english": " B13 S307 w=0#\n...\n..."
+      "english": "(__fe__00 __fe__01)\nWell then,\nfrom now on,\nwe'll be lovers..."
     },
     {
       "japanese": " (あいかわ すずね)\nでも...わたし きゅうに ...\nこわく なっちゃったんです...",
-      "english": " B13 S308 w=0#\n...\n..."
+      "english": "__ff__15\nbut...\nI suddenly became\nscared..."
     },
     {
       "japanese": " (あいかわ すずね)\nあこがれの せんぱい だから...\nよけい こわいんです!\nまだ...このままの\nかんけいで いてくれませんか?",
-      "english": " B13 S309 w=0#\n...\n...\n...\n..."
+      "english": "__ff__15\nBecause I admire\nyou senpai...Can't\nwe keep our rela-\ntionship the same?"
     },
     {
       "japanese": " (   )\n...わかったよ、すずね\nぼくは すこし...\nいそぎすぎたみたいだね...",
-      "english": " B13 S310 w=0#\n...\n...\n..."
+      "english": "(__fe__00 __fe__01)\nOk, Suzune,\nI think I was...\na bit too hasty"
     },
     {
       "japanese": " (あいかわ すずね)\n...せんぱい...\nやさしいんですね...",
-      "english": " B13 S311 w=0#\n...\n..."
+      "english": "__ff__15\nSenpai...\nyou're so kind..."
     },
     {
       "japanese": " (   )\nもうすこし まってみるよ...\n...すずねの きもちが\nおちつくまで...",
-      "english": " B13 S312 w=0#\n...\n...\n..."
+      "english": "(__fe__00 __fe__01)\nI'll wait a little\nlonger... until\nSuzune's feelings\ncalm down..."
     },
     {
       "japanese": " (あいかわ すずね)\nごめんなさい...\nわたし...こどもっぽい\nわがまま いっちゃって...",
-      "english": " B13 S313 w=0#\n...\n...\n..."
+      "english": "__ff__15\nI'm sorry...\nI was so childish\nand selfish..."
     },
     {
       "japanese": " (   )\nあやまることなんか ないよ!",
-      "english": " B13 S314 w=0#\n..."
+      "english": "(__fe__00 __fe__01)\nThere's nothing\nto apologize for!"
     },
     {
       "japanese": " (あいかわ すずね)\nせ、せんぱい...あの...\nこれからも よろしく\nおねがいしますね<3",
-      "english": " B13 S315 w=0#\n...\n...\n..."
+      "english": "__ff__15\nSenpai... um...\nI hope we can\ncontinue to be\nfriends__heart"
     },
     {
       "japanese": " (   )\nこちらこそ よろしく!\n...それから きみの\nこいびと こうほとしても\nよろしくね!",
-      "english": " B13 S316 w=0#\n...\n...\n...\n..."
+      "english": "(__fe__00 __fe__01)\nPleased to make\nyour acquaintance!\n,and I'd also like\nto be your lover!"
     },
     {
       "japanese": " ......\nはにかみながら ほほえんだ すずね\nもうすこし...もうすこしで\nきみを だきしめられそう\nなんだけどな...",
-      "english": " B13 S317 w=0#\n...\n...\n...\n..."
+      "english": "Suzune smiled\nshyly...Just a\nlittle longer...\nuntil I can hold\nyou close..."
     },
     {
       "japanese": "",
