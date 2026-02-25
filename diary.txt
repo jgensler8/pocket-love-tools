@@ -415,6 +415,10 @@ day 63 (feb 23)
 * 60.8%
 * second suzune confession
 
+day 64 (feb 25)
+* 62%
+* both Ruruna confessions, shared line about nurturing love / failed route
+
 next:
 * could experiment with variable width font printing
 * continue with most cutscenes + game progression, maybe find more save states to test
