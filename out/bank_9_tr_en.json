@@ -1090,7 +1090,7 @@
     },
     {
       "japanese": "... さん? \nいい せんぱいだと おもいますけど?  ",
-      "english": " B9 S272 w=2@\n...@#"
+      "english": "^-san?@\nI think they're\na good senpai@#"
     },
     {
       "japanese": "え~! \nその ていど なんだぁ... \nでも けっこう\nなかがいいって きいたけど~?  ",
@@ -1098,7 +1098,7 @@
     },
     {
       "japanese": "えっ! \n せんぱい ですか?! \n...わ、わたし そんなこと\nきかれても...こまりますぅ!  ",
-      "english": " B9 S274 w=3@\n...@\n...\n...@#"
+      "english": "Ehh!?@ Senpai!@\nEven if you ask\nme that, I'm at a\nloss...@#"
     },
     {
       "japanese": "あやしいな!  やっぱ すずねちゃんは\n さんのこと すき みたいね! \n...で ふたりは\nどういう かんけい~?  ",
@@ -1106,7 +1106,7 @@
     },
     {
       "japanese": "えっ!   せんぱい ですか?! \n...わ、わたし そんなこと\nきかれても...こまりますぅ! \n...ひみつ  ひみつですぅ!!  ",
-      "english": " B9 S276 w=5@@\n...\n...@\n...@@#"
+      "english": "Ehh?!@ Senpai?@\nI-Im in trouble if\nyou ask me that!@\nIt's a secret!@#"
     },
     {
       "japanese": " さんは \nただの せんぱい です  ",
@@ -1114,19 +1114,19 @@
     },
     {
       "japanese": " さんは \nいい せんぱいですけど...  ",
-      "english": " B9 S278 w=2@\n...@#"
+      "english": "Senpai is...@\nnice, but...@#"
     },
     {
       "japanese": " せんぱいとは\nけっこう... \nいい ふんいきだと おもいます  ",
-      "english": " B9 S279 w=2\n...@\n...@#"
+      "english": "Senpai is...@\nsomeone I get\nalong well with@#"
     },
     {
       "japanese": "でもさあ... \nほかに すきなひとって\nいないの?  ",
-      "english": " B9 S280 w=2@\n...\n...@#"
+      "english": "but...@ don't you\nhave someone else\nyou like?@#"
     },
     {
       "japanese": " せんぱいとは\nすごく... \nいい ふんいきだと おもいます<3  ",
-      "english": " B9 S281 w=2\n...@\n...@#"
+      "english": "I think Senpai and\nI...@ have a good\nrelationship__heart@#"
     },
     {
       "japanese": "ええ... でも... \nそのひとは ての とどかない\nひとだから...  ",
@@ -1142,7 +1142,7 @@
     },
     {
       "japanese": "ほかに すきなひと なんて\nいない です...  ",
-      "english": " B9 S285 w=1\n...@#"
+      "english": "There's no one\nelse I like...@#"
     },
     {
       "japanese": "しのざわ ももよの はなしごえが\nきこえる! ...でかい こえだ! \nたちぎきする つもりは ないけれど\nきこえるんだから しょうがない..  ",
@@ -1158,19 +1158,19 @@
     },
     {
       "japanese": "... ~? \nいいやつだと おもうけどぉ~?  ",
-      "english": " B9 S289 w=2@\n...@#"
+      "english": "... ~?@\nI think they're\na good person...@#"
     },
     {
       "japanese": "きゃっ!  のこと~?! \nいきなり そんなこと きかれたら\nしのざわ あせっちゃうの~!  ",
-      "english": " B9 S290 w=2@\n...\n...@#"
+      "english": "Kya~tsu! You're\ntalking about\nthat~?!@ Im getting\nflustered~!@#"
     },
     {
       "japanese": "あやしい! ...やっぱ しのざわは\n に ほれてるな~?! \n...で ふたりは\nどういう かんけい~?  ",
-      "english": " B9 S291 w=3@\n...@\n...\n...@#"
+      "english": "That's suspicious!@\nSo Shinozawa is\nlove after all!@\n\nWhat's going on\nbetween you two~?@#"
     },
     {
       "japanese": "きゃっ<3  のこと~?! \nいきなり そんなこと きかれたら\nしのざわ あせっちゃうの~! \nおとめの ひみつ ですぅ~<3  ",
-      "english": " B9 S292 w=3@\n...\n...@\n...@#"
+      "english": "Kyaaa__heart?!@\nIf you ask me some\n-thing like that,\nIll get flustered!@\nIt's a secret~__heart@#"
     },
     {
       "japanese": " はね~ \nただの ともだち だよ~ん!  ",
@@ -1178,15 +1178,15 @@
     },
     {
       "japanese": " はね~ \nいい ともだち なんですぅ~  ",
-      "english": " B9 S294 w=2@\n...@#"
+      "english": "No way~@\nWe're just\ngood friends@#"
     },
     {
       "japanese": " と しのざわはね~ \nじつは けっこう\nはっぴ-な かんけいですぅ~!  ",
-      "english": " B9 S295 w=2@\n...\n...@#"
+      "english": "^ and Shinozawa...@\nare quite happy\ntogether~!@#"
     },
     {
       "japanese": " と しのざわはね~ \nとっても はっぴ-で\nあつあつな かんけいですぅ~<3 \n...にゃはっ<3  ",
-      "english": " B9 S296 w=3@\n...\n...@\n...@#"
+      "english": "^ and Shinozawa...@\nhave a very happy\nand warm relation\n-ship@ Nya~__heart@#"
     },
     {
       "japanese": "はっ! そういえば...しのざわ\n と しゃべってるより \nげ-む やってるほうが\nしあわせ いっぱい かも~!  ",
@@ -1198,47 +1198,47 @@
     },
     {
       "japanese": "ほかに すきなひと なんて \nいないですぅ~! \nきゃ~ はずかしい~<3  ",
-      "english": " B9 S299 w=3@\n...@\n...@#"
+      "english": "Theres no one else\nI like!@ Kya~!@\nHow embarrassing~__heart@#"
     },
     {
       "japanese": "",
-      "english": " B9 S300 w=0"
+      "english": ""
     },
     {
       "japanese": "",
-      "english": " B9 S301 w=0"
+      "english": ""
     },
     {
       "japanese": "",
-      "english": " B9 S302 w=0"
+      "english": ""
     },
     {
       "japanese": "",
-      "english": " B9 S303 w=0"
+      "english": ""
     },
     {
       "japanese": "",
-      "english": " B9 S304 w=0"
+      "english": ""
     },
     {
       "japanese": "",
-      "english": " B9 S305 w=0"
+      "english": ""
     },
     {
       "japanese": "",
-      "english": " B9 S306 w=0"
+      "english": ""
     },
     {
       "japanese": "",
-      "english": " B9 S307 w=0"
+      "english": ""
     },
     {
       "japanese": "",
-      "english": " B9 S308 w=0"
+      "english": ""
     },
     {
       "japanese": "",
-      "english": " B9 S309 w=0"
+      "english": ""
     },
     {
       "japanese": "(じゅぎょうまえの できごと)\n",
@@ -1354,7 +1354,7 @@
     },
     {
       "japanese": "きゃ~! わく わく! \nあした たのしみです~ぅ<3  ",
-      "english": " B9 S338 w=2@\n...@#"
+      "english": "Kya~! Waku waku!@\nIm looking forward\nto tomorrow~__heart@#"
     },
     {
       "japanese": "...ぐっすん... \nしのざわ がっかり!  ",
@@ -1366,83 +1366,83 @@
     },
     {
       "japanese": "ねえ  くん! \nおねがいが あるの... \nわたし しゅげいぶに\nはいってるんだけど  ",
-      "english": " B9 S341 w=3@\n...@\n...\n...@#"
+      "english": "Hey!@ I have a\nfavor to ask you..@\nI'm in the\ncrafts club@#"
     },
     {
       "japanese": "ぶいんすうが すくないの... \nもしよかったら しゅげいぶに\nはいってくれないかしら?  ",
-      "english": " B9 S342 w=2@\n...\n...@#"
+      "english": "We don't have many\nmembers...@ if you\ndon't mind, could\nyou join our club?@#"
     },
     {
       "japanese": "(しゅげいぶか...どうしよう?)\n にゅうぶ する\n やめておく",
-      "english": " B9 S343 w=0\n...\n..."
+      "english": "(Join Craft Club?)\n I'll do it!\n Nope!"
     },
     {
       "japanese": "うん! にゅうぶ するよ!  ",
-      "english": " B9 S344 w=1@#"
+      "english": "Sure! Count me in!@#"
     },
     {
       "japanese": "ありがとう!  くん!\nるるな うれしいな<3  ",
-      "english": " B9 S345 w=1\n...@#"
+      "english": "Thank you ^-kun!\nRuruna is so\nhappy!__heart@#"
     },
     {
       "japanese": "ぼくは しゅげいぶに\nにゅうぶ することになった  ",
-      "english": " B9 S346 w=1\n...@#"
+      "english": "I decided to join\nthe Crafts Club@#"
     },
     {
       "japanese": "ごめん! \nしゅみじゃ ないんだ \nでも さそってくれて\nありがとう  ",
-      "english": " B9 S347 w=3@\n...@\n...\n...@#"
+      "english": "Sorry!@ It's not\nmy hobby...@\nbut thanks for\nthe invitation@#"
     },
     {
       "japanese": "そうね... \nしゅみじゃ ないんじゃ\nしょうがないわね  ",
-      "english": " B9 S348 w=2@\n...\n...@#"
+      "english": "Well...@\nif it isn't your\nhobby, then it\ncan't be helped...@#"
     },
     {
       "japanese": "ねえ  くん! \nたのみが あるんだ... \nともだちの かなざわさんがばすけっとぶに はいってるんだけど  ",
-      "english": " B9 S349 w=3@\n...@\n...@#"
+      "english": "Hey!@ I have a\nfavor to ask...@\n\n\nMy friend Kanazawa\nis in the\nbasketball club@#"
     },
     {
       "japanese": "だんしぶいんすうが すくないの... \nすぽ-つが すきだったら\nばすけっとぶに\nにゅうぶ してくれないかな?  ",
-      "english": " B9 S350 w=2@\n...\n...\n...@#"
+      "english": "There aren't many\nmembers available@\n\n\nIf you like sports\ncould you join\ntheir club?\n@#"
     },
     {
       "japanese": "(ばすけっとぶか...どうしよう?)\n にゅうぶ する\n やめておく",
-      "english": " B9 S351 w=0\n...\n..."
+      "english": "(Join Basketball?)\n Count me in!\n Nope!"
     },
     {
       "japanese": "ありがとう  くん! \nれんしゅうのときでも\nおうえんしに いくからね!!! \nがんばってね!  ",
-      "english": " B9 S352 w=3@\n...\n...@\n...@#"
+      "english": "Thank you!@ I'll be\nthere to cheer you\non!@ Even during\npractice!@#"
     },
     {
       "japanese": "ぼくは ばすけっとぼ-るぶに\nにゅうぶ することになった!  ",
-      "english": " B9 S353 w=1\n...@#"
+      "english": "I joined the\nBasketball Club!@#"
     },
     {
       "japanese": "ごめん! \nぼく からだが よわいんだ \nでも さそってくれて\nありがとう  ",
-      "english": " B9 S354 w=3@\n...@\n...\n...@#"
+      "english": "Sorry!@ I'm pretty\nweak....@\nbut thank you\nfor inviting me@#"
     },
     {
       "japanese": "......? \nけんこう そうに みえるけど? \n...まあ きょうみが ないなら\nしかたないよね!  ",
-      "english": " B9 S355 w=3@\n...@\n...\n...@#"
+      "english": "...? You seem\nhealthy though?@\nwell... guess it\ncan't be helped!@#"
     },
     {
       "japanese": "ねえ  さん! \nたまには としょしつで いっしょに\nべんきょう しませんか?  ",
-      "english": " B9 S356 w=2@\n...\n...@#"
+      "english": "Hey ^-san!@\nWhy don't we study\nin the library\nonce in a while?@#"
     },
     {
       "japanese": "(べんきょうか...どうしよう?)\n べんきょう する\n やめておく",
-      "english": " B9 S357 w=0\n...\n..."
+      "english": "(Join Session)\n Let's Study\n Nope!"
     },
     {
       "japanese": "うん! \nいっしょに べんきょう しようか!  ",
-      "english": " B9 S358 w=2@\n...@#"
+      "english": "Sure!@\nLet's study\ntogether!@#"
     },
     {
       "japanese": "うれしいな...<3  ",
-      "english": " B9 S359 w=1@#"
+      "english": "I'm so happy...__heart@#"
     },
     {
       "japanese": "きょうは としょしつで\nもりぞの みりぃと\nべんきょう することになった  ",
-      "english": " B9 S360 w=1\n...\n...@#"
+      "english": "I'll go study\nat the library\nwith Miri@#"
     },
     {
       "japanese": "ごめん! \nきょうは つごうが わるいんだ  ",
@@ -1450,7 +1450,7 @@
     },
     {
       "japanese": "じゃあ しかたないですね... \nひとりで べんきょう します \n...では また!  ",
-      "english": " B9 S362 w=3@\n...@\n...@#"
+      "english": "Well, there's no\nchoice...@\nI'll study on\nmy own...@\nWell then,\nsee you!@#"
     },
     {
       "japanese": "ねえ  ~! \nなんか ひまそう じゃん! \nだったら からおけ いこう! \nからおけ!  ",

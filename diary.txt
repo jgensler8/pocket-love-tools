@@ -419,6 +419,10 @@ day 64 (feb 25)
 * 62%
 * both Ruruna confessions, shared line about nurturing love / failed route
 
+day 65 (feb 26)
+* 63%
+* bank 9, a few club proposal events
+
 next:
 * could experiment with variable width font printing
 * continue with most cutscenes + game progression, maybe find more save states to test
