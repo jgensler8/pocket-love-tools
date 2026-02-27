@@ -1482,31 +1482,31 @@
     },
     {
       "japanese": "(げ-せんか... どうしよう?)\n げ-せんに いく\n やめておく",
-      "english": " B9 S370 w=0\n...\n..."
+      "english": "(Go to arcade?)\n Let's go!\n Nope!"
     },
     {
       "japanese": "うん!\nいっしょに げ-む しよう!  ",
-      "english": " B9 S371 w=1\n...@#"
+      "english": "Sure! Let's play\nsome games\ntogether!@#"
     },
     {
       "japanese": "きゃ~!!  と いっしょに\nげ-む げ-む げ-む!!  ",
-      "english": " B9 S372 w=1\n...@#"
+      "english": "Kyaa~!!\nLet's game!\ngame__heart, game__heart,\ngame!!!@#"
     },
     {
       "japanese": "きょうは げ-せんで\nしのざわ ももよと\nげ-むで もりあがった  ",
-      "english": " B9 S373 w=1\n...\n...@#"
+      "english": "I had a great time\nplaying games with\nMomoyo today!@#"
     },
     {
       "japanese": "ふにゃふにゃ~ \nちょっと がっくり ですぅ~  ",
-      "english": " B9 S374 w=2@\n...@#"
+      "english": "Fuuu.....@\nI'm a little\ndisappointed~@#"
     },
     {
       "japanese": "ぐうぜん さえき るるなと\nめが あった... \nそうだ!  けさ ひろった\nりぼんを かえさなくちゃ!  ",
-      "english": " B9 S375 w=3\n...@\n...@\n...@#"
+      "english": "I happened to meet\nRuruna...@\nOh!@\n\nI need to\nreturn the ribbon\nfrom this morning!@#"
     },
     {
       "japanese": "ぼくは さえき るるなに\nちかづいた  ",
-      "english": " B9 S376 w=1\n...@#"
+      "english": "I got close to the\nclear sky@#"
     },
     {
       "japanese": "(どういって わたそう?)\n",
@@ -1514,11 +1514,11 @@
     },
     {
       "japanese": " かえしてやるから ありがたくおもえ\n",
-      "english": " B9 S378 w=0\n..."
+      "english": " Here, be grateful\n"
     },
     {
       "japanese": " この ださい りぼん おまえのか?\n",
-      "english": " B9 S379 w=0\n..."
+      "english": " This lame ribbon?\n"
     },
     {
       "japanese": " これ ひろったけど かえす!\n",
@@ -1534,39 +1534,39 @@
     },
     {
       "japanese": "あっそう...ありがと!  ",
-      "english": " B9 S383 w=1@#"
+      "english": "ahh, yea...\nthanks!@#"
     },
     {
       "japanese": "あ...どうもありがとう! \nずっと さがしてたの  ",
-      "english": " B9 S384 w=2@\n...@#"
+      "english": "Ah...Thank you!@\nI've been looking\nfor it forever@#"
     },
     {
       "japanese": "あっ これ...  くんが\nひろってて くれたのね  ありがとう! \nおきにいりの りぼんだから\nず~っと さがしてたの!  ",
-      "english": " B9 S385 w=4@\n...@@\n...\n...@#"
+      "english": "ah, this...@\nthank you,@\n^-kun!\n\nIt's my favorite\nribbon so I've\nbeen looking\nforever@#"
     },
     {
       "japanese": "... くんに ひろわれてて\nよかったぁ...<3 \nほんとに ありがとう!  ",
-      "english": " B9 S386 w=2\n...@\n...@#"
+      "english": "^-kun, thank you\nfor finding this!__heart@\nThank you so much!@#"
     },
     {
       "japanese": "ぐうぜん たかお みずきと\nめが あった... \nそうだ!  けさ ひろった\nはちまきを かえさなくちゃ!  ",
-      "english": " B9 S387 w=3\n...@\n...@\n...@#"
+      "english": "I happened to\ncross Mizuki...@\noh!@ I have to re\n-turn the headband@#"
     },
     {
       "japanese": "ぼくは たかお みずきに\nちかづいた  ",
-      "english": " B9 S388 w=1\n...@#"
+      "english": "I approached\nMizuki@#"
     },
     {
       "japanese": " この ぼろい はちまき おまえの?\n",
-      "english": " B9 S389 w=0\n..."
+      "english": " this old thing?\n"
     },
     {
       "japanese": "あっ...どうも...  ",
-      "english": " B9 S390 w=1@#"
+      "english": "ah...\nthanks...@#"
     },
     {
       "japanese": "あ...どうもありがと! \nこれ なくして こまってたんだ  ",
-      "english": " B9 S391 w=2@\n...@#"
+      "english": "ah.. thank you\nso much!@\nI was in trouble\nbecause I lost it@#"
     },
     {
       "japanese": "あ! これ ずっと さがしてたんだ! \n くんが ひろってて\nくれたんだね... \nどうも ありがと  くん!  ",

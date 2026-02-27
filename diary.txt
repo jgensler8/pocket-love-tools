@@ -423,6 +423,10 @@ day 65 (feb 26)
 * 63%
 * bank 9, a few club proposal events
 
+day 66 (feb 27)
+* 64%
+* few odd bank 9, some item return and some event invitation
+
 next:
 * could experiment with variable width font printing
 * continue with most cutscenes + game progression, maybe find more save states to test
