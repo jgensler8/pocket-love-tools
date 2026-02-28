@@ -427,6 +427,10 @@ day 66 (feb 27)
 * 64%
 * few odd bank 9, some item return and some event invitation
 
+day 67 (feb 28)
+* 65%
+* more missing item return dialog and menu options
+
 next:
 * could experiment with variable width font printing
 * continue with most cutscenes + game progression, maybe find more save states to test
