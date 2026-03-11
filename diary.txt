@@ -431,6 +431,11 @@ day 67 (feb 28)
 * 65%
 * more missing item return dialog and menu options
 
+day 68 (march 11)
+* 66%
+* few bugs from a short QA session
+* bank 4 intro scenes, also has some gift dialog later on in the bank
+
 next:
 * could experiment with variable width font printing
 * continue with most cutscenes + game progression, maybe find more save states to test
@@ -441,6 +446,7 @@ next:
 * TODO: "I'm so moved!"
 * TODO: Yumi vs Yumida
 * TODO: Mari bank 9 relationship progress eavesdropping check
+* TODO: figure out job + job menus (bank 30)
 
 translation percent:
 untranslated: cat .\out\*tr_en.json | grep " B" | wc -l
