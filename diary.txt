@@ -436,6 +436,10 @@ day 68 (march 11)
 * few bugs from a short QA session
 * bank 4 intro scenes, also has some gift dialog later on in the bank
 
+day 69 (march 12)
+* 69%
+* intro dialog pretty fast, though some longer phrases don't flow exactly the same
+
 next:
 * could experiment with variable width font printing
 * continue with most cutscenes + game progression, maybe find more save states to test
