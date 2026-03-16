@@ -440,6 +440,10 @@ day 69 (march 12)
 * 69%
 * intro dialog pretty fast, though some longer phrases don't flow exactly the same
 
+day 70 (march 16)
+* 72%
+* last of the intro dialogs, parts of the school trip / shrine photo event
+
 next:
 * could experiment with variable width font printing
 * continue with most cutscenes + game progression, maybe find more save states to test
