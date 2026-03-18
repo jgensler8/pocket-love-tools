@@ -455,6 +455,7 @@ next:
 * TODO: Yumi vs Yumida
 * TODO: Mari bank 9 relationship progress eavesdropping check
 * TODO: figure out job + job menus (bank 30)
+* TODO: school play / fire final dialog line count
 
 translation percent:
 untranslated: cat .\out\*tr_en.json | grep " B" | wc -l
