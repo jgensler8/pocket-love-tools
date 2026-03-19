@@ -444,6 +444,10 @@ day 70 (march 16)
 * 72%
 * last of the intro dialogs, parts of the school trip / shrine photo event
 
+day 71 (march 17/18)
+* 73%
+* some of the play / fire dialogs
+
 next:
 * could experiment with variable width font printing
 * continue with most cutscenes + game progression, maybe find more save states to test
