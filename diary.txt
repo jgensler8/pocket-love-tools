@@ -449,7 +449,7 @@ day 71 (march 18/19)
 * some of the play / fire dialogs
 
 day 72 (march 20/21)
-* 73%
+* 73.6%
 * gift dialogs
 
 next:
