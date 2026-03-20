@@ -1438,19 +1438,19 @@
     },
     {
       "japanese": "...あ、でも\nごかい しないでよ! \nいっとくけど あたしに きめろって\nいみじゃないからね~!  ",
-      "english": " B4 S359 w=2\n...@\n...\n...@#"
+      "english": "Oh, but..@dont get\nthe wrong idea!\nI'm not saying you\nhave to pick ~me!@#"
     },
     {
       "japanese": " のたいどが\nはっきり しない...って\nなやんでる おんなのこも\nいるみたいだからさ...  ",
-      "english": " B4 S360 w=1\n...\n...\n...@#"
+      "english": "Some girls have\nnoticed that...\nyour attitude isnt\nclear...@#"
     },
     {
       "japanese": "くりすますには ぜったい\nほんめいの かのじょを きめたほうが\nいいとおもうよ~!! \n...じゃあ、またね~!  ",
-      "english": " B4 S361 w=2\n...\n...@\n...@#"
+      "english": "I think you should\npick a definitive\ngirlfriend in time\nfor Christmas~!!@\nsee you~!@#"
     },
     {
       "japanese": "...まあ だれとは\nいわないけどね~...  ",
-      "english": " B4 S362 w=1\n...@#"
+      "english": "...well, I won't\nsay who, though~..@#"
     },
     {
       "japanese": "だって すきなひとの たいどが\nいつまでたっても\nはっきりしなかったら... \nすご~く つらいじゃん!!  ",
@@ -1486,7 +1486,7 @@
     },
     {
       "japanese": "ぼくは るるなを よびだして\nこうえんで まっていた \n...... \nそろそろ くるころかな?  ",
-      "english": " B4 S371 w=3\n...@\n...@\n...@#"
+      "english": "I called Ruruna\nout to the park@\n...@ will she\nbe here soon?@#"
     },
     {
       "japanese": "あ... \nこれ うけとってほしいんだ  ",
@@ -1510,27 +1510,27 @@
     },
     {
       "japanese": "\n\nこの ぷれぜんとは\nしっぱいだった みたいだ...  ",
-      "english": " B4 S377 w=1\n...\n...\n...@#"
+      "english": "\nIt looks like the\ngift was a mistake\n...@#"
     },
     {
       "japanese": "ああ、これね... \nまえから ちょっと\nきょうみがあったの...  ",
-      "english": " B4 S378 w=2@\n...\n...@#"
+      "english": "oh, this?@\nI've actually been\ninterested in it\nfor a while now@#"
     },
     {
       "japanese": " くん、どうもありがとう \nもらっておくわ...  ",
-      "english": " B4 S379 w=2@\n...@#"
+      "english": "^-kun, thank you\nvery much.@\nI'll take this...@#"
     },
     {
       "japanese": "\n\nこの ぷれぜんとでは\nうれしさも ほどほどって\nかんじだったみたいだ...  ",
-      "english": " B4 S380 w=1\n...\n...\n...\n...@#"
+      "english": "\nIt seems this gift\nwas just ok...@#"
     },
     {
       "japanese": "あっ...もしかして これって!? \nやっぱり!! \n...うれしいわ...\nこれ すごく ほしかったの!!  ",
-      "english": " B4 S381 w=3@\n...@\n...\n...@#"
+      "english": "oh...@could it be?\nI knew it!!@\nI'm so happy...\n\nI really\nwanted this!!@#"
     },
     {
       "japanese": " くん! \nすごく かんげきしたわ<3 \nほんとうに ありがとう!!  ",
-      "english": " B4 S382 w=3@\n...@\n...@#"
+      "english": "^-kun@\nI'm so touched__heart@\nThank you\nso much!!@#"
     },
     {
       "japanese": "\n\nすごく よろこんでくれてる!! \nこの ぷれぜんとは\nばっちり うまくいった!!  ",
@@ -1546,11 +1546,11 @@
     },
     {
       "japanese": "もしかして... \nただ るるなを\nよびだしただけなの?!  ",
-      "english": " B4 S386 w=2@\n...\n...@#"
+      "english": "Don't tell me...@\nYou just called\nRuruna out for\nno reason?!@#"
     },
     {
       "japanese": " くん あなたって\n...さいていだわ! \n...... \nわたし もう かえります!!  ",
-      "english": " B4 S387 w=3\n...@\n...@\n...@#"
+      "english": "^-kun..@ You're the\nabsolute worst!!@\nI'm going home\nright now!!!@#"
     },
     {
       "japanese": "\n\n...しまった!\nすごく まずいことをしてしまった!  ",
@@ -1558,31 +1558,31 @@
     },
     {
       "japanese": "ぼくは みずきを よびだして\nこうえんで まっていた \n...... \nそろそろ くるころかな?  ",
-      "english": " B4 S389 w=3\n...@\n...@\n...@#"
+      "english": "I called Mizuki\nout to the park@\n...@ will she\nbe here soon?@#"
     },
     {
       "japanese": "...わたしに\nぷれぜんとって なにかな?  ",
-      "english": " B4 S390 w=1\n...@#"
+      "english": "...I wonder...\nwhat kind of\npresent is it?@#"
     },
     {
       "japanese": "ありがとう... \nせっかくだから いちおう\nもらっとく...  ",
-      "english": " B4 S391 w=2@\n...\n...@#"
+      "english": "Thanks...@\nSince you went\nthrough the trou\n-ble, I'll take it@#"
     },
     {
       "japanese": "ああ、これかぁ... \nまえから ちょっと\nきょうみがあったんだ...  ",
-      "english": " B4 S392 w=2@\n...\n...@#"
+      "english": "Ah,so this is it..@\n\n\n\nactually,I've been\na little\ninterested in it\nfor a while now...@#"
     },
     {
       "japanese": " くん、ありがとう \nじゃあ これ、もらっとくね...  ",
-      "english": " B4 S393 w=2@\n...@#"
+      "english": "^-kun, thank you@\nIn that case, I'll\ngo ahead and\ntake it...@#"
     },
     {
       "japanese": "これって ひょっとして... \n...わ~ うれしいっ!! \nわたし これ...\nまえから すごく ほしかったんだ!  ",
-      "english": " B4 S394 w=3@\n...@\n...\n...@#"
+      "english": "Could this be...@\nWow~!\nI'm so happy!@\n\nThis is something\nI've wanted for\na long time!@#"
     },
     {
       "japanese": " くん! \nこんな すてきな ぷれぜんと... \nほんとに どうも ありがとう<3  ",
-      "english": " B4 S395 w=3@\n...@\n...@#"
+      "english": "^-kun!@This present\n...@its wonderful!\nThank you so much__heart@#"
     },
     {
       "japanese": "もしかして...\nただ よびだしただけなの? \n...わたしのこと\nからかっただけなの!?  ",
