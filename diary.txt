@@ -448,9 +448,10 @@ day 71 (march 18/19)
 * 73%
 * some of the play / fire dialogs
 
-day 72 (march 20/21)
-* 73.6%
-* gift dialogs
+day 72 (march 20/21/23)
+* 76.5%
+* gift dialogs, bank 4 complete, lots of empty space early bank 10
+* bank 10, 12 last big ones
 
 next:
 * could experiment with variable width font printing
