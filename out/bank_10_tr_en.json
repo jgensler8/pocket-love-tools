@@ -250,31 +250,31 @@
     },
     {
       "japanese": "あ...たかお みずき だ! \nこっちに あるいてきた! \nいったい なんだろう?  ",
-      "english": " B10 S62 w=3@\n...@\n...@#"
+      "english": "Oh, its Mizuki!@\nShes's walking\ntoward us!@\n\nI wonder what it\ncould be...@#"
     },
     {
       "japanese": "ね!  くん! \nこの うでどけい\n くんのじゃない?  ",
-      "english": " B10 S63 w=2@\n...\n...@#"
+      "english": "Hey, ^-kun!@\nIsn't this watch\nyours?@#"
     },
     {
       "japanese": "この とけいは ぐうぜん\nろうかで ひろっただけよ! \nはい!...かえしとく  ",
-      "english": " B10 S64 w=2\n...@\n...@#"
+      "english": "I just happened\nto find it in\nthe hallway...@\nhere it is@#"
     },
     {
       "japanese": "これ ろうかに おちてたんだよ \nはい! かえしとくね!  ",
-      "english": " B10 S65 w=2@\n...@#"
+      "english": "I found it lying\nin the hallway@\nHere, I'll\ngive it back!@#"
     },
     {
       "japanese": "これ ろうかで ひろったんだよ \nもう おとさないように\nきを つけてね \n...はい!  ",
-      "english": " B10 S66 w=3@\n...\n...@\n...@#"
+      "english": "I found it in\nthe hallway.@ Make\nSure you don't\ndrop it again!@#"
     },
     {
       "japanese": "これ ろうかで ひろったんだよ! \nよかったね どこも\nこわれてなくって... \nじゃあ、かえしとくね、はい!  ",
-      "english": " B10 S67 w=3@\n...\n...@\n...@#"
+      "english": "I found it in\nthe hallway.@\nLuckily its not\nbroken anywhere@\nHere you go!@#"
     },
     {
       "japanese": "...... \nすこしは  くんの\nやくに たてたみたいで\n...うれしいなっ<3  ",
-      "english": " B10 S68 w=2@\n...\n...\n...@#"
+      "english": "It looks like I\nwas able to be\nsome help to you..@\n\n..that makes me\nhappy__heart@#"
     },
     {
       "japanese": "おや?...まつだ ゆみ だ! \nわざわざ ぼくの きょうしつまで\nやってくるなんて... \nいったい なんだろう?  ",
@@ -290,55 +290,55 @@
     },
     {
       "japanese": "これ ろうかに おちてたのよ \nこれからは きをつけてね! \n...はい!かえしとくわ!  ",
-      "english": " B10 S72 w=3@\n...@\n...@#"
+      "english": "I found this in\nthe hallway...@\nbe more careful\nfrom now on!@\nHere, take it!@#"
     },
     {
       "japanese": "これ ろうかに おちてたの... \n くん、これからは\nきを つけてね! \nはい...うでどけい!  ",
-      "english": " B10 S73 w=3@\n...\n...@\n...@#"
+      "english": "I found this in\nthe hallway...@\n^-kun, please be\nmore careful!@\nHere you go!@#"
     },
     {
       "japanese": "これ ろうかに おちてたのよ! \nよかったね いい せんぱいに\nひろわれて...あはっ! \nじゃあ、かえしとくね、はい!  ",
-      "english": " B10 S74 w=3@\n...\n...@\n...@#"
+      "english": "Here! This was\nin the hallway!@\n\n\nYoure lucky that\nyour senpai is\nlooking out\nfor you!@#"
     },
     {
       "japanese": "...... \nちょっとは  くんの\nやくに たてたみたいで\nうれしいなっ<3  ",
-      "english": " B10 S75 w=2@\n...\n...\n...@#"
+      "english": "...@\nI'm happy I was\nable to be of\nsome help to you__heart@#"
     },
     {
       "japanese": "あ...もりぞの みりぃ だ! \nこっちに あるいてきた! \nいったい なんだろう?  ",
-      "english": " B10 S76 w=3@\n...@\n...@#"
+      "english": "Ah... its Miri!@\nShe's walking this\nway!@ I wonder\nwhy...@#"
     },
     {
       "japanese": "あ、 さん! \nこの うでどけい\n さんのじゃないかしら?  ",
-      "english": " B10 S77 w=2@\n...\n...@#"
+      "english": "Oh, ^-san!@\nIsn't this watch\nyours?@#"
     },
     {
       "japanese": "これ ろうかに おちていました! \nへんきゃくします...はい!  ",
-      "english": " B10 S78 w=2@\n...@#"
+      "english": "I found it lying\nin the hallway!@\nI'm returning it\n... here!@#"
     },
     {
       "japanese": "これ ろうかに おちてました \nこれからは きをつけてくださいね! \n...はい!へんきゃくします  ",
-      "english": " B10 S79 w=3@\n...@\n...@#"
+      "english": "I found it lying\nin the hallway!@\nPlease be more\ncareful!@\nHere it is.@#"
     },
     {
       "japanese": "これ ろうかに おちてましたよ! \n... さん、これからは\nきを つけたほうが いいですね \nはい...うでどけいです!  ",
-      "english": " B10 S80 w=3@\n...\n...@\n...@#"
+      "english": "I found it lying\nin the hallway!@\n^-san, please be\nmore careful!@\nHere you go!@#"
     },
     {
       "japanese": "...... \nちょっとは  さんの\nおやくに たてたかしら?  ",
-      "english": " B10 S81 w=2@\n...\n...@#"
+      "english": "I wonder if I\nwas able to be\nat least a little\nhelpful...@#"
     },
     {
       "japanese": "おや? もりぞの まりぃ だ! \nわざわざ ぼくの きょうしつまで\nたずねてくるなんて... \nいったい なんだろう?  ",
-      "english": " B10 S82 w=3@\n...\n...@\n...@#"
+      "english": "Oh? It's Mari!@\nShe came all the\nway to this\nclassroom...@\nI wonder why...@#"
     },
     {
       "japanese": "あ、さがしたんだよ!  ~ \nこの うでどけいさ~\n のでしょう?  ",
-      "english": " B10 S83 w=2@\n...\n...@#"
+      "english": "I was looking\naround and found\nthis~@\nIt's yours,right?@#"
     },
     {
       "japanese": "ろうかで ひろったから そのまま\nもらっとこうかと おもったんだ~ \n...でも やすものだから やめた! \nはい...かえす!  ",
-      "english": " B10 S84 w=3\n...@\n...@\n...@#"
+      "english": "I thought I might\nkeep it for myself@\nbut its a bit\ncheap@\nHere, I'm giving\nit back!@#"
     },
     {
       "japanese": "これ ろうかに おちてたよ~ \nもちものは たいせつにしなきゃ! \nたとえ やすものの とけいでもね~  ",

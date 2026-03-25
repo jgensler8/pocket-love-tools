@@ -453,6 +453,9 @@ day 72 (march 20/21/23)
 * gift dialogs, bank 4 complete, lots of empty space early bank 10
 * bank 10, 12 last big ones
 
+day 73 (march 25)
+* 77%
+
 next:
 * could experiment with variable width font printing
 * continue with most cutscenes + game progression, maybe find more save states to test
