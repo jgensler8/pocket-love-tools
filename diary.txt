@@ -457,6 +457,10 @@ day 73 (march 25/26)
 * 78.6%
 * some baseball team events
 
+day 74 (march 27)
+* 79%
+* few phrases
+
 next:
 * could experiment with variable width font printing
 * continue with most cutscenes + game progression, maybe find more save states to test

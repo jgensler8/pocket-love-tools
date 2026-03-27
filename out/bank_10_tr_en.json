@@ -430,7 +430,7 @@
     },
     {
       "japanese": "ふ~ん... \n くんって やきゅうぶ\nだったんだ~...  ",
-      "english": "Hmm...@\nso, you were on\nthe baseball team\n...@#"
+      "english": "Hmm...@\nso, ^-kun was on\nthe baseball team\n...@#"
     },
     {
       "japanese": " くんって けっこう \nすてきだな~...  ",
@@ -442,7 +442,7 @@
     },
     {
       "japanese": "ふ~ん... \n くん やきゅうぶ だったんだ  ",
-      "english": "Hmm...@\nso, you were on\nthe baseball team\n...@#"
+      "english": "Hmm...@\nso, ^-kun was on\nthe baseball team@#"
     },
     {
       "japanese": "ないす ぴっちんぐ! \n くん がんばってるなあ...  ",
@@ -562,59 +562,59 @@
     },
     {
       "japanese": "ぼくは ばすけっとぼ-るぶで\nしゅ-との れんしゅうを していた  ",
-      "english": " B10 S140 w=1\n...@#"
+      "english": "I was practicing\nmy shooting at the\nbasketball club@#"
     },
     {
       "japanese": " くん\nばすけぶに はいってたのね...  ",
-      "english": " B10 S141 w=1\n...@#"
+      "english": "so ^-kun joined\nthe basketball\nteam...@#"
     },
     {
       "japanese": " くんって\nしゅ-とが うまいのね~!  ",
-      "english": " B10 S142 w=1\n...@#"
+      "english": "^-kun, youre\nreally good at\nshooting~!@#"
     },
     {
       "japanese": "かっこいいなっ!\nさすが  くんだわ...  ",
-      "english": " B10 S143 w=1\n...@#"
+      "english": "Ahh so cool!\nAs expected from\n^-kun...@#"
     },
     {
       "japanese": "あ、 くんだ...  ",
-      "english": " B10 S144 w=1@#"
+      "english": "Oh...\nit's ^-kun...@#"
     },
     {
       "japanese": "ないす しゅ-と!! \n くん\nばっちり きまってる~!  ",
-      "english": " B10 S145 w=2@\n...\n...@#"
+      "english": "Nice shot!!@\n^-kun, you\nnailed it~!@#"
     },
     {
       "japanese": "ないす しゅ-と!! \nさすが  くんだわ... \nすごく かっこいい...  ",
-      "english": " B10 S146 w=3@\n...@\n...@#"
+      "english": "Nice shot!!@\nAs expected from\nyou...@\nYou're so cool...@#"
     },
     {
       "japanese": "ぼくは ばすけっとぼ-るぶで\nどりぶるの れんしゅうを していた  ",
-      "english": " B10 S147 w=1\n...@#"
+      "english": "I was practicing\ndribbling at the\nbasketball club@#"
     },
     {
       "japanese": "ふ~ん \n くんか...  ",
-      "english": " B10 S148 w=2@\n...@#"
+      "english": "Hmmm...@\n^-kun...@#"
     },
     {
       "japanese": "まじめに やってる みたいね! \nかんしん かんしん!  ",
-      "english": " B10 S149 w=2@\n...@#"
+      "english": "It looks like\nyoure taking this\nvery seriously!@\nImpressive!@#"
     },
     {
       "japanese": "いっしょうけんめい れんしゅうしてる\n くんって... \nすごく いいかんじ  ",
-      "english": " B10 S150 w=2\n...@\n...@#"
+      "english": "You're practicing\nso hard...@\nlooking good!@#"
     },
     {
       "japanese": " さんって\nばすけっとぼ-るぶ だったのね  ",
-      "english": " B10 S151 w=1\n...@#"
+      "english": "So you were in\nthe basketball\nclub...@#"
     },
     {
       "japanese": "あんな じょうずに\nどりぶるできるなんて... \n さんって すごいな~  ",
-      "english": " B10 S152 w=2\n...@\n...@#"
+      "english": "To be able to\ndribble that\ncarefully...@\n\n^-kun, you really\nare amazing~@#"
     },
     {
       "japanese": "いっしょうけんめい れんしゅうしてる\n さん... \nなんだか まぶしい...  ",
-      "english": " B10 S153 w=2\n...@\n...@#"
+      "english": "You're practicing\nso hard...@\n^-san...\nYou're dazzling...@#"
     },
     {
       "japanese": "ぼくは ばすけっとぼ-るぶで\nうでたてふせを していた  ",
