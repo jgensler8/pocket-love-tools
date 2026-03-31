@@ -710,19 +710,19 @@
     },
     {
       "japanese": "まあ! あたまで ぼ-るを...! \nあ! すごい!! \nあんな ことが できるなんて \n さんって てんさい かも  ",
-      "english": " B10 S177 w=4@\n...@\n...@\n...@#"
+      "english": "Oh my@ Using your\nhead to hit the\nball...@\nThat's genius!@#"
     },
     {
       "japanese": "うんどうぶの れんしゅうって\nちょ~ きびしそう...  ",
-      "english": " B10 S178 w=1\n...@#"
+      "english": "Practice for the\nsports clubs...\nit looks super\nintense@#"
     },
     {
       "japanese": " って\nけっこう かっこいいかも...  ",
-      "english": " B10 S179 w=1\n...@#"
+      "english": "You know...\nThat's actually\npretty cool...@#"
     },
     {
       "japanese": " って\nまじに かっこいいじゃん  ",
-      "english": " B10 S180 w=1\n...@#"
+      "english": "woah...\nthat's actually\nreally cool...@#"
     },
     {
       "japanese": "ぼくは さっか-ぶで どりぶるの\nれんしゅうを していた...  ",
@@ -730,11 +730,11 @@
     },
     {
       "japanese": "さっか-ぶって\nれんしゅう きびしそう...  ",
-      "english": " B10 S182 w=1\n...@#"
+      "english": "Soccer practice\nlooks intense...@#"
     },
     {
       "japanese": " せんぱいって\nすぽ-つ とくいなんだなぁ...  ",
-      "english": " B10 S183 w=1\n...@#"
+      "english": "Senpai...\nyou're pretty good\nat sports...@#"
     },
     {
       "japanese": " せんぱいが ぐらうんどを\nはしる すがた... \nずっと こうして\nみていたいな...  ",
@@ -742,11 +742,11 @@
     },
     {
       "japanese": "そういえば... \nさっか-って\nやったこと ないな~...  ",
-      "english": " B10 S185 w=2@\n...\n...@#"
+      "english": "Come to think\nof it...@\nI've never played\nsoccer before...@#"
     },
     {
       "japanese": "あっ!  せんしゅ...\nないすな きっくですぅ!  ",
-      "english": " B10 S186 w=1\n...@#"
+      "english": "Oh!\nWhat a nice kick!@#"
     },
     {
       "japanese": "かっこいい~ しびれますぅ~ \nないすな しゅ-とで\nわたしのは-とに ご-るを\nきめてほしいな~! きゃ~<3  ",
@@ -762,7 +762,7 @@
     },
     {
       "japanese": "(やきゅうぶの しあい)\n",
-      "english": " B10 S190 w=0\n..."
+      "english": "(Baseball Game)\n"
     },
     {
       "japanese": "きょうは たこうとの\nれんしゅうじあいだ!  ",
@@ -774,31 +774,31 @@
     },
     {
       "japanese": "きょうは ちくよせんだ! \nいよいよ はじまるぞ!  ",
-      "english": " B10 S193 w=2@\n...@#"
+      "english": "Today is the\ndistrict\ntournament!@\n\nIt's finally\nstarting!@#"
     },
     {
       "japanese": "きょうは ぜんこくたいかいだ! \nよし! きあいを いれていくぞ!  ",
-      "english": " B10 S194 w=2@\n...@#"
+      "english": "Today is the\nnational\nntournament!@\n\nI'm getting\nfired up!@#"
     },
     {
       "japanese": "やったぁ!\nうちの やきゅうぶが\nかったぞ!!  ",
-      "english": " B10 S195 w=1\n...\n...@#"
+      "english": "We did it!\nOur baseball\nteam won!!@#"
     },
     {
       "japanese": "ざんねん...\nうちの やきゅうぶは\nまけてしまった...  ",
-      "english": " B10 S196 w=1\n...\n...@#"
+      "english": "What a shame...\nour baseball\nteam lost...@#"
     },
     {
       "japanese": "(ばすけっとぼ-るぶの しあい)\n",
-      "english": " B10 S197 w=0\n..."
+      "english": "(Basketball Game)\n"
     },
     {
       "japanese": "やったぁ!\nうちの ばすけっとぼ-るぶが\nかったぞ!!  ",
-      "english": " B10 S198 w=1\n...\n...@#"
+      "english": "We did it!\nMy basketball\nteam...\nwe won!!@#"
     },
     {
       "japanese": "ざんねん...\nうちの ばすけっとぼ-るぶは\nまけてしまった...  ",
-      "english": " B10 S199 w=1\n...\n...@#"
+      "english": "What a shame...\nour basketball\nteam lost...@#"
     },
     {
       "japanese": "(さっか-ぶの しあい)\n",
@@ -806,7 +806,7 @@
     },
     {
       "japanese": "やったぁ!\nうちの さっか-ぶが\nかったぞ!!  ",
-      "english": " B10 S201 w=1\n...\n...@#"
+      "english": "We did it!\nMy soccer\nteam won!@#"
     },
     {
       "japanese": "ざんねん...\nうちの さっか-ぶは\nまけてしまった...  ",
@@ -822,23 +822,23 @@
     },
     {
       "japanese": "さいきん  くんが\nかっこよくなったって... \nおんなのこの あいだで\nうわさになってるのよ!  ",
-      "english": " B10 S205 w=2\n...@\n...\n...@#"
+      "english": "Lately,theres been\na rumor going\naround...@\n\nIt seems you've\ngotten pretty\ncool!@#"
     },
     {
       "japanese": "さいきん  くんって\n...かっこいいね... \nなんか ほかのひととは\nちがうかんじが するの<3  ",
-      "english": " B10 S206 w=2\n...@\n...\n...@#"
+      "english": "^-kun,lately...@\nyouve been looking\nreally cool@\n\nlike a cool and\nunique vibe__heart@#"
     },
     {
       "japanese": "しゅげいぶで あみものを していると\nさえき るるなが やってきた! \nいったい なんだろう?  ",
-      "english": " B10 S207 w=2\n...@\n...@#"
+      "english": "I was knitting\nin the crafts club@\nthen, Ruruna came\nby. I wonder why?@#"
     },
     {
       "japanese": " くん、さいきん ちょっと\nきように なったみたいね!  ",
-      "english": " B10 S208 w=1\n...@#"
+      "english": "^-kun,youve gotten\nmore skillful\nlately!@#"
     },
     {
       "japanese": "さいきん  くんって\nてさきが きように なったよね~ \nすごいなぁ!  ",
-      "english": " B10 S209 w=2\n...@\n...@#"
+      "english": "^-kun,lately youve\ngotten quite handy\nwith your fingers!@\namazing!@#"
     },
     {
       "japanese": "さいきん  くんって\nてさきが きように なったよね~ \nゆびの つかいかた なんかも\nすごく きれい!...いいなぁ<3  ",
