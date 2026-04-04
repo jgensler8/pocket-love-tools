@@ -465,6 +465,9 @@ day 75 (march 31/april 1)
 * 80.4%
 * club scenes
 
+day 76 (april 4)
+* 81.4%
+
 next:
 * could experiment with variable width font printing
 * continue with most cutscenes + game progression, maybe find more save states to test
