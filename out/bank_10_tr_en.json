@@ -1110,15 +1110,15 @@
     },
     {
       "japanese": "あ、 くん! こんにちは! \nここで ちょこれ-とぱふぇを\nたべてたの... \nじゃあ、またね!  ",
-      "english": " B10 S277 w=3@\n...\n...@\n...@#"
+      "english": "Oh, ^-kun! Hello!@\nI was just here\neating some choco\n-late parfait@\nWell then,see you!@#"
     },
     {
       "japanese": "あ、 くん! こんにちは! \nるるな ここで ちょこれ-とぱふぇを\nたべてたの...おいしかったわ!  ",
-      "english": " B10 S278 w=2@\n...\n...@#"
+      "english": "Oh, ^-kun! Hello!@\nI was just here\neating some choco\n-late parfait..@\nIt was delicious!@#"
     },
     {
       "japanese": "こんどは  くんと\nいっしょに ここに...\n...... \n...じゃあ、またね  ",
-      "english": " B10 S279 w=2\n...\n...@\n...@#"
+      "english": "Next time... I'll\nbe here together\nwith you ^-kun@\nWell then,see you!@#"
     },
     {
       "japanese": "(かわらの ぐらうんどで...)\n",
@@ -1130,15 +1130,15 @@
     },
     {
       "japanese": " なんか もんくでも あるのかよ?\n",
-      "english": " B10 S282 w=0\n..."
+      "english": "Got a problem\nwith something?"
     },
     {
       "japanese": "なんだ... くんか \nまた がっこうでね!  ",
-      "english": " B10 S283 w=2@\n...@#"
+      "english": "oh...its you ^-kun@\nSee you at school!@#"
     },
     {
       "japanese": "あ、 くん! こんにちは! \nいま くさやきゅうを みてたんだ \n...じゃ、また!  ",
-      "english": " B10 S284 w=3@\n...@\n...@#"
+      "english": "Ah, ^-kun! Hi!@\nI was just\nwatching a pick up\nbaseball game@\nwell then,\nsee you later!@#"
     },
     {
       "japanese": "あ、 くん! こんにちは! \nいま くさやきゅうを みてたんだ \nたのしい しあいだったよ!  ",
@@ -1146,7 +1146,7 @@
     },
     {
       "japanese": "でも それより ここで ぐうぜん\n くんに あえたことの ほうが\nたのしかった...<3\n...じゃあ、またね<3  ",
-      "english": " B10 S286 w=1\n...\n...\n...@#"
+      "english": "Even more than\nthat,running into\nyou by chance...@\nthat was even more\nfun__heart\nwell see ya__heart@#"
     },
     {
       "japanese": "ぼくは よかぜに ふかれて かわらを\nのんびり さんぽ していた \nあ! もしかしたら あれは... \nたかお みずき ?!  ",

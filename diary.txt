@@ -468,6 +468,9 @@ day 75 (march 31/april 1)
 day 76 (april 4)
 * 81.4%
 
+day 77 (april 6/)
+* 81.7%
+
 next:
 * could experiment with variable width font printing
 * continue with most cutscenes + game progression, maybe find more save states to test
