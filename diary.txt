@@ -468,8 +468,8 @@ day 75 (march 31/april 1)
 day 76 (april 4)
 * 81.4%
 
-day 77 (april 6/)
-* 81.7%
+day 77 (april 6/7/8)
+* 82.3%
 
 next:
 * could experiment with variable width font printing

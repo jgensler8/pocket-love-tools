@@ -1170,43 +1170,43 @@
     },
     {
       "japanese": "なんだ... くんか... \nもう おそいから\nまた がっこうでね!  ",
-      "english": " B10 S292 w=2@\n...\n...@#"
+      "english": "oh, ^-kun,its just\nyou...@its getting\nlate so I'll see\nyou at school@#"
     },
     {
       "japanese": "あ、 くん! こんばんは! \nこんやは ほしが きれいだったから\nちょっと よぞらを ながめてたの \n...じゃ、また!  ",
-      "english": " B10 S293 w=3@\n...\n...@\n...@#"
+      "english": "oh,good evening!@\nThe stars were so\nbeautiful tonight\nso I was gazing up@\nwell,see you!@#"
     },
     {
       "japanese": "あ、 くん! こんばんは! \nこんやは ほしが きれいだったから\nちょっと よぞらを ながめてたの  ",
-      "english": " B10 S294 w=2@\n...\n...@#"
+      "english": "^kun,good evening!@\nThe stars were so\nbeautiful tonight\nso I was gazing up@#"
     },
     {
       "japanese": "...それから ながれぼしに\nねがいごとも したんだ... \nひみつの ねがいごと だけど... \n...じゃあ、またね!  ",
-      "english": " B10 S295 w=3\n...@\n...@\n...@#"
+      "english": "I even made a\nwish on a shooting\nstar@\n\nits a secret wish\ntoo..well then\nsee you later!@#"
     },
     {
       "japanese": "(なみきみちでの できごと)\n",
-      "english": " B10 S296 w=0\n..."
+      "english": "(Tree-lined Road)\n"
     },
     {
       "japanese": "ぼくが なみきみちを\nのんびり あるいていると\nむこうから だれか あるいてきた! \nあ、もしかして まつだ ゆみかな?  ",
-      "english": " B10 S297 w=2\n...\n...@\n...@#"
+      "english": "As I was strolling\ndown the tree\nlined path,someone\ncame my way...@\ncould it be Yumi?@#"
     },
     {
       "japanese": "なんだぁ  くんか~ \nまた がっこうでね! ばいばい!  ",
-      "english": " B10 S298 w=2@\n...@#"
+      "english": "hey, ^-kun!@\nSee you at school!\nbye~bye!@#"
     },
     {
       "japanese": "あ、 くん! こんにちは! \nわたしは ちょっと いいてんきだから\nおさんぽしてたのよ\n...じゃ、またね!  ",
-      "english": " B10 S299 w=2@\n...\n...\n...@#"
+      "english": "oh, ^-kun! hi!@\nThe weather was so\nnice so I went out\nfor a stroll@\nwell then,\nsee you!@#"
     },
     {
       "japanese": "あ、 くん! こんにちは!\nちょっと いいてんきだから\nおさんぽしてたんだ  ",
-      "english": " B10 S300 w=1\n...\n...@#"
+      "english": "oh, ^-kun! hello!\nThe weather was so\nnice so I went out\nfor a stroll@#"
     },
     {
       "japanese": "...でも こんなところで\n くんに あえるなんて \nらっき~  ",
-      "english": " B10 S301 w=2\n...@\n...@#"
+      "english": "but I ran into you\nin a place like\nthis...@\nhow lucky~@#"
     },
     {
       "japanese": "ぼくが かわぞいの みちを\nのんびり あるいていると\nむこうから だれか あるいてきた! \nあ、もしかして まつだ ゆみかな?  ",
@@ -1214,19 +1214,19 @@
     },
     {
       "japanese": "なんだぁ  くんか~ \n...じゃあね ばいばい!  ",
-      "english": " B10 S303 w=2@\n...@#"
+      "english": "Oh ^-kun,\nits just you...@\nwell then,\nbye~bye@#"
     },
     {
       "japanese": "あっ  くん! こんにちは! \nわたしは ちょっと\nそらを ながめてた だけなの \n...じゃあね ばいばい!  ",
-      "english": " B10 S304 w=3@\n...\n...@\n...@#"
+      "english": "^-kun! hello~@\nI was just gazing\nup at the sky for\na bit...@\nsee you~\nbye~bye!@#"
     },
     {
       "japanese": "あっ  くん! こんにちは! \nちょっと そらを ながめてたの...  ",
-      "english": " B10 S305 w=2@\n...@#"
+      "english": "^-kun! hello~@\nI was just gazing\nup at the sky for\na bit...@#"
     },
     {
       "japanese": "...で、そらを みながら\nいろいろ おもいだしてたの... \n くんの こと... \n...じゃあ またねっ!  ",
-      "english": " B10 S306 w=3\n...@\n...@\n...@#"
+      "english": "I was thinking\nabout all sort\nof things...@\neven you...@\nwell then,\nsee you~!@#"
     },
     {
       "japanese": "(としょかんでの できごと)\n",
@@ -1246,7 +1246,7 @@
     },
     {
       "japanese": "あら  さん... \nわたし べんきょうしに きてたんです\n...では また!  ",
-      "english": " B10 S311 w=2@\n...\n...@#"
+      "english": "Oh, ^-san...\nI actually just\ncame here to study\n...@\nwell then, bye@#"
     },
     {
       "japanese": "あら  さん...こんにちは \nわたし べんきょうしに きてたんです\n さんも がんばってください\n...じゃあ また!  ",
@@ -1254,11 +1254,11 @@
     },
     {
       "japanese": "あら  さん...こんにちは \nわたし べんきょうしに きてたんです \n...でも いきなり こんなところで\n さんに あうなんて...  ",
-      "english": " B10 S313 w=3@\n...@\n...\n...@#"
+      "english": "Oh, ^-san!@\nI also came here\nto study...@\n\nTo think I'd run\ninto you...@#"
     },
     {
       "japanese": "らっき-だけど... \nべんきょうに しゅうちゅう\nできなくなっちゃいますね... \n...じゃあ また!  ",
-      "english": " B10 S314 w=3@\n...\n...@\n...@#"
+      "english": "Its lucky,I guess.@\nbut now I won't be\nable to focus...@\n\nwell then...\nsee you later!@#"
     },
     {
       "japanese": "(からおけの みせの まえで...)\n",
@@ -1270,7 +1270,7 @@
     },
     {
       "japanese": " じゃまだよ! そこ どきな!\n",
-      "english": " B10 S317 w=0\n..."
+      "english": " Gah! Move it!\n"
     },
     {
       "japanese": "げっ!!\nしかと された...  ",
@@ -1278,19 +1278,19 @@
     },
     {
       "japanese": "なぁんだ  か~... \nはずれたな~\n...じゃ~ またね~!  ",
-      "english": " B10 S319 w=2@\n...\n...@#"
+      "english": "Oh, is that all...\nguess I was off\nthe mark...\nwell, see ya~!@#"
     },
     {
       "japanese": "あ  ! げんき~? \nしんきょくの れんしゅうに\nきてたんだ~! \n...じゃ~ またね~!  ",
-      "english": " B10 S320 w=3@\n...\n...@\n...@#"
+      "english": "oh!hows it going~?@\nI just came by\nto practice a new\nsong!@\nwell, see ya~!@#"
     },
     {
       "japanese": "あ  ! げんき~? \nあたし しんきょくの れんしゅうに\nきてたんだ~! \nえ...しんきょく?!  ",
-      "english": " B10 S321 w=3@\n...\n...@\n...@#"
+      "english": "oh!hows it going~?@\nI came by to\npractice my new\nsong!@\n...@#"
     },
     {
       "japanese": "とうぜん  に ささげる\nらぶ.そんぐに きまってるじゃん! \n...なんてね うふふっ<3 \nじゃあ またね~  ",
-      "english": " B10 S322 w=3\n...@\n...@\n...@#"
+      "english": "Naturally, I'm\ndedicating it to\nyou!@ And its also\na love song__heart@\nJust kidding~__heart\nlater~~@#"
     },
     {
       "japanese": "(ほんやの なかでの できごと)\n",
