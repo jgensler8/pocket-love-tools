@@ -1302,19 +1302,19 @@
     },
     {
       "japanese": "なぁんだ  か~... \nいやらしい ほん とか\nかいにきたんじゃない? \nあはは! じゃ~ またね~!  ",
-      "english": " B10 S325 w=3@\n...\n...@\n...@#"
+      "english": "Oh, is that all...@\nI though you might\nbe here for some\ndirty books@\nwell,see ya later~@#"
     },
     {
       "japanese": "あ  ! げんき~? \nここに ふぁっしょんざっしの\nちぇっくに きたんだ! \n...じゃ~ またね~!  ",
-      "english": " B10 S326 w=3@\n...\n...@\n...@#"
+      "english": "Oh~ Hows it going?@\nI just stopped by\nto check out some\nmagazines!@\nwell then,\nsee ya~!@#"
     },
     {
       "japanese": "あ  ! げんき~?\nあたし ふぁっしょんざっしの\nちぇっくに きたのよ~!\nへあ.すたいるとか めいくとか..  ",
-      "english": " B10 S327 w=1\n...\n...\n...@#"
+      "english": "Ah~How are you?\nI came to check\nout the fashion\nmagazines@\n\nhair styles,makeup\nand such@#"
     },
     {
       "japanese": "やっぱ きれいに なりたいじゃん?! \nすきな ひとの  た. め. に<3 \n...じゃ~ またね~!  ",
-      "english": " B10 S328 w=6@\n...@@@@\n...@#"
+      "english": "I mean, you\n~do~ want to look\npretty, right?!@\n\nfor\nsome.@one.@spe.@cial~@\nsee ya~@#"
     },
     {
       "japanese": "(ぺっとしょっぷでの できごと)\n",
@@ -1326,19 +1326,19 @@
     },
     {
       "japanese": "あ  せんぱい... \nさ、さようなら  ",
-      "english": " B10 S331 w=2@\n...@#"
+      "english": "Oh, Senpai...@\nG-Goodbye@#"
     },
     {
       "japanese": "あ  せんぱい...\nどうも こ、こんにちは...  ",
-      "english": "Ah, senpai...\nHello...@#"
+      "english": "Ah, Senpai...\nHello...@#"
     },
     {
       "japanese": "あ  せんぱい...\nこ、こんにちは  ",
-      "english": " B10 S333 w=1\n...@#"
+      "english": "Oh, Senpai...\nH-Hello@#"
     },
     {
       "japanese": "せんぱいも もしかして... \n.......... \nかめが すきなんですか? \nそうだと うれしいです...  ",
-      "english": " B10 S334 w=4@\n...@\n...@\n...@#"
+      "english": "Senpai...@could it\nbe...@that you like\nturtles too?@\nI really hope so..@#"
     },
     {
       "japanese": "(げ-むせんた-での できごと)\n",
@@ -1362,11 +1362,11 @@
     },
     {
       "japanese": "あっ!  ~! \nげんきそうで なによりですぅ~! \nんじゃ またねっ! くるくるっ!  ",
-      "english": " B10 S340 w=3@\n...@\n...@#"
+      "english": "Oh~@\nYoure looking well\nI see ~!@\n\nAlright, see you!\nKuru-kuru-tsu!@#"
     },
     {
       "japanese": "きゃ~<3  ~<3 \nこんなところで であうなんて!! \nうんめいを かんじちゃいますぅ~<3  ",
-      "english": " B10 S341 w=3@\n...@\n...@#"
+      "english": "Kyaa~ __heart__heart@\nTo think we'd run\ninto each other\nin this place...@\nIt must\nbe destiny~__heart@#"
     },
     {
       "japanese": "(こうえんでの できごと)\n",
@@ -1386,7 +1386,7 @@
     },
     {
       "japanese": "ぎゅうにゅう のんでる ところだから\nはなしかけないで~  ",
-      "english": " B10 S346 w=1\n...@#"
+      "english": "I'm drinking my\nmilk right now\nplease don't talk\nto me~@#"
     },
     {
       "japanese": "あ  ~! \nしのざわ おふろあがりだから\nゆざめ したくないのよ~ \nさよならですぅ~  ",
@@ -1394,51 +1394,51 @@
     },
     {
       "japanese": "あっ!  ~! \nしのざわったら おふろあがりなの~\nせんとうは ごくらくですぅ~! \nんじゃ またねっ! くるくるっ!  ",
-      "english": " B10 S348 w=3@\n...\n...@\n...@#"
+      "english": "Oh~ Hey there~@\nahh~~~ I just\ngot out of the\nbath!@\nthis feeling~\npure bliss!\nsee ya~@#"
     },
     {
       "japanese": "うっふん<3  さ~ん<3 \nきょうは ちょっぴり せくし~な\nおふろあがりの しのざわですぅ<3 \nにゃはっ!...じゃあ またね!  ",
-      "english": " B10 S349 w=3@\n...\n...@\n...@#"
+      "english": "Uu-fu-fu__heart@\nShinozawa just\nfinished her bath\n...@\nA little sexy~\n,no? __heartNya~\nsee ya~@#"
     },
     {
       "japanese": "",
-      "english": " B10 S350 w=0"
+      "english": ""
     },
     {
       "japanese": "",
-      "english": " B10 S351 w=0"
+      "english": ""
     },
     {
       "japanese": "",
-      "english": " B10 S352 w=0"
+      "english": ""
     },
     {
       "japanese": "",
-      "english": " B10 S353 w=0"
+      "english": ""
     },
     {
       "japanese": "",
-      "english": " B10 S354 w=0"
+      "english": ""
     },
     {
       "japanese": "",
-      "english": " B10 S355 w=0"
+      "english": ""
     },
     {
       "japanese": "",
-      "english": " B10 S356 w=0"
+      "english": ""
     },
     {
       "japanese": "",
-      "english": " B10 S357 w=0"
+      "english": ""
     },
     {
       "japanese": "",
-      "english": " B10 S358 w=0"
+      "english": ""
     },
     {
       "japanese": "",
-      "english": " B10 S359 w=0"
+      "english": ""
     },
     {
       "japanese": "(しょっぴんぐがいでの できごと)\n",
