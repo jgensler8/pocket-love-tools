@@ -1742,15 +1742,15 @@
     },
     {
       "japanese": "",
-      "english": " B10 S435 w=0"
+      "english": ""
     },
     {
       "japanese": "",
-      "english": " B10 S436 w=0"
+      "english": ""
     },
     {
       "japanese": "",
-      "english": " B10 S437 w=0"
+      "english": ""
     },
     {
       "japanese": "いやぁ ぼくは えんりょしとくよ! \n...せっかく たかおさんが\nとってきてくれるって いうのに \nぼくが でるまくじゃ ないよ!  ",
@@ -1879,39 +1879,39 @@
     },
     {
       "japanese": "あ、 くん... \nその ひょうじょうからすると... \nしけんが うまくいったんでしょ? \n...よかったわね!  ",
-      "english": " B10 S469 w=4@\n...@\n...@\n...@#"
+      "english": "Ah, ^-kun...@\nJudging by that\nlook...@ the exam\ndidn't go well?@\nThat's wonderful!@#"
     },
     {
       "japanese": "あっ! らっき-!! \nかんたんな もんだい ばっかりだ! \n...これなら らくしょうだな!  ",
-      "english": " B10 S470 w=3@\n...@\n...@#"
+      "english": "ah~ Lucky~!!@\nIt is nothing but\neasy questions!@\n\nThis is going\nto be a piece\nof cake!@#"
     },
     {
       "japanese": "すごく ちょうし よさそうね! \nしけん ばっちり だったんでしょ? \nわたし  くんのこと... \nそんけいしちゃう!  ",
-      "english": " B10 S471 w=4@\n...@\n...@\n...@#"
+      "english": "You must be in\ntop form!@\nI bet you aced\nyour exams@\n^-kun,@\nI really look\nup to you!@#"
     },
     {
       "japanese": "(あるばいと さきでの できごと)\n",
-      "english": " B10 S472 w=0\n..."
+      "english": "(Incident at Work)\n"
     },
     {
       "japanese": "ぼくは しごとで みすを して \nてんちょうから こっぴどく\nしかられてしまった... \n...おちこんじゃうなあ...  ",
-      "english": " B10 S473 w=3@\n...\n...@\n...@#"
+      "english": "I made a mistake\nat work...@\nAnd the manager\nreally tore me up@\n*sigh*...@#"
     },
     {
       "japanese": "おっと そのくらいのことで\nおちこんでちゃ だめよ! \nこれ あげるから げんきだして! \nはい...かんこ-ひ-!  ",
-      "english": " B10 S474 w=3\n...@\n...@\n...@#"
+      "english": "Chill!@\nYou shouldn't let\nsomething like\nthat get you down!@\nHeres some\ncanned coffee~@#"
     },
     {
       "japanese": "(どうしよう?)\n こ-ひ-を もらう\n ことわる",
-      "english": " B10 S475 w=0\n...\n..."
+      "english": "(What shoud I do?)\n Accept it\n Turn it down"
     },
     {
       "japanese": "どうもありがとう!  ",
-      "english": " B10 S476 w=1@#"
+      "english": "Thank you\nvery much!@#"
     },
     {
       "japanese": "おなじ ばいとなかま だもん\nおれいなんか いいって! \n...ところで わたし\nきみと おなじ こうこうなのよ!  ",
-      "english": " B10 S477 w=2\n...@\n...\n...@#"
+      "english": "Were fellow part\ntimers after all!@\nDon't be\nso polite...@\nI go to your\nhigh school!@#"
     },
     {
       "japanese": "えっ? そうだったのか... \nそういえば みかけたことが\nあるような きもするけど...  ",
@@ -1923,11 +1923,11 @@
     },
     {
       "japanese": "そんなもの いらないよ!\nどうじょうなんか... \nよしてくれ!!  ",
-      "english": " B10 S480 w=2\n...@\n...@#"
+      "english": "I don't need some\n-thing like that..@\nspare me!!@#"
     },
     {
       "japanese": "まあ ずいぶん いじけちゃって! \nこまった こうはいだわねえ... \n...あっ それはそうと わたし\nきみと おなじ こうこうなのよ!  ",
-      "english": " B10 S481 w=3@\n...@\n...\n...@#"
+      "english": "Oh my, look at you\nsulking like that!@\nWhat a troublesome\nkohai you are...@#"
     },
     {
       "japanese": "がっこうの かえりみち\nなにげなく はんば-が-やさんを\nのぞくと...  ",
@@ -2035,11 +2035,11 @@
     },
     {
       "japanese": "ありがとう、 くん! \nわたしの ために... \nすごく うれしかったわ!  ",
-      "english": " B10 S508 w=3@\n...@\n...@#"
+      "english": "Thank you, ^-kun!@\nFor doing that...\nfor me...@\nI was so happy!@#"
     },
     {
       "japanese": "ありがとう、 くん<3\nすごく...うれしかったわ \n くんって...\nたのもしいわ...<3  ",
-      "english": " B10 S509 w=2\n...@\n...\n...@#"
+      "english": "Thank you, ^-kun!@\nI was... so happy\n^-kun...you're so\n...dependable__heart@#"
     },
     {
       "japanese": "え~っ?! \nつめたいのね...  ",
