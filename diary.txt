@@ -471,8 +471,9 @@ day 76 (april 4)
 day 77 (april 6/7/8)
 * 82.3%
 
-day 78 (april 11/12)
-* 82.9%
+day 78 (april 11/12/13)
+* 83.6%
+* after date responses
 
 next:
 * could experiment with variable width font printing

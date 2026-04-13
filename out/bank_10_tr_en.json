@@ -1450,7 +1450,7 @@
     },
     {
       "japanese": "あら  さん... \nまた がっこうで おあいしましょう  ",
-      "english": " B10 S362 w=2@\n...@#"
+      "english": "Oh, ^-san...@\nLet's meet again\nat school@#"
     },
     {
       "japanese": "あら  さん...こんにちは \nきょうは ちょっと げ-むを\nかいにきたんです... \n...じゃあ また がっこうで!  ",
@@ -1458,11 +1458,11 @@
     },
     {
       "japanese": "あら  さん...こんにちは! \nきょうは ちょっと げ-むを\nかいにきたんです...  ",
-      "english": " B10 S364 w=2@\n...\n...@#"
+      "english": "Oh,^-san... Hello!@\nI actually just\ncame by to buy\na game...@#"
     },
     {
       "japanese": "...でも きょうは こんなところで\n さんに あえるなんて... \nちょっと びっくり! \n...じゃあ またね!  ",
-      "english": " B10 S365 w=3\n...@\n...@\n...@#"
+      "english": "But to think Id\nrun into you at\na place like this\n...@\nIts surprising...@\nwell,see you!@#"
     },
     {
       "japanese": "(たんじょうび ぱ-てぃ-)\n",
@@ -1470,7 +1470,7 @@
     },
     {
       "japanese": "ぼくは さえき るるなの\nたんじょうび ぱ-てぃ-に\nしゅっせきした  ",
-      "english": " B10 S367 w=1\n...\n...@#"
+      "english": "I attended Rurunas\nbirthday part@#"
     },
     {
       "japanese": "たのしい じかんは\nあっというまに すぎていく \n...... \n......  ",
@@ -1478,27 +1478,27 @@
     },
     {
       "japanese": "ぱ-てぃ-が おわって\nかえろうと していると... \nさえき るるなが\nぼくの ところに やってきた!  ",
-      "english": " B10 S369 w=2\n...@\n...\n...@#"
+      "english": "The party has\nended and just as\nI was getting\nready to head home@\nRuruna came over!@#"
     },
     {
       "japanese": "きょうは どうも ありがとう \nじゃあ また...  ",
-      "english": " B10 S370 w=2@\n...@#"
+      "english": "Thank you so much\nfor today@\nWell then,\nsee you later...@#"
     },
     {
       "japanese": "きょうは どうも ありがとう \nたのしかったわ  ",
-      "english": " B10 S371 w=2@\n...@#"
+      "english": "Thank you so much\nfor today@\nI had a\nwonderful time@#"
     },
     {
       "japanese": "きょうは どうも ありがとう! \n くんが きてくれて\nうれしかったわ!  ",
-      "english": " B10 S372 w=2@\n...\n...@#"
+      "english": "Thank you so much\nfor today!@\nI was so happy\nyou came by!@#"
     },
     {
       "japanese": "きょうは どうも ありがとう! \n くんが きてくれて\nほんとに うれしかったわ!  ",
-      "english": " B10 S373 w=2@\n...\n...@#"
+      "english": "Thank you so much\nfor today!@\nIt really was\nspecial!@#"
     },
     {
       "japanese": "...また らいねんも\nこんなふうに\n くんと\nすごせたら いいな...  ",
-      "english": " B10 S374 w=1\n...\n...\n...@#"
+      "english": "...I hope that\nnext year, too...\nI can spend time\nwith you...@\njust like this...@#"
     },
     {
       "japanese": "ぼくは あいかわ すずねの\nたんじょうび ぱ-てぃ-に\nしゅっせきした  ",
@@ -1550,7 +1550,7 @@
     },
     {
       "japanese": "ねえ  くん...\nわたし なんだか すごく \nかんどうしちゃった<3 \nほんとに、ありがとう...  ",
-      "english": " B10 S387 w=2\n...\n...@\n...@#"
+      "english": "Hey, ^-kun...@\nI actually was\nreally moved by\nthat__heart@\nThank you\nso much...@#"
     },
     {
       "japanese": "\n\n...すごく よろこんでくれてる!\nさいこうに いいかんじ!  ",
@@ -1558,7 +1558,7 @@
     },
     {
       "japanese": "とっても たのしかったわ! \n くん、ありがと<3  ",
-      "english": " B10 S389 w=2@\n...@#"
+      "english": "That was so much\nfun!@\nThank you ^-kun__heart@#"
     },
     {
       "japanese": "\n\n...なんだか いいふんいきだ! \nでも、こいびとどうしって\nかんじじゃ ないなぁ...  ",
@@ -1574,7 +1574,7 @@
     },
     {
       "japanese": "ここって...まえに\nきたばっかりだったよね...  ",
-      "english": " B10 S393 w=1\n...@#"
+      "english": "Isnt this place...\nsomewhere we just\nvisited...@#"
     },
     {
       "japanese": "\n\n...まずい! うっかりしてた!\nいまいちだったかな...?  ",
@@ -1586,23 +1586,23 @@
     },
     {
       "japanese": "すごく たのしかったよ!\n くん、ありがと<3  ",
-      "english": " B10 S396 w=1\n...@#"
+      "english": "I had so much fun!\nThank you,^-kun__heart@#"
     },
     {
       "japanese": "なんか ちょっと...\nたいくつだったよね?  ",
-      "english": " B10 S397 w=1\n...@#"
+      "english": "It was...\nkind of boring,\nwasn't it?@#"
     },
     {
       "japanese": "ここって...\nこのまえも  くんと\nきたばっかりだよね...  ",
-      "english": " B10 S398 w=1\n...\n...@#"
+      "english": "This place...\nWe were just here\nthe other day,\n^-kun...@#"
     },
     {
       "japanese": "わたし  くんと\nここにきて よかった~!\n...かんげきだわ<3 \nほんとに ありがとう...  ",
-      "english": " B10 S399 w=2\n...\n...@\n...@#"
+      "english": "I'm so glad I came\nhere with you!@\nI'm feeling quite\nmoved __heart@\nThank you so much@#"
     },
     {
       "japanese": "ああ たのしかった!\nありがとう!  くん<3  ",
-      "english": " B10 S400 w=1\n...@#"
+      "english": "Ah, that was so\nmuch fun!\nThank you, ^-kun__heart@#"
     },
     {
       "japanese": "ふぅ... \nちょっと つかれちゃった...  ",
@@ -1610,35 +1610,35 @@
     },
     {
       "japanese": "ここって このまえも \nきたばっかりだったよね?\n くん!  ",
-      "english": " B10 S402 w=1\n...\n...@#"
+      "english": "We were just here\nthe other day,\nweren't we?\n^-kun!@#"
     },
     {
       "japanese": " さんと ここに こられて\nほんとうに よかった...\nわたし かんどうしました<3 \nありがとう、 さん!  ",
-      "english": " B10 S403 w=2\n...\n...@\n...@#"
+      "english": "I'm truly glad I\nwas able to come\nhere with you...@\n\nI was so moved__heart\nThank you ^-san!@#"
     },
     {
       "japanese": " さん\nわたし とっても\nたのしかったです<3  ",
-      "english": " B10 S404 w=1\n...\n...@#"
+      "english": "^-san,I had a such\na wonderful time__heart@#"
     },
     {
       "japanese": "...わたし しょうしょう\nつかれてしまいました...\nはぁぁ..  ",
-      "english": "I'm a little\ntired...\n*sigh*@#"
+      "english": "I've gotten...\na little bit tired\n*sigh*@#"
     },
     {
       "japanese": "わたしの きおくが\nただしければ... \nここって このまえも \nきたばかりですよね?  ",
-      "english": " B10 S406 w=2\n...@\n...\n...@#"
+      "english": "If my memory\nserves my right...@\n\n\nWe were just here\nthe other day,\nright?@#"
     },
     {
       "japanese": "ごめん...うっかりしてた... \n(...まずい!!\nもりぞのさんの きおくりょくの\nすごさを すっかり わすれてた!)  ",
-      "english": " B10 S407 w=2@\n...\n...\n...@#"
+      "english": "Sorry...@\nI wasn't\npaying attention..@\n\ncrap!! I forgot\nhow good Miri's\nmemory is!@#"
     },
     {
       "japanese": "あたし... \nちょ~ かんどうしちゃった<3\n と ここにきて よかった~! \nありがと、 !  ",
-      "english": " B10 S408 w=3@\n...\n...@\n...@#"
+      "english": "I...@ I was so\nincredibly moved!__heart\nI'm so glad\nI came here!@\nThank you!@#"
     },
     {
       "japanese": "ね~! ね~! \nたのしかったね~、 <3  ",
-      "english": " B10 S409 w=2@\n...@#"
+      "english": "Hey~ hey!@\nThat was so much\nfun, wasn't it? __heart@#"
     },
     {
       "japanese": "がっこうで で-と...\nかなり じみ だったよね~ \nきょうは もっと べつのとこに\nいきたかったな~!  ",
