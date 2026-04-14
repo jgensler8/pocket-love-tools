@@ -475,6 +475,10 @@ day 78 (april 11/12/13)
 * 84.1%
 * after date responses
 
+day 79 (april 14)
+* 84.7%
+* finish bank 10
+
 next:
 * could experiment with variable width font printing
 * continue with most cutscenes + game progression, maybe find more save states to test
