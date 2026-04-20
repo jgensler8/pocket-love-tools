@@ -483,6 +483,9 @@ day 80 (april 18)
 * 85.5%
 * start of bank 12, removed most of the empty lines
 
+day 81 (april 20)
+* 86.1%
+
 next:
 * could experiment with variable width font printing
 * continue with most cutscenes + game progression, maybe find more save states to test
