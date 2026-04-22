@@ -486,6 +486,10 @@ day 80 (april 18)
 day 81 (april 20)
 * 86.1%
 
+day 82 (april 22)
+* 86.5%
+* movie theater dialog
+
 next:
 * could experiment with variable width font printing
 * continue with most cutscenes + game progression, maybe find more save states to test
