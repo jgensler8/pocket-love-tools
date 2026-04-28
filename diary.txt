@@ -494,6 +494,10 @@ day 83 (april 26)
 * 87.9%
 * amusement park / beach
 
+day 84 (april 28)
+* 88.6%
+* beach / pool scenes
+
 next:
 * could experiment with variable width font printing
 * continue with most cutscenes + game progression, maybe find more save states to test

@@ -470,19 +470,19 @@
     },
     {
       "japanese": "... くん! \nおんなのこの みずぎばっかり\nきょろきょろ みてなかった?!  ",
-      "english": " B12 S117 w=2@\n...\n...@#"
+      "english": "^-kun!@ Weren't you\njust staring at\nall the girls in\ntheir swimsuits!?@#"
     },
     {
       "japanese": "\n\nまずい! ばれてる!... \nしっぱいだったかな...?  ",
-      "english": " B12 S118 w=2\n...\n...@\n...@#"
+      "english": "\nCrap!\nTheyre onto me!...@\nMaybe I've made a\nmistake...@#"
     },
     {
       "japanese": "この び-ちでの おもいでは \n...こころの あるばむに\nずっと かざっておきます...<3 \n さん、ありがとう<3  ",
-      "english": " B12 S119 w=3@\n...\n...@\n...@#"
+      "english": "The memories made\nat this beach...@\n\n\nI'll keep them\nforever in the\nalbum of my heart__heart@#"
     },
     {
       "japanese": "かいすいよくも たのしかったわ! \nありがとう、 さん!  ",
-      "english": " B12 S120 w=2@\n...@#"
+      "english": "The swimming was\nso much fun!@\nThank you, ^-kun!@#"
     },
     {
       "japanese": "やっぱ うみって いいよね~! \n...あたし び-ちの\nくい-んになった きぶんだわ~<3 \nありがと、 <3  ",
@@ -494,15 +494,15 @@
     },
     {
       "japanese": "ねえ、 ... \n...その やらしい めつき\nやめてくれる~?  ",
-      "english": " B12 S123 w=2@\n...\n...@#"
+      "english": "Hey...@\nCould you cut it\nout with that\nlewd look~?@#"
     },
     {
       "japanese": " せんぱいに うみに\nつれてきてもらえて... \nわたし...かんげきしちゃいました! \nありがとうございます、せんぱい<3  ",
-      "english": " B12 S124 w=3\n...@\n...@\n...@#"
+      "english": "To think you\nbrought me to the\nbeach Senpai...@\nIm so moved!@\nThank you so much\nSenpai__heart@#"
     },
     {
       "japanese": " せんぱい! \nすなはまで あそんで\nすごくたのしかったです!  ",
-      "english": " B12 S125 w=2@\n...\n...@#"
+      "english": "Senpai!@\nPlaying on the\nbeach was so\nmuch fun!@#"
     },
     {
       "japanese": "...せんぱい \nわたし... \nおぼれそうに なっちゃいましたぁ!  ",
@@ -514,63 +514,63 @@
     },
     {
       "japanese": "いっぱい およいで\nおもしろかったですぅ~!  ",
-      "english": " B12 S128 w=1\n...@#"
+      "english": "I swam so much!\nIt was\nreally fun~!@#"
     },
     {
       "japanese": "しのざわ... \nくらげに さされたの~! \nうみって きらいですぅ~  ",
-      "english": " B12 S129 w=3@\n...@\n...@#"
+      "english": "Shinozawa...@\ngot stung by a\njellyfish!@\nI hate it!@#"
     },
     {
       "japanese": " くん... \nとっても たのしかったわ!\nわたし...かんげきしちゃった! \nほんとうに ありがとう<3  ",
-      "english": " B12 S130 w=3@\n...\n...@\n...@#"
+      "english": "^-kun...@ That was\nso much fun!\nI was truly moved!@\n\nThank you\nso much!__heart@#"
     },
     {
       "japanese": "いっぱい およげて\nたのしかったわね、 くん!  ",
-      "english": " B12 S131 w=1\n...@#"
+      "english": "^-kun, it was so\nmuch fun swimming\naround, wasnt it!?@#"
     },
     {
       "japanese": "...ひとが いっぱいいて\nつかれちゃったわね...  ",
-      "english": " B12 S132 w=1\n...@#"
+      "english": "There were so many\npeople...\nIm all worn out...@#"
     },
     {
       "japanese": "ふたりで およいだり... \nみずのなかで ふざけあったり... \n くんと いっしょだったから\nすっごく...たのしかった<3  ",
-      "english": " B12 S133 w=3@\n...@\n...\n...@#"
+      "english": "Swimming together@\n..and splashing\naround...@ all\nwith you ^-kun..@\nIt was so\nmuch fun__heart@#"
     },
     {
       "japanese": "すいえいって ほんとに\nいい うんどうに なるよね! \n くん、ありがとう!  ",
-      "english": " B12 S134 w=2\n...@\n...@#"
+      "english": "Swimming really is\nsuch great\nexercise,isnt it~?@\nThank you ^-kun!@#"
     },
     {
       "japanese": " くんと ぷ-るさいどで\nおしゃべりしたことも... \nいっしょに およいだことも... \nわたし ずっと...わすれないわ<3  ",
-      "english": " B12 S135 w=3\n...@\n...@\n...@#"
+      "english": "Chatting with you\nby the pool...@\nAnd swimming\ntogether...@\nI'll never ever\nforget it__heart@#"
     },
     {
       "japanese": "たくさん およげて よかった~!  ",
-      "english": " B12 S136 w=1@#"
+      "english": "I'm so glad\nI got to swim\nso much~!@#"
     },
     {
       "japanese": "とっても たのしかった... \nたいようと みずしぶき...そして \n... さんの えがお...<3 \nわたし...かんげきです!  ",
-      "english": " B12 S137 w=4@\n...@\n...@\n...@#"
+      "english": "It was so much fun@\nThe sun...\nsplashing water...@\nand you, ^-kun...@\nIts all perfect__heart!@#"
     },
     {
       "japanese": "ぷ-るに きて たのしかったです! \nありがとう、 さん!  ",
-      "english": " B12 S138 w=2@\n...@#"
+      "english": "I had such a fun\ntime at the pool!@\nThank you\nso much ^-kun!@#"
     },
     {
       "japanese": "やっぱ ぷ-るって いいよね~! \n...あたしの だいたんな みずぎが\nばっちり きまるもんね~<3 \nありがと、 <3  ",
-      "english": " B12 S139 w=3@\n...\n...@\n...@#"
+      "english": "Pools really are\nthe best, ya know!@\nEspecially in my\nbold swimsuit~__heart@\nThanks ^-kun__heart@#"
     },
     {
       "japanese": "...ああ、たのしかった! \n も たのしかったでしょ? \nあたしの せくし- ばでぃを\nかんしょうできて!  ",
-      "english": " B12 S140 w=3@\n...@\n...\n...@#"
+      "english": "That was fun!@\nYou had fun too\ndidn't you~?@\n\nGetting to\nadmire...\nmy sexy body~!@#"
     },
     {
       "japanese": "せんぱいに すいえいを\nおしえてもらえて... \nわたし...かんげきしちゃいました! \nありがとうございます、せんぱい<3  ",
-      "english": " B12 S141 w=3\n...@\n...@\n...@#"
+      "english": "Getting to have\nyou teach me how\nto swim, Senpai...@\nSo thrilling!@\nThank you Senpai__heart@#"
     },
     {
       "japanese": " せんぱい! \nぷ-るさいどで あそんで\nすごくたのしかったです!  ",
-      "english": " B12 S142 w=2@\n...\n...@#"
+      "english": "Senpai!@\nPlaying by the\npoolside... It was\nso much fun!@#"
     },
     {
       "japanese": "せんぱ~い!! \nわたし... \nじゅんびたいそう しただけで\nつかれちゃいましたぁ...  ",
