@@ -498,6 +498,10 @@ day 84 (april 28)
 * 88.6%
 * beach / pool scenes
 
+day 85 (may 3)
+* 89.5%
+* pool / tree lined path
+
 next:
 * could experiment with variable width font printing
 * continue with most cutscenes + game progression, maybe find more save states to test
