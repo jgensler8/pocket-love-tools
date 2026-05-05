@@ -502,6 +502,11 @@ day 85 (may 3)
 * 89.5%
 * pool / tree lined path
 
+day 86 (may 5)
+* 90.2%
+* Sakura festival / event?
+* start of cheesecake shop
+
 next:
 * could experiment with variable width font printing
 * continue with most cutscenes + game progression, maybe find more save states to test
