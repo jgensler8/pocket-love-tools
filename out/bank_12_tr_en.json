@@ -814,19 +814,19 @@
     },
     {
       "japanese": " くん... \nすごく おいしかったわ!\nありがとう!  ",
-      "english": "^-kun...@\nThat was absolutely\ndelicious!@#"
+      "english": "^-kun...@\nThat was\nabsolutely\ndelicious!@#"
     },
     {
       "japanese": "け-きは おいしかったけど... \nみせの ふんいきは あんまり\nおしゃれじゃないよね...  ",
-      "english": " B12 S204 w=2@\n...\n...@#"
+      "english": "The cake was\ndelicious, but...@\n\n\nThe atmosphere of\nthis shop\nisn't stylish...@#"
     },
     {
       "japanese": "け-き すっごく おいしかったね! \nわたし...かんげき! \n くんと ここにきて よかった \nほんとに...ありがと<3  ",
-      "english": " B12 S205 w=4@\n...@\n...@\n...@#"
+      "english": "The cake was\nabsolutely\ndelicious!@\n\nI'm so glad I\ncame here with\nyou! Thank you__heart@#"
     },
     {
       "japanese": "あ~、おいしかった! \nありがと、 くん!  ",
-      "english": " B12 S206 w=2@\n...@#"
+      "english": "Ah, that was\ndelicious!@\nThank you ^-kun!@#"
     },
     {
       "japanese": "...この おみせ こんでたから\nすごく さわがしくて\nおちつかなかったね!  ",
@@ -1526,15 +1526,15 @@
     },
     {
       "japanese": "なんだか たのしそうですね!\nしけんの ちょうしは どうでした?  ",
-      "english": " B12 S381 w=1\n...@#"
+      "english": "That looks like\nfun!\nHow did your\nexams go?@#"
     },
     {
       "japanese": "...きょうの しけん? \nすごく かんたんだったよねえ?  ",
-      "english": " B12 S382 w=2@\n...@#"
+      "english": "Today's exam was\nreally easy,\nwasnt it?@#"
     },
     {
       "japanese": "えっ?! すごいですね!! \nいつか\nわたしにも べんきょうを\nおしえてくださいね<3  ",
-      "english": " B12 S383 w=2@\n...\n...\n...@#"
+      "english": "Huh?!\nThat's amazing!!@\nPlease help me\nstudy, too__heart@#"
     },
     {
       "japanese": "がっこうの かえりみち\nぼくは ふらりと\nげ-むせんた-に たちよった  ",
@@ -1566,23 +1566,23 @@
     },
     {
       "japanese": "\n\nぼくは げ-むに かった!  ",
-      "english": " B12 S391 w=1\n...\n...@#"
+      "english": "\nI won the game!@#"
     },
     {
       "japanese": "きゃい~ん!\nくやしいですぅ! \n...もう いっかいだけ\nしょうぶしようよ~!!  ",
-      "english": " B12 S392 w=2\n...@\n...\n...@#"
+      "english": "Aww man!@ Thats\nso frustrating!\nJust one more time\nLets rematch~!@#"
     },
     {
       "japanese": "(どうしよう?)\n しょうぶする\n ことわる",
-      "english": " B12 S393 w=0\n...\n..."
+      "english": "(What to do?)\n Chalnge Accepted!\n Decline"
     },
     {
       "japanese": "わかったよ! \nじゃあ もういっかい やってみよう! \n...いくよ! \n......  ",
-      "english": " B12 S394 w=4@\n...@\n...@\n...@#"
+      "english": "Alright!@ Then lets\ngive it another\nshot!@ Here I go!@#"
     },
     {
       "japanese": "とほほ...\nやっぱり...まけました~ぁ! \n...あっ! そのかお... \nどこかで みたことありますぅ~!  ",
-      "english": " B12 S395 w=3\n...@\n...@\n...@#"
+      "english": "aww...@ I lost!@\nthat face... Ive\nseen it somwhere\nbefore!@#"
     },
     {
       "japanese": "ぼくは    って\nいうんだけど... \n...きみは たしか\nとなりの くらすの...  ",
@@ -1594,11 +1594,11 @@
     },
     {
       "japanese": " って げ-む うまいのね! \nこれからも ときどき\nいっしょに げ-む しようよ! \nじゃあまたねっ! ばいば~い!  ",
-      "english": " B12 S398 w=3@\n...\n...@\n...@#"
+      "english": "Wow,youre actually\nreally good at\ngames!@\n\nLets play together\nevery so often!\nbyebye~@#"
     },
     {
       "japanese": "せっかくだけど... \nきょうは もう かえるんだ  ",
-      "english": " B12 S399 w=2@\n...@#"
+      "english": "Its a shame but...@\nIm actually\nheading home now@#"
     },
     {
       "japanese": "...... \n...ふぅん... \nしのざわ ももよか...  ",
@@ -1606,11 +1606,11 @@
     },
     {
       "japanese": "な~んだ...\nやっぱり じしんが ないのか~! \n...あっ! そのかお... \nどこかで みたことありますぅ~!  ",
-      "english": " B12 S401 w=3\n...@\n...@\n...@#"
+      "english": "you really dont\nhave any\nconfidence\nafter all!@\nyour face...\nive seen it\nsomewhere!@#"
     },
     {
       "japanese": "...また ひまなとき\n の げ-むの おあいて\nしてあげてもいいよ~ \nじゃあまたねっ! くるくるっ!  ",
-      "english": " B12 S402 w=2\n...\n...@\n...@#"
+      "english": "if you ever have\nsome free time@\n\nI wouldnt mind\nkeeping you\ncompany!\nsee ya~ kuru-kuru@#"
     },
     {
       "japanese": "\n\nぼくは げ-むに まけた!  ",

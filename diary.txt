@@ -503,9 +503,10 @@ day 85 (may 3)
 * pool / tree lined path
 
 day 86 (may 5)
-* 90.2%
+* 90.7%
 * Sakura festival / event?
 * start of cheesecake shop
+* some dialog possibly if you visit the arcade before meeting Shinozawa, and maybe Mari
 
 next:
 * could experiment with variable width font printing
