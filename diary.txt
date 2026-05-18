@@ -508,6 +508,9 @@ day 86 (may 5)
 * start of cheesecake shop
 * some dialog possibly if you visit the arcade before meeting Shinozawa, and maybe Mari
 
+day 87 (may 18)
+* 
+
 next:
 * could experiment with variable width font printing
 * continue with most cutscenes + game progression, maybe find more save states to test
@@ -520,6 +523,7 @@ next:
 * TODO: Mari bank 9 relationship progress eavesdropping check
 * TODO: figure out job + job menus (bank 30)
 * TODO: school play / fire final dialog line count
+* Yomise / Festival translation (bank 12, 224)
 
 translation percent:
 untranslated: cat .\out\*tr_en.json | grep " B" | wc -l
