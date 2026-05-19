@@ -3,7 +3,7 @@ import argparse
 import logging
 from typing import List, Tuple
 import png
-import importlib
+import importlib.util
 import sys
 from dictionary_en import character_map
 
