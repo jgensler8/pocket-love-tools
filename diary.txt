@@ -516,6 +516,10 @@ day 88 (may 20)
 * 91.7 %
 * finished summer fesitval
 
+day 89 (may 21)
+* 92.9%
+* haunted house dialog
+
 next:
 * could experiment with variable width font printing
 * continue with most cutscenes + game progression, maybe find more save states to test
