@@ -509,7 +509,12 @@ day 86 (may 5)
 * some dialog possibly if you visit the arcade before meeting Shinozawa, and maybe Mari
 
 day 87 (may 18)
-* 
+* 91.3
+* summer festival (unclear where or when this is triggered)
+
+day 88 (may 20)
+* 91.7 %
+* finished summer fesitval
 
 next:
 * could experiment with variable width font printing
