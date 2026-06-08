@@ -524,6 +524,10 @@ day 90 (june 7)
 * 93.3%
 * more haunted house dialog
 
+day 91 (june 8)
+* 93.7%
+* more haunted house dialog
+
 next:
 * could experiment with variable width font printing
 * continue with most cutscenes + game progression, maybe find more save states to test
