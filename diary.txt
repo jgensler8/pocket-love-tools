@@ -528,6 +528,10 @@ day 91 (june 8)
 * 93.7%
 * more haunted house dialog
 
+day 92 (june 9)
+* haunted house done
+* bank 12 completed
+
 next:
 * could experiment with variable width font printing
 * continue with most cutscenes + game progression, maybe find more save states to test
