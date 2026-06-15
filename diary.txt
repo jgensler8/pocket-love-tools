@@ -532,6 +532,9 @@ day 92 (june 9)
 * haunted house done
 * bank 12 completed
 
+day 93 (june 15)
+* fix some of the formatting from latest debug run (several 4 vs 5 line wait)
+
 next:
 * could experiment with variable width font printing
 * continue with most cutscenes + game progression, maybe find more save states to test
@@ -542,9 +545,10 @@ next:
 * TODO: "I'm so moved!"
 * TODO: Yumi vs Yumida
 * TODO: Mari bank 9 relationship progress eavesdropping check
-* TODO: figure out job + job menus (bank 30)
 * TODO: school play / fire final dialog line count
+* TODO: club join dialog (in window)
 * Yomise / Festival translation (bank 12, 224)
+* placing hand on shoulder wait char / 4 vs 5 lines
 
 translation percent:
 untranslated: cat .\out\*tr_en.json | grep " B" | wc -l

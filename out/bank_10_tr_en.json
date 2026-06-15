@@ -946,7 +946,7 @@
     },
     {
       "japanese": " ってさ~ さいきん なんか\nかっこよく なったみたい~! \nしのざわの めの さっかくかな~? \nじゃ、またねっ! くるくるっ!  ",
-      "english": "Hey~ you know\nwhat?@You've gotten\nkinda cool!@\n\nOr maybe my eyes\ndeceive me!@#"
+      "english": "Hey~ you know\nwhat?@You've gotten\nkinda cool!@\n\nOr maybe my eyes\ndeceive me!\nkuru~kuru@#"
     },
     {
       "japanese": " ってさ~ さいきん\nかなり かっこいい ですわ~! \nなんか いいかんじですぅ... \nじゃ、またねっ! くるくるっ!  ",
@@ -1046,7 +1046,7 @@
     },
     {
       "japanese": "あ! むこうも ぼくに\nきがついたみたいだ! \nこっちに ちかづいて きたぞ!  ",
-      "english": "Ah! She's noticed\nme!@\nAnd she's coming\ncloser!@#"
+      "english": "Ah!\nShe's noticed me!@\nAnd she's\ncoming closer!@#"
     },
     {
       "japanese": "(どういって こえを かけよう?)\n",
@@ -1362,7 +1362,7 @@
     },
     {
       "japanese": "あっ!  ~! \nげんきそうで なによりですぅ~! \nんじゃ またねっ! くるくるっ!  ",
-      "english": "Oh~@\nYoure looking well\nI see ~!@\n\nAlright, see you!\nKuru-kuru-tsu!@#"
+      "english": "Oh~@\nYoure looking well\nI see ~!@\n\nAlright, see you!\nkuru~kuru!@#"
     },
     {
       "japanese": "きゃ~<3  ~<3 \nこんなところで であうなんて!! \nうんめいを かんじちゃいますぅ~<3  ",
@@ -1470,7 +1470,7 @@
     },
     {
       "japanese": "ぼくは さえき るるなの\nたんじょうび ぱ-てぃ-に\nしゅっせきした  ",
-      "english": "I attended Rurunas\nbirthday part@#"
+      "english": "I attended Rurunas\nbirthday party@#"
     },
     {
       "japanese": "たのしい じかんは\nあっというまに すぎていく \n...... \n......  ",

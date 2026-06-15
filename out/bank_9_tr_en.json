@@ -86,7 +86,7 @@
     },
     {
       "japanese": "ぼくは むいしきに てをのばし \nふるえるてで そっと \nるるなのかたに てをかけた...  ",
-      "english": "I reached out my\nhand...@\nwhile trembling...@\n\nI gently placed\nit on Ruruna's\nshoulder@#"
+      "english": "I reached out my\nhand...@\nwhile trembling...@\n\n\nI gently placed\nit on Ruruna's\nshoulder@#"
     },
     {
       "japanese": "るるなは はずかしそうに\nうつむいた...  ",
@@ -98,7 +98,7 @@
     },
     {
       "japanese": "ぼくは むいしきに てをのばし \nふるえるてで そっと \nみずきのかたに てをかけた...  ",
-      "english": "I reached out my\nhand...@\nwhile trembling...@\n\nI gently placed\nit on Mizuki's\nshoulder@#"
+      "english": "I reached out my\nhand...@\nwhile trembling...@\n\n\nI gently placed\nit on Mizuki's\nshoulder@#"
     },
     {
       "japanese": "みずきは かおを あからめて\nうつむいた...  ",
@@ -110,7 +110,7 @@
     },
     {
       "japanese": "ぼくは てをのばし \nふるえるてで そっと \nゆみのかたに てをかけた...  ",
-      "english": "I reached out my\nhand...@\nwhile trembling...@\n\nI gently placed\nit on Yumi's\nshoulder@#"
+      "english": "I reached out my\nhand...@\nwhile trembling...@\n\n\nI gently placed\nit on Yumi's\nshoulder@#"
     },
     {
       "japanese": "ゆみは すこし てれくさそうに\nほほえんだ...  ",
@@ -122,7 +122,7 @@
     },
     {
       "japanese": "ぼくは むいしきに てをのばし \nふるえるてで そっと \nみりぃのかたに てをかけた...  ",
-      "english": "I reached out my\nhand...@\nwhile trembling...@\n\nI gently placed\nit on Miri's\nshoulder@#"
+      "english": "I reached out my\nhand...@\nwhile trembling...@\n\n\nI gently placed\nit on Miri's\nshoulder@#"
     },
     {
       "japanese": "みりぃは おどろいて あかくなって\nうつむいた...  ",
@@ -134,7 +134,7 @@
     },
     {
       "japanese": "ぼくは むいしきに てをのばし \nふるえるてで そっと \nまりぃのかたに てをかけた...  ",
-      "english": "I reached out my\nhand...@\nwhile trembling...@\n\nI gently placed\nit on Mari's\nshoulder@#"
+      "english": "I reached out my\nhand...@\nwhile trembling...@\n\n\nI gently placed\nit on Mari's\nshoulder@#"
     },
     {
       "japanese": "まりぃは まっすぐ ぼくを\nみつめかえした...  ",
@@ -146,7 +146,7 @@
     },
     {
       "japanese": "ぼくは むいしきに てをのばし \nふるえるてで そっと \nすずねのかたに てをかけた...  ",
-      "english": "I reached out my\nhand...@\nwhile trembling...@\n\nI gently placed\nit on Suzune's\nshoulder@#"
+      "english": "I reached out my\nhand...@\nwhile trembling...@\n\n\nI gently placed\nit on Suzune's\nshoulder@#"
     },
     {
       "japanese": "すずねの しろいほっぺは\nみるみる まっかに なった...  ",
@@ -158,7 +158,7 @@
     },
     {
       "japanese": "ぼくは むいしきに てをのばし \nふるえるてで そっと \nももよのかたに てをかけた...  ",
-      "english": "I reached out my\nhand...@\nwhile trembling...@\n\nI gently placed\nit on Momoyo's\nshoulder@#"
+      "english": "I reached out my\nhand...@\nwhile trembling...@\n\n\nI gently placed\nit on Momoyo's\nshoulder@#"
     },
     {
       "japanese": "ももよは かおを まっかにして\nうつむいた...  ",
@@ -754,7 +754,7 @@
     },
     {
       "japanese": "あやしいな...やっぱり るるなは\n くんのこと すき なのかもね \n...で ふたりは\nどんな かんけい なの?  ",
-      "english": "Something seems\nodd@\nMaybe Ruruna\nreally likes ^-kun@\nwhat relationship\ndo they have?@#"
+      "english": "Something seems\nodd..@Maybe Ruruna\nreally likes\n^-kun@\nwhat relationship\ndo they have?@#"
     },
     {
       "japanese": "えっ!  くんのこと...? \nわたし わたし...  ",
@@ -1314,7 +1314,7 @@
     },
     {
       "japanese": "で...だ! \nとうぜん くれるんでしょうね~?! \nたんじょうびの... \nぷ. れ. ぜ. ん. と!!  ",
-      "english": "so...@you'll get\nme something?@\nA\nP.@R.@E.@S.@E.@N.@T!!@#"
+      "english": "so...@you'll get\nme something?@\nA pres...@ent!!@#"
     },
     {
       "japanese": "(ぷれぜんとか...どうしよう?)\n あげる\n あげない",
@@ -1390,7 +1390,7 @@
     },
     {
       "japanese": "ごめん! \nしゅみじゃ ないんだ \nでも さそってくれて\nありがとう  ",
-      "english": "Sorry!@ It's not\nmy hobby...@\nbut thanks for\nthe invitation@#"
+      "english": "Sorry!@ Its not\nfor me...@\nbut thanks for\nthe invitation@#"
     },
     {
       "japanese": "そうね... \nしゅみじゃ ないんじゃ\nしょうがないわね  ",
@@ -1550,7 +1550,7 @@
     },
     {
       "japanese": "ぐうぜん たかお みずきと\nめが あった... \nそうだ!  けさ ひろった\nはちまきを かえさなくちゃ!  ",
-      "english": "I happened to\ncross Mizuki...@\noh!@ I have to re\n-turn the headband@#"
+      "english": "I happened to\ncross Mizuki...@\noh!@ I have to re\nturn the headband@#"
     },
     {
       "japanese": "ぼくは たかお みずきに\nちかづいた  ",
@@ -1582,7 +1582,7 @@
     },
     {
       "japanese": "おくじょうで ぼんやりしてると\nぐうぜん まつだ ゆみが やってきた \nそうだ!  けさ ひろった\nはんかちを かえさなくちゃ!  ",
-      "english": "I was ndaydreaming\nand Yumi suddenly\nshowed up@\nA!@\nI need to return\nthis handkerchief!@#"
+      "english": "I was daydreaming\nand Yumi suddenly\nshowed up@\nA!@\nI need to return\nthis handkerchief!@#"
     },
     {
       "japanese": "ぼくは まつだ ゆみに\nちかづいた  ",
@@ -1782,7 +1782,7 @@
     },
     {
       "japanese": "いよいよ しゅうがくりょこうだ! \nぼくたちは ながいあいだ\nばすにゆられ... \nおおさかに とうちゃくした!  ",
-      "english": "Finally,time for\nour trip!@\nAfter the near-\nsickening bus ride@\nwe arrive in...@\nOsaka!@#"
+      "english": "Finally,time for\nour trip!@\nAfter the near-\nsickening busride@\nwe arrive in...@\nOsaka!@#"
     },
     {
       "japanese": "わあ...これが つうてんかくね! \nてれびで みたのと\nおんなじだわ~!  ",
