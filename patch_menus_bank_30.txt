@@ -212,7 +212,7 @@
 4d70 "call "
 4d75 "now  "
 4d82 "only on"
-4d89 "weekend"
+4d89 "__60 and __63"
 4db2 "study "
 4db8 "looks "
 4dbe "club  "

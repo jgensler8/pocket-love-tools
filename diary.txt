@@ -535,6 +535,9 @@ day 92 (june 9)
 day 93 (june 15)
 * fix some of the formatting from latest debug run (several 4 vs 5 line wait)
 
+day 94 (june 16)
+* few formatting errors + fixing wednesday/saturday club/job text
+
 next:
 * could experiment with variable width font printing
 * continue with most cutscenes + game progression, maybe find more save states to test
