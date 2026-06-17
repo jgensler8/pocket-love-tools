@@ -538,6 +538,29 @@ day 93 (june 15)
 day 94 (june 16)
 * few formatting errors + fixing wednesday/saturday club/job text
 
+day 94 (june 17)
+* sav file investigation
+  * slots are 0x0000, 0x0800, 0x1000
+  * seems to be the ram chunk 0xb000 to 0xb210
+  * stats are the in same array order as ram
+    * 0x59 (maybe day counter?)
+    * 0x5a intel
+    * 0x5c sports
+    * 0x5e looks
+    * 0x60 mood
+    * 0x62 charisma
+    * 0x54 stam
+    * 0x66 unclear if some hidden stat
+    * 0x69 0x6a money
+    * possible item bits: 0x9a, 0x1bb, 0x1bc (unlikely), 0x22b, 0x22d, 0x22f
+      * 0x9a (sav slot 1) and 0xd39c (working ram) controls bought items and can be flipped at runtime
+      * maybe some sort of hash / sav file protection or integrity check
+      * d39a, d39b, d39c, d39d (first 3 bits) so [ff ff ff 03] is enough to get all items
+  * game starts on 4/14 because only one byte for the day counter (ff == 255 max, june 14 + 255 == december 25)
+  * change date: 0xd35a but needs to be same day of the week (so current value plus multiple of 7)
+  * day 12/17 (wednesday) is the "choose a girl" warning message
+  * setting stats high doesn't trigger the best ending. likely need to give gifts or increase other hidden counters
+
 next:
 * could experiment with variable width font printing
 * continue with most cutscenes + game progression, maybe find more save states to test
@@ -550,9 +573,13 @@ next:
 * TODO: Mari bank 9 relationship progress eavesdropping check
 * TODO: school play / fire final dialog line count
 * TODO: club join dialog (in window)
+* TODO: "library" actually shows items instead of just book (maybe rename to bag / bookshelf / room)
 * Yomise / Festival translation (bank 12, 224)
 * placing hand on shoulder wait char / 4 vs 5 lines
 
 translation percent:
 untranslated: cat .\out\*tr_en.json | grep " B" | wc -l
   translated: cat .\out\*tr_en.json | grep eng | grep -v " B" | wc -l
+
+binary diff on windows:
+fc.exe /b .\file_1.bin .\file_2.bin > out.diff
