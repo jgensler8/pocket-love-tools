@@ -555,11 +555,59 @@ day 94 (june 17)
     * possible item bits: 0x9a, 0x1bb, 0x1bc (unlikely), 0x22b, 0x22d, 0x22f
       * 0x9a (sav slot 1) and 0xd39c (working ram) controls bought items and can be flipped at runtime
       * maybe some sort of hash / sav file protection or integrity check
-      * d39a, d39b, d39c, d39d (first 3 bits) so [ff ff ff 03] is enough to get all items
+      * d399, d39a, d39b, d39c, d39d (first 3 bits) so [ff ff ff 03] is enough to get all items
   * game starts on 4/14 because only one byte for the day counter (ff == 255 max, june 14 + 255 == december 25)
   * change date: 0xd35a but needs to be same day of the week (so current value plus multiple of 7)
   * day 12/17 (wednesday) is the "choose a girl" warning message
   * setting stats high doesn't trigger the best ending. likely need to give gifts or increase other hidden counters
+
+day 95 (june 18)
+* sav file investigation
+  * 14d, 1bb, 1bc might be ruruna relationship counter
+    * 14d might be encounters or attempts (changed the same on two separate rejections)
+    * 1bb went up on schedule, down on rejection (varied between attempts)
+    * 1bc went up higher on schedule, went up lower on rejection (varied between attempts)
+  * bb, bd, bf, c0 might be date schedule
+    * bb is person
+    * bf ??
+    * bd could be some packed date
+    * c0 is location bit
+      * 01 highschool
+      * 02 
+  * d409 bit flag of who is unlocked (7f max: 0111 1111)
+  * d25f (temp location) does hold realtionship value
+    hearts
+    * 0a (small)
+    * 0b
+    * 0c
+    * 0d
+    * 0e
+    * 0f
+    * 10
+    * 11 (best)
+    stars
+    * 12 (smaller)
+    * 13
+    * 14
+    * 15
+    * 16
+    * 17
+    * 18
+    * 19 (larger)
+    exclamations
+    * 1a (smaller)
+    * 1b
+    * 1c
+    * 1d
+    * 1e
+    * 1f
+    * 20
+    * 21 (larger)
+  * d36d contains 6 byte relationship structs
+    * see rom30::733f
+    * s[0] < s[2] then warning
+    * s[0] >= s[2] then add/compare s[4] to promote from star to heart
+
 
 next:
 * could experiment with variable width font printing
