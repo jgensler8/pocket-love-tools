@@ -555,7 +555,7 @@ day 94 (june 17)
     * possible item bits: 0x9a, 0x1bb, 0x1bc (unlikely), 0x22b, 0x22d, 0x22f
       * 0x9a (sav slot 1) and 0xd39c (working ram) controls bought items and can be flipped at runtime
       * maybe some sort of hash / sav file protection or integrity check
-      * d399, d39a, d39b, d39c, d39d (first 3 bits) so [ff ff ff 03] is enough to get all items
+      * d399, d39a, d39b, d39c, d39d (first 3 bits) so [ff ff ff ff 03] is enough to get all items
   * game starts on 4/14 because only one byte for the day counter (ff == 255 max, june 14 + 255 == december 25)
   * change date: 0xd35a but needs to be same day of the week (so current value plus multiple of 7)
   * day 12/17 (wednesday) is the "choose a girl" warning message
@@ -610,20 +610,12 @@ day 95 (june 18)
 
 day 96 (june 22)
 * fix a few more formatting errors after another playtest (another failed Yumi playthrough :( )
+* translate town infos (not yet tested)
 
 next:
-* could experiment with variable width font printing
-* continue with most cutscenes + game progression, maybe find more save states to test
-  * might want to figure out how cutscenes are triggered so i can manually invoke them
 * TODO: will need to patch dialog that needs our name fe00 and fe01
 * TODO: rest of the town info screens (~9 of them)
-* TODO: revisit A~tsu! greetings
-* TODO: "I'm so moved!"
-* TODO: Yumi vs Yumida
-* TODO: Mari bank 9 relationship progress eavesdropping check
-* TODO: school play / fire final dialog line count
 * TODO: club join dialog (in window)
-* TODO: "library" actually shows items instead of just book (maybe rename to bag / bookshelf / room)
 * Yomise / Festival translation (bank 12, 224)
 * placing hand on shoulder wait char / 4 vs 5 lines
 

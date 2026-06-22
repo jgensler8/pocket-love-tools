@@ -98,7 +98,7 @@ if __name__ == "__main__":
     # get job
     # start_addr, end_addr = (0x455a, 0x4563)
     # start_addr, end_addr = (0x457a, 0x4591)
-    start_addr, end_addr = (0x4568, 0x4575)
+    # start_addr, end_addr = (0x4568, 0x4575)
     # club weekend task select option
     # start_addr, end_addr = (0x43f8, 0x43fd)
     # start_addr, end_addr = (0x43fe, 0x4403)
@@ -263,6 +263,12 @@ if __name__ == "__main__":
     # start_addr, end_addr = (0x41a1, 0x41ab)
     # monthly town info values
     # start_addr, end_addr = (0x62b4, 0x62c1)
+    # town info > 4
+    # start_addr, end_addr = (0x629f, 0x62af)
+    # start_addr, end_addr = (0x62b4, 0x62c1)
+    # start_addr, end_addr = (0x62c6, 0x62cc)
+    # start_addr, end_addr = (0x62d8, 0x62df)
+    # town info > 5
     # start_addr, end_addr = (0x62ec, 0x62f9)
     # start_addr, end_addr = (0x62fa, 0x6307)
     # start_addr, end_addr = (0x630c, 0x6314)
@@ -273,6 +279,36 @@ if __name__ == "__main__":
     # start_addr, end_addr = (0x6356, 0x635f)
     # start_addr, end_addr = (0x6364, 0x6373)
     # start_addr, end_addr = (0x6378, 0x6382)
+    # town info > 7
+    # start_addr, end_addr = (0x6392, 0x63a3)
+    # start_addr, end_addr = (0x63a8, 0x63b6)
+    # start_addr, end_addr = (0x63bb, 0x63c2)
+    # start_addr, end_addr = (0x63cf, 0x63d6)
+    # town info > 8
+    start_addr, end_addr = (0x63e3, 0x63f6)
+    # start_addr, end_addr = (0x63fb, 0x6406)
+    # start_addr, end_addr = (0x640b, 0x641b)
+    # start_addr, end_addr = (0x6431, 0x6435)
+    # town info > 9
+    # start_addr, end_addr = (0x6441, 0x6456)
+    # start_addr, end_addr = (0x645b, 0x6469)
+    # start_addr, end_addr = (0x646e, 0x6474)
+    # start_addr, end_addr = (0x6480, 0x6486)
+    # town info > 10
+    # start_addr, end_addr = (0x6490, 0x64a3)
+    # start_addr, end_addr = (0x64a8, 0x64b2)
+    # start_addr, end_addr = (0x64b7, 0x64c7)
+    # start_addr, end_addr = (0x64dd, 0x64e3)
+    # town info > 11
+    # start_addr, end_addr = (0x64ef, 0x650e)
+    # start_addr, end_addr = (0x6513, 0x6520)
+    # start_addr, end_addr = (0x6525, 0x652a)
+    # start_addr, end_addr = (0x6535, 0x6538)
+    # town info > 12
+    # start_addr, end_addr = (0x6545, 0x6566)
+    # start_addr, end_addr = (0x656b, 0x6571)
+    # start_addr, end_addr = (0x6576, 0x657c)
+    # start_addr, end_addr = (0x6588, 0x6598)
     # phone call menu
     # start_addr, end_addr = (0x47a9, 0x47b0)
     # start_addr, end_addr = (0x47b1, 0x47b8)
