@@ -608,6 +608,8 @@ day 95 (june 18)
     * s[0] < s[2] then warning
     * s[0] >= s[2] then add/compare s[4] to promote from star to heart
 
+day 96 (june 22)
+* fix a few more formatting errors after another playtest (another failed Yumi playthrough :( )
 
 next:
 * could experiment with variable width font printing
