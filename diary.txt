@@ -551,13 +551,13 @@ day 94 (june 17)
     * 0x62 charisma
     * 0x54 stam
     * 0x66 unclear if some hidden stat
-    * 0x69 0x6a money
+    * 0x69 0x6a money (d36b, d36c)
     * possible item bits: 0x9a, 0x1bb, 0x1bc (unlikely), 0x22b, 0x22d, 0x22f
       * 0x9a (sav slot 1) and 0xd39c (working ram) controls bought items and can be flipped at runtime
       * maybe some sort of hash / sav file protection or integrity check
-      * d399, d39a, d39b, d39c, d39d (first 3 bits) so [ff ff ff ff 03] is enough to get all items
+      * d399, d39a, d39b, d39c, d39d (first 3 bits) so [ff ff ff ff 07] is enough to get all items
   * game starts on 4/14 because only one byte for the day counter (ff == 255 max, june 14 + 255 == december 25)
-  * change date: 0xd35a but needs to be same day of the week (so current value plus multiple of 7)
+  * change date: 0xd35b but needs to be same day of the week (so current value plus multiple of 7)
   * day 12/17 (wednesday) is the "choose a girl" warning message
   * setting stats high doesn't trigger the best ending. likely need to give gifts or increase other hidden counters
 
@@ -612,10 +612,23 @@ day 96 (june 22)
 * fix a few more formatting errors after another playtest (another failed Yumi playthrough :( )
 * translate town infos (not yet tested)
 
+day 97 (june 23)
+* monday calendar skips (when you start the game, change 0xd35b to this to skip to a new start date)
+ * 0x00 start:4/14
+ * 0x15 start:5/5 end:5/5(monday) (which is a holiday)
+ * 0x2a start:5/26 end:6/1(sunday) (just before field trip)
+ * 0x4d start:6/31 end:7/6(sunday) (just after beach event)
+ * 0x69 start:7/28 end:8/3(sunday) (summer path crossing events)
+ * 0x8c start:9/1 end:9/7(sunday) (more summer path crossing events)
+ * 0xa8 start:9/29 end:10/5(sunday) (school festival vote)
+ * 0xc4 start:10/27 end:11/02(sunday) (just after halloween party)
+ * 0xe7 start:12/1 end:12/7(sunday)
+* fix town info formatting
+* unable to find source of cutscenes having wrong date header
+
 next:
-* TODO: will need to patch dialog that needs our name fe00 and fe01
-* TODO: rest of the town info screens (~9 of them)
-* TODO: club join dialog (in window)
+* TODO: Suzune pre-school "But Suzune didn't\nsay anything..." scenes might be concat
+* TODO: cutscene __day needs to replace "__sunday(__friday)" (can't find 7f 7f 7f anywhere)
 * Yomise / Festival translation (bank 12, 224)
 * placing hand on shoulder wait char / 4 vs 5 lines
 
