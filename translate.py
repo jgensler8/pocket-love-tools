@@ -211,6 +211,8 @@ if __name__ == "__main__":
     # start_addr, end_addr = (0x51e0, 0x51eb)
     # start_addr, end_addr = (0x51f0, 0x51f7)
     # start_addr, end_addr = (0x51fc, 0x520d)
+    # calling before you've met someone and checking "about girls" before school starts
+    start_addr, end_addr = (0x422b, 0x4239)
     # save screen success
     # start_addr, end_addr = (0x4282, 0x4287)
     # start_addr, end_addr = (0x4288, 0x428d)
@@ -285,7 +287,7 @@ if __name__ == "__main__":
     # start_addr, end_addr = (0x63bb, 0x63c2)
     # start_addr, end_addr = (0x63cf, 0x63d6)
     # town info > 8
-    start_addr, end_addr = (0x63e3, 0x63f6)
+    # start_addr, end_addr = (0x63e3, 0x63f6)
     # start_addr, end_addr = (0x63fb, 0x6406)
     # start_addr, end_addr = (0x640b, 0x641b)
     # start_addr, end_addr = (0x6431, 0x6435)

@@ -626,6 +626,10 @@ day 97 (june 23)
 * fix town info formatting
 * unable to find source of cutscenes having wrong date header
 
+day 98 (june 24)
+* go out menu investigation. trying to activate town festival on july 20
+* d22f: controls if we read 14 or 15 places into the location array. unclear if ive decompiled all places this is written to
+
 next:
 * TODO: Suzune pre-school "But Suzune didn't\nsay anything..." scenes might be concat
 * TODO: cutscene __day needs to replace "__sunday(__friday)" (can't find 7f 7f 7f anywhere)
