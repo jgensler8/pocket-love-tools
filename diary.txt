@@ -630,7 +630,7 @@ day 98 (june 24)
 * go out menu investigation. trying to activate town festival on july 20
 * d22f: controls if we read 14 or 15 places into the location array. unclear if ive decompiled all places this is written to
 
-day 99 (june25)
+day 99 (june 25)
 * d24a: is a month counter. seems to be set properly even when fast forwarding.
 * detailed weekend task select control flow, another jump table, found core go out function found
 * go out cursor code clearly not not allow value == max, so max index into menu is 0x0e
@@ -640,6 +640,9 @@ day 99 (june25)
   perhaps the girls themselves invite us similar to morning event, though it still begs the question about it existing in the menus...
   after modifing max value and walking alone, walking to event bugs out.
   however, going there as the second place on a date (mizuki, ruruna) seems to queue the haunted house + part of the festival dialog
+
+day 100 (july 12)
+* leave job dialog fix // one dialog fix
 
 next:
 * TODO: Suzune pre-school "But Suzune didn't\nsay anything..." scenes might be concat

@@ -99,6 +99,8 @@ if __name__ == "__main__":
     # start_addr, end_addr = (0x455a, 0x4563)
     # start_addr, end_addr = (0x457a, 0x4591)
     # start_addr, end_addr = (0x4568, 0x4575)
+    start_addr, end_addr = (0x4596, 0x45ad)
+    # start_addr, end_addr = (0x45b2, 0x45bd)
     # club weekend task select option
     # start_addr, end_addr = (0x43f8, 0x43fd)
     # start_addr, end_addr = (0x43fe, 0x4403)
@@ -212,7 +214,7 @@ if __name__ == "__main__":
     # start_addr, end_addr = (0x51f0, 0x51f7)
     # start_addr, end_addr = (0x51fc, 0x520d)
     # calling before you've met someone and checking "about girls" before school starts
-    start_addr, end_addr = (0x422b, 0x4239)
+    # start_addr, end_addr = (0x422b, 0x4239)
     # save screen success
     # start_addr, end_addr = (0x4282, 0x4287)
     # start_addr, end_addr = (0x4288, 0x428d)
