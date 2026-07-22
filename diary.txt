@@ -644,6 +644,9 @@ day 99 (june 25)
 day 100 (july 12)
 * leave job dialog fix // one dialog fix
 
+day 101 (july 22)
+* more translation fixes
+
 next:
 * TODO: Suzune pre-school "But Suzune didn't\nsay anything..." scenes might be concat
 * TODO: cutscene __day needs to replace "__sunday(__friday)" (can't find 7f 7f 7f anywhere)
