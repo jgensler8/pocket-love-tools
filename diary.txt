@@ -647,6 +647,11 @@ day 100 (july 12)
 day 101 (july 22)
 * more translation fixes
 
+day 102 ()
+* rom29::66e0 found the other day but seems to be the sequences of realtionship values, these seem to depend on the month (and not day)
+* day doesn't seem to change init rel values, mainly month
+
+
 next:
 * TODO: Suzune pre-school "But Suzune didn't\nsay anything..." scenes might be concat
 * TODO: cutscene __day needs to replace "__sunday(__friday)" (can't find 7f 7f 7f anywhere)
