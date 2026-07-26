@@ -623,6 +623,7 @@ day 97 (june 23)
  * 0xa8 start:9/29 end:10/5(sunday) (school festival vote)
  * 0xc4 start:10/27 end:11/02(sunday) (just after halloween party)
  * 0xe7 start:12/1 end:12/7(sunday)
+ * 0xfb start:12/21 end:12/23(tuesday)
 * fix town info formatting
 * unable to find source of cutscenes having wrong date header
 
@@ -663,6 +664,32 @@ day 103 (july 24)
   * 1A town festival -> haunted house invite
   * 1B haunted house (but glitches and ends the date)
   * 18 cherry blossom
+
+day 104 (july 26)
+* sav file -> mem rel values
+  * 14d -> d451 (maybe a morning evening counter)
+  * 1a9 -> d4ad (temp month index storage)
+  * 1ad -> d4af some other counter but maybe related to day / week
+* 1bb 1bc is some sort of clock (d4bd d4be)
+* d3a0 maybe sucessful date counter (incremented on both ruruna and mizuki success)
+* 1b3 / 1b5 maybe last date you went or last person on date?
+* 071 / 073 (d373 d375) seemed to count down after successful mizuki date
+* 06b / 06d / 06f (d36d d36f d371) seemd to count down after successful ruruna date
+* 0ad (d3af) incremented on successful ruruna school date
+* 06b down 06f down 0ad up
+* 0ad might be ruruna date counter
+* 0af mizuki date counter
+* just here the other day mizuki 071 073 up 075 down, 1af (d4b1) 0 to 1
+* manually setting those values to 00 00 sets relationship to smallest heart
+* somehow ruruna values went up after meeting yumi
+* just ok present ruruna: 06b +2 06f +2 098 ff -> df
+* after high stats ruruna cutscene amusement park: 6b +12 6d +6 0ad ff->13 (down)
+* end of game cutscene seems to add rel_val[4] and rel_val[2] together before choosing ending
+  * however, adding these values is not done in a specialized function, seems to be a generic ramfunc for loading data into d31b
+* end game ramfunc call list (after button press)
+  * c678, c4db, c61c, c4db, c515 (part of stat math), c6fb, c4db, c371, c728, c7d0, c7d0, c7d0, c7d0, c7d0, c515, c997, c768, ca9b (scene fade out), c9db, c9c4, c8f2, caab, ca4d (fade in), c28f, (roof text) c33e, (powdered snow) c33e, c28f, c33e, cb65, c9db, c28f, (rurna sprite finished loading) c33e, c28f, (i heard you were up here) c33e, c28f, (our confession) c33e
+* note: doing normal tasks changes relationship stat values for all characters!
+* note: max heart display values seems to be top four bits (3) + 0xa which is only halfway in terms of hearts.
 
 next:
 * TODO: Suzune pre-school "But Suzune didn't\nsay anything..." scenes might be concat
