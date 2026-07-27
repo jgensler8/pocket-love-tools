@@ -687,9 +687,37 @@ day 104 (july 26)
 * end of game cutscene seems to add rel_val[4] and rel_val[2] together before choosing ending
   * however, adding these values is not done in a specialized function, seems to be a generic ramfunc for loading data into d31b
 * end game ramfunc call list (after button press)
-  * c678, c4db, c61c, c4db, c515 (part of stat math), c6fb, c4db, c371, c728, c7d0, c7d0, c7d0, c7d0, c7d0, c515, c997, c768, ca9b (scene fade out), c9db, c9c4, c8f2, caab, ca4d (fade in), c28f, (roof text) c33e, (powdered snow) c33e, c28f, c33e, cb65, c9db, c28f, (rurna sprite finished loading) c33e, c28f, (i heard you were up here) c33e, c28f, (our confession) c33e
+  * c678 (weird cmp for last option)
+  * c4db (remap menu to char index)
+  * c61c (maybe jump metadata? not triggered for yumi(second option) but for first and third) 00b8 arg
+  * c4db pops arg from previous function, 00b8; 40b9/40ba -> index ... d321 (unsure what this value is or when it gets set)
+  * c515 (store 0 into d324)
+  * c6fb D: 02  E: 57  (DE: 0257) // H: 40  L: C0  (HL: 40C0)
+  * c4db 4258 (ruruna) 459a (yumi)
+  * c371
+  * c728
+  * c7d0
+  * c7d0
+  * c7d0
+  * c7d0
+  * c7d0
+  * c515(part of stat math)
+  * c997, c768, ca9b (scene fade out),
+  * c9db, c9c4, c8f2, caab, ca4d (fade in),
+  * c28f, (roof text) c33e, (powdered snow)
+  * c33e,
+  * c28f, c33e
+  * cb65 (sprite fx)
+  * c9db,
+  * c28f, (rurna sprite finished loading) c33e,
+  * c28f, (i heard you were up here) c33e,
+  * c28f, (our confession) c33e
 * note: doing normal tasks changes relationship stat values for all characters!
 * note: max heart display values seems to be top four bits (3) + 0xa which is only halfway in terms of hearts.
+
+day 105 (july 27)
+* day compare function 0x59 and 0x75
+* update previous days ramfuncs trying to understand sequencing
 
 next:
 * TODO: Suzune pre-school "But Suzune didn't\nsay anything..." scenes might be concat
