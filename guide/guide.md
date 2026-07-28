@@ -7,8 +7,10 @@
 | A | 1 | 2 | 16 | 0 | 32 | 0 | 176 | 0 |
 | A | 2 | 1 | 32 | 0 | 16 | 64 | 160 | 64 |
 
+relationship triplet values.
+seems mostly fair but some configurations might help with certain routes.
 
-| type | month | day | rel init value 0xd35d 0xd386 |
+| type | month | day | rel triplet init values 0xd35d 0xd386 |
 | --- | --- | --- | --- |
 | A |  1 | 1 | 410041000000 000000000000 000000000000 500081000000 500081000000 500081000000 500081000000 |
 | A |  1 | 2 | 410041000000 000000000000 000000000000 500081000000 500081000000 500081000000 500081000000 |
@@ -36,3 +38,15 @@
 | mari   | 56 (0x38) | 96 (0x60) | 116 (0x74) | 76 (0x4c) | 176 (0xb0) |
 | suzune | 124 (0x7c) | 104 (0x68) | 160 (0xa0) | 60 (0x3c) | 40 (0x28) |
 | momoyo | 60 (0x3c) | 80 (0x50) | 40 (0x28) | 16 (0x10) | 100 (0x64) |
+
+# ending stats
+
+| girl | Intel | Looks | Sport | Mood | Charm | Other |
+| --- | --- | --- | --- | --- | --- | --- |
+| ruruna | 200 (0xc8) | 200 (0xc8 )| 200 (0xc8) | 220 (0xdc) | NA | Final Relationship Triplet > 0x80 |
+| mizuki | | | | | | |
+| yumi   | | | | | | |
+| miri   | | | | | | |
+| mari   | | | | | | |
+| suzune | | | | | | |
+| momoyo | | | | | | |

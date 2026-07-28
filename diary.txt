@@ -687,25 +687,30 @@ day 104 (july 26)
 * end of game cutscene seems to add rel_val[4] and rel_val[2] together before choosing ending
   * however, adding these values is not done in a specialized function, seems to be a generic ramfunc for loading data into d31b
 * end game ramfunc call list (after button press)
-  * c678 (weird cmp for last option)
-  * c4db (remap menu to char index)
-  * c61c (maybe jump metadata? not triggered for yumi(second option) but for first and third) 00b8 arg
-  * c4db pops arg from previous function, 00b8; 40b9/40ba -> index ... d321 (unsure what this value is or when it gets set)
+  * c678 (40a5 weird cmp for last option)
+  * c4db (40b0 remap menu to char index)
+  * c61c (40b3 maybe jump metadata? not triggered for yumi(second option) but for first and third) 00b8 arg
+  * c4db (40b9 pops arg from previous function, 00b8; 40b9/40ba -> index ... d321 (unsure what this value is or when it gets set))
   * c515 (store 0 into d324)
-  * c6fb D: 02  E: 57  (DE: 0257) // H: 40  L: C0  (HL: 40C0)
-  * c4db 4258 (ruruna) 459a (yumi)
-  * c371
-  * c728
-  * c7d0
-  * c7d0
-  * c7d0
-  * c7d0
-  * c7d0
-  * c515(part of stat math)
-  * c997, c768, ca9b (scene fade out),
+  * c6fb (40bd / 40bf?) D: 02  E: 57  (DE: 0257) // H: 40  L: C0  (HL: 40C0)
+  * c4db (4258) 4258 (ruruna) 459a (yumi)
+  * c371 (425c)
+  * c728 (425f)
+  * c7d0 (4265 reads d370 compare 80, last ruruna value)
+  * c7d0 (426a reads d35d compare c8, intel)
+  * c7d0 (426f reads d35f compare c8, looks)
+  * c7d0 (4274 reads d361 compare c8, sport)
+  * c7d0 (4279 reads d363 compare dc, mood, leaves last two args (036a) in DE if failing checks)
+  * c7d0 (? 427e reads ? compare c8, maybe charm) 
+  * c515 (436b part of stat math, 436c -> d31b)
+  * c997 (436e changes some c1?? data, 1a9c, 5a9d - 1a9c - 0x4001 so an absolute rom offset probably),
+  * c768 (5a9d)
+  * ca9b (conditionally initializes some static values)(scene fade out),
   * c9db, c9c4, c8f2, caab, ca4d (fade in),
-  * c28f, (roof text) c33e, (powdered snow)
-  * c33e,
+  * <metadata is already set by this point, no branching>
+  * c28f,
+  * c33e (4e22) (roof text),
+  * c33e (powdered snow),
   * c28f, c33e
   * cb65 (sprite fx)
   * c9db,
@@ -718,6 +723,12 @@ day 104 (july 26)
 day 105 (july 27)
 * day compare function 0x59 and 0x75
 * update previous days ramfuncs trying to understand sequencing
+
+day 106 (july 28)
+* metadata inspection and flow
+* finally figure out win conditions for ruruna
+  * ending dialog format is really scuffed especially for the mood
+  * can find other stat requirement metadata with ghidra search 22 21 ?? ?? ?? 22 22
 
 next:
 * TODO: Suzune pre-school "But Suzune didn't\nsay anything..." scenes might be concat
