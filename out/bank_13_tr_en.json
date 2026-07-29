@@ -206,7 +206,7 @@
     },
     {
       "japanese": " ぼくは かわぞいの みちを\nいそいだ\nかぜは つめたく\nこなゆきが まじっていた...",
-      "english": "I hurried along\nthe river path.The\nwind was cold and\nthere was a flurry\nof snow..."
+      "english": "I hurried along\nthe river path.\nThe wind was cold\nand there was a\nflurry of snow..."
     },
     {
       "japanese": " (   )\nみずき...",
@@ -234,7 +234,7 @@
     },
     {
       "japanese": " (たかお みずき)\n...ねえ\nわたしって さいしょ\nいやな おんなのこじゃなかった?",
-      "english": "__ff__12\nsay...\nI was a bit\nnasty when we\nfirst me, right?"
+      "english": "__ff__12\nwell...at first\nI wasn't exactly\na nice girl\nright?"
     },
     {
       "japanese": " (   )\n...まさか!\nどうして そんなこと きくの?",
@@ -242,15 +242,15 @@
     },
     {
       "japanese": " (たかお みずき)\nこえを かけられても\nしらんかおしたり...\nあまり しゃべらなかったり...\nわるかったなって おもって...",
-      "english": "__ff__12\nEven when they\ncalled out to me,\nI pretended not to\nnotice..."
+      "english": "__ff__12\nEven when people\nspoke to me,\nI wouldn't say\nmuch..."
     },
     {
       "japanese": " (たかお みずき)\nあのころの わたし...\nすなおに なれなくて\nいじを はってたんだ...",
-      "english": "__ff__12\nBack then, I\ncouldn't be honest\nwith myself so\nI acted mean..."
+      "english": "__ff__12\nI just couldn't\nbe open...\nI was \nbeing stubborn..."
     },
     {
       "japanese": " (たかお みずき)\nほんとはね すごく\n...うれしかったの...",
-      "english": "__ff__12\nbut, to be honest\nI was really\nhappy..."
+      "english": "__ff__12\nbut, the truth\nis that I was\nreally happy..."
     },
     {
       "japanese": " (たかお みずき)\nぐうぜん ろうかで\nすれちがっただけでも\nうれしくって はずかしくって\nどうしたらいいのか わからなかった",
@@ -262,7 +262,7 @@
     },
     {
       "japanese": " (たかお みずき)\nだって わたし...\n...ずっと まえから\n くんのことが....",
-      "english": "__ff__12\nBecause ^-kun...\nI've been thinking\nabout you for\na long time..."
+      "english": "__ff__12\nBecause ^-kun...\nfor a long time\neven...my feelings\ngrew and grew..."
     },
     {
       "japanese": " (たかお みずき)\n......だめ!!\nやっぱり いえない...\n......\n...",
@@ -278,11 +278,11 @@
     },
     {
       "japanese": " (たかお みずき)\nどきどき するけど...\n......",
-      "english": "__ff__12\nI'm excited\nbut..."
+      "english": "__ff__12\nMy heart is\nracing..."
     },
     {
       "japanese": " (たかお みずき)\nしんこきゅう して...\n......",
-      "english": "__ff__12\njust be patient\n..."
+      "english": "__ff__12\njust be\npatient..."
     },
     {
       "japanese": " (たかお みずき)\nきもちを おちつけて...\n......",
@@ -306,7 +306,7 @@
     },
     {
       "japanese": " (たかお みずき)\n....うれしい....\nほんとに...すごく...\nうれしい...",
-      "english": "__ff__12\n...I'm so happy...\nso so happy..."
+      "english": "__ff__12\n...I'm so happy...\n\nso so happy..."
     },
     {
       "japanese": " ほっとしたように\nうつむく みずき...\nかみに つもっていた こなゆきが\nみずきの ほほに こぼれおちた",
@@ -442,7 +442,7 @@
     },
     {
       "japanese": " ぼくは いそぎあしで\nなみきみちを あるいて\nゆみを さがした...",
-      "english": "I hurried along\nthe waves,\nsearching for\nYumi ..."
+      "english": "I hurried along\nthe tree lined\npath searching\nfor Yumi ..."
     },
     {
       "japanese": " ゆみ...\nいったい どこに...?",
@@ -462,7 +462,7 @@
     },
     {
       "japanese": " (   )\nいきなり とびだして\nくるんだもんな~!\nおどろいたよ",
-      "english": "(__fe__00 __fe__01)\nYou just popped\nout of nowhere!\nI was so\nsurprised"
+      "english": "(__fe__00 __fe__01)\nYou just popped\nout of nowhere!\nIt was pretty\nstartling"
     },
     {
       "japanese": " (まつだ ゆみ)\nおどろかせて ごめんね!\n...じつは  くんに\nはなしたいことが あるの...",
@@ -474,7 +474,7 @@
     },
     {
       "japanese": " (まつだ ゆみ)\nいろいろ なやんだんだけど...\nやっぱり どうしても\nわたしの きもちを\nうちあけたくって...",
-      "english": "__ff__13\nwell, a few things\n... but I really\nwanted to say how\nI fell about you"
+      "english": "__ff__13\nwell, a few things\n... but I really\nwanted to say how\nI feel about you"
     },
     {
       "japanese": " (   )\nえっ?!...ぼくに?",
@@ -486,11 +486,11 @@
     },
     {
       "japanese": " (   )\n...やっぱり とししただと\nだめなのかな...",
-      "english": "(__fe__00 __fe__01)\n...I guess being\nolder isn't good\nafter all..."
+      "english": "(__fe__00 __fe__01)\n...its impossible\nwith someone\nyounger,\nisnt it..."
     },
     {
       "japanese": " (まつだ ゆみ)\nすなおなんだけど まだまだ\nがきっぽいし...\nたよりないし...",
-      "english": "__ff__13\nwell, you also\nwere childish...\nand a bit\nunreliable..."
+      "english": "__ff__13\nyou're honest\nbut still\nchildish...\nand unreliable..."
     },
     {
       "japanese": " (   )\n......",
@@ -498,11 +498,11 @@
     },
     {
       "japanese": " (まつだ ゆみ)\n...でも つきあってるうちに\nいがいと しっかりしてる ところとか\nおとこらしい ところ...\nたくさん みえてきたの!",
-      "english": "__ff__13\nbut then,I started\nto see your\nreliable and manly\nqualities..."
+      "english": "__ff__13\nbut then,I started\nto see all of\nyour other\nqualities!"
     },
     {
       "japanese": " (まつだ ゆみ)\nそして ふと きがついたら\n くんのこと\nぜんぶ...",
-      "english": "__ff__13\nand then, all of a\nsudden I realized\neverything about\nyou..."
+      "english": "__ff__13\nall of a sudden,\nI realized that\neverything...."
     },
     {
       "japanese": " (   )\nぜんぶ...?",
@@ -510,7 +510,7 @@
     },
     {
       "japanese": " (まつだ ゆみ)\nうん!... くんの\nがきっぽいところも\nたよりないところも...みんな\nみ~んな...",
-      "english": "__ff__13\nyes! ^-kun, even\nyour cranky and\nunreliable\nsides..."
+      "english": "__ff__13\n^-kun,\nthe whole you...\neven the childish\nparts..."
     },
     {
       "japanese": " (まつだ ゆみ)\nまるごと ぜんぶ...\n......\nわたし...\n くんの すべてが...",
@@ -526,11 +526,11 @@
     },
     {
       "japanese": " (   )\nありがとう...!\nぼくも ぼくも...\nゆみのことが ぜんぶ だいすきだよ!",
-      "english": "(__fe__00 __fe__01)\nThank you...!\nI feel the same\nway too...\nI love everything\nabout Yumi!"
+      "english": "(__fe__00 __fe__01)\nThank you...!\nI-...I love\neverything about\nyou too, Yumi!"
     },
     {
       "japanese": " (まつだ ゆみ)\n...ほんとに?\nほんとに...?",
-      "english": "__ff__13\n... reaally?\nreally...?"
+      "english": "__ff__13\n...really?\nyou really\nmean that?"
     },
     {
       "japanese": " ...ゆみは かおを あげて\nぼくの めを みつめた...\nなみだを こらえる\nくろい ひとみ...",
@@ -538,7 +538,7 @@
     },
     {
       "japanese": " ぼくは ただ...\nただ いとしくて...\nそのまま\nきすを した...\nなんども...なんども...",
-      "english": "I just...\nI just loved you..\nand kissed you...\nagain and again..."
+      "english": "I found you so\nprecious...\nand just like that\nI kissed you...\nagain and again..."
     },
     {
       "japanese": " (まつだ ゆみ)\n くん...\n...だいすき...",
@@ -550,7 +550,7 @@
     },
     {
       "japanese": " ゆみ...これからも ずっと\nつきあって いこうね...\nこれからも ずっと....",
-      "english": "Yumi... Let's be\ntogether forever\n...forever\nand ever..."
+      "english": "Yumi...\nLet's be together\nforever...\nforever and ever.."
     },
     {
       "japanese": " あ!\nあれは!",

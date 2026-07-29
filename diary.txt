@@ -730,6 +730,10 @@ day 106 (july 28)
   * ending dialog format is really scuffed especially for the mood
   * can find other stat requirement metadata with ghidra search 22 21 ?? ?? ?? 22 22
 
+day 107 (july 29)
+* d4ab checked before making list
+* fix suzune and yumi confession translations + add stat check to table
+
 next:
 * TODO: Suzune pre-school "But Suzune didn't\nsay anything..." scenes might be concat
 * TODO: cutscene __day needs to replace "__sunday(__friday)" (can't find 7f 7f 7f anywhere)

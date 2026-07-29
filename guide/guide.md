@@ -41,11 +41,11 @@ seems mostly fair but some configurations might help with certain routes.
 
 # ending stats
 
-| girl | Intel | Looks | Sport | Mood | Charm | Other |
+| girl | Intel | Looks | Sport | Mood | Charm | Final Relationship Triplet |
 | --- | --- | --- | --- | --- | --- | --- |
-| ruruna | 200 (0xc8) | 200 (0xc8 )| 200 (0xc8) | 220 (0xdc) | NA | Final Relationship Triplet > 0x80 |
-| mizuki | | | | | | |
-| yumi   | | | | | | |
+| ruruna | 200 (0xc8) | 200 (0xc8 )| 200 (0xc8) | 220 (0xdc) | 200 (0xc8) |  >0x80 |
+| mizuki | (0x96) | (0xdc) | (0x46) | (0x18) | (0x64) | >0x80 |
+| yumi   | (0x46) | (0x96) | (0xdc) | (0x20) | (0x64) | >0x80 |
 | miri   | | | | | | |
 | mari   | | | | | | |
 | suzune | | | | | | |
