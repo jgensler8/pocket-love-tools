@@ -734,6 +734,9 @@ day 107 (july 29)
 * d4ab checked before making list
 * fix suzune and yumi confession translations + add stat check to table
 
+day 108 (july 30)
+* fix miri and mari endings and add stats
+
 next:
 * TODO: Suzune pre-school "But Suzune didn't\nsay anything..." scenes might be concat
 * TODO: cutscene __day needs to replace "__sunday(__friday)" (can't find 7f 7f 7f anywhere)
