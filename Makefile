@@ -59,7 +59,7 @@ patch:
 # 	$(shell $(PYTHON) patch.py $(PATCHED_ROM) dialog --bank=33 ${OUT_DIR}/bank_33_ex.json ${OUT_DIR}/bank_33_test_tr.json)
 	$(shell $(PYTHON) patch.py $(PATCHED_ROM) file --bank=29 --file=patch_start_screen_29.txt)
 # patch both phone call wait and day<>day wait (original 0x32)
-	$(shell $(PYTHON) patch.py $(PATCHED_ROM) inplace --bank=30 --hex_addr=6707 --hex_value=01)
+# 	$(shell $(PYTHON) patch.py $(PATCHED_ROM) inplace --bank=30 --hex_addr=6707 --hex_value=01)
 # 	$(shell $(PYTHON) patch.py $(PATCHED_ROM) file --bank=30 --file=patch_stat_requirements.txt)
 	$(shell $(PYTHON) patch.py $(PATCHED_ROM) file --bank=30 --file=patch_menus_bank_30.txt)
 	$(shell $(PYTHON) patch.py $(PATCHED_ROM) alphabet --png font_alphabet.png)
