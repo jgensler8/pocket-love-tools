@@ -737,6 +737,9 @@ day 107 (july 29)
 day 108 (july 30)
 * fix miri and mari endings and add stats
 
+day 109 (october 16)
+* finalize suzune and momoyo endings and add stats
+
 next:
 * TODO: Suzune pre-school "But Suzune didn't\nsay anything..." scenes might be concat
 * TODO: cutscene __day needs to replace "__sunday(__friday)" (can't find 7f 7f 7f anywhere)
