@@ -427,6 +427,32 @@ def patch_mbc(output_rom: str):
         f.seek(256 * 0x4000 - 1)
         f.write(b"\x00")
 
+def patch_header(output_rom: str):
+    with open(output_rom, "r+b") as f:
+        rom = bytearray(f.read())
+        # update the header checksum
+        checksum = 0
+        for addr in range(0x0134, 0x014D):
+            checksum = (checksum - rom[addr] - 1) & 0xFF
+        
+        logging.info(f"header sum:{checksum:02X}")
+        f.seek(0x014D)
+        f.write(bytearray([checksum]))
+        # f[0x014D] = checksum
+
+        # update the total checksum
+        global_sum = 0
+        for i, byte in enumerate(rom):
+            if i not in (0x014E, 0x014F):
+                global_sum = (global_sum + byte) & 0xFFFF
+                
+        global_sum_high = (global_sum >> 8) & 0xFF
+        global_sum_low = global_sum & 0xFF
+        logging.info(f"global_sum:{global_sum:04X}:{global_sum_high:02X}:{global_sum_low:02X}")
+        f.seek(0x014E)
+        f.write(bytearray([global_sum_high]))
+        f.seek(0x014F)
+        f.write(bytearray([global_sum_low]))
 
 def main():
     main_parser = argparse.ArgumentParser(
@@ -567,6 +593,9 @@ def main():
     # Subcommand: mbc
     mbc_parser = subparsers.add_parser("mbc", help="patch mbc")
 
+    # Subcommand: header
+    header_parser = subparsers.add_parser("header", help="patch header checksum and total checksum")
+
     args = main_parser.parse_args()
 
     if args.command == "dialog":
@@ -600,6 +629,8 @@ def main():
         patch_code_raw(args.output_rom, args.file, args.hex_addr)
     elif args.command == "mbc":
         patch_mbc(args.output_rom)
+    elif args.command == "header":
+        patch_header(args.output_rom)
 
 
 if __name__ == "__main__":

@@ -72,6 +72,7 @@ patch:
 # 	$(shell $(PYTHON) patch.py $(PATCHED_ROM) inplace --bank=30 --hex_addr=5838 --hex_value=1d)
 # 	$(shell $(PYTHON) patch.py $(PATCHED_ROM) inplace --bank=30 --hex_addr=5839 --hex_value=1d)
 # 	$(shell $(PYTHON) patch.py $(PATCHED_ROM) file --bank=29 --file=patch_stat_init_29.txt)
+	$(shell $(PYTHON) patch.py $(PATCHED_ROM) header)
 
 run_og:
 	$(MEDNAFEN) ./Pocket_Love_If_1999_KID_JP.ngc
